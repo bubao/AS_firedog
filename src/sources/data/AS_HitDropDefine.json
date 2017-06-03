@@ -1,0 +1,124 @@
+{
+	"hitDrop":
+	{
+		"1":
+		{
+			"money": 2,
+			"soul": 0,
+			"ss": 88,
+			"rs": 10,
+			"ssMin": 1,
+			"ssMax": 1,
+			"rsMin": 1,
+			"rsMax": 1
+		},
+		"2":
+		{
+			"money": 30,
+			"soul": 0,
+			"ss": 60,
+			"rs": 10,
+			"ssMin": 1,
+			"ssMax": 1,
+			"rsMin": 1,
+			"rsMax": 1
+		},
+		
+		"3":
+		{
+			"money": 2,
+			"soul": 0,
+			"ss": 98,
+			"rs": 0,
+			"ssMin": 1,
+			"ssMax": 1,
+			"rsMin": 1,
+			"rsMax": 1
+		},
+		"4":
+		{
+			"money": 2,
+			"soul": 0,
+			"ss": 0,
+			"rs": 98,
+			"ssMin": 1,
+			"ssMax": 1,
+			"rsMin": 0,
+			"rsMax": 1
+		}
+				
+	},
+	"sparkDrop":
+	{
+		"1":
+		{
+			"money": 2,
+			"soul": 0,
+			"bss": 78,
+			"brs": 20,
+			"es": 0,
+			"itemRate": 0,
+			"bssMin": 1,
+			"bssMax": 2,				
+			"brsMin": 1,
+			"brsMax": 1	
+		},
+		"2":
+		{
+			"money": 2,
+			"soul": 0,
+			"bss": 68,
+			"brs": 30,
+			"es": 0,
+			"itemRate": 0,
+			"bssMin": 2,
+			"bssMax": 4,				
+			"brsMin": 1,
+			"brsMax": 2		
+		},
+		"3":
+		{
+			"money": 2,
+			"soul": 0,
+			"bss": 98,
+			"brs": 0,
+			"es": 0,
+			"itemRate": 0,
+			"bssMin": 1,
+			"bssMax": 1,
+			"brsMin": 1,
+			"brsMax": 1	
+		},
+		"4":
+		{
+			"money": 2,
+			"soul": 0,
+			"bss": 0,
+			"brs": 98,
+			"es": 0,
+			"itemRate": 0,
+			"bssMin": 1,
+			"bssMax": 2,				
+			"brsMin": 1,
+			"brsMax": 1	
+		}
+	},
+	"overDrop":
+	{
+		"1":
+		{
+			"money": 100,
+			"soul": 0,
+			"bss": 0,
+			"brs": 0,
+			"es": 0,
+			"itemRate": 0,
+			"bssMin": 0,
+			"bssMax": 0,				
+			"brsMin": 0,
+			"brsMax": 0	
+		}
+	}
+		
+}
+

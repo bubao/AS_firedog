@@ -1,0 +1,66 @@
+.left{
+	font-size: 18px;
+	color: #ccc;
+}
+
+.abox{
+  width: 70px;
+  height: 70px;
+background-repeat: round; 
+}
+.cbox{
+  width: 70px;
+  height: 70px;
+background-repeat: round; 
+float: left;
+position: relative;
+}
+.fbox{
+width: 300px;
+height: 300px;
+background-repeat: round; 
+margin-top: 70px;
+}
+
+.lfire ,
+.lwater ,
+.lwood ,
+.llight ,
+.ldark{
+	margin-top: -22px;
+	margin-left: 44px;
+	background-color: rgba(0,0,0,0);
+}
+.lfire{
+	background-image: url('../sources/icon/11720.png');
+	width: 22px;
+	height: 22px;
+	background-repeat: round; 
+}
+.lwater,
+.lwood,
+.llight,
+.ldark{
+	background-image: url('../sources/icon/08330.png');
+	width: 22px;
+	height: 22px;
+	background-size:44px ;
+	overflow: hidden; 
+	background-repeat:repeat;
+}
+.lwater{
+	background-position:0px 22px;
+}
+.lwood{
+	background-position:22px 22px;
+}
+.llight{
+	background-position:22px 0px ;
+}
+.ldark{
+	background-position:0 0;
+}
+.no {
+	margin-top: -24px;
+	margin-left: 88px;
+}

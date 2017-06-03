@@ -1,0 +1,96 @@
+{
+	"id": 1,
+	"stamina": 5,
+	"bg": 7,
+	"maxSection": 3,
+	"reward": 
+	{
+		"money": 10,
+		"soul": 5,
+		"rexp": 5,
+		"exp": 3,
+		"item": 10001,
+		"itemCount": 1
+	},
+	"drop": 
+	{
+		"money": 12,
+		"soul": 30,
+		"exp": 10,
+		"item": 
+		[
+			{
+				"id": 11001,
+				"count": 1,
+				"rate": 20
+			}
+			,
+			{
+				"id": 11002,
+				"count": 1,
+				"rate": 80
+			}
+		]
+	},		
+	"section": 
+	[
+		{
+			"enemy": 
+			[
+			
+				{
+					"id": 187,
+					"level": 423,
+					"col": 1
+				}
+			]
+		},
+		{
+			"enemy": 
+			[
+				{
+					"id": 57,
+					"level": 8,
+					"col": 1,
+					"deadDrop": 
+					{
+						"eggID": 57,
+						"eggLevel": 2,						
+						"eggSync": 2																
+					}
+				}
+			]
+		},
+		{
+			"enemy": 
+			[
+				{
+					"id": 56,
+					"level": 5,
+					"col": 1
+				}
+				,
+				{
+					"id": 57,
+					"level": 5,
+					"col": 8
+				}
+				,
+
+				{
+					"id": 120,
+					"level": 5,
+					"deadDrop": 
+					{
+						"eggID": 120,
+						"eggLevel": 2,						
+						"eggSync": 2																		
+					}
+					
+				}
+				
+				
+			]
+		}
+	]
+}

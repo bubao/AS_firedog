@@ -1,0 +1,302 @@
+{
+	"Gacha": 
+	[
+		{
+			"name" : "banner-g_20140617b.png",
+			"nameEN" : "banner-g_20140617b.png",
+			"startTime": "19-6-2014 0:0:0",
+			"endTime": "26-6-2014 23:59:59"
+		},
+		{
+			"name" : "bannerC_01.png",
+			"startTime": "27-6-2014 0:0:0",
+			"endTime": "10-7-2014 23:59:59"
+		},
+		{
+			"name" : "banner-g_20140620.png",
+			"startTime": "11-7-2014 0:0:0",
+			"endTime": "17-7-2014 12:59:59"
+		},
+		{
+			"name" : "bannerC_01.png",
+			"startTime": "17-7-2014 13:0:0",
+			"endTime": "18-7-2014 14:59:59"
+		},
+		{
+			"name" : "banner-g_20140716b.png",
+			"startTime": "18-7-2014 15:0:0",
+			"endTime": "24-7-2014 23:59:59"
+		},
+		{
+			"name" : "banner-g_20140722a.png",
+			"startTime": "25-7-2014 0:0:0",
+			"endTime": "31-7-2014 12:59:59"
+		},
+		{
+			"name" : "banner-g_20140716b.png",
+			"startTime": "31-7-2014 13:0:0",
+			"endTime": "11-8-2014 17:59:59"
+		},
+		{
+			"name" : "banner-g_20140808.png",
+			"startTime": "11-8-2014 18:0:0",
+			"endTime": "17-8-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20140827f.png",
+			"startTime": "18-8-2014 0:0:0",
+			"endTime": "10-9-2014 15:59:59"
+		},
+		{
+			"name" : "banner_20140903_02.png",
+			"startTime": "10-9-2014 17:05:0",
+			"endTime": "17-9-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20140918_02.png",
+			"startTime": "18-9-2014 0:0:0",
+			"endTime": "21-9-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20140919.png",
+			"startTime": "22-9-2014 0:0:0",
+			"endTime": "26-9-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20140923.png",
+			"startTime": "27-9-2014 0:0:0",
+			"endTime": "28-9-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20140918_02.png",
+			"startTime": "29-9-2014 0:0:0",
+			"endTime": "6-10-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141006.png",
+			"startTime": "7-10-2014 0:0:0",
+			"endTime": "13-10-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20140918_02.png",
+			"startTime": "14-10-2014 0:0:0",
+			"endTime": "15-10-2014 15:59:59"
+		},
+		{
+			"name" : "banner_20141014_02.png",
+			"startTime": "15-10-2014 16:0:0",
+			"endTime": "17-10-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141017_02.png",
+			"startTime": "18-10-2014 0:0:0",
+			"endTime": "24-10-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141015.png",
+			"startTime": "25-10-2014 0:0:0",
+			"endTime": "28-10-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141028.png",
+			"startTime": "29-10-2014 0:0:0",
+			"endTime": "30-10-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141015.png",
+			"startTime": "31-10-2014 0:0:0",
+			"endTime": "10-11-2014 16:59:59"
+		},
+		{
+			"name" : "banner_20141104a.png",
+			"startTime": "10-11-2014 17:0:0",
+			"endTime": "16-11-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141015.png",
+			"startTime": "16-11-2014 0:0:0",
+			"endTime": "21-11-2014 16:59:59"
+		},
+		{
+			"name" : "banner_20141119_01.png",
+			"startTime": "21-11-2014 17:0:0",
+			"endTime": "27-11-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141127_01.png",
+			"startTime": "28-11-2014 0:0:0",
+			"endTime": "1-12-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141128.png",
+			"startTime": "2-12-2014 0:0:0",
+			"endTime": "5-12-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141127_03.png",
+			"startTime": "6-12-2014 0:0:0",
+			"endTime": "7-12-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141128.png",
+			"startTime": "8-12-2014 0:0:0",
+			"endTime": "19-12-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141219_02.png",
+			"startTime": "20-12-2014 0:0:0",
+			"endTime": "26-12-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141219.png",
+			"startTime": "27-12-2014 0:0:0",
+			"endTime": "28-12-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141224_03.png",
+			"startTime": "29-12-2014 0:0:0",
+			"endTime": "30-12-2014 23:59:59"
+		},
+		{
+			"name" : "banner_20141219.png",
+			"startTime": "31-12-2014 0:0:0",
+			"endTime": "8-1-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150107_02.png",
+			"startTime": "9-1-2015 0:0:0",
+			"endTime": "11-1-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20141219.png",
+			"startTime": "12-1-2015 0:0:0",
+			"endTime": "22-1-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150120.png",
+			"startTime": "23-1-2015 0:0:0",
+			"endTime": "27-1-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150126.png",
+			"startTime": "28-1-2015 0:0:0",
+			"endTime": "30-1-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150120_02.png",
+			"startTime": "31-1-2015 0:0:0",
+			"endTime": "6-2-2015 23:59:59"
+		},
+		
+		{
+			"name" : "banner_20150206.png",
+			"startTime": "7-2-2015 0:0:0",
+			"endTime": "8-2-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150120_02.png",
+			"startTime": "9-2-2015 0:0:0",
+			"endTime": "18-2-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150218_02.png",
+			"startTime": "19-2-2015 0:0:0",
+			"endTime": "25-2-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150225.png",
+			"startTime": "26-2-2015 0:0:0",
+			"endTime": "27-2-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150218_03.png",
+			"startTime": "28-2-2015 0:0:0",
+			"endTime": "6-3-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150306.png",
+			"startTime": "7-3-2015 0:0:0",
+			"endTime": "8-3-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150218_03.png",
+			"startTime": "9-3-2015 0:0:0",
+			"endTime": "19-3-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150319.png",
+			"startTime": "20-3-2015 0:0:0",
+			"endTime": "29-3-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150327.png",
+			"startTime": "30-3-2015 0:0:0",
+			"endTime": "31-3-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150319_02.png",
+			"startTime": "1-4-2015 0:0:0",
+			"endTime": "10-4-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150410.png",
+			"startTime": "11-4-2015 0:0:0",
+			"endTime": "12-4-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150319_02.png",
+			"startTime": "13-4-2015 0:0:0",
+			"endTime": "21-4-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150415.png",
+			"startTime": "22-4-2015 0:0:0",
+			"endTime": "28-4-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150428a.png",
+			"startTime": "29-4-2015 0:0:0",
+			"endTime": "30-4-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150415_02.png",
+			"startTime": "1-5-2015 0:0:0",
+			"endTime": "8-5-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150508.png",
+			"startTime": "9-5-2015 0:0:0",
+			"endTime": "10-5-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150415_02.png",
+			"startTime": "11-5-2015 0:0:0",
+			"endTime": "11-5-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150511.png",
+			"startTime": "12-5-2015 0:0:0",
+			"endTime": "18-5-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150415_02.png",
+			"startTime": "19-5-2015 0:0:0",
+			"endTime": "19-5-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150518.png",
+			"startTime": "20-5-2015 0:0:0",
+			"endTime": "28-5-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150528_02.png",
+			"startTime": "29-5-2015 0:0:0",
+			"endTime": "30-5-2015 23:59:59"
+		},
+		{
+			"name" : "banner_20150518_02.png",
+			"startTime": "31-5-2015 0:0:0",
+			"endTime": "30-5-2016 23:59:59"
+		}
+	]
+}

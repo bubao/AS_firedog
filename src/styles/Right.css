@@ -1,0 +1,63 @@
+
+/*.r{
+	overflow-y: auto;
+	width: 75%;
+  height: 100%;
+}*/
+.box{
+  width: 70px;
+  height: 70px;
+background-repeat: round; 
+float: left;
+list-style: none;
+position: relative;
+}
+
+.num{
+	position: absolute;
+	z-index: 2;
+	right:5px; 
+	top:0px;
+	color: #ccc;
+	background-color: rgba(3,3,3,0.5);
+}
+.fire ,
+.water ,
+.wood ,
+.light ,
+.dark{
+	position: absolute;
+	z-index: 2;
+	left:3px; 
+	top:0px;
+	background-color: rgba(0,0,0,0);
+}
+.fire{
+	background-image: url('../sources/icon/11720.png');
+	width: 22px;
+	height: 22px;
+	background-repeat: round; 
+}
+.water,
+.wood,
+.light,
+.dark{
+	background-image: url('../sources/icon/08330.png');
+	width: 22px;
+	height: 22px;
+	background-size:44px ;
+	overflow: hidden; 
+	background-repeat:repeat;
+}
+.water{
+	background-position:0px 22px;
+}
+.wood{
+	background-position:22px 22px;
+}
+.light{
+	background-position:22px 0px ;
+}
+.dark{
+	background-position:0 0;
+}

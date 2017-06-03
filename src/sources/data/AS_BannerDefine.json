@@ -1,0 +1,1430 @@
+{
+	"Banner": 
+	[
+		{
+			"type": 1,
+			"value": 66,
+			"name" : "banner_20140926_02.png",
+			"NO_EN": "",
+			"startTime": "30-3-2016 0:0:0",
+			"endTime": "30-3-2016 15:59:59"
+		},
+		{
+			"type": 1,
+			"value": 75,
+			"name" : "banner_20160309_01.png",
+			"NO_EN": "",
+			"startTime": "11-3-2016 0:0:0",
+			"endTime": "20-3-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 56,
+			"name" : "banner_20170412_08.png",
+			"nameEN" :  "banner_20170412_08_en.png",
+			"startTime": "13-4-2017 18:0:0",
+			"endTime": "20-4-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 147,
+			"name" : "banner_20170511_06.png",
+			"nameEN" : "banner_20170511_06_en.png",
+			"startTime": "12-5-2017 18:0:0",
+            "endTime": "18-5-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 140,
+			"name" : "banner_20170511_05.png",
+			"nameEN": "banner_20170511_05_en.png",
+			"startTime": "12-5-2017 18:0:0",
+            "endTime": "18-5-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 150,
+			"name" : "banner_20170525_03.png",
+			"nameEN" : "banner_20170525_03_en.png",
+			"startTime": "26-5-2017 14:0:0",
+			"endTime": "30-5-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 300,
+			"name" : "banner_20170418_02.png",
+			"nameEN" : "banner_20170418_02_en.png",
+			"startTime": "18-4-2017 19:00:00",
+			"endTime": "24-4-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 158,
+			"name" : "banner_20170505_02.png",
+			"nameEN": "banner_20170505_02_en.png",
+			"startTime": "8-5-2017 14:0:0",
+			"endTime": "12-5-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 163,
+			"name" : "banner_20170126_06.png",
+			"nameEN": "banner_20170126_06_en.png",
+			"startTime": "27-1-2017 14:0:0",
+			"endTime": "2-2-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 156,
+			"name" : "banner_20170117_04.png",
+			"nameEN": "banner_20170117_04_en.png",
+			"startTime": "18-1-2017 14:0:0",
+			"endTime": "24-1-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 200,
+			"name" : "banner_20170412_05.png",
+			"nameEN" :  "banner_20170412_05_en.png",
+			"startTime": "14-4-2017 18:0:0",
+			"endTime": "20-4-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 13,
+			"name" : "banner_20170302_02.png",
+			"nameEN" : "banner_20170302_02_en.png",
+			"startTime": "17-5-2017 14:0:0",
+			"endTime": "25-5-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 143,
+			"name" : "banner_20170519_02.png",
+			"nameEN" : "banner_20170519_02_en.png",
+			"startTime": "23-5-2017 14:00:00",
+			"endTime": "7-6-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 145,
+			"name" : "banner_20160825_04a.png",
+			"nameEN" : "banner_20160825_04_en.png",
+			"startTime": "1-9-2016 0:0:0",
+			"endTime": "15-9-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 11,
+			"name" : "banner_20170518_03.png",
+			"nameEN" : "banner_20170518_03_en.png",
+			"startTime": "22-5-2017 14:0:0",
+            "endTime": "31-5-2017 13:59:59"
+		},
+		{
+			"type": 1,
+			"value": 118,
+			"name" : "banner_20160225_02.png",
+			"startTime": "11-6-2016 0:0:0",
+			"endTime": "13-6-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 188,
+			"name" : "banner_20170525_04.png",
+			"nameEN" : "banner_20170525_04_en.png",
+			"startTime": "26-5-2017 19:0:0",
+			"endTime": "28-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 187,
+			"name" : "banner_20170517_01.png",
+			"nameEN" : "banner_20170517_01_en.png",
+			"startTime": "18-5-2017 19:0:0",
+			"endTime": "21-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 180,
+			"name" : "banner_20170127_01.png",
+			"nameEN" : "banner_20170127_01_en.png",
+			"startTime": "27-1-2017 16:0:0",
+			"endTime": "31-1-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 179,
+			"name" : "banner_20170126_05.png",
+			"nameEN" : "banner_20170126_05_en.png",
+			"startTime": "31-3-2017 0:0:0",
+			"endTime": "2-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 168,
+			"name" : "banner_20150330_02.png",
+			"nameEN" : "banner_20150330_02_en.png",
+			"startTime": "10-2-2017 0:0:0",
+			"endTime": "12-2-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 153,
+			"name" : "banner_20160831_02a.png",
+			"nameEN" : "banner_20160831_02_en.png",
+			"startTime": "14-4-2017 0:0:0",
+			"endTime": "16-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 126,
+			"name" : "banner_20160823_05.png",
+			"nameEN" : "banner_20160823_05_en.png",
+			"startTime": "19-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 137,
+			"name" : "banner_20160311_02.png",
+			"nameEN" : "banner_20160311_02_en.png",
+			"startTime": "10-3-2017 0:0:0",
+			"endTime": "12-3-2017 23:59:59"
+		},
+		
+		
+		{
+			"type": 1,
+			"value": 116,
+			"name" : "banner_20160204_08.png",
+			"nameEN" : "banner_20160204_08_en.png",
+			"startTime": "17-3-2017 0:0:0",
+			"endTime": "19-3-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 117,
+			"name" : "banner_20160413_02_a.png",
+			"nameEN" : "banner_20160413_02_en.png",
+			"startTime": "21-4-2017 0:0:0",
+			"endTime": "23-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 93,
+			"name" : "banner_20160519_02.png",
+			"nameENs" : "banner_20160519_02_en.png",
+			"startTime": "28-4-2017 0:0:0",
+			"endTime": "30-4-2017 23:59:59"
+		},
+		
+		
+		{
+			"type": 1,
+			"value": 37,
+			"name" : "banner_20151112_02.png",
+			"nameEN" : "banner_20151112_02_en.png",
+			"startTime": "7-4-2017 0:0:0",
+			"endTime": "9-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 19,
+			"name" : "banner_20141211_03.png",
+			"nameEN" : "banner_20141211_03_en.png",
+			"startTime": "30-5-2017 0:0:0",
+			"endTime": "30-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 2,
+			"name" : "banner_20141030_2.png",
+			"nameEN" : "banner_20141030_2_en.png",
+			"startTime": "30-5-2017 0:0:0",
+			"endTime": "31-5-2017 0:59:59"
+		},	
+		{
+			"type": 1,
+			"value": 54,
+			"name" : "banner_20141211_04.png",
+			"nameEN" : "banner_20141211_04_en.png",
+			"startTime": "17-5-2017 0:0:0",
+			"endTime": "17-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 18,
+			"name" : "banner_20141205a.png",
+			"nameEN" : "banner_20141205_02_en.png",
+			"startTime": "17-5-2017 0:0:0",
+			"endTime": "18-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 60,
+			"name" : "banner_20150108_02.png",
+			"nameEN" : "banner_20150108_02_en.png",
+			"startTime": "18-5-2017 0:0:0",
+			"endTime": "18-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 6,
+			"name" : "banner_20150205_02.png",
+			"nameEN" : "banner_20150205_02_en.png",
+			"week": 6,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 25,
+			"name" : "banner_20150205_02.png",
+			"nameEN" : "banner_20150205_02_en.png",
+			"week": 0,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 88,
+			"name" : "banner_20150303_02.png",
+			"nameEN" : "banner_20150303_02_en.png",
+			"startTime": "18-5-2017 0:0:0",
+			"endTime": "19-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 74,
+			"name" : "banner_20150330_02.png",
+			"nameEN" : "banner_20150330_02_en.png",
+			"startTime": "19-5-2017 0:0:0",
+			"endTime": "19-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 72,
+			"name" : "banner_20150423_06.png",
+			"nameEN" : "banner_20150423_06_en.png",
+			"startTime": "19-5-2017 0:0:0",
+			"endTime": "20-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 17,
+			"name" : "banner_20150608_02.png",
+			"nameENs" : "banner_20150608_02_en.png",
+			"startTime": "20-5-2017 0:0:0",
+			"endTime": "20-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 27,
+			"name" : "banner_20150722_02.png",
+			"nameEN" : "banner_20150722_02_en.png",
+			"startTime": "20-5-2017 0:0:0",
+			"endTime": "21-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 14,
+			"name" : "banner_20150817_15.png",
+			"nameEN" : "banner_20150817_15_en.png",
+			"startTime": "21-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 15,
+			"name" : "banner_20151007_03.png",
+			"nameEN" : "banner_20151007_03_en.png",
+			"startTime": "21-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 40,
+			"name" : "banner_20151102_02.png",
+			"nameEN" : "banner_20151102_02_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "22-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 1,
+			"name" : "banner_20151126_02.png",
+			"nameEN" : "banner_20151126_02_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "23-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 73,
+			"name" : "banner_20160105_02.png",
+			"nameEN" : "banner_20160105_02_en.png",
+			"startTime": "23-5-2017 0:0:0",
+			"endTime": "23-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 131,
+			"name" : "banner_20160222_02.png",
+			"nameEN" : "banner_20160222_02_en.png",
+			"startTime": "23-5-2017 0:0:0",
+			"endTime": "24-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 53,
+			"name" : "banner_20160122_04.png",
+			"nameEN" : "banner_20160122_04_en.png",
+			"startTime": "24-5-2017 0:0:0",
+			"endTime": "24-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 80,
+			"name" : "banner_20160331_02.png",
+			"nameEN" : "banner_20160331_02_en.png",
+			"startTime": "24-5-2017 0:0:0",
+			"endTime": "25-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 41,
+			"name" : "banner_20160510_04.png",
+			"nameEN" : "banner_20160510_04_en.png",
+			"startTime": "25-5-2017 0:0:0",
+			"endTime": "25-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 104,
+			"name" : "banner_20160607_03.png",
+			"nameEN": "banner_20160607_03_en.png",
+			"startTime": "25-5-2017 0:0:0",
+			"endTime": "26-5-2017 00:59:59"
+		},
+		{
+			"type": 1,
+			"value": 152,
+			"name" : "banner_20160713_02.png",
+			"nameEN": "banner_20160713_02_en.png",
+			"startTime": "26-5-2017 0:0:0",
+			"endTime": "26-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 141,
+			"name" : "banner_20160811_02.png",
+			"nameEN": "banner_20160811_02_en.png",
+			"startTime": "26-5-2017 0:0:0",
+			"endTime": "27-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 162,
+			"name" : "banner_20161014_04.png",
+			"nameEN": "banner_20161014_04_en.png",
+			"startTime": "27-5-2017 0:0:0",
+			"endTime": "27-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 169,
+			"name" : "banner_20161115_02.png",
+			"nameEN": "banner_20161115_02_en.png",
+			"startTime": "27-5-2017 0:0:0",
+			"endTime": "28-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 181,
+			"name" : "banner_20161229_05a.png",
+			"nameEN" :  "banner_20161229_05a_en.png",
+			"startTime": "28-5-2017 0:0:0",
+			"endTime": "28-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 182,
+			"name" : "banner_20170203_01.png",
+			"nameEN" :  "banner_20170203_01_en.png",
+			"startTime": "28-5-2017 0:0:0",
+			"endTime": "29-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 183,
+			"name" : "banner_20170317_01.png",
+			"nameEN" :  "banner_20170317_01_en.png",
+			"startTime": "29-5-2017 0:0:0",
+			"endTime": "29-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 184,
+			"name" : "banner_20170410_01.png",
+			"nameEN" :  "banner_20170410_01a_en.png",
+			"startTime": "29-5-2017 0:00:00",
+			"endTime": "30-5-2017 0:59:59"
+		},
+		{
+			"type": 1,
+			"value": 186,
+			"name" : "banner_20170504_01.png",
+			"nameEN" :  "banner_20170504_01_en.png",
+			"startTime": "5-5-2017 19:0:0",
+			"endTime": "8-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 185,
+			"name" : "banner_20170427_01.png",
+			"nameEN" :  "banner_20170427_01_en.png",
+			"startTime": "28-4-2017 19:0:0",
+			"endTime": "1-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 172,
+			"name" : "banner_20170328_03.png",
+			"nameEN" :  "banner_20170328_03_en.png",
+			"startTime": "29-3-2017 19:0:0",
+			"endTime": "30-3-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 174,
+			"name" : "banner_20170330_02a.png",
+			"nameEN" :  "banner_20170330_02a_en.png",
+			"startTime": "29-3-2017 19:0:0",
+			"endTime": "30-3-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 103,
+			"name" : "banner_20170306_01.png",
+			"nameEN" : "banner_20170306_01_en.png",
+			"startTime": "26-5-2017 0:0:0",
+			"endTime": "26-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 86,
+			"name" : "banner_20170308_01.png",
+			"nameEN" : "banner_20170308_01_en.png",
+			"startTime": "26-5-2017 0:0:0",
+			"endTime": "26-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 165,
+			"name" : "banner_20170306_01.png",
+			"nameEN" : "banner_20170306_01_en.png",
+			"startTime": "28-5-2017 0:0:0",
+			"endTime": "28-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 166,
+			"name" : "banner_20170308_01.png",
+			"nameEN" : "banner_20170308_01_en.png",
+			"startTime": "28-5-2017 0:0:0",
+			"endTime": "28-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 142,
+			"name" : "banner_20170306_01.png",
+			"nameEN" : "banner_20170306_01_en.png",
+			"startTime": "30-5-2017 0:0:0",
+			"endTime": "30-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 120,
+			"name" : "banner_20170308_01.png",
+			"nameEN" : "banner_20170308_01_en.png",
+			"startTime": "30-5-2017 0:0:0",
+			"endTime": "30-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 177,
+			"name" : "banner_20170117_01.png",
+			"nameEN" : "banner_20170117_01_en.png",
+			"startTime": "27-5-2017 0:0:0",
+			"endTime": "27-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 178,
+			"name" : "banner_20170117_02.png",
+			"nameEN" : "banner_20170117_02_en.png",
+			"startTime": "27-5-2017 0:0:0",
+			"endTime": "27-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 173,
+			"name" : "banner_20161130_01.png",
+			"nameEN": "banner_20161130_01_en.png",
+			"startTime": "24-5-2017 0:0:0",
+			"endTime": "24-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 160,
+			"name" : "banner_20161207_01.png",
+			"nameEN" : "banner_20161207_01_en.png",
+			"startTime": "24-5-2017 0:0:0",
+			"endTime": "24-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 119,
+			"name" : "banner_20161026_02a.png",
+			"nameEN" : "banner_20161026_02_en.png",
+			"startTime": "21-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 99,
+			"name" : "banner_20161101_02.png",
+			"nameEN" : "banner_20161101_02_en.png",
+			"startTime": "21-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 135,
+			"name" : "banner_20160728_04.png",
+			"nameEN" : "banner_20160728_04_en.png",
+			"startTime": "15-5-2017 0:0:0",
+			"endTime": "15-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 94,
+			"name" : "banner_20160729_02.png",
+			"nameEN": "banner_20160729_02_en.png",
+			"startTime": "15-5-2017 0:0:0",
+			"endTime": "15-5-2017 23:59:59" 
+		},
+		{
+			"type": 1,
+			"value": 148,
+			"name" : "banner_20160929_02.png",
+			"nameEN": "banner_20160929_02_en.png",
+			"startTime": "18-5-2017 0:0:0",
+			"endTime": "18-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 151,
+			"name" : "banner_20160930_02.png",
+			"nameEN": "banner_20160930_02_en.png",
+			"startTime": "18-5-2017 0:0:0",
+			"endTime": "18-5-2017 23:59:59"
+		},	
+		{
+			"type": 1,
+			"value": 154,
+			"name" : "banner_20160627_02.png",
+			"nameEN": "banner_20160627_02_en.png",
+			"startTime": "12-5-2017 0:0:0",
+			"endTime": "12-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 155,
+			"name" : "banner_20160630_02.png",
+			"nameEN": "banner_20160630_02_en.png",
+			"startTime": "12-5-2017 0:0:0",
+			"endTime": "12-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 102,
+			"name" : "banner_20160525_02.png",
+			"nameEN": "banner_20160527_02_en.png",
+			"startTime": "9-5-2017 0:0:0",
+			"endTime": "9-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 115,
+			"name" : "banner_20160527_02.png",
+			"nameEN": "banner_20160525_02_en.png",
+			"startTime": "9-5-2017 0:0:0",
+			"endTime": "9-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 9,
+			"name" : "banner_20160503_02.png",
+			"nameEN": "banner_20160503_02_en.png",
+			"startTime": "6-5-2017 0:0:0",
+			"endTime": "6-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 132,
+			"name" : "banner_20160509_02.png",
+			"nameEN": "banner_20160509_02_en.png",
+			"startTime": "6-5-2017 0:0:0",
+			"endTime": "6-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 65,
+			"name" : "banner_20160322_06a.png",
+			"nameEN": "banner_20160322_06_en.png",
+			"startTime": "29-4-2017 0:0:0",
+			"endTime": "29-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 91,
+			"name" : "banner_20160317_02.png",
+			"nameEN": "banner_20160317_02_en.png",
+			"startTime": "29-4-2017 0:0:0",
+			"endTime": "29-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 97,
+			"name" : "banner_20160122_02.png",
+			"nameEN" : "banner_20160122_02_en.png",
+			"startTime": "28-4-2017 0:0:0",
+			"endTime": "28-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 63,
+			"name" : "banner_20160126_02.png",
+			"nameEN" : "banner_20160126_02_en.png",
+			"startTime": "28-4-2017 0:0:0",
+			"endTime": "28-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 101,
+			"name" : "banner_20151223_02b.png",
+			"nameEN" : "banner_20151223_02_en.png",
+			"startTime": "25-4-2017 0:0:0",
+			"endTime": "25-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 134,
+			"name" : "banner_20151223_04b.png",
+			"nameEN" : "banner_20151223_04_copy.png",
+			"startTime": "25-4-2017 0:0:0",
+			"endTime": "25-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 138,
+			"name" : "banner_20151120_06.png",
+			"nameEN" : "banner_20151120_06_en.png",
+			"startTime": "24-4-2017 0:0:0",
+			"endTime": "24-4-2017 23:59:59"
+		},
+		
+		{
+			"type": 1,
+			"value": 113,
+			"name" : "banner_20151120_04.png",
+			"nameEN" : "banner_20151120_04_en.png",
+			"startTime": "24-4-2017 0:0:0",
+			"endTime": "24-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 89,
+			"name" : "banner_20151026_04.png",
+			"nameEN" : "banner_20151026_04_en.png",
+			"startTime": "21-4-2017 0:0:0",
+			"endTime": "21-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 90,
+			"name" : "banner_20151026_03.png",
+			"nameEN" : "banner_20151026_03_en.png",
+			"startTime": "21-4-2017 0:0:0",
+			"endTime": "21-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 7,
+			"name" : "banner_20150925_03.png",
+			"nameEN" : "banner_20150925_03_en.png",
+			"startTime": "14-4-2017 0:0:0",
+			"endTime": "14-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 136,
+			"name" : "banner_20150923_05.png",
+			"nameEN" : "banner_20150923_05_en.png",
+			"startTime": "14-4-2017 0:0:0",
+			"endTime": "14-4-2017 23:59:59"
+		},		
+		{
+			"type": 1,
+			"value": 114,
+			"name" : "banner_20150710_02.png",
+			"nameEN" : "banner_20150710_02_en.png",
+			"startTime": "15-4-2017 0:0:0",
+			"endTime": "15-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 58,
+			"name" : "banner_20150710_01.png",
+			"nameEN" : "banner_20150710_01_en.png",
+			"startTime": "15-4-2017 0:0:0",
+			"endTime": "15-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 95,
+			"name" : "banner_20150521_03.png",
+			"nameEN": "banner_20150521_03_en.png",
+			"startTime": "12-4-2017 0:0:0",
+			"endTime": "12-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 96,
+			"name" : "banner_20150520_04.png",
+			"nameEN": "banner_20150520_04_en.png",
+			"startTime": "12-4-2017 0:0:0",
+			"endTime": "12-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 112,
+			"name" : "banner_20150423_05.png",
+			"nameEN" : "banner_20150423_05_en.png",
+			"startTime": "7-4-2017 0:0:0",
+			"endTime": "7-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 92,
+			"name" : "banner_20150423_04.png",
+			"nameEN" : "banner_20150423_04b_en.png",
+			"startTime": "7-4-2017 0:0:0",
+			"endTime": "7-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 100,
+			"name" : "banner_20150324_04.png",
+			"nameEN": "banner_20150324_04_en.png",
+			"startTime": "6-4-2017 0:0:0",
+			"endTime": "6-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 167,
+			"name" : "banner_20150324_05.png",
+			"nameEN": "banner_20150324_05_en.png",
+			"startTime": "6-4-2017 0:0:0",
+			"endTime": "6-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 161,
+			"name" : "banner_20150225_07.png",
+			"nameEN" : "banner_20150225_07_en.png",
+			"startTime": "1-4-2017 0:0:0",
+			"endTime": "1-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 164,
+			"name" : "banner_20150225_06.png",
+			"nameEN": "banner_20150225_06_en.png",
+			"startTime": "1-4-2017 0:0:0",
+			"endTime": "1-4-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 38,
+			"name" : "banner_20150127_04a.png",
+			"nameEN": "banner_20150127_04_en.png",
+			"week": 6,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 12,
+			"name" : "banner_20150127_03a.png",
+			"week": 0,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 127,
+			"name" : "banner_20141219_06b.png",
+			"nameEN": "banner_20141219_06b_en.png",
+			"startTime": "31-3-2017 0:0:0",
+			"endTime": "31-3-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 128,
+			"name" : "banner_20141219_07b.png",
+			"nameEN": "banner_20141219_07b_en.png",
+			"startTime": "31-3-2017 0:0:0",
+			"endTime": "31-3-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 61,
+			"name" : "banner_20141120_03.png",
+			"nameEN": "banner_20141120_03_en.png",
+			"startTime": "28-3-2017 0:0:0",
+			"endTime": "28-3-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 98,
+			"name" : "banner_20141120_04.png",
+			"nameEN": "banner_20141120_04_en.png",
+			"startTime": "28-3-2017 0:0:0",
+			"endTime": "28-3-2017 23:59:59"
+		},		
+		{
+			"type": 1,
+			"value": 122,
+			"name" : "banner_20141017_07a.png",
+			"nameEN": "banner_20141017_07_en.png",
+			"startTime": "25-3-2017 0:0:0",
+			"endTime": "25-3-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 123,
+			"name" : "banner_20141017_06a.png",
+			"nameEN": "banner_20141017_06_en.png",
+			"startTime": "25-3-2017 0:0:0",
+			"endTime": "25-3-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 130,
+			"name" : "banner_20151023_02.png",
+			"nameEN" : "banner_20151023_02_en.png",
+			"startTime": "19-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 84,
+			"name" : "banner_20151023_03.png",
+			"nameEN" : "banner_20151023_03_en.png",
+			"startTime": "19-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 47,
+			"name" : "banner_20141020_04.png",
+			"nameEN" : "banner_20141020_04_en.png",
+			"startTime": "19-5-2017 0:0:0",
+			"endTime": "21-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 64,
+			"name" : "banner_20150923_03.png",
+			"nameEN" : "banner_20150923_03_en.png",
+			"startTime": "16-5-2017 0:0:0",
+			"endTime": "18-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 23,
+			"name" : "banner_20150923_04.png",
+			"nameEN" : "banner_20150923_04_en.png",
+			"startTime": "16-5-2017 0:0:0",
+			"endTime": "18-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 129,
+			"name" : "banner_20151023_01a.png",
+			"nameEN" : "banner_20151023_01_en.png",
+			"startTime": "16-5-2017 0:0:0",
+			"endTime": "18-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 8,
+			"name" : "banner_20150710_03.png",
+			"nameEN" : "banner_20150710_03_en.png",
+			"startTime": "13-5-2017 0:0:0",
+			"endTime": "15-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 39,
+			"name" : "banner_20150708_02.png",
+			"nameEN" : "banner_20150708_02_en.png",
+			"startTime": "13-5-2017 0:0:0",
+			"endTime": "15-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 69,
+			"name" : "banner_20150923_02.png",
+			"nameEN" : "banner_20150923_02_en.png",
+			"startTime": "13-5-2017 0:0:0",
+			"endTime": "15-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 70,
+			"name" : "banner_20150520_02a.png",
+			"nameEN" : "banner_20150520_02_en.png",
+			"startTime": "10-5-2017 0:0:0",
+			"endTime": "12-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 85,
+			"name" : "banner_20150521_04.png",
+			"nameEN": "banner_20150521_04_en.png",
+			"startTime": "10-5-2017 0:0:0",
+			"endTime": "12-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 26,
+			"name" : "banner_20150708_01.png",
+			"nameEN": "banner_20150708_01_en.png",
+			"startTime": "10-5-2017 0:0:0",
+			"endTime": "12-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 76,
+			"name" : "banner_20150420_02.png",
+			"nameEN" : "banner_20150420_02_en.png",
+			"startTime": "7-5-2017 0:0:0",
+			"endTime": "9-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 83,
+			"name" : "banner_20150420_03.png",
+			"nameEN" : "banner_20150420_03_en.png",
+			"startTime": "7-5-2017 0:0:0",
+			"endTime": "9-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 16,
+			"name" : "banner_20150519.png",
+			"nameEN" : "banner_20150519_en.png",
+			"startTime": "7-5-2017 0:0:0",
+			"endTime": "9-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 10,
+			"name" : "banner_20150324.png",
+			"nameEN": "banner_20150324_en.png",
+			"startTime": "4-5-2017 0:0:0",
+			"endTime": "6-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 71,
+			"name" : "banner_20150327_03.png",
+			"nameEN": "banner_20150327_03_en.png",
+			"startTime": "4-5-2017 0:0:0",
+			"endTime": "6-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 82,
+			"name" : "banner_20150420.png",
+			"nameEN": "banner_20150420_en.png",
+			"startTime": "4-5-2017 0:0:0",
+			"endTime": "6-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 43,
+			"name" : "banner_20150216_03.png",
+			"nameEN": "banner_20150216_03_en.png",
+			"startTime": "1-5-2017 0:0:0",
+			"endTime": "3-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 44,
+			"name" : "banner_20150216.png",
+			"nameEN": "banner_20150216_en.png",
+			"startTime": "1-5-2017 0:0:0",
+			"endTime": "3-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 5,
+			"name" : "banner_20150319_04b.png",
+			"nameEN": "banner_20150319_04_en.png",
+			"startTime": "1-5-2017 0:0:0",
+			"endTime": "3-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 78,
+			"name" : "banner_20141230.png",
+			"nameEN": "banner_20141230_en.png",
+			"startTime": "28-5-2017 0:0:0",
+			"endTime": "30-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 79,
+			"name" : "banner_20141224.png",
+			"nameEN" : "banner_20141224_en.png",
+			"startTime": "28-5-2017 0:0:0",
+			"endTime": "30-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 42,
+			"name" : "banner_20150216_02.png",
+			"nameEN": "banner_20150216_02_en.png",
+			"startTime": "28-5-2017 0:0:0",
+			"endTime": "30-5-2017 23:59:59"
+		},			
+		{
+			"type": 1,
+			"value": 29,
+			"name" : "banner_20141125_02.png",
+			"nameEN" : "banner_20141125_02_en.png",
+			"startTime": "25-5-2017 0:0:0",
+			"endTime": "27-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 30,
+			"name" : "banner_20141125_03.png",
+			"nameEN" : "banner_20141125_03_en.png",
+			"startTime": "25-5-2017 0:0:0",
+			"endTime": "27-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 77,
+			"name" : "banner_20141224_02.png",
+			"nameEN": "banner_20141224_02_en.png",
+			"startTime": "25-5-2017 0:0:0",
+			"endTime": "27-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 45,
+			"name" : "banner_20141020_02.png",
+			"nameEN" : "banner_20141020_02_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "24-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 46,
+			"name" : "banner_20141020_03.png",
+			"nameEN" : "banner_20141020_03_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "24-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 28,
+			"name" : "banner_20141125.png",
+			"nameEN" : "banner_20141125_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "24-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 31,
+			"name" : "bannerA_02e.png",
+			"NO_EN": "",
+			"startTime": "28-11-2015 0:0:0",
+			"endTime": "29-11-2015 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 36,
+			"name" : "banner-d_1week_05b.png",
+			"nameEN" : "banner-d_1week_05_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "22-5-2017 23:59:59"
+		},		
+		{
+			"type": 1,
+			"value": 34,
+			"name" : "banner-d_1week_03.png",
+			"nameEN" : "banner-d_1week_03_en.png",
+			"startTime": "23-5-2017 0:0:0",
+			"endTime": "23-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 35,
+			"name" : "banner-d_1week_04.png",
+			"nameEN" : "banner-d_1week_04_en.png",
+			"startTime": "24-5-2017 0:0:0",
+			"endTime": "24-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 33,
+			"name" : "banner-d_1week_02a.png",
+			"nameEN" : "banner-d_1week_02_en.png",
+			"startTime": "25-5-2017 0:0:0",
+			"endTime": "25-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 32,
+			"name" : "banner-d_1week_01c.png",
+			"nameEN" : "banner-d_1week_01_en.png",
+			"startTime": "26-5-2017 0:0:0",
+			"endTime": "26-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 20,
+			"name" : "banner_20160301_01.png",
+			"nameEN" : "banner_20160301_01_en.png",
+			"startTime": "29-5-2017 0:0:0",
+			"endTime": "2-6-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 21,
+			"name" : "banner_20150916_02.png",
+			"nameEN" : "banner_20150916_02_en.png",
+			"startTime": "29-5-2017 0:0:0",
+			"endTime": "2-6-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 48,
+			"name" : "banner-d_2week_2-02b.png",
+			"NO_EN" : "",
+			"startTime": "23-2-2016 0:0:0",
+			"endTime": "23-2-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 67,
+			"name" : "banner_20150908_01.png",
+			"NO_EN" : "",
+			"startTime": "24-2-2016 0:0:0",
+			"endTime": "24-2-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 49,
+			"name" : "banner-d_2week_2-01c.png",
+			"NO_EN" : "",
+			"startTime": "2-3-2016 0:0:0",
+			"endTime": "2-3-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 50,
+			"name" : "banner-d_2week_2-03b.png",
+			"NO_EN" : "",
+			"startTime": "26-2-2016 0:0:0",
+			"endTime": "26-2-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 51,
+			"name" : "banner-d_2week_2-04b.png",
+			"NO_EN" : "",
+			"startTime": "25-2-2016 0:0:0",
+			"endTime": "25-2-2016 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 81,
+			"name" : "banner_20150915_01.png",
+			"nameEN" : "banner_20150915_01_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "26-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 52,
+			"name" : "banner_20141119_03.png",
+			"nameEN" : "banner_20141119_03_en.png",
+			"startTime": "8-5-2017 0:0:0",
+			"endTime": "12-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 55,
+			"name" : "banner_20140918_03.png",
+			"NO_EN": "",
+			"startTime": "17-12-2015 0:0:0",
+			"endTime": "22-12-2015 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 57,
+			"name" : "banner-e_20140605_03.png",
+			"nameEN" : "banner-e_20140605_03b_en.png",
+			"startTime": "29-5-2017 0:0:0",
+			"endTime": "2-6-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 24,
+			"name" : "banner_20150924_01.png",
+			"nameEN" : "banner_20150924_01_en.png",
+			"startTime": "22-5-2017 0:0:0",
+			"endTime": "26-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 59,
+			"name" : "banner_20140905_04.png",
+			"nameEN" : "banner_20140905_04_en.png",
+			"startTime": "15-5-2017 0:0:0",
+			"endTime": "19-5-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 3,
+			"name": "banner_20150916_05.png",			
+			"nameEN": "en_banner_20161025_04.png",
+			"startTime": "23-5-2017 18:0:0",
+			"endTime": "30-5-2017 17:59:59"
+		},
+		{
+			"type": 1,
+			"value": 4,
+			"name": "banner_20150916_06.png",			
+			"nameEN": "en_banner_20161025_05.png",
+			"startTime": "30-5-2017 18:0:0",
+			"endTime": "6-6-2017 17:59:59"
+		},
+		{
+			"type": 1,
+			"value": 124,
+			"name" : "banner_20160530_02.png",
+			"nameEN": "banner_20160530_02_en.png",
+			"startTime": "21-12-2015 0:0:0",
+			"endTime": "11-12-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 62,
+			"name" : "banner_20151127_04.png",
+			"nameEN" : "banner_20151127_04_en.png",
+			"startTime": "5-6-2014 0:0:0",
+			"endTime": "30-6-2017 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 105,
+			"name" : "banner_20141027a.png",
+			"nameEN" : "banner_20141027_en.png",
+			"week": 1,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 106,
+			"name" : "banner_20141027a.png",
+			"nameEN" : "banner_20141027_en.png",
+			"week": 2,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 107,
+			"name" : "banner_20141027a.png",
+			"nameEN" : "banner_20141027_en.png",
+			"week": 3,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 108,
+			"name" : "banner_20141027a.png",
+			"nameEN" : "banner_20141027_en.png",
+			"week": 4,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 109,
+			"name" : "banner_20141027a.png",
+			"nameEN" : "banner_20141027_en.png",
+			"week": 5,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		
+		{
+			"type": 1,
+			"value": 110,
+			"name" : "banner_20141027a.png",
+			"nameEN" : "banner_20141027_en.png",
+			"week": 6,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 111,
+			"name" : "banner_20141027a.png",
+			"nameEN" : "banner_20141027_en.png",
+			"week": 0,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 149,
+			"name" : "banner_20140912_03.png",
+			"NO_EN" : "",
+			"week": 0,
+			"startTime": "25-10-2015 0:0:0",
+			"endTime": "25-10-2018 23:59:59"
+		},
+		{
+			"type": 1,
+			"value": 250,
+			"name" : "banner_20160225_02.png",
+			"NO_EN" : "",
+			"startTime": "25-2-2016 19:0:0",
+			"endTime": "25-2-2018 23:59:59"
+		}
+	]
+
+}

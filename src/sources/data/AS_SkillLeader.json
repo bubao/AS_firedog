@@ -1,0 +1,12695 @@
+{
+	"leaderSkill": 
+	[
+		{
+			"id": 101,
+			"type": "leader",
+			"name": "火之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 102,
+			"type": "leader",
+			"name": "水之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 103,
+			"type": "leader",
+			"name": "木之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 104,
+			"type": "leader",
+			"name": "光之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 105,
+			"type": "leader",
+			"name": "闇之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 106,
+			"type": "leader",
+			"name": "爆炎之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 107,
+			"type": "leader",
+			"name": "激流之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 108,
+			"type": "leader",
+			"name": "猛綠之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 109,
+			"type": "leader",
+			"name": "聖光之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 110,
+			"type": "leader",
+			"name": "絕望之眷屬",
+			"target": "team",
+			"condition": 
+			{
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 111,
+			"type": "leader",
+			"name": "火之盾",
+			"target": "team",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 112,
+			"type": "leader",
+			"name": "水之盾",
+			"target": "team",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 113,
+			"type": "leader",
+			"name": "木之盾",
+			"target": "team",
+			"condition": 
+			{
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 114,
+			"type": "leader",
+			"name": "光之盾",
+			"target": "team",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 115,
+			"type": "leader",
+			"name": "闇之盾",
+			"target": "team",
+			"condition": 
+			{
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 116,
+			"type": "leader",
+			"name": "炎之結界",
+			"target": "team",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 117,
+			"type": "leader",
+			"name": "海之結界",
+			"target": "team",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 118,
+			"type": "leader",
+			"name": "樹之結界 ",
+			"target": "team",
+			"condition": 
+			{
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 119,
+			"type": "leader",
+			"name": "日之結界",
+			"target": "team",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 120,
+			"type": "leader",
+			"name": "月之結界 ",
+			"target": "team",
+			"condition": 
+			{
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 121,
+			"type": "leader",
+			"name": "技能奧義",
+			"target": "team",
+			"modifier": 
+			{
+				"SparkDropSStoneRateUp": 20
+			}
+		},
+		{
+			"id": 122,
+			"type": "leader",
+			"name": "急救",
+			"target": "team",
+			"modifier": 
+			{
+				"RStoneEffect": 10
+			}
+		},
+		{
+			"id": 123,
+			"type": "leader",
+			"name": "金幣奧義",
+			"target": "team",
+			"modifier": 
+			{
+				"SparkDropMoneyRateUp": 20
+			}
+		},
+		{
+			"id": 124,
+			"type": "leader",
+			"name": "回復奧義",
+			"target": "team",
+			"modifier": 
+			{
+				"SparkDropRStoneRateUp": 20
+			}
+		},
+		{
+			"id": 125,
+			"type": "leader",
+			"name": "魂之奧義",
+			"target": "team",
+			"modifier": 
+			{
+				"SparkDropSoulRateUp": 20
+			}
+		},
+		{
+			"id": 126,
+			"type": "leader",
+			"name": "戰士之誓",
+			"target": "team",
+			"condition": 
+			{
+				"type": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 10,
+				"DefenceUp": 10,
+				"HealUp": 10,
+				"HPUp": 10
+			}
+		},
+		{
+			"id": 127,
+			"type": "leader",
+			"name": "殺手之誓",
+			"target": "team",
+			"condition": 
+			{
+				"type": 2
+			},
+			"modifier": 
+			{
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 128,
+			"type": "leader",
+			"name": "騎士之誓",
+			"target": "team",
+			"condition": 
+			{
+				"type": 3
+			},
+			"modifier": 
+			{
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 129,
+			"type": "leader",
+			"name": "俠者之誓",
+			"target": "team",
+			"condition": 
+			{
+				"type": 4
+			},
+			"modifier": 
+			{
+				"AttackUp": 15,
+				"DefenceUp": 15
+			}
+		},
+		{
+			"id": 132,
+			"type": "leader",
+			"name": "鐵壁",
+			"target": "team",
+			"condition": 
+			{
+				"newHPUnder": 50
+			},
+			"modifier": 
+			{
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 133,
+			"type": "leader",
+			"name": "不屈之志",
+			"target": "team",
+			"condition": 
+			{
+				"newHPUnder": 50
+			},
+			"modifier": 
+			{
+				"DamageDown": 30
+			}
+		},
+		{
+			"id": 134,
+			"type": "leader",
+			"name": "最佳狀態‧火",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 135,
+			"type": "leader",
+			"name": "最佳狀態‧水",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 136,
+			"type": "leader",
+			"name": "最佳狀態‧木",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 137,
+			"type": "leader",
+			"name": "最佳狀態‧光",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 138,
+			"type": "leader",
+			"name": "最佳狀態‧闇",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 139,
+			"type": "leader",
+			"name": "神的加護‧火",
+			"target": "team",
+			"condition": 
+			{
+				"newHPUnder": 50,
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 140,
+			"type": "leader",
+			"name": "神的加護‧水",
+			"target": "team",
+			"condition": 
+			{
+				"newHPUnder": 50,
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 141,
+			"type": "leader",
+			"name": "神的加護‧木",
+			"target": "team",
+			"condition": 
+			{
+				"newHPUnder": 50,
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 142,
+			"type": "leader",
+			"name": "神的加護‧光",
+			"target": "team",
+			"condition": 
+			{
+				"newHPUnder": 50,
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 143,
+			"type": "leader",
+			"name": "神的加護‧闇",
+			"target": "team",
+			"condition": 
+			{
+				"newHPUnder": 50,
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 144,
+			"type": "leader",
+			"target": "team",
+			"name": "十方陣",
+			"modifier": 
+			{
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 145,
+			"type": "leader",
+			"target": "team",
+			"name": "虛無之圓",
+			"modifier": 
+			{
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 146,
+			"type": "leader",
+			"target": "team",
+			"name": "海之子",
+			"modifier": 
+			{
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 147,
+			"type": "leader",
+			"target": "team",
+			"name": "大海男兒",
+			"modifier": 
+			{
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 148,
+			"type": "leader",
+			"name": "君王之志",
+			"target": "team",
+			"modifier": 
+			{
+				"AttackUp": 10
+			}
+		},
+		{
+			"id": 149,
+			"type": "leader",
+			"name": "大帝之志",
+			"target": "team",
+			"modifier": 
+			{
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 150,
+			"type": "leader",
+			"name": "集中",
+			"target": "team",
+			"modifier": 
+			{
+				"HPUp": 10,
+				"DefenceUp": 5
+			}
+		},
+		{
+			"id": 151,
+			"type": "leader",
+			"name": "精神統一",
+			"target": "team",
+			"modifier": 
+			{
+				"HPUp": 15,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 152,
+			"type": "leader",
+			"name": "潛伏",
+			"target": "team",
+			"modifier": 
+			{
+				"AttackUp": 10,
+				"HealUp": 5
+			}
+		},
+		{
+			"id": 153,
+			"type": "leader",
+			"name": "殺意波動",
+			"target": "team",
+			"modifier": 
+			{
+				"AttackUp": 15,
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 154,
+			"type": "leader",
+			"name": "紅蓮寶玉",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 155,
+			"type": "leader",
+			"name": "大紅蓮寶玉",
+			"target": "team",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"element": "fire"
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 156,
+			"type": "leader",
+			"target": "team",
+			"name": "蒼藍寶玉",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 157,
+			"type": "leader",
+			"name": "水星寶玉",
+			"target": "team",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"element": "water"
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 158,
+			"type": "leader",
+			"name": "大地寶玉",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 159,
+			"type": "leader",
+			"name": "生命寶玉",
+			"target": "team",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 160,
+			"type": "leader",
+			"name": "日之寶玉",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 161,
+			"type": "leader",
+			"name": "日光之寶玉",
+			"target": "team",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"element": "light"
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 162,
+			"type": "leader",
+			"name": "夜之寶玉",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 163,
+			"type": "leader",
+			"target": "team",
+			"name": "真夜之寶玉",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 164,
+			"type": "leader",
+			"target": "team",
+			"name": "神之餐桌",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HPUp": 25
+			}
+		},
+		{
+			"id": 165,
+			"type": "leader",
+			"target": "team",
+			"name": "太極劍訣",
+			"condition": 
+			{
+				"type": 1
+			},
+			"modifier": 
+			{
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 166,
+			"type": "leader",
+			"target": "team",
+			"name": "怒濤之歌",
+			"condition": 
+			{
+				"type": 3
+			},
+			"modifier": 
+			{
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 167,
+			"type": "leader",
+			"target": "team",
+			"name": "生命護盾",
+			"condition": 
+			{
+				"type": 5
+			},
+			"modifier": 
+			{
+				"HPUp": 30
+			}
+		},
+		{
+			"id": 168,
+			"type": "leader",
+			"target": "team",
+			"name": "勝利號角",
+			"condition": 
+			{
+				"type": 6
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 169,
+			"type": "leader",
+			"target": "team",
+			"name": "黃泉之聲",
+			"condition": 
+			{
+				"type": 2
+			},
+			"modifier": 
+			{
+				"HealUp": 40
+			}
+		},
+		{
+			"id": 170,
+			"type": "leader",
+			"target": "team",
+			"name": "修羅",
+			"condition": 
+			{
+				"newHPUnder": 40
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 171,
+			"type": "leader",
+			"target": "team",
+			"name": "腹蛇之末裔",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 172,
+			"type": "leader",
+			"target": "team",
+			"name": "覺醒‧紅蓮之怒",
+			"condition": 
+			{
+				"newHPUnder": 80
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 173,
+			"type": "leader",
+			"target": "team",
+			"name": "炎之應援",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 174,
+			"type": "leader",
+			"name": "魔星意志",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 175,
+			"type": "leader",
+			"name": "新月意志",
+			"target": "team",
+			"condition": 
+			{
+				"HPOver": 100,
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 176,
+			"type": "leader",
+			"target": "team",
+			"name": " 海妖之獻祭",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 177,
+			"type": "leader",
+			"target": "team",
+			"name": " 勇者傳說",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 178,
+			"type": "leader",
+			"target": "team",
+			"name": " 大勇者光環",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 179,
+			"type": "leader",
+			"target": "team",
+			"name": " 鋼鐵壁壘",
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"DefenceUp": 50
+			}
+		},
+		{
+			"id": 180,
+			"type": "leader",
+			"target": "team",
+			"name": " ",
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"DefenceUp": 70
+			}
+		},
+		{
+			"id": 181,
+			"type": "leader",
+			"target": "team",
+			"name": " ",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"CriticalUp": 20
+			}
+		},
+		{
+			"id": 182,
+			"type": "leader",
+			"target": "team",
+			"name": " ",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 183,
+			"type": "leader",
+			"target": "team",
+			"name": " 聖石增幅",
+			"modifier": 
+			{
+				"RStoneEffect": 50
+			}
+		},
+		{
+			"id": 184,
+			"type": "leader",
+			"target": "team",
+			"name": " 大聖石之輝光",
+			"modifier": 
+			{
+				"RStoneEffect": 100
+			}
+		},
+		{
+			"id": 185,
+			"type": "leader",
+			"target": "team",
+			"name": " 符紋秘石",
+			"condition": 
+			{
+				"type": 5
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 186,
+			"type": "leader",
+			"target": "team",
+			"name": " 賢者之石",
+			"condition": 
+			{
+				"type": 5
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 187,
+			"type": "leader",
+			"target": "team",
+			"name": " 魔王斗篷",
+			"condition": 
+			{
+				"newHPUnder": 40
+			},
+			"modifier": 
+			{
+				"DamageDown": 30
+			}
+		},
+		{
+			"id": 188,
+			"type": "leader",
+			"target": "team",
+			"name": " 大魔王斗篷",
+			"condition": 
+			{
+				"newHPUnder": 80
+			},
+			"modifier": 
+			{
+				"DamageDown": 30
+			}
+		},
+		{
+			"id": 189,
+			"type": "leader",
+			"target": "team",
+			"name": " 影子生命",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"HPUp": 5
+			}
+		},
+		{
+			"id": 190,
+			"type": "leader",
+			"target": "team",
+			"name": " 君王血統",
+			"condition": 
+			{
+				"type": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 191,
+			"type": "leader",
+			"target": "team",
+			"name": " 霸主之力",
+			"condition": 
+			{
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 192,
+			"type": "leader",
+			"target": "team",
+			"name": " 墜落獸之恨",
+			"condition": 
+			{
+				"race": 14
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 193,
+			"type": "leader",
+			"target": "team",
+			"name": " 空襲",
+			"condition": 
+			{
+				"type": 4
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 194,
+			"type": "leader",
+			"target": "team",
+			"name": " 王牌機師",
+			"condition": 
+			{
+				"type": 4
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 195,
+			"type": "leader",
+			"target": "team",
+			"name": "整備",
+			"modifier": 
+			{
+				"SectionAddFixedSP": 12
+			}
+		},
+		{
+			"id": 196,
+			"type": "leader",
+			"target": "team",
+			"name": "支援部隊",
+			"modifier": 
+			{
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 197,
+			"type": "leader",
+			"target": "team",
+			"name": "反裝甲武器",
+			"modifier": 
+			{
+				"ForceDefHalfRace": 19,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 198,
+			"type": "leader",
+			"target": "team",
+			"name": "機兵獵人",
+			"modifier": 
+			{
+				"ForceDefZeroRace": 19,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 199,
+			"type": "leader",
+			"target": "team",
+			"name": "光子學",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 200,
+			"type": "leader",
+			"target": "team",
+			"name": "次世代技術",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 201,
+			"type": "leader",
+			"target": "team",
+			"name": "粒子引擎",
+			"modifier": 
+			{
+				"SectionAddHP": 200
+			}
+		},
+		{
+			"id": 202,
+			"type": "leader",
+			"target": "team",
+			"name": "超荷引擎",
+			"modifier": 
+			{
+				"SectionAddHP": 300
+			}
+		},
+		{
+			"id": 203,
+			"type": "leader",
+			"target": "team",
+			"name": " 機械生命體",
+			"condition": 
+			{
+				"race": 19
+			},
+			"modifier": 
+			{
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 204,
+			"type": "leader",
+			"target": "team",
+			"name": " 雲彩天虹",
+			"source": 
+			{
+				"memberElementAll": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 205,
+			"type": "leader",
+			"target": "team",
+			"name": " 皇家徽章",
+			"condition": 
+			{
+				"type": 6
+			},
+			"modifier": 
+			{
+				"BaseAttackUpByHeal": 80,
+				"BaseHPUpByHeal": 100
+			}
+		},
+		{
+			"id": 206,
+			"type": "leader",
+			"target": "team",
+			"name": " 鋼鐵之心",
+			"condition": 
+			{
+				"race": 19
+			},
+			"modifier": 
+			{
+				"HPUp": 30,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 207,
+			"type": "leader",
+			"target": "team",
+			"name": " 熱血之心",
+			"condition": 
+			{
+				"race": 19
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 208,
+			"type": "leader",
+			"target": "team",
+			"name": " 破滅機兵",
+			"condition": 
+			{
+				"race": 19,
+				"HPOver": 50
+			},
+			"modifier": 
+			{
+				"DefenceUp": 40
+			}
+		},
+		{
+			"id": 209,
+			"type": "leader",
+			"target": "team",
+			"name": " 萬聖夜糖果",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 210,
+			"type": "leader",
+			"name": "火藥交易",
+			"target": "team",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 211,
+			"type": "leader",
+			"name": "軍火交易",
+			"target": "team",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 212,
+			"type": "leader",
+			"target": "team",
+			"name": "幻影波浪",
+			"modifier": 
+			{
+				"ForceDefHalfRace": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 213,
+			"type": "leader",
+			"target": "team",
+			"name": "幻影泡沫",
+			"modifier": 
+			{
+				"ForceDefZeroRace": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 214,
+			"type": "leader",
+			"target": "team",
+			"name": "高塔圖書",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 215,
+			"type": "leader",
+			"target": "team",
+			"name": "漫天圖書",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 216,
+			"type": "leader",
+			"target": "team",
+			"name": "荒唐夢話",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 217,
+			"type": "leader",
+			"target": "team",
+			"name": "妙想夢話",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 218,
+			"type": "leader",
+			"target": "team",
+			"name": "松毛鞋",
+			"conditionOr": 
+			[
+				{
+					"type": 6
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 219,
+			"type": "leader",
+			"target": "team",
+			"name": "玻璃鞋子",
+			"conditionOr": 
+			[
+				{
+					"type": 6
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 220,
+			"type": "leader",
+			"target": "team",
+			"name": "神燈",
+			"condition": 
+			{
+				"type": 2
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 221,
+			"type": "leader",
+			"target": "team",
+			"name": "天方夜譚",
+			"condition": 
+			{
+				"type": 2
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 222,
+			"type": "leader",
+			"target": "team",
+			"name": "隨風飛翔",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 223,
+			"type": "leader",
+			"target": "team",
+			"name": "永恆青春",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 224,
+			"type": "leader",
+			"target": "team",
+			"name": "建築達人",
+			"condition": 
+			{
+				"type": 1
+			},
+			"modifier": 
+			{
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 225,
+			"type": "leader",
+			"target": "team",
+			"name": "魔法生命",
+			"condition": 
+			{
+				"type": 5
+			},
+			"modifier": 
+			{
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 226,
+			"type": "leader",
+			"target": "team",
+			"name": "野獸本能",
+			"condition": 
+			{
+				"type": 2
+			},
+			"modifier": 
+			{
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 227,
+			"type": "leader",
+			"target": "team",
+			"name": "巫婆毒心",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 228,
+			"type": "leader",
+			"target": "team",
+			"name": "童年幻境",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 229,
+			"type": "leader",
+			"target": "team",
+			"name": "七膽之英雄",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 230,
+			"type": "leader",
+			"target": "team",
+			"name": "亂世勇姬",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 231,
+			"type": "leader",
+			"target": "team",
+			"name": "傾世之妖姬",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 232,
+			"type": "leader",
+			"target": "team",
+			"name": "國色天香",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 233,
+			"type": "leader",
+			"target": "team",
+			"name": "殺戮之王族",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 234,
+			"type": "leader",
+			"target": "team",
+			"name": "神權統治",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 235,
+			"type": "leader",
+			"target": "team",
+			"name": "炎之治癒者",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 236,
+			"type": "leader",
+			"target": "team",
+			"name": "炎之君王",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 237,
+			"type": "leader",
+			"target": "team",
+			"name": "古代智慧",
+			"modifier": 
+			{
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 238,
+			"type": "leader",
+			"target": "team",
+			"name": "古文明技術",
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 239,
+			"type": "leader",
+			"target": "team",
+			"name": "武士精神",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 240,
+			"type": "leader",
+			"target": "team",
+			"name": "遠古靈魂",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 241,
+			"type": "leader",
+			"target": "team",
+			"name": "死亡戰士",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 242,
+			"type": "leader",
+			"target": "team",
+			"name": "超新星",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 243,
+			"type": "leader",
+			"target": "team",
+			"name": "神之月",
+			"condition": 
+			{
+				"race": 16
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 244,
+			"type": "leader",
+			"target": "team",
+			"name": "靈魂之流",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 245,
+			"type": "leader",
+			"target": "team",
+			"name": "亡靈國度",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 246,
+			"type": "leader",
+			"target": "team",
+			"name": "春風得意",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"HealUp": 25
+			}
+		},
+		{
+			"id": 247,
+			"type": "leader",
+			"target": "team",
+			"name": "皇族氣質",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "water"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 248,
+			"type": "leader",
+			"target": "team",
+			"name": "公主氣質",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "water"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 249,
+			"type": "leader",
+			"target": "team",
+			"name": "小兔災難",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 250,
+			"type": "leader",
+			"target": "team",
+			"name": "小兔世界",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 251,
+			"type": "leader",
+			"target": "team",
+			"name": "橡樹貴族",
+			"conditionOr": 
+			[
+				{
+					"type": 2
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"ResistPoison": 1
+			}
+		},
+		{
+			"id": 252,
+			"type": "leader",
+			"target": "team",
+			"name": "流浪生涯",
+			"conditionOr": 
+			[
+				{
+					"type": 4
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"ResistParalysis": 1
+			}
+		},
+		{
+			"id": 253,
+			"type": "leader",
+			"target": "team",
+			"name": "魔廚征服",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 254,
+			"type": "leader",
+			"target": "team",
+			"name": "魔廚天下",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 255,
+			"type": "leader",
+			"target": "team",
+			"name": "廚之意志",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 256,
+			"type": "leader",
+			"target": "team",
+			"name": "廚之極意",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 257,
+			"type": "leader",
+			"target": "team",
+			"name": "婆羅門",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 258,
+			"type": "leader",
+			"target": "team",
+			"name": "吠陀本集",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 259,
+			"type": "leader",
+			"target": "team",
+			"name": "愛神料理",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 260,
+			"type": "leader",
+			"target": "team",
+			"name": "中華爆熱",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 20,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 261,
+			"type": "leader",
+			"target": "team",
+			"name": "軍事天才",
+			"condition": 
+			{
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 262,
+			"type": "leader",
+			"target": "team",
+			"name": "戰術奇襲",
+			"condition": 
+			{
+				"type": 4
+			},
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"DefenceUp": 10,
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 263,
+			"type": "leader",
+			"target": "team",
+			"name": "哪吒",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 264,
+			"type": "leader",
+			"target": "team",
+			"name": "哪吒",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 265,
+			"type": "leader",
+			"target": "team",
+			"name": "普賢真人",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistHealDown": 1
+			}
+		},
+		{
+			"id": 266,
+			"type": "leader",
+			"target": "team",
+			"name": "普賢真人",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"ResistHealDown": 1
+			}
+		},
+		{
+			"id": 267,
+			"type": "leader",
+			"target": "team",
+			"name": "楊戩",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 268,
+			"type": "leader",
+			"target": "team",
+			"name": "楊戩",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 269,
+			"type": "leader",
+			"target": "team",
+			"name": "坦妃",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 270,
+			"type": "leader",
+			"target": "team",
+			"name": "坦妃",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 271,
+			"type": "leader",
+			"target": "team",
+			"name": "黃天化",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 272,
+			"type": "leader",
+			"target": "team",
+			"name": "黃天化",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 273,
+			"type": "leader",
+			"target": "team",
+			"name": "聞仲",
+			"modifier": 
+			{
+				"AttackUp": 10,
+				"ResistPoison": 1
+			}
+		},
+		{
+			"id": 274,
+			"type": "leader",
+			"target": "team",
+			"name": "聞仲",
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistPoison": 1
+			}
+		},
+		{
+			"id": 275,
+			"type": "leader",
+			"target": "team",
+			"name": "黑麒麟",
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"ResistParalysis": 1
+			}
+		},
+		{
+			"id": 276,
+			"type": "leader",
+			"target": "team",
+			"name": "黑點虎",
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 277,
+			"type": "leader",
+			"target": "team",
+			"name": "四不象",
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"ResistHealDown": 1
+			}
+		},
+		{
+			"id": 278,
+			"type": "leader",
+			"target": "team",
+			"name": "申公豹",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 279,
+			"type": "leader",
+			"target": "team",
+			"name": "申公豹",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 280,
+			"type": "leader",
+			"target": "team",
+			"name": "太公望",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 281,
+			"type": "leader",
+			"target": "team",
+			"name": "太公望",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 282,
+			"type": "leader",
+			"target": "team",
+			"name": "弗蕾亞",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"SectionAddFixedSP": 12
+			}
+		},
+		{
+			"id": 283,
+			"type": "leader",
+			"target": "team",
+			"name": "弗蕾亞",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 284,
+			"type": "leader",
+			"target": "team",
+			"name": "奧丁",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 285,
+			"type": "leader",
+			"target": "team",
+			"name": "奧丁",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 286,
+			"type": "leader",
+			"target": "team",
+			"name": "霍德爾",
+			"modifier": 
+			{
+				"ForceDefZeroRace": 16,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 287,
+			"type": "leader",
+			"target": "team",
+			"name": "托爾",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "fire"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 18
+			}
+		},
+		{
+			"id": 288,
+			"type": "leader",
+			"target": "team",
+			"name": "洛基",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 289,
+			"type": "leader",
+			"target": "team",
+			"name": "洛基",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 290,
+			"type": "leader",
+			"target": "team",
+			"name": "八腳馬",
+			"modifier": 
+			{
+				"HitDropRStoneRateUp": 50,
+				"SparkDropRStoneRateUp": 50
+			}
+		},
+		{
+			"id": 291,
+			"type": "leader",
+			"target": "team",
+			"name": "霜巨人",
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"CriticalUp": 25
+			}
+		},
+		{
+			"id": 292,
+			"type": "leader",
+			"target": "team",
+			"name": "弗雷",
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 293,
+			"type": "leader",
+			"target": "team",
+			"name": "齊格飛",
+			"modifier": 
+			{
+				"ForceDefZeroRace": 2,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 294,
+			"type": "leader",
+			"target": "team",
+			"name": "魔狼芬里爾",
+			"condition": 
+			{
+				"anyNegativeState": 1
+			},
+			"modifier": 
+			{
+				"DamageDown": 25
+			}
+		},
+		{
+			"id": 295,
+			"type": "leader",
+			"target": "team",
+			"name": "尤米爾",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 296,
+			"type": "leader",
+			"target": "team",
+			"name": "尤米爾",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 20,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 297,
+			"type": "leader",
+			"target": "team",
+			"name": "復活蛋火狗",
+			"modifier": 
+			{
+				"ResistAttackDown": 1,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 298,
+			"type": "leader",
+			"target": "team",
+			"name": "愛神之餐桌",
+			"condition": 
+			{
+				"race": 21
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 300,
+			"type": "leader",
+			"target": "team",
+			"name": "千葉佐那",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 18
+			}
+		},
+		{
+			"id": 301,
+			"type": "leader",
+			"target": "team",
+			"name": "坂本龍馬",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 302,
+			"type": "leader",
+			"target": "team",
+			"name": "坂本龍馬",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 303,
+			"type": "leader",
+			"target": "team",
+			"name": "沖田總司",
+			"modifier": 
+			{
+				"ForceDefHalfRace": 24,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 304,
+			"type": "leader",
+			"target": "team",
+			"name": "沖田總司",
+			"modifier": 
+			{
+				"ForceDefZeroRace": 24,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 305,
+			"type": "leader",
+			"target": "team",
+			"name": "桂小五郎",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 306,
+			"type": "leader",
+			"target": "team",
+			"name": "桂小五郎",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 307,
+			"type": "leader",
+			"target": "team",
+			"name": "山南敬助",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"ResistPoison": 1,
+				"ResistParalysis": 1
+			}
+		},
+		{
+			"id": 308,
+			"type": "leader",
+			"target": "team",
+			"name": "西鄉隆盛",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 309,
+			"type": "leader",
+			"target": "team",
+			"name": "西鄉隆盛",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 310,
+			"type": "leader",
+			"target": "team",
+			"name": "永倉新八",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 311,
+			"type": "leader",
+			"target": "team",
+			"name": "原田左之助",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 8
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 312,
+			"type": "leader",
+			"target": "team",
+			"name": "高杉晉作",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 313,
+			"type": "leader",
+			"target": "team",
+			"name": "近藤勇",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 314,
+			"type": "leader",
+			"target": "team",
+			"name": "近藤勇",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"type": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 315,
+			"type": "leader",
+			"target": "team",
+			"name": "土方歲三",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 316,
+			"type": "leader",
+			"target": "team",
+			"name": "土方歲三",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 317,
+			"type": "leader",
+			"target": "team",
+			"name": "現世之勾玉",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 318,
+			"type": "leader",
+			"target": "team",
+			"name": "常世之勾玉",
+			"condition": 
+			{
+				"type": 5
+			},
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 319,
+			"type": "leader",
+			"target": "team",
+			"name": "魔龍之心",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 320,
+			"type": "leader",
+			"target": "team",
+			"name": "さんせいのはんたい",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 321,
+			"type": "leader",
+			"target": "team",
+			"name": "さんせいのはんたい",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 322,
+			"type": "leader",
+			"target": "team",
+			"name": "パンツは履いてない",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 323,
+			"type": "leader",
+			"target": "team",
+			"name": "パンツは履いてない",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 324,
+			"type": "leader",
+			"target": "team",
+			"name": "レレレのレー",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 325,
+			"type": "leader",
+			"target": "team",
+			"name": "レレレのレー",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 326,
+			"type": "leader",
+			"target": "team",
+			"name": "春菊の君",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 327,
+			"type": "leader",
+			"target": "team",
+			"name": "春菊の君",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 328,
+			"type": "leader",
+			"target": "team",
+			"name": "逮捕だー！",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 329,
+			"type": "leader",
+			"target": "team",
+			"name": "逮捕だー！",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"DefenceUp": 30
+			}
+		},
+		{
+			"id": 330,
+			"type": "leader",
+			"target": "team",
+			"name": "はんたいのさんせい",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 25
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 331,
+			"type": "leader",
+			"target": "team",
+			"name": "暴怒之魔石",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 332,
+			"type": "leader",
+			"target": "team",
+			"name": "魔血魂‧暴怒",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 333,
+			"type": "leader",
+			"target": "team",
+			"name": "妒忌之魔石",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 40,
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 334,
+			"type": "leader",
+			"target": "team",
+			"name": "魔血魂‧妒忌",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 50,
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 335,
+			"type": "leader",
+			"target": "team",
+			"name": "貪食之魔石",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 336,
+			"type": "leader",
+			"target": "team",
+			"name": "魔血魂‧貪食",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 337,
+			"type": "leader",
+			"target": "team",
+			"name": "怠惰之魔石",
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 10,
+				"DefenceUp": 10,
+				"HealUp": 10,
+				"CriticalUp": 10,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 338,
+			"type": "leader",
+			"target": "team",
+			"name": "貪婪之魔石",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 339,
+			"type": "leader",
+			"target": "team",
+			"name": "惡魔皮膚",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"ResistHealDown": 1
+			}
+		},
+		{
+			"id": 340,
+			"type": "leader",
+			"target": "team",
+			"name": "色慾之魔石",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 341,
+			"type": "leader",
+			"target": "team",
+			"name": "魔血魂‧色慾",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 342,
+			"type": "leader",
+			"target": "team",
+			"name": "泰坦之軀",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"ResistParalysis": 1
+			}
+		},
+		{
+			"id": 343,
+			"type": "leader",
+			"target": "team",
+			"name": "傲慢之魔石",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"CriticalUp": 30
+			}
+		},
+		{
+			"id": 344,
+			"type": "leader",
+			"target": "team",
+			"name": "魔血魂‧傲慢",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 345,
+			"type": "leader",
+			"target": "team",
+			"name": "偏執之眼",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 346,
+			"type": "leader",
+			"target": "team",
+			"name": "沙利爾",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 347,
+			"type": "leader",
+			"target": "team",
+			"name": "沙利爾",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 348,
+			"type": "leader",
+			"name": "德古拉",
+			"target": "team",
+			"condition": 
+			{
+				"MemberRaceCount": 6
+			},
+			"modifier": 
+			{
+				"HPUp": 42,
+				"AttackUp": 42
+			}
+		},
+		{
+			"id": 349,
+			"type": "leader",
+			"target": "team",
+			"name": "詩卡莉",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 350,
+			"type": "leader",
+			"target": "team",
+			"name": "詩卡莉",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 351,
+			"type": "leader",
+			"target": "team",
+			"name": "提姆",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 18
+			}
+		},
+		{
+			"id": 352,
+			"type": "leader",
+			"target": "team",
+			"name": "瑪桃",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistAttackDown": 1,
+				"ResistDefenceDown": 1,
+				"ResistHealDown": 1
+			}
+		},
+		{
+			"id": 353,
+			"type": "leader",
+			"target": "team",
+			"name": "茜琉璃",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 354,
+			"type": "leader",
+			"target": "team",
+			"name": "茜琉璃",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 355,
+			"type": "leader",
+			"target": "team",
+			"name": "娜美西亞",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 356,
+			"type": "leader",
+			"target": "team",
+			"name": "娜美西亞",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 357,
+			"type": "leader",
+			"target": "team",
+			"name": "迪魯X老大",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 358,
+			"type": "leader",
+			"target": "team",
+			"name": "彩梨",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 9
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"CriticalUp": 30
+			}
+		},
+		{
+			"id": 359,
+			"type": "leader",
+			"target": "team",
+			"name": "彩梨",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 9
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 360,
+			"type": "leader",
+			"target": "team",
+			"name": "梅鈴",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 361,
+			"type": "leader",
+			"target": "team",
+			"name": "蘇莉硫",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"Regen": 80
+			}
+		},
+		{
+			"id": 362,
+			"type": "leader",
+			"target": "team",
+			"name": "蘇莉硫",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"Regen": 100
+			}
+		},
+		{
+			"id": 363,
+			"type": "leader",
+			"target": "team",
+			"name": "露兒",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 364,
+			"type": "leader",
+			"target": "team",
+			"name": "艾斯多拉岡",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 2
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 365,
+			"type": "leader",
+			"target": "team",
+			"name": "艾斯多拉岡",
+			"conditionOr": 
+			[
+				{
+					"race": 21
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 2
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 366,
+			"type": "leader",
+			"target": "team",
+			"name": "荔園恐龍屋",
+			"conditionOr": 
+			[
+				{
+					"race": 5
+				},
+				{
+					"race": 14
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 367,
+			"type": "leader",
+			"target": "team",
+			"name": "基加米修",
+			"condition": 
+			{
+				"type": 3
+			},
+			"modifier": 
+			{
+				"HPUp": 55,
+				"HPLossExchange": 
+				{
+					"HPLoss": 6,
+					"Attack": 1,
+					"Defence": 0,
+					"Heal": 1
+				}
+			}
+		},
+		{
+			"id": 368,
+			"type": "leader",
+			"target": "team",
+			"name": "基加米修",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 369,
+			"type": "leader",
+			"target": "team",
+			"name": "王子‧公主‧咀咒",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 370,
+			"type": "leader",
+			"target": "team",
+			"name": "曹操",
+			"modifier": 
+			{
+				"ForceDefZeroRace": 8,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 371,
+			"type": "leader",
+			"target": "team",
+			"name": "劉備",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 372,
+			"type": "leader",
+			"target": "team",
+			"name": "劉備",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 373,
+			"type": "leader",
+			"name": "孫策",
+			"target": "team",
+			"condition": 
+			{
+				"SpFull": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 374,
+			"type": "leader",
+			"target": "team",
+			"name": "大小喬",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 375,
+			"type": "leader",
+			"target": "team",
+			"name": "大小喬",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 376,
+			"type": "leader",
+			"target": "team",
+			"name": "呂布",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 377,
+			"type": "leader",
+			"target": "team",
+			"name": "呂布",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 378,
+			"type": "leader",
+			"target": "team",
+			"name": "火龍‧諸葛孔明",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 379,
+			"type": "leader",
+			"target": "team",
+			"name": "炎天聖‧諸葛孔明",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 380,
+			"type": "leader",
+			"target": "team",
+			"name": "水龍‧諸葛孔明",
+			"condition": 
+			{
+				"paralysis": 1
+			},
+			"modifier": 
+			{
+				"DamageDown": 40
+			}
+		},
+		{
+			"id": 381,
+			"type": "leader",
+			"target": "team",
+			"name": "木龍．諸葛孔明",
+			"condition": 
+			{
+				"defenceDown": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 382,
+			"type": "leader",
+			"target": "team",
+			"name": "昇龍．諸葛孔明",
+			"condition": 
+			{
+				"healDown": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 383,
+			"type": "leader",
+			"target": "team",
+			"name": "臥龍．諸葛孔明",
+			"condition": 
+			{
+				"attackDown": 1
+			},
+			"modifier": 
+			{
+				"DefenceUp": 50
+			}
+		},
+		{
+			"id": 384,
+			"type": "leader",
+			"target": "team",
+			"name": "愛神料理",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 21
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 385,
+			"type": "leader",
+			"target": "team",
+			"name": " 神秘的轉校生",
+			"condition": 
+			{
+				"race": 2
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 386,
+			"type": "leader",
+			"target": "team",
+			"name": " 紅炎之番長",
+			"condition": 
+			{
+				"race": 2
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 387,
+			"type": "leader",
+			"target": "team",
+			"name": "水泳部",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 388,
+			"type": "leader",
+			"target": "team",
+			"name": "溺水之猛將!",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 389,
+			"type": "leader",
+			"target": "team",
+			"name": "吹奏部",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 390,
+			"type": "leader",
+			"target": "team",
+			"name": "萬能之指揮",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 391,
+			"type": "leader",
+			"target": "team",
+			"name": "古拳法學會",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 392,
+			"type": "leader",
+			"target": "team",
+			"name": "雷閃之主將!",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 393,
+			"type": "leader",
+			"target": "team",
+			"name": "超自然同好研究社",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 394,
+			"type": "leader",
+			"target": "team",
+			"name": "一人之社長",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 395,
+			"type": "leader",
+			"target": "team",
+			"name": "沙拉曼達",
+			"condition": 
+			{
+				"stun": 1
+			},
+			"modifier": 
+			{
+				"DamageDown": 40
+			}
+		},
+		{
+			"id": 396,
+			"type": "leader",
+			"target": "team",
+			"name": "化蛇",
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 397,
+			"type": "leader",
+			"target": "team",
+			"name": "須佐之男",
+			"modifier": 
+			{
+				"ForceDefZeroRace": 15,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 398,
+			"type": "leader",
+			"target": "team",
+			"name": "那伽",
+			"condition": 
+			{
+				"poison": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 399,
+			"type": "leader",
+			"target": "team",
+			"name": "聖喬治",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"ResistStun": 1
+			}
+		},
+		{
+			"id": 400,
+			"type": "leader",
+			"target": "team",
+			"name": "聖喬治",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"ResistStun": 1
+			}
+		},
+		{
+			"id": 401,
+			"type": "leader",
+			"target": "team",
+			"name": "學生會會長",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 402,
+			"type": "leader",
+			"target": "team",
+			"name": "天上天下 唯我獨尊",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 403,
+			"type": "leader",
+			"name": "戰神血裔",
+			"target": "team",
+			"condition": 
+			{
+				"race": 16
+			},
+			"modifier": 
+			{
+				"HPUp": 42,
+				"AttackUp": 42
+			}
+		},
+		{
+			"id": 404,
+			"type": "leader",
+			"target": "team",
+			"name": "瑪爾斯的聖獸",
+			"condition": 
+			{
+				"type": 2
+			},
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60,
+				"HealUp": 10
+			}
+		},
+		{
+			"id": 405,
+			"type": "leader",
+			"target": "team",
+			"name": "十二神將‧巳",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 406,
+			"type": "leader",
+			"target": "team",
+			"name": "天歲柱‧虚空",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 407,
+			"type": "leader",
+			"target": "team",
+			"name": "十二神將‧子",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 408,
+			"type": "leader",
+			"target": "team",
+			"name": "天歲柱‧彌勒",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 409,
+			"type": "leader",
+			"target": "team",
+			"name": "十二神將‧卯",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"SectionAddFixedSP": 12
+			}
+		},
+		{
+			"id": 410,
+			"type": "leader",
+			"target": "team",
+			"name": "天歲柱‧觀世",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 411,
+			"type": "leader",
+			"target": "team",
+			"name": " 十二神將‧酉",
+			"condition": 
+			{
+				"race": 10
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 412,
+			"type": "leader",
+			"target": "team",
+			"name": " 天歲柱‧普賢",
+			"condition": 
+			{
+				"race": 10
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 413,
+			"type": "leader",
+			"target": "team",
+			"name": "十二神將‧丑",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"Regen": 80
+			}
+		},
+		{
+			"id": 414,
+			"type": "leader",
+			"target": "team",
+			"name": "天歲柱‧大勢",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"Regen": 100
+			}
+		},
+		{
+			"id": 415,
+			"type": "leader",
+			"target": "team",
+			"name": "天歲柱‧觀世",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 416,
+			"type": "leader",
+			"target": "team",
+			"name": "天歲柱‧藥師",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 55
+			}
+		},
+		{
+			"id": 417,
+			"type": "leader",
+			"target": "team",
+			"name": "驚蟄",
+			"condition": 
+			{
+				"bleed": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 418,
+			"type": "leader",
+			"target": "team",
+			"name": "風狸",
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistStun": 1
+			}
+		},
+		{
+			"id": 419,
+			"type": "leader",
+			"target": "team",
+			"name": "芒神",
+			"condition": 
+			{
+				"stun": 1
+			},
+			"modifier": 
+			{
+				"DamageDown": 40
+			}
+		},
+		{
+			"id": 420,
+			"type": "leader",
+			"target": "team",
+			"name": "十二神將‧未",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 421,
+			"type": "leader",
+			"target": "team",
+			"name": "天歲柱‧文殊",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 422,
+			"type": "leader",
+			"target": "team",
+			"name": "神將玉",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 19
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 423,
+			"type": "leader",
+			"target": "team",
+			"name": "十二支命",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 19
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 424,
+			"type": "leader",
+			"target": "team",
+			"name": " 萬聖夜大糖果",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HPUp": 30
+			}
+		},
+		{
+			"id": 425,
+			"type": "leader",
+			"target": "team",
+			"name": "九十九界之火‧不死鳥",
+			"condition": 
+			{
+				"newHPUnder": 99
+			},
+			"modifier": 
+			{
+				"AttackUp": 75
+			}
+		},
+		{
+			"id": 426,
+			"type": "leader",
+			"target": "team",
+			"name": "光潔女神的冠冕",
+			"condition": 
+			{
+				"type": 6
+			},
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DefenceUp": 40
+			}
+		},
+		{
+			"id": 427,
+			"type": "leader",
+			"target": "team",
+			"name": "大海支配者",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25,
+				"ResistStun": 1
+			}
+		},
+		{
+			"id": 428,
+			"type": "leader",
+			"target": "team",
+			"name": "提督之決意",
+			"conditionOr": 
+			[
+				{
+					"type": 2
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 429,
+			"type": "leader",
+			"target": "team",
+			"name": "大戰役‧赤壁",
+			"conditionOr": 
+			[
+				{
+					"type": 2
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 430,
+			"type": "leader",
+			"target": "team",
+			"name": "忠考仁義",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 431,
+			"type": "leader",
+			"target": "team",
+			"name": "任俠道",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 432,
+			"type": "leader",
+			"target": "team",
+			"name": "弱冠隱居",
+			"condition": 
+			{
+				"barrier": 1
+			},
+			"modifier": 
+			{
+				"DamageDown": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 433,
+			"type": "leader",
+			"target": "team",
+			"name": "軍師祭酒",
+			"condition": 
+			{
+				"barrier": 1
+			},
+			"modifier": 
+			{
+				"DamageDown": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 434,
+			"type": "leader",
+			"target": "team",
+			"name": "鳳雛",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 435,
+			"type": "leader",
+			"target": "team",
+			"name": "奪蜀三策",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 436,
+			"type": "leader",
+			"target": "team",
+			"name": "天下的叛臣",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 437,
+			"type": "leader",
+			"target": "team",
+			"name": "勝者為王",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 438,
+			"type": "leader",
+			"target": "team",
+			"name": "夏侯吞目",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 2
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20,
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 439,
+			"type": "leader",
+			"target": "team",
+			"name": "獨眼神將",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 2
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 440,
+			"type": "leader",
+			"target": "team",
+			"name": "萬人敵",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 441,
+			"type": "leader",
+			"target": "team",
+			"name": "鬼神",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 442,
+			"type": "leader",
+			"target": "team",
+			"name": "武神",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 443,
+			"type": "leader",
+			"target": "team",
+			"name": "真武大帝",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 444,
+			"type": "leader",
+			"target": "team",
+			"name": "薇薇安之祝福",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 445,
+			"type": "leader",
+			"target": "team",
+			"name": "薇薇安之吻",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25
+			}
+		},
+		{
+			"id": 446,
+			"type": "leader",
+			"target": "team",
+			"name": "黑聖盃",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 447,
+			"type": "leader",
+			"target": "team",
+			"name": "大聖盃",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25
+			}
+		},
+		{
+			"id": 448,
+			"type": "leader",
+			"target": "team",
+			"name": "吸血鬼獵人",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 40
+			}
+		},
+		{
+			"id": 449,
+			"type": "leader",
+			"target": "team",
+			"name": "女神守護者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 450,
+			"type": "leader",
+			"target": "team",
+			"name": "女神之劍",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 451,
+			"type": "leader",
+			"target": "team",
+			"name": "闇之子民",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 452,
+			"type": "leader",
+			"target": "team",
+			"name": "女神之修行",
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"HPUp": 10,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 453,
+			"type": "leader",
+			"target": "team",
+			"name": "神紀之重任",
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 12,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 454,
+			"type": "leader",
+			"target": "team",
+			"name": "無上女皇光環",
+			"conditionOr": 
+			[
+				{
+					"race": 11
+				},
+				{
+					"race": 12
+				},
+				{
+					"race": 18
+				},
+				{
+					"race": 23
+				}
+			],
+			"modifier": 
+			{
+				"BaseAttackUpByHeal": 100,
+				"BaseHPUpByHeal": 100
+			}
+		},
+		{
+			"id": 455,
+			"type": "leader",
+			"target": "team",
+			"name": "桃之子",
+			"condition": 
+			{
+				"race": 20
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 456,
+			"type": "leader",
+			"target": "team",
+			"name": "桃之勇者",
+			"condition": 
+			{
+				"race": 20
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 457,
+			"type": "leader",
+			"target": "team",
+			"name": "縱橫四海",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 458,
+			"type": "leader",
+			"target": "team",
+			"name": "七海之王",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 459,
+			"type": "leader",
+			"target": "team",
+			"name": "染血披風",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"HPUp": 10
+			}
+		},
+		{
+			"id": 460,
+			"type": "leader",
+			"target": "team",
+			"name": "染血披風",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"HPUp": 10
+			}
+		},
+		{
+			"id": 461,
+			"type": "leader",
+			"target": "team",
+			"name": "緊急逃生裝置",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 462,
+			"type": "leader",
+			"target": "team",
+			"name": "宇宙用逃生裝置",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25
+			}
+		},
+		{
+			"id": 463,
+			"type": "leader",
+			"target": "team",
+			"name": "迷之長靴",
+			"condition": 
+			{
+				"race": 20
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 464,
+			"type": "leader",
+			"target": "team",
+			"name": "神的長靴",
+			"condition": 
+			{
+				"race": 20
+			},
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 465,
+			"type": "leader",
+			"target": "team",
+			"name": "胡桃夾子",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"ResistStun": 1
+			}
+		},
+		{
+			"id": 466,
+			"type": "leader",
+			"target": "team",
+			"name": "胡桃夾子零式",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"ResistStun": 1
+			}
+		},
+		{
+			"id": 467,
+			"type": "leader",
+			"target": "team",
+			"name": "巫術教本",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 468,
+			"type": "leader",
+			"target": "team",
+			"name": "黑魔術秘典",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 469,
+			"type": "leader",
+			"target": "team",
+			"name": "白天鵝之舞",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 21
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 470,
+			"type": "leader",
+			"target": "team",
+			"name": "黑天鵝之舞",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 21
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 471,
+			"type": "leader",
+			"target": "team",
+			"name": "冬之禮裝",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 472,
+			"type": "leader",
+			"target": "team",
+			"name": "末日禮裝",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 473,
+			"type": "leader",
+			"target": "team",
+			"name": "五鬼運財",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 474,
+			"type": "leader",
+			"target": "team",
+			"name": "五聖運財",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 475,
+			"type": "leader",
+			"target": "team",
+			"name": "魔魂",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HPUp": 20,
+				"ResistPoison": 1
+			}
+		},
+		{
+			"id": 476,
+			"type": "leader",
+			"target": "team",
+			"name": "寄生魔體",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"HPUp": 25,
+				"ResistPoison": 1
+			}
+		},
+		{
+			"id": 477,
+			"type": "leader",
+			"target": "team",
+			"name": "缺頁的神曲古藉",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 15
+			}
+		},
+		{
+			"id": 478,
+			"type": "leader",
+			"target": "team",
+			"name": "完整的神曲古藉",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 479,
+			"type": "leader",
+			"target": "team",
+			"name": "強身詠春八式(入門)",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HPUp": 20,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 480,
+			"type": "leader",
+			"target": "team",
+			"name": "防身詠春十八式(進階)",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"HPUp": 25,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 481,
+			"type": "leader",
+			"target": "team",
+			"name": "占事略決‧紅",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 482,
+			"type": "leader",
+			"target": "team",
+			"name": "占事略決‧黑",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25
+			}
+		},
+		{
+			"id": 483,
+			"type": "leader",
+			"name": "星界召喚",
+			"target": "team",
+			"source": 
+			{
+				"memberElementAll": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 40
+			}
+		},
+		{
+			"id": 484,
+			"type": "leader",
+			"target": "team",
+			"name": "七星符",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"Regen": 80
+			}
+		},
+		{
+			"id": 485,
+			"type": "leader",
+			"target": "team",
+			"name": "生死符",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"Regen": 100
+			}
+		},
+		{
+			"id": 486,
+			"type": "leader",
+			"target": "team",
+			"name": "轉子引擎",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": -15,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 487,
+			"type": "leader",
+			"target": "team",
+			"name": "轉子引擎‧改",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"AttackUp": 55,
+				"HPUp": -15,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 488,
+			"type": "leader",
+			"target": "team",
+			"name": "惡鬼",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 489,
+			"type": "leader",
+			"target": "team",
+			"name": "狂神之魂",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 490,
+			"type": "leader",
+			"target": "team",
+			"name": "鬥戰勝佛",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25,
+				"ResistPoison": 1
+			}
+		},
+		{
+			"id": 491,
+			"type": "leader",
+			"target": "team",
+			"name": "五福臨門",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 492,
+			"type": "leader",
+			"target": "team",
+			"name": "童年幻境SP",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 493,
+			"type": "leader",
+			"target": "team",
+			"name": "二刀流",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 494,
+			"type": "leader",
+			"target": "team",
+			"name": "二天一流",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 495,
+			"type": "leader",
+			"target": "team",
+			"name": "三尺白刃之劍士",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 496,
+			"type": "leader",
+			"target": "team",
+			"name": "巖流之創始者",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 497,
+			"type": "leader",
+			"target": "team",
+			"name": "紅孩兒",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 498,
+			"type": "leader",
+			"target": "team",
+			"name": "紅孩兒",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 499,
+			"type": "leader",
+			"target": "team",
+			"name": "白龍馬",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 500,
+			"type": "leader",
+			"target": "team",
+			"name": "白龍馬",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 501,
+			"type": "leader",
+			"target": "team",
+			"name": "八戒",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 502,
+			"type": "leader",
+			"target": "team",
+			"name": "八戒",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25
+			}
+		},
+		{
+			"id": 503,
+			"type": "leader",
+			"target": "team",
+			"name": "三藏",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"HPUp": 10
+			}
+		},
+		{
+			"id": 504,
+			"type": "leader",
+			"target": "team",
+			"name": "三藏",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"HPUp": 10
+			}
+		},
+		{
+			"id": 505,
+			"type": "leader",
+			"target": "team",
+			"name": "沙僧",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 506,
+			"type": "leader",
+			"target": "team",
+			"name": "沙僧",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"ResistBleed": 1
+			}
+		},
+		{
+			"id": 507,
+			"type": "leader",
+			"target": "team",
+			"name": "六耳獮猴",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DefenceUp": 10
+			}
+		},
+		{
+			"id": 508,
+			"type": "leader",
+			"target": "team",
+			"name": "六耳獮猴",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 509,
+			"type": "leader",
+			"target": "team",
+			"name": "諦聽",
+			"condition": 
+			{
+				"healdown": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"ResistAllNegative": 1
+			}
+		},
+		{
+			"id": 510,
+			"type": "leader",
+			"target": "team",
+			"name": "諦聽",
+			"condition": 
+			{
+				"healdown": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"ResistAllNegative": 1
+			}
+		},
+		{
+			"id": 511,
+			"type": "leader",
+			"target": "team",
+			"name": "佛光普照",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 512,
+			"type": "leader",
+			"target": "team",
+			"name": "萬佛朝宗",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		
+		{
+			"id": 513,
+			"type": "leader",
+			"target": "team",
+			"name": "無限．核融合爐",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 514,
+			"type": "leader",
+			"target": "team",
+			"name": "最速．集成電路",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25,
+				"ResistAttackDown": 1
+			}
+		},
+		{
+			"id": 515,
+			"type": "leader",
+			"target": "team",
+			"name": "亡靈國度SP",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 15
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 516,
+			"type": "leader",
+			"target": "team",
+			"name": "炎之舞",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 517,
+			"type": "leader",
+			"target": "team",
+			"name": "鑽石之炎舞",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 518,
+			"type": "leader",
+			"target": "team",
+			"name": "小惡魔",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 519,
+			"type": "leader",
+			"target": "team",
+			"name": "西特嘉的小惡魔",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 520,
+			"type": "leader",
+			"target": "team",
+			"name": "晶石使陣形",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 521,
+			"type": "leader",
+			"target": "team",
+			"name": "翠綠領域",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 522,
+			"type": "leader",
+			"target": "team",
+			"name": "舞踏術",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"SectionAddFixedSP": 12
+			}
+		},
+		{
+			"id": 523,
+			"type": "leader",
+			"target": "team",
+			"name": "晶石舞踏術",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 524,
+			"type": "leader",
+			"target": "team",
+			"name": "骷髏結他獨奏",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 525,
+			"type": "leader",
+			"target": "team",
+			"name": "骷髏樂隊的演奏",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 526,
+			"type": "leader",
+			"target": "team",
+			"name": "精緻的工藝品",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 527,
+			"type": "leader",
+			"target": "team",
+			"name": "絕對服從",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 528,
+			"type": "leader",
+			"target": "team",
+			"name": "花魁",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 529,
+			"type": "leader",
+			"target": "team",
+			"name": "艷‧花魁",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 530,
+			"type": "leader",
+			"target": "team",
+			"name": "福爾摩斯",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 531,
+			"type": "leader",
+			"target": "team",
+			"name": "福爾摩斯",
+			"conditionOr": 
+			[
+				{
+					"type": 4
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50,
+				"ResistNoSkill": 1
+			}
+		},
+		{
+			"id": 532,
+			"type": "leader",
+			"target": "team",
+			"name": "達芬琪",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 533,
+			"type": "leader",
+			"target": "team",
+			"name": "達芬琪",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 534,
+			"type": "leader",
+			"target": "team",
+			"name": "玩火柴的熊",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 535,
+			"type": "leader",
+			"target": "team",
+			"name": "火柴供應商",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 536,
+			"type": "leader",
+			"target": "team",
+			"name": "熱血之心SP",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 45,
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 537,
+			"type": "leader",
+			"target": "team",
+			"name": "甲斐之虎",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 538,
+			"type": "leader",
+			"target": "team",
+			"name": "風林火山",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 539,
+			"type": "leader",
+			"target": "team",
+			"name": "越後之龍",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"SectionAddFixedSP": 12
+			}
+		},
+		{
+			"id": 540,
+			"type": "leader",
+			"target": "team",
+			"name": "毘沙門戰神",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 541,
+			"type": "leader",
+			"target": "team",
+			"name": "相模之獅",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 542,
+			"type": "leader",
+			"target": "team",
+			"name": "文武相兼",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 543,
+			"type": "leader",
+			"target": "team",
+			"name": "忠考仁義",
+			"condition": 
+			{
+				"race": 24
+			},
+			"modifier": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 544,
+			"type": "leader",
+			"target": "team",
+			"name": "背叛者",
+			"condition": 
+			{
+				"race": 24
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 545,
+			"type": "leader",
+			"target": "team",
+			"name": "信長公記",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 546,
+			"type": "leader",
+			"target": "team",
+			"name": "天下布武",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 547,
+			"type": "leader",
+			"target": "team",
+			"name": "天魔之首",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 15
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 548,
+			"type": "leader",
+			"target": "team",
+			"name": "三河守",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"DamageDown": 15,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 549,
+			"type": "leader",
+			"target": "team",
+			"name": "東海道第一大名",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"DamageDown": 15,
+				"AttackUp": 55
+			}
+		},
+		{
+			"id": 550,
+			"type": "leader",
+			"target": "team",
+			"name": "三矢之訓",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 551,
+			"type": "leader",
+			"target": "team",
+			"name": "百萬一心",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 552,
+			"type": "leader",
+			"target": "team",
+			"name": "龍舟競賽",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 553,
+			"type": "leader",
+			"target": "team",
+			"name": "聖女‧貞德",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 554,
+			"type": "leader",
+			"target": "team",
+			"name": "明智光秀",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 2
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 555,
+			"type": "leader",
+			"target": "team",
+			"name": "明智光秀",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 2
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 556,
+			"type": "leader",
+			"target": "team",
+			"name": "赫拉",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 557,
+			"type": "leader",
+			"target": "team",
+			"name": "赫拉",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 558,
+			"type": "leader",
+			"target": "team",
+			"name": "宙斯",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 559,
+			"type": "leader",
+			"target": "team",
+			"name": "宙斯",
+			"conditionOr": 
+			[
+				{
+					"race": 10
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 560,
+			"type": "leader",
+			"target": "team",
+			"name": "湖中劍",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"CriticalPowerAdd": 0.05
+			}
+		},
+		{
+			"id": 561,
+			"type": "leader",
+			"target": "team",
+			"name": "斷鋼神劍",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalPowerAdd": 0.1
+			}
+		},
+		{
+			"id": 562,
+			"type": "leader",
+			"target": "team",
+			"name": "神宮之秘寶",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "water"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 563,
+			"type": "leader",
+			"target": "team",
+			"name": "三神器‧壹",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "water"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 564,
+			"type": "leader",
+			"target": "team",
+			"name": "后羿弓",
+			"conditionOr": 
+			[
+				{
+					"type": 2
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"CriticalUp": 20
+			}
+		},
+		{
+			"id": 565,
+			"type": "leader",
+			"target": "team",
+			"name": "日貫‧后羿弓",
+			"conditionOr": 
+			[
+				{
+					"type": 2
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 566,
+			"type": "leader",
+			"target": "team",
+			"name": "后羿",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 567,
+			"type": "leader",
+			"target": "team",
+			"name": "后羿",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 568,
+			"type": "leader",
+			"target": "team",
+			"name": "八咫烏",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 569,
+			"type": "leader",
+			"target": "team",
+			"name": "八咫烏",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 570,
+			"type": "leader",
+			"target": "team",
+			"name": "湖中仙子",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 571,
+			"type": "leader",
+			"target": "team",
+			"name": "湖中仙子",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 570,
+			"type": "leader",
+			"target": "team",
+			"name": "湖中仙子",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 571,
+			"type": "leader",
+			"target": "team",
+			"name": "湖中仙子",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 572,
+			"type": "leader",
+			"target": "team",
+			"name": "慾望之深淵",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 2
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 573,
+			"type": "leader",
+			"target": "team",
+			"name": "慾望之深淵",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 574,
+			"type": "leader",
+			"target": "team",
+			"name": "極速！荔園恐龍屋",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"race": 5
+				},
+				{
+					"race": 14
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 575,
+			"type": "leader",
+			"target": "team",
+			"name": "秘密結社",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 576,
+			"type": "leader",
+			"target": "team",
+			"name": "星界征服！艾露希娜",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 8
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 577,
+			"type": "leader",
+			"target": "team",
+			"name": "星界戰隊",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 24
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 578,
+			"type": "leader",
+			"target": "team",
+			"name": "星界戰隊",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 24
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 579,
+			"type": "leader",
+			"target": "team",
+			"name": "除靈曲",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"SectionAddFixedSP": 2
+			}
+		},
+		{
+			"id": 580,
+			"type": "leader",
+			"target": "team",
+			"name": "厄運破除之舞",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SectionAddFixedSP": 3
+			}
+		},
+		{
+			"id": 581,
+			"type": "leader",
+			"target": "team",
+			"name": "防腐者",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 582,
+			"type": "leader",
+			"target": "team",
+			"name": "防腐者之神",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 583,
+			"type": "leader",
+			"target": "team",
+			"name": "醫療之神",
+			"condition": 
+			{
+				"race": 16
+			},
+			"modifier": 
+			{
+				"Regen": 80
+			}
+		},
+		{
+			"id": 584,
+			"type": "leader",
+			"target": "team",
+			"name": "完治之神",
+			"condition": 
+			{
+				"race": 16
+			},
+			"modifier": 
+			{
+				"Regen": 100
+			}
+		},
+		{
+			"id": 585,
+			"type": "leader",
+			"target": "team",
+			"name": "厄運破除之舞",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SectionAddFixedSP": 4
+			}
+		},
+		{
+			"id": 586,
+			"type": "leader",
+			"target": "team",
+			"name": "交涉術",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 35,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 587,
+			"type": "leader",
+			"target": "team",
+			"name": "商貿奇才",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 55,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 588,
+			"type": "leader",
+			"target": "team",
+			"name": "埃及總督",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20,
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 589,
+			"type": "leader",
+			"target": "team",
+			"name": "王朝創建者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 590,
+			"type": "leader",
+			"target": "team",
+			"name": "死而後生",
+			"condition": 
+			{
+				"poison": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 591,
+			"type": "leader",
+			"target": "team",
+			"name": "永恆不滅",
+			"condition": 
+			{
+				"poison": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"DamageDown": 20
+			}
+		},
+		{
+			"id": 592,
+			"type": "leader",
+			"target": "team",
+			"name": "炎帝子孫",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 593,
+			"type": "leader",
+			"target": "team",
+			"name": "炎之承繼者",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 594,
+			"type": "leader",
+			"target": "team",
+			"name": "死靈術師‧艾路菲特",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 25,
+				"ResistDefenceDown": 1
+			}
+		},
+		{
+			"id": 595,
+			"type": "leader",
+			"target": "team",
+			"name": "操命者‧艾路菲特",
+			"condition": 
+			{
+				"barrier": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 75,
+				"HealUp": -10
+			}
+		},
+		{
+			"id": 596,
+			"type": "leader",
+			"target": "team",
+			"name": "米高安哲羅",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 597,
+			"type": "leader",
+			"target": "team",
+			"name": "米高安哲羅",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 598,
+			"type": "leader",
+			"target": "team",
+			"name": " 霸王血統",
+			"condition": 
+			{
+				"type": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"HPUp": 45
+			}
+		},
+		{
+			"id": 599,
+			"type": "leader",
+			"target": "team",
+			"name": "夢遊仙境",
+			"conditionOr": 
+			[
+				{
+					"race": 19
+				},
+				{
+					"race": 20
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 35
+			}
+		},
+		{
+			"id": 600,
+			"type": "leader",
+			"target": "team",
+			"name": "血染沙灘排球",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 8
+				},
+				{
+					"charID": 990
+				},
+				{
+					"charID": 991
+				},
+				{
+					"charID": 992
+				},
+				{
+					"charID": 993
+				},
+				{
+					"charID": 994
+				},
+				{
+					"charID": 995
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 40
+			}
+		},
+		{
+			"id": 601,
+			"type": "leader",
+			"target": "team",
+			"name": "美杜莎滑浪板",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HPUp": 50
+			}
+		},
+		{
+			"id": 602,
+			"type": "leader",
+			"target": "team",
+			"name": "盛夏大舞台",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 603,
+			"type": "leader",
+			"target": "team",
+			"name": "沙灘‧老鼠",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"HPUp": 25,
+				"CriticalPowerAdd": 0.1
+			}
+		},
+		{
+			"id": 604,
+			"type": "leader",
+			"target": "team",
+			"name": "夏天就是雪糕",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 605,
+			"type": "leader",
+			"target": "team",
+			"name": "會長的暑期休假",
+			"condition": 
+			{
+				"race": 2
+			},
+			"modifier": 
+			{
+				"HPUp": 60,
+				"AttackUp": 15
+			}
+		},
+		{
+			"id": 606,
+			"type": "leader",
+			"target": "team",
+			"name": "封神",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 16
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HPUp": 35
+			}
+		},
+		{
+			"id": 607,
+			"type": "leader",
+			"target": "team",
+			"name": "上古女神",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 2
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 15
+			}
+		},
+		{
+			"id": 608,
+			"type": "leader",
+			"target": "team",
+			"name": "補天之五色石",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 2
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 50,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 609,
+			"type": "leader",
+			"target": "team",
+			"name": "名廠設計",
+			"condition": 
+			{
+				"race": 19
+			},
+			"modifier": 
+			{
+				"HPUp": 42,
+				"AttackUp": 42
+			}
+		},
+		{
+			"id": 610,
+			"type": "leader",
+			"target": "team",
+			"name": "羅蕾萊",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 611,
+			"type": "leader",
+			"target": "team",
+			"name": "羅蕾萊",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 612,
+			"type": "leader",
+			"target": "team",
+			"name": "項羽",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 613,
+			"type": "leader",
+			"target": "team",
+			"name": "項羽",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 614,
+			"type": "leader",
+			"target": "team",
+			"name": "劉邦",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 615,
+			"type": "leader",
+			"target": "team",
+			"name": "劉邦",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 616,
+			"type": "leader",
+			"target": "team",
+			"name": "開火滲透",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 19
+				},
+				{
+					"type": 4
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10,
+				"SectionAddFixedSP": 10
+			}
+		},
+		{
+			"id": 617,
+			"type": "leader",
+			"target": "team",
+			"name": "閃擊戰",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 19
+				},
+				{
+					"type": 4
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 15,
+				"SectionAddFixedSP": 12
+			}
+		},
+		{
+			"id": 618,
+			"type": "leader",
+			"target": "team",
+			"name": "神風",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 619,
+			"type": "leader",
+			"target": "team",
+			"name": "玉碎",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 620,
+			"type": "leader",
+			"target": "team",
+			"name": "伏擊",
+			"condition": 
+			{
+				"race": 19
+			},
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 621,
+			"type": "leader",
+			"target": "team",
+			"name": "潛伏突擊",
+			"condition": 
+			{
+				"race": 20
+			},
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 622,
+			"type": "leader",
+			"target": "team",
+			"name": "閃擊戰",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 19
+				},
+				{
+					"type": 4
+				}
+			],
+			"condition": 
+			{
+				"HPOver": 100
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 20,
+				"SectionAddFixedSP": 12
+			}
+		},
+		{
+			"id": 622,
+			"type": "leader",
+			"target": "team",
+			"name": "T-34戰車",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 35,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 624,
+			"type": "leader",
+			"target": "team",
+			"name": "T-34戰車",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 55,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 625,
+			"type": "leader",
+			"target": "team",
+			"name": "M4雪曼戰車",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 626,
+			"type": "leader",
+			"target": "team",
+			"name": "M4雪曼戰車",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 627,
+			"type": "leader",
+			"target": "team",
+			"name": "KV-2重戰車(MT-1)",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 45,
+				"AttackUp": 20,
+				"DamageDown": -20
+			}
+		},
+		{
+			"id": 628,
+			"type": "leader",
+			"target": "team",
+			"name": "KV-2重戰車(MT-2)",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 55,
+				"AttackUp": 30,
+				"DamageDown": -20
+			}
+		},
+		{
+			"id": 629,
+			"type": "leader",
+			"target": "team",
+			"name": "薛丁格",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 25,
+				"CriticalPowerAdd": 0.15
+			}
+		},
+		{
+			"id": 630,
+			"type": "leader",
+			"target": "team",
+			"name": "薛丁格",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"CriticalPowerAdd": 0.25
+			}
+		},
+		{
+			"id": 631,
+			"type": "leader",
+			"target": "team",
+			"name": "風魔小太郎",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 632,
+			"type": "leader",
+			"target": "team",
+			"name": "風魔小太郎",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 45,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 633,
+			"type": "leader",
+			"target": "team",
+			"name": "龍之賢人",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"SPRegen": 2
+			}
+		},
+		{
+			"id": 634,
+			"type": "leader",
+			"target": "team",
+			"name": "撒旦",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 15
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 635,
+			"type": "leader",
+			"target": "team",
+			"name": "撒旦",
+			"conditionOr": 
+			[
+				{
+					"element": "dark"
+				},
+				{
+					"race": 15
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 636,
+			"type": "leader",
+			"target": "team",
+			"name": "達貢",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 50,
+				"AttackUp": 10,
+				"SectionAddFixedSP": 2
+			}
+		},
+		{
+			"id": 637,
+			"type": "leader",
+			"target": "team",
+			"name": "達貢",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 60,
+				"AttackUp": 15,
+				"SectionAddFixedSP": 3
+			}
+		},
+		{
+			"id": 638,
+			"type": "leader",
+			"target": "team",
+			"name": "羅波那",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 25,
+				"RStoneEffect": 50
+			}
+		},
+		{
+			"id": 639,
+			"type": "leader",
+			"target": "team",
+			"name": "羅波那",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"RStoneEffect": 100
+			}
+		},
+		{
+			"id": 640,
+			"type": "leader",
+			"target": "team",
+			"name": "梅露",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 15
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 641,
+			"type": "leader",
+			"target": "team",
+			"name": "梅露",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 15
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 642,
+			"type": "leader",
+			"target": "team",
+			"name": "米諾斯",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 15
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 643,
+			"type": "leader",
+			"target": "team",
+			"name": "米諾斯",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 15
+				},
+				{
+					"type": 3
+				}
+			],
+			"modifier": 
+			{
+				"DefenceUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 644,
+			"type": "leader",
+			"target": "team",
+			"name": "彌得加特",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"PoisonDamageUp": -20
+			}
+		},
+		{
+			"id": 645,
+			"type": "leader",
+			"target": "team",
+			"name": "彌得加特",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"PoisonDamageUp": -30
+			}
+		},
+		{
+			"id": 646,
+			"type": "leader",
+			"target": "team",
+			"name": "赫露",
+			"condition": 
+			{
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 647,
+			"type": "leader",
+			"target": "team",
+			"name": "赫露",
+			"condition": 
+			{
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 648,
+			"type": "leader",
+			"target": "team",
+			"name": "噬身之蛇．烏蘿絲",
+			"conditionOr": 
+			[
+				{
+					"type": 6
+				},
+				{
+					"race": 2
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 649,
+			"type": "leader",
+			"target": "team",
+			"name": "無限之輪．烏蘿絲",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 2
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 650,
+			"type": "leader",
+			"target": "team",
+			"name": "超人氣畫師",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"Regen": 40
+			}
+		},
+		{
+			"id": 651,
+			"type": "leader",
+			"target": "team",
+			"name": "神一般的畫師",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"Regen": 50
+			}
+		},
+		{
+			"id": 652,
+			"type": "leader",
+			"target": "team",
+			"name": "對母親的追憶",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 653,
+			"type": "leader",
+			"target": "team",
+			"name": "扭曲之追憶",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 654,
+			"type": "leader",
+			"target": "team",
+			"name": "高地人",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"CriticalPowerAdd": 0.05
+			}
+		},
+		{
+			"id": 655,
+			"type": "leader",
+			"target": "team",
+			"name": "庫林的獵犬",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalPowerAdd": 0.1
+			}
+		},
+		{
+			"id": 656,
+			"type": "leader",
+			"target": "team",
+			"name": "希臘聯合軍統帥",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 657,
+			"type": "leader",
+			"target": "team",
+			"name": "諸王之王",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 658,
+			"type": "leader",
+			"target": "team",
+			"name": "希臘勇士",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 659,
+			"type": "leader",
+			"target": "team",
+			"name": "希臘第一勇士",
+			"condition": 
+			{
+				"race": 9
+			},
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 660,
+			"type": "leader",
+			"target": "team",
+			"name": "暗影騎士．庫胡林",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalPowerAdd": 0.15
+			}
+		},
+		{
+			"id": 661,
+			"type": "leader",
+			"target": "team",
+			"name": "鋼翼之怪鳥",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 3
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DefenceUp": 15
+			}
+		},
+		{
+			"id": 662,
+			"type": "leader",
+			"target": "team",
+			"name": "斯廷法利斯湖怪鳥",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 3
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 663,
+			"type": "leader",
+			"target": "team",
+			"name": "赫克特",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 35,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 664,
+			"type": "leader",
+			"target": "team",
+			"name": "特洛伊城牆．赫克特",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 24
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 55,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 665,
+			"type": "leader",
+			"target": "team",
+			"name": "梅芙",
+			"condition": 
+			{
+				"newHPUnder": 50
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DamageDown": 25,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 666,
+			"type": "leader",
+			"target": "team",
+			"name": "康諾特女王．梅芙",
+			"condition": 
+			{
+				"newHPUnder": 50
+			},
+			"modifier": 
+			{
+				"AttackUp": 60,
+				"DamageDown": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 667,
+			"type": "leader",
+			"target": "team",
+			"name": "密林戰術",
+			"condition": 
+			{
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 668,
+			"type": "leader",
+			"target": "team",
+			"name": "深綠之包圍網",
+			"condition": 
+			{
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 80
+			}
+		},
+		{
+			"id": 669,
+			"type": "leader",
+			"target": "team",
+			"name": "創世神話",
+			"conditionOr": 
+			[
+				{
+					"type": 3
+				},
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 670,
+			"type": "leader",
+			"target": "team",
+			"name": "天照大神",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 55
+			}
+		},
+		{
+			"id": 671,
+			"type": "leader",
+			"target": "team",
+			"name": "拉之目",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 672,
+			"type": "leader",
+			"target": "team",
+			"name": "烈陽神之目",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "light"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 673,
+			"type": "leader",
+			"target": "team",
+			"name": "黑闇的化身",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 674,
+			"type": "leader",
+			"target": "team",
+			"name": "混沌的化身",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 675,
+			"type": "leader",
+			"target": "team",
+			"name": "米迦勒",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 676,
+			"type": "leader",
+			"target": "team",
+			"name": "魔獸醫‧米迦勒",
+			"conditionOr": 
+			[
+				{
+					"type": 5
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 677,
+			"type": "leader",
+			"target": "team",
+			"name": "加百列",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 25,
+				"SectionAddFixedSP": 3
+			}
+		},
+		{
+			"id": 678,
+			"type": "leader",
+			"target": "team",
+			"name": "加百列",
+			"conditionOr": 
+			[
+				{
+					"element": "wood"
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 4
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SectionAddFixedSP": 4
+			}
+		},
+		{
+			"id": 679,
+			"type": "leader",
+			"target": "team",
+			"name": "烏列爾",
+			"condition": 
+			{
+				"race": 16
+			},
+			"modifier": 
+			{
+				"HPUp": 20,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 680,
+			"type": "leader",
+			"target": "team",
+			"name": "刃之軌跡‧烏列爾",
+			"condition": 
+			{
+				"race": 16
+			},
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 681,
+			"type": "leader",
+			"target": "team",
+			"name": "拉斐爾",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"type": 3
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 682,
+			"type": "leader",
+			"target": "team",
+			"name": "拉斐爾進化",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"type": 3
+				},
+				{
+					"type": 5
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 683,
+			"type": "leader",
+			"target": "team",
+			"name": "巴拉基勒",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 684,
+			"type": "leader",
+			"target": "team",
+			"name": "巴拉基勒進化",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HealUp": 30
+			}
+		},
+		{
+			"id": 685,
+			"type": "leader",
+			"target": "team",
+			"name": "約斐爾",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 21
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DamageDown": 10
+			}
+		},
+		{
+			"id": 686,
+			"type": "leader",
+			"target": "team",
+			"name": "約斐爾進化",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 21
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 45,
+				"DamageDown": 15
+			}
+		},
+		{
+			"id": 687,
+			"type": "leader",
+			"target": "team",
+			"name": "Z之紋章",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 15,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 688,
+			"type": "leader",
+			"target": "team",
+			"name": "Z之意志",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 689,
+			"type": "leader",
+			"target": "team",
+			"name": "往生之杜埃神‧歐西里斯",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 690,
+			"type": "leader",
+			"target": "team",
+			"name": "豐穰之冥界神‧歐西里斯",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 40,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 691,
+			"type": "leader",
+			"target": "team",
+			"name": "海頓",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 692,
+			"type": "leader",
+			"target": "team",
+			"name": "海頓",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 20
+				},
+				{
+					"type": 1
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 693,
+			"type": "leader",
+			"target": "team",
+			"name": "莫扎特",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "fire"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 694,
+			"type": "leader",
+			"target": "team",
+			"name": "莫扎特",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"element": "fire"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 695,
+			"type": "leader",
+			"target": "team",
+			"name": "天空之王",
+			"conditionOr": 
+			[
+				{
+					"type": 2
+				},
+				{
+					"type": 3
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"HealUp": 15
+			}
+		},
+		{
+			"id": 696,
+			"type": "leader",
+			"target": "team",
+			"name": "天空之神",
+			"conditionOr": 
+			[
+				{
+					"type": 2
+				},
+				{
+					"type": 3
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"HealUp": 20
+			}
+		},
+		{
+			"id": 697,
+			"type": "leader",
+			"target": "team",
+			"name": "科學怪人",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"HPUp": 42,
+				"AttackUp": 42
+			}
+		},
+		{
+			"id": 698,
+			"type": "leader",
+			"target": "team",
+			"name": "新春火狗子2017",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 699,
+			"type": "leader",
+			"target": "team",
+			"name": "雙面之天使",
+			"conditionOr": 
+			[
+				{
+					"type": 6
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 700,
+			"type": "leader",
+			"target": "team",
+			"name": "聖炎之翼",
+			"conditionOr": 
+			[
+				{
+					"type": 4
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"Regen": 40
+			}
+		},
+		{
+			"id": 701,
+			"type": "leader",
+			"target": "team",
+			"name": "初春之兆",
+			"conditionOr": 
+			[
+				{
+					"type": 4
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SPRegen": 2
+			}
+		},
+		{
+			"id": 702,
+			"type": "leader",
+			"target": "team",
+			"name": "鋼炎之怪鳥",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 3
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 703,
+			"type": "leader",
+			"target": "team",
+			"name": "夜叉",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 704,
+			"type": "leader",
+			"target": "team",
+			"name": "夜叉",
+			"conditionOr": 
+			[
+				{
+					"race": 16
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 705,
+			"type": "leader",
+			"target": "team",
+			"name": "羅剎",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 706,
+			"type": "leader",
+			"target": "team",
+			"name": "羅剎",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 707,
+			"type": "leader",
+			"target": "team",
+			"name": "酒吞童子",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 20
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"CriticalPowerAdd": 0.05
+			}
+		},
+		{
+			"id": 708,
+			"type": "leader",
+			"target": "team",
+			"name": "醉拳．酒吞童子",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 20
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalPowerAdd": 0.10
+			}
+		},
+		{
+			"id": 709,
+			"type": "leader",
+			"target": "team",
+			"name": "茨木童子",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"CriticalUp": 30
+			}
+		},
+		{
+			"id": 710,
+			"type": "leader",
+			"target": "team",
+			"name": "茨木童子",
+			"conditionOr": 
+			[
+				{
+					"race": 20
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"CriticalUp": 40
+			}
+		},
+		{
+			"id": 711,
+			"type": "leader",
+			"target": "team",
+			"name": "座敷童子",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 712,
+			"type": "leader",
+			"target": "team",
+			"name": "座敷童子",
+			"conditionOr": 
+			[
+				{
+					"element": "water"
+				},
+				{
+					"race": 20
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 4
+			}
+		},
+		{
+			"id": 713,
+			"type": "leader",
+			"target": "team",
+			"name": "醉拳．酒吞童子",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 20
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalPowerAdd": 0.15
+			}
+		},
+		{
+			"id": 714,
+			"type": "leader",
+			"target": "team",
+			"name": "青鬼&赤鬼",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 12,
+				"CriticalUp": 15,
+				"CriticalPowerAdd": 0.15
+			}
+		},
+		{
+			"id": 715,
+			"type": "leader",
+			"target": "team",
+			"name": "青鬼&赤鬼",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 15
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"CriticalUp": 20,
+				"CriticalPowerAdd": 0.20
+			}
+		},
+		{
+			"id": 716,
+			"type": "leader",
+			"target": "team",
+			"name": "百目鬼",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"SectionAddHP": 200
+			}
+		},
+		{
+			"id": 717,
+			"type": "leader",
+			"target": "team",
+			"name": "百目鬼",
+			"condition": 
+			{
+				"race": 15
+			},
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"SectionAddHP": 300
+			}
+		},
+		{
+			"id": 718,
+			"type": "leader",
+			"target": "team",
+			"name": "溫羅",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 20
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 719,
+			"type": "leader",
+			"target": "team",
+			"name": "鬼鬼島之主．溫羅",
+			"conditionOr": 
+			[
+				{
+					"race": 15
+				},
+				{
+					"race": 20
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 720,
+			"type": "leader",
+			"target": "team",
+			"name": "火之擊",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"HealUp": 25
+			}
+		},
+		{
+			"id": 721,
+			"type": "leader",
+			"target": "team",
+			"name": "火之進擊",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 35,
+				"HealUp": 35
+			}
+		},
+		{
+			"id": 722,
+			"type": "leader",
+			"target": "team",
+			"name": "英雄之刃",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 723,
+			"type": "leader",
+			"target": "team",
+			"name": "英雄之利刃",
+			"conditionOr": 
+			[
+				{
+					"element": "light"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 724,
+			"type": "leader",
+			"target": "team",
+			"name": "義賊心得",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"CriticalUp": 20
+			}
+		},
+		{
+			"id": 725,
+			"type": "leader",
+			"target": "team",
+			"name": "義賊極意",
+			"condition": 
+			{
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"CriticalUp": 30
+			}
+		},
+		{
+			"id": 726,
+			"type": "leader",
+			"target": "team",
+			"name": "英靈殿之光",
+			"source": 
+			{
+				"memberElementAll": 1
+			},
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SPRegen": 2
+			}
+		},
+		{
+			"id": 727,
+			"type": "leader",
+			"target": "team",
+			"name": "巴赫",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 728,
+			"type": "leader",
+			"target": "team",
+			"name": "巴赫",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DamageDown": 12
+			}
+		},
+		{
+			"id": 729,
+			"type": "leader",
+			"target": "team",
+			"name": "貝多芬",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"Regen": 40
+			}
+		},
+		{
+			"id": 730,
+			"type": "leader",
+			"target": "team",
+			"name": "樂聖．貝多芬",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"Regen": 50
+			}
+		},
+		{
+			"id": 731,
+			"type": "leader",
+			"target": "team",
+			"name": "放射線研究",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 15,
+				"DefenceUp": 15,
+				"HealUp": 15,
+				"CriticalPowerAdd": 0.10
+			}
+		},
+		{
+			"id": 732,
+			"type": "leader",
+			"target": "team",
+			"name": "放射性理論",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"type": 2
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 20,
+				"DefenceUp": 20,
+				"HealUp": 20,
+				"CriticalPowerAdd": 0.15
+			}
+		},
+		{
+			"id": 733,
+			"type": "leader",
+			"target": "team",
+			"name": "天體觀測者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 734,
+			"type": "leader",
+			"target": "team",
+			"name": "天文學之父",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				},
+				{
+					"type": 6
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 735,
+			"type": "leader",
+			"target": "team",
+			"name": "火藥製作術",
+			"condition": 
+			{
+				"type": 4
+			},
+			"modifier": 
+			{
+				"HPUp": 25,
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 736,
+			"type": "leader",
+			"target": "team",
+			"name": "爆炸物專門家",
+			"condition": 
+			{
+				"type": 4
+			},
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 737,
+			"type": "leader",
+			"target": "team",
+			"name": "牛頓",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"DamageDown": 15,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 738,
+			"type": "leader",
+			"target": "team",
+			"name": "牛頓",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"DamageDown": 15,
+				"AttackUp": 55
+			}
+		},
+		{
+			"id": 739,
+			"type": "leader",
+			"target": "team",
+			"name": "愛迪生",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 740,
+			"type": "leader",
+			"target": "team",
+			"name": "愛迪生",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": -15,
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 741,
+			"type": "leader",
+			"target": "team",
+			"name": "德米特里",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 742,
+			"type": "leader",
+			"target": "team",
+			"name": "德米特里",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 744,
+			"type": "leader",
+			"target": "team",
+			"name": "犯行預告",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 745,
+			"type": "leader",
+			"target": "team",
+			"name": "戀愛的犯行預告",
+			"condition": 
+			{
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"HPUp": 10,
+				"AttackUp": 80
+			}
+		},
+		{
+			"id": 746,
+			"type": "leader",
+			"target": "team",
+			"name": "螣蛇星行陣",
+			"conditionOr": 
+			[
+				{
+					"type": 3
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalUp": 15
+			}
+		},
+		{
+			"id": 747,
+			"type": "leader",
+			"target": "team",
+			"name": "斗宿天樞陣",
+			"conditionOr": 
+			[
+				{
+					"type": 3
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SPRegen": 2
+			}
+		},
+		{
+			"id": 748,
+			"type": "leader",
+			"target": "team",
+			"name": "無敵戰車",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 20
+			}
+		},
+		{
+			"id": 749,
+			"type": "leader",
+			"target": "team",
+			"name": "無敵戰車",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 45,
+				"AttackUp": 25
+			}
+		},
+		{
+			"id": 750,
+			"type": "leader",
+			"target": "team",
+			"name": "裝甲軍團",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 15,
+				"AttackUp": 40
+			}
+		},
+		{
+			"id": 751,
+			"type": "leader",
+			"target": "team",
+			"name": "鋼鐵洪流",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 19
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 20,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 752,
+			"type": "leader",
+			"target": "team",
+			"name": "龍之賢人",
+			"conditionOr": 
+			[
+				{
+					"race": 2
+				},
+				{
+					"element": "fire"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"SPRegen": 2
+			}
+		},
+		{
+			"id": 753,
+			"type": "leader",
+			"target": "team",
+			"name": "復活火狗子",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 25,
+				"SectionAddFixedSP": 20
+			}
+		},
+		{
+			"id": 754,
+			"type": "leader",
+			"target": "team",
+			"name": "冒險者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"type": 1
+				},
+				{
+					"element": "water"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"CriticalPowerAdd": 0.05
+			}
+		},
+		{
+			"id": 755,
+			"type": "leader",
+			"target": "team",
+			"name": "希望之勇者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"type": 1
+				},
+				{
+					"element": "water"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalPowerAdd": 0.10
+			}
+		},
+		{
+			"id": 756,
+			"type": "leader",
+			"target": "team",
+			"name": "賢者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 30,
+				"AttackUp": 30,
+				"SectionAddFixedSP": 2
+			}
+		},
+		{
+			"id": 757,
+			"type": "leader",
+			"target": "team",
+			"name": "大賢者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SectionAddFixedSP": 3
+			}
+		},
+		{
+			"id": 758,
+			"type": "leader",
+			"target": "team",
+			"name": "行商人",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 759,
+			"type": "leader",
+			"target": "team",
+			"name": "商旅團長",
+			"condition": 
+			{
+				"race": 8
+			},
+			"modifier": 
+			{
+				"AttackUp": 70
+			}
+		},
+		{
+			"id": 760,
+			"type": "leader",
+			"target": "team",
+			"name": "寶箱怪",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 40,
+				"DefenceUp": 15
+			}
+		},
+		{
+			"id": 761,
+			"type": "leader",
+			"target": "team",
+			"name": "冒險者殺手‧寶箱怪",
+			"conditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"DefenceUp": 20
+			}
+		},
+		{
+			"id": 762,
+			"type": "leader",
+			"target": "team",
+			"name": "骷髏騎士",
+			"condition": 
+			{
+				"race": 15,
+				"type": 3
+			},
+			"modifier": 
+			{
+				"HPUp": 30,
+				"SPRegen": 2
+			}
+		},
+		{
+			"id": 763,
+			"type": "leader",
+			"target": "team",
+			"name": "骷髏騎士",
+			"condition": 
+			{
+				"race": 15,
+				"type": 3
+			},
+			"modifier": 
+			{
+				"HPUp": 40,
+				"SPRegen": 3
+			}
+		},
+		{
+			"id": 764,
+			"type": "leader",
+			"target": "team",
+			"name": "魔王",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 30
+			}
+		},
+		{
+			"id": 765,
+			"type": "leader",
+			"target": "team",
+			"name": "魔王",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 15
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 15,
+				"AttackUp": 45
+			}
+		},
+		{
+			"id": 766,
+			"type": "leader",
+			"target": "team",
+			"name": "大賢者",
+			"conditionOr": 
+			[
+				{
+					"race": 9
+				},
+				{
+					"race": 10
+				},
+				{
+					"element": "dark"
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SPRegen": 1
+			}
+		},
+		{
+			"id": 767,
+			"type": "leader",
+			"target": "team",
+			"name": "天海女神的祝福",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"HealUp": 20,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 768,
+			"type": "leader",
+			"target": "team",
+			"name": "天海女神的慈愛",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HealUp": 30,
+				"HPUp": 30
+			}
+		},
+		{
+			"id": 769,
+			"type": "leader",
+			"target": "team",
+			"name": "啟明之聖獸",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"CriticalPowerAdd": 0.20
+			}
+		},
+		{
+			"id": 770,
+			"type": "leader",
+			"target": "team",
+			"name": "長庚之聖獸",
+			"conditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35,
+				"SPRegen": 2
+			}
+		},
+		{
+			"id": 771,
+			"type": "leader",
+			"target": "team",
+			"name": "劍豪領域",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 772,
+			"type": "leader",
+			"target": "team",
+			"name": "八方劍陣",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 8
+				}
+			],
+			"modifier": 
+			{
+				"DamageDown": 10,
+				"AttackUp": 60
+			}
+		},
+		{
+			"id": 773,
+			"type": "leader",
+			"target": "team",
+			"name": "天草時貞",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 10
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		{
+			"id": 774,
+			"type": "leader",
+			"target": "team",
+			"name": "天草時貞",
+			"conditionOr": 
+			[
+				{
+					"race": 24
+				},
+				{
+					"race": 10
+				},
+				{
+					"race": 16
+				}
+			],
+			"modifier": 
+			{
+				"HPUp": 35,
+				"AttackUp": 35
+			}
+		},
+		
+		{
+			"id": 810001,
+			"type": "leader",
+			"target": "team",
+			"name": " 整備",
+			"condition": 
+			{
+			},
+			"modifier": 
+			{
+				"SectionAddHP": 40,
+				"SectionAddFixedSP": 2,
+				"SectionPlayEffect": 1
+			}
+		},
+		{
+			"id": 810002,
+			"type": "leader",
+			"target": "team",
+			"name": " resist",
+			"condition": 
+			{
+			},
+			"modifier": 
+			{
+				"ResistPoison": 1
+			}
+		},
+		{
+			"id": 810003,
+			"type": "leader",
+			"target": "team",
+			"name": " half DEF",
+			"condition": 
+			{
+			},
+			"modifier": 
+			{
+				"ForceDefHalfRace": 3
+			}
+		},
+		{
+			"id": 810004,
+			"type": "leader",
+			"target": "team",
+			"name": " zero DEF",
+			"condition": 
+			{
+			},
+			"modifier": 
+			{
+				"ForceDefZeroRace": 3
+			}
+		},
+		{
+			"id": 810005,
+			"type": "leader",
+			"name": "test SA",
+			"target": "team",
+			"condition": 
+			{
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"TEMP_BaseAttackUp": 25
+			}
+		},
+		{
+			"id": 810006,
+			"type": "leader",
+			"name": "幻獸",
+			"target": "team",
+			"condition": 
+			{
+				"_type": 6
+			},
+			"modifier": 
+			{
+				"BaseAttackUpByHeal": 25,
+				"BaseDefenceUpByHeal": 30,
+				"BaseHPUpByHeal": 30
+			}
+		},
+		{
+			"id": 810007,
+			"type": "leader",
+			"name": "all color",
+			"target": "team",
+			"source": 
+			{
+				"memberElementAll": 1
+			},
+			"condition": 
+			{
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 810008,
+			"type": "leader",
+			"name": "condition or",
+			"target": "team",
+			"conditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				}
+			],
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"HPUp": 20
+			}
+		},
+		{
+			"id": 810009,
+			"type": "leader",
+			"name": "test",
+			"target": "team",
+			"condition": 
+			{
+				"MemberRaceCount": 6
+			},
+			"modifier": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{
+			"id": 810010,
+			"type": "leader",
+			"name": "test",
+			"target": "team",
+			"modifier": 
+			{
+				"TurnAddFixedSP": 3
+			}
+		},
+		{
+			"id": 810011,
+			"type": "leader",
+			"name": "牛",
+			"target": "team",
+			"condition": 
+			{
+				"type": 3
+			},
+			"modifier": 
+			{
+				"HPLossExchange": 
+				{
+					"HPLoss": 5,
+					"Attack": 1,
+					"Defence": 0,
+					"Heal": 1
+				}
+			}
+		}
+	]
+}

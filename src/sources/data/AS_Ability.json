@@ -1,0 +1,7889 @@
+{
+	"ability": 
+	[
+		{"id": 90001, "name": "野獸獵人",
+			"remark": "對野獸種族造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 90002, "name": "抵抗(妖精)",
+			"remark": "抵抗來自妖精攻擊的30%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 4
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 90003, "name": "test 90003",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 100
+			}
+		},
+		{"id": 90004, "name": "test 90004",
+			"remark": "",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 40
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 90005, "name": "test 90005",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPOver": 60
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 100
+			}
+		},
+		{"id": 90006, "name": "test 90006",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 40
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 50
+			}
+		},
+		{"id": 90007, "name": "測試2",
+			"remark": "抵抗來自 妖精 或 水屬 攻擊的30%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"race": 4
+				},
+				{
+					"element": "water"
+				}
+			],
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 90008, "name": "自身 HP低於40% 或 中毒狀態 爆擊率增加100%",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"selfConditionOr": 
+			[
+				{
+					"newHPUnder": 40
+				},
+				{
+					"poison": 1
+				}
+			],
+			"function": 
+			{
+				"AttackCriticalUp": 100
+			}
+		},
+		{"id": 90009, "name": "test 90006",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"ClearPoison": 1,
+				"ClearAttackDown": 1,
+				"ClearDefenceDown": 1,
+				"ClearHealDown": 1,
+				"ClearParalysis": 1,
+				"SpFull": 1
+			}
+		},
+		{"id": 90101, "name": "test 90101",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistAttackDown": 1
+			}
+		},
+		{"id": 90102, "name": "test 90102",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistDefenceDown": 1
+			}
+		},
+		{"id": 90103, "name": "test 90103",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistHealDown": 1
+			}
+		},
+		{"id": 90104, "name": "test 90104",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistPoison": 1
+			}
+		},
+		{"id": 90105, "name": "test 90105",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistParalysis": 1
+			}
+		},
+		{"id": 90106, "name": "增攻",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 40
+			},
+			"function": 
+			{
+				"BaseAttackUp": 100
+			}
+		},
+		{"id": 90107, "name": "增防",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPOver": 60
+			},
+			"function": 
+			{
+				"BaseDefenceUp": 100
+			}
+		},
+		{"id": 90108, "name": "增回",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"BaseHealUp": 100
+			}
+		},
+		{"id": 90110, "name": "低HP增心珠率",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"HitDropRStoneRateUp": 1000,
+				"SparkDropRStoneRateUp": 1000
+			}
+		},
+		{"id": 90111, "name": "中毒加HP",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"BaseHPUP": 100
+			}
+		},
+		{"id": 90112, "name": "換普攻",
+			"remark": "",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 2
+			}
+		},
+		{"id": 90113, "name": "not used",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"function": 
+			{
+				"AddSP": 10
+			}
+		},
+		{"id": 90114, "name": "not used",
+			"remark": "",
+			"type": "defence",
+			"rate": 100,
+			"function": 
+			{
+				"AddSP": 10
+			}
+		},
+		{"id": 90115, "name": "",
+			"remark": "",
+			"type": "defence",
+			"rate": 100,
+			"function": 
+			{
+				"DefenceHitAddSP": 1
+			}
+		},
+		{"id": 90116, "name": "test 90116",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"function": 
+			{
+				"AttackHitAddSP": 1
+			}
+		},
+		{"id": 90117, "name": "test 90117",
+			"remark": "",
+			"_type": "attack",
+			"_rate": 50,
+			"type": "always",
+			"function": 
+			{
+				"ChangeNormalSkill": 12572,
+				"_ChangeNormalSkill": 999948
+			}
+		},
+		{"id": 90119, "name": "target char",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"_charID": 187,
+				"charIDBegin": 186,
+				"charIDEnd": 188
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 90120, "name": "target char",
+			"remark": "",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"_questID": 10266,
+				"questIDBegin": 10264,
+				"questIDEnd": 10270
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 90121, "name": "",
+			"remark": "",
+			"type": "defence",
+			"_rate": 50,
+			"rate": 0,
+			"function": 
+			{
+				"ResistParalysis": 1
+			}
+		},
+		{"id": 90122, "name": "",
+			"remark": "",
+			"type": "always",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 2
+			}
+		},
+		{"id": 99901, "name": "Test ability",
+			"remark": "防禦時對敵人的範圍攻擊減傷50%",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 91001, "name": "元素勇者",
+			"remark": "一般任務中全能力增加50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"questIDBegin": 10101,
+				"questIDEnd": 19999
+			},
+			"function": 
+			{
+				"HPUp": 50,
+				"AttackUp": 50,
+				"DefenceUp": 50,
+				"HealUp": 50
+			}
+		},
+		{"id": 91002, "name": "攻擊中和",
+			"remark": "攻擊時不會因剋制屬性而減少傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 91003, "name": "攻擊中和",
+			"remark": "攻擊時不會因剋制屬性而減少傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 91004, "name": "攻擊中和",
+			"remark": "攻擊時不會因剋制屬性而減少傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood"
+			},
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 91005, "name": "防禦中和",
+			"remark": "受到剋制屬性攻擊時不會增加傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "light"
+			},
+			"targetCondition": 
+			{
+				"element": "dark"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 33
+			}
+		},
+		{"id": 91006, "name": "防禦中和",
+			"remark": "受到剋制屬性攻擊時不會增加傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "dark"
+			},
+			"targetCondition": 
+			{
+				"element": "light"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 33
+			}
+		},
+		{"id": 91007, "name": "嗜血",
+			"remark": "攻擊高機率擊出回復珠",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"HitDropRStoneRateUp": 100,
+				"SparkDropRStoneRateUp": 100
+			}
+		},
+		{"id": 91008, "name": "貪婪",
+			"remark": "攻擊高機率擊出金錢",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"HitDropMoneyRateUp": 100,
+				"SparkDropMoneyRateUp": 1000
+			}
+		},
+		{"id": 91016, "name": "捨身刺殺",
+			"remark": "於前排時攻擊力+50%但受傷兩倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"AttackUp": 50,
+				"DamageDown": -100
+			}
+		},
+		{"id": 91017, "name": "抗毒聖符",
+			"remark": "受到中毒攻擊時，立即解除所有異常狀態並補滿技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"poison": 1
+			},
+			"function": 
+			{
+				"ClearAllNegative": 1,
+				"SpFull": 1
+			}
+		},
+		{"id": 91018, "name": "瘋狂病毒",
+			"remark": "中毒效果減半，中毒時，攻擊及暴擊率+40%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"AttackUp": 40,
+				"CriticalUp": 40,
+				"PoisonDamageUp": -50
+			}
+		},
+		{"id": 91019, "name": "暴擊提升",
+			"remark": "暴擊率+30%",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"CriticalUp": 30
+			}
+		},
+		{"id": 91020, "name": "抗毒神符",
+			"remark": "中毒時，立即解除異常狀態並回復HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"ClearAllNegative": 1,
+				"Heal": 100
+			}
+		},
+		{"id": 91021, "name": "吸血特化",
+			"remark": "免疫減回，回復珠的回復量提升",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistHealDown": 1,
+				"RStoneEffect": 100
+			}
+		},
+		{"id": 91022, "name": "集中狙擊",
+			"remark": "沒有陷入異常狀態時暴擊率+40%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"anyNegativeState": 0
+			},
+			"function": 
+			{
+				"AttackDamageUp": 25,
+				"CriticalUp": 40
+			}
+		},
+		{"id": 91023, "name": "掩護狙擊",
+			"remark": "自身擁有護盾時暴擊率+40%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 25,
+				"CriticalUp": 40
+			}
+		},
+		{"id": 91024, "name": "同屬抵抗",
+			"remark": "受到同屬性敵人攻擊時傷害減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 91025, "name": "同屬抵抗",
+			"remark": "受到同屬性敵人攻擊時傷害減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water"
+			},
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 91026, "name": "同屬抵抗",
+			"remark": "受到同屬性敵人攻擊時傷害減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 91027, "name": "同屬抵抗",
+			"remark": "受到同屬性敵人攻擊時傷害減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "light"
+			},
+			"targetCondition": 
+			{
+				"element": "light"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 91028, "name": "同屬抵抗",
+			"remark": "受到同屬性敵人攻擊時傷害減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "dark"
+			},
+			"targetCondition": 
+			{
+				"element": "dark"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 91029, "name": "乘勝追擊",
+			"remark": "對減防的敵人造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 91030, "name": "耗命攻擊",
+			"remark": "攻擊時消耗當前5%HP增加25%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 13009
+			}
+		},
+		{"id": 91031, "name": "減防強化",
+			"remark": "在減防狀態時，攻擊力+40%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{"id": 91032, "name": "護盾強化",
+			"remark": "擁有護盾時攻擊力+25%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{"id": 91033, "name": "麻痺聖符",
+			"remark": "受到麻痺攻擊時，立即解除所有異常狀態並補滿技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"paralysis": 1
+			},
+			"function": 
+			{
+				"ClearAllNegative": 1,
+				"SpFull": 1
+			}
+		},
+		{"id": 91034, "name": "限制聖符",
+			"remark": "自動解除限制狀態並補滿技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"selfConditionOr": 
+			[
+				{
+					"paralysis": 1
+				},
+				{
+					"stun": 1
+				},
+				{
+					"nomove": 1
+				},
+				{
+					"noskill": 1
+				}
+			],
+			"function": 
+			{
+				"ClearParalysis": 1,
+				"ClearStun": 1,
+				"ClearNoSkill": 1,
+				"ClearNoMove": 1,
+				"SpFull": 1
+			}
+		},
+		{"id": 91035, "name": "抗麻神符",
+			"remark": "麻痺時，立即解除異常狀態並回復HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"paralysis": 1
+			},
+			"function": 
+			{
+				"ClearAllNegative": 1,
+				"Heal": 100
+			}
+		},
+		{"id": 91036, "name": "原初勇士",
+			"remark": "攻擊造成額外1000傷害(必殺2000)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 11149
+			}
+		},
+		{"id": 91037, "name": "橡國烈酒",
+			"remark": "對中毒的敵人造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 91038, "name": "技珠特化",
+			"remark": "普攻高機率擊出技珠並回復全體1SP",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"HitDropSStoneRateUp": 100,
+				"SparkDropSStoneRateUp": 100,
+				"ChangeNormalSkill": 13339
+			}
+		},
+		{"id": 91039, "name": "減攻免疫",
+			"remark": "與技珠特化組合用",
+			"type": "always"
+		},
+		{"id": 91040, "name": "幻象",
+			"remark": "20%機率免疫99%傷害及異常狀態",
+			"type": "defence",
+			"rate": 20,
+			"function": 
+			{
+				"DefenceDamageDown": 99,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 91041, "name": "空力效應",
+			"remark": "攻擊時自身產生護盾，破壞護盾時自身獲得更大護盾",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ChangeNormalSkill": 13369
+			}
+		},
+		{"id": 91042, "name": "空力效應",
+			"remark": "空力效應針對護盾的效果",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"AttackDestroyBarrier": 1,
+				"Barrier": 400
+			}
+		},
+		{"id": 91043, "name": "總攻擊",
+			"remark": "天元位蓄力時攻擊2倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1,
+				"pos": 5
+			},
+			"function": 
+			{
+				"AttackUp": 100
+			}
+		},
+		{"id": 91044, "name": "總攻擊",
+			"remark": "對HP高於50%的目標+100%暴擊率",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPOver": 50
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 100
+			}
+		},
+		{"id": 91045, "name": "連環",
+			"remark": "必殺技35%令自已回復45SP",
+			"type": "always"
+		},
+		{"id": 91046, "name": "鬥神",
+			"remark": "無視人類、獸人種族防禦力並造成1.5倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"race": 8
+				},
+				{
+					"race": 9
+				}
+			],
+			"function": 
+			{
+				"AttackDamageUp": 150
+			}
+		},
+		{"id": 91047, "name": "鬥神",
+			"remark": "無視人類、獸人種族防禦力並造成1.5倍傷害",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ForceDefZeroRace": 8
+			}
+		},
+		{"id": 91048, "name": "鬥神",
+			"remark": "無視人類、獸人種族防禦力並造成1.5倍傷害",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ForceDefZeroRace": 9
+			}
+		},
+		{"id": 91049, "name": "黃昏之血",
+			"remark": "屬性剋制改變，剋制光、暗，怕火、水、木",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"function": 
+			{
+				"AttackDamageUp": -25,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 91050, "name": "黃昏之血",
+			"remark": "屬性剋制改變，剋制光、暗，怕火、水、木",
+			"type": "defence",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"element": "fire"
+				},
+				{
+					"element": "water"
+				},
+				{
+					"element": "wood"
+				}
+			],
+			"function": 
+			{
+				"DefenceDamageDown": -25
+			}
+		},
+		{"id": 91051, "name": "黃昏之血",
+			"remark": "屬性剋制改變，剋制光、暗，怕火、水、木",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "light"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 91052, "name": "黃昏之血",
+			"remark": "屬性剋制改變，剋制光、暗，怕火、水、木",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "light"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 91053, "name": "黃昏之血",
+			"remark": "屬性剋制改變，剋制光、暗，怕火、水、木",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "dark"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 66
+			}
+		},
+		{"id": 91054, "name": "永咒之血",
+			"remark": "技能珠非全滿時攻擊+25%，非滿血狀態下擊出回復珠%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{"id": 91055, "name": "永咒之血",
+			"remark": "技能珠非全滿時攻擊+25%，非滿血狀態下擊出回復珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"hpFull": 0
+			},
+			"function": 
+			{
+				"HitDropRStoneRateUp": 200,
+				"SparkDropRStoneRateUp": 200
+			}
+		},
+		{"id": 91056, "name": "全面攻擊",
+			"remark": "於前排時普攻傷害2倍但受傷2倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"DamageUp": 100
+			}
+		},
+		{"id": 91057, "name": "魂殺之血",
+			"remark": "受到低於50%HP的敵人的攻擊減20%及+10SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20,
+				"AddSP": 10
+			}
+		},
+		{"id": 91058, "name": "出血神符",
+			"remark": "出血時，立即解除異常狀態並回復HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"bleed": 1
+			},
+			"function": 
+			{
+				"ClearAllNegative": 1,
+				"Heal": 100
+			}
+		},
+		{"id": 91059, "name": "伏魔法器",
+			"remark": "有護盾時反射3倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 3
+			}
+		},
+		{"id": 91060, "name": "伏魔法器",
+			"remark": "沒護盾時+50%攻擊",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 0
+			},
+			"function": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{"id": 91061, "name": "神珍鐵",
+			"remark": "於前排時普攻傷害2倍但受傷2倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 17559
+			}
+		},
+		{"id": 91062, "name": "出血聖符",
+			"remark": "受到出血攻擊時，立即解除所有異常狀態並補滿技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"bleed": 1
+			},
+			"function": 
+			{
+				"ClearAllNegative": 1,
+				"SpFull": 1
+			}
+		},
+		{"id": 91063, "name": "龍之盾",
+			"remark": "未滿技時普攻可產生護盾",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 17588
+			}
+		},
+		{"id": 91064, "name": "龍之盾",
+			"remark": "同時有護盾下防禦力2倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 0,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"BaseDefenceUp": 100
+			}
+		},
+		{"id": 91065, "name": "龍之劍",
+			"remark": "滿技有護盾時普攻造成1%當前生命傷害並且我方+1SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 17589,
+				"ChangeNormalAction": 3
+			}
+		},
+		{"id": 91066, "name": "龍之劍",
+			"remark": "但滿技中自身回復-90%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"HealUp": -90
+			}
+		},
+		{"id": 91067, "name": "暈眩聖符",
+			"remark": "受到暈眩攻擊時，立即解除所有異常狀態並補滿技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"stun": 1
+			},
+			"function": 
+			{
+				"ClearAllNegative": 1,
+				"SpFull": 1
+			}
+		},
+		{"id": 91068, "name": "審判",
+			"remark": "攻擊HP全滿的敵人回復5SP及造成1.5倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPOver": 100
+			},
+			"function": 
+			{
+				"AddSP": 5,
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 91069, "name": "天罰",
+			"remark": "對HP低於50%的敵人暴擊率及暴擊傷害+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 50,
+				"AttackCriticalPowerAdd": 0.5
+			}
+		},
+		{"id": 91070, "name": "天罰",
+			"remark": "對HP低於50%的敵人反射4倍傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DamageReflection": 4
+			}
+		},
+		{"id": 91071, "name": "完美螺旋",
+			"remark": "完成魔彩七耀角的最後一擊可為全隊回復全HP、10SP及異常狀態全解",
+			"type": "always",
+			"rate": 100
+		},
+		{"id": 91072, "name": "演繹法",
+			"remark": "滿技時蓄力普攻消耗技珠對敵單體造成額外8萬傷害並附加麻痺及出血",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 18459
+			}
+		},
+		{"id": 91073, "name": "未點燃",
+			"remark": "未滿技時普攻增加自身回復及減傷5回合(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18258
+			}
+		},
+		{"id": 91074, "name": "點燃",
+			"remark": "滿技時，回復減少90%、普攻提升自身攻擊10回合但HP上限減少",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"HealUp": -90,
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 18259
+			}
+		},
+		{"id": 91075, "name": "敦盛",
+			"remark": "暴擊傷害為200%對減防的敵人+50%暴擊率",
+			"type": "attack",
+			"rate": 100,
+			"function": 
+			{
+				"AttackCriticalPowerAdd": 0.5
+			}
+		},
+		{"id": 91076, "name": "敦盛",
+			"remark": "暴擊傷害為200%對減防的敵人+50%暴擊率",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 50
+			}
+		},
+		{"id": 91077, "name": "魔王之爪",
+			"remark": "自身沒有異常狀態時：普攻造成5回合減防、受傷時+5SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"anyNegativeState": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18379
+			}
+		},
+		{"id": 91078, "name": "魔王之爪",
+			"remark": "自身沒有異常狀態時：普攻造成5回合減防、受傷時+5SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"anyNegativeState": 0
+			},
+			"function": 
+			{
+				"AddSP": 5
+			}
+		},
+		{"id": 91079, "name": "聖女",
+			"remark": "對中央位置的敵人+25%傷害，攻擊變換再附加2%當前生命傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"pos": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 25
+			}
+		},
+		{"id": 91080, "name": "藍雪花",
+			"remark": "蓄力普攻會更變為對我方增加10%攻擊、提供20%回復力的HP及2SP(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 18949
+			}
+		},
+		{"id": 91081, "name": "戰火",
+			"remark": "滿技時後排蓄力普攻消耗技珠對敵全體造成傷害，傷害受攻擊及基礎回復影響",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1,
+				"SpFull": 1,
+				"col": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 19063,
+				"BaseAttackUpByHeal": 100
+			}
+		},
+		{"id": 91082, "name": "妖狐幻爪",
+			"remark": "對中毒的敵人附加一回合出血",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ChangeNormalSkill": 19083
+			}
+		},
+		{"id": 91083, "name": "伏魔法器",
+			"remark": "有護盾時反射4倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 4
+			}
+		},
+		{"id": 91084, "name": "伏魔法器",
+			"remark": "沒護盾時+65%攻擊",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 0
+			},
+			"function": 
+			{
+				"AttackUp": 65
+			}
+		},
+		{"id": 91085, "name": "無盡貫通",
+			"remark": "普攻為前方一列，每一列攻擊、各自增加自身攻擊及SP再生4回合(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"row": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18713
+			}
+		},
+		{"id": 91086, "name": "無盡貫通",
+			"remark": "普攻為前方一列，每一列攻擊、各自增加自身攻擊及SP再生4回合(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"row": 2
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18714
+			}
+		},
+		{"id": 91087, "name": "無盡貫通",
+			"remark": "普攻為前方一列，每一列攻擊、各自增加自身攻擊及SP再生4回合(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"row": 3
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18715
+			}
+		},
+		{"id": 91088, "name": "魔法劍",
+			"remark": "減少自身損害傷害50%，必殺技使目標2回合內受到的損害傷害+10%(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"BleedDamageUp": -50,
+				"PoisonDamageUp": -50
+			}
+		},
+		{"id": 91089, "name": "死靈收集",
+			"remark": "攻擊對HP低於20%以下的敵人造成2倍傷害並回復40SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"newHPUnder": 20,
+				"dead": 0
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100,
+				"AddSP": 40
+			}
+		},
+		{"id": 91090, "name": "死靈召喚",
+			"remark": "SP全滿同時有護盾時防禦減半，普攻變換為全體攻擊",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 19879,
+				"DefenceUp": -50
+			}
+		},
+		{"id": 91091, "name": "反弱化",
+			"remark": "不會陷入減攻狀態，陷入其化弱化狀態時攻擊+60%",
+			"type": "always",
+			"rate": 100,
+			"selfConditionOr": 
+			[
+				{
+					"attackDown": 1
+				},
+				{
+					"defenceDown": 1
+				},
+				{
+					"healDown": 1
+				},
+				{
+					"pressure": 1
+				}
+			],
+			"function": 
+			{
+				"ClearAttackDown": 1,
+				"AttackUp": 60
+			}
+		},
+		{"id": 91092, "name": "感染",
+			"remark": "雙方中毒時普攻造成6%當前生命傷害及5倍範圍攻擊反射",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"poison": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 19399
+			}
+		},
+		{"id": 91093, "name": "感染",
+			"remark": "雙方中毒時普攻造成6%當前生命傷害及5倍範圍攻擊反射",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"poison": 1
+			},
+			"targetCondition": 
+			{
+				"poison": 1,
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 5,
+				"AddSP": 5
+			}
+		},
+		{"id": 91094, "name": "活躍",
+			"remark": "普攻造成減防效果3回合，攻擊HP高於50%的敵人+30SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 13329
+			}
+		},
+		{"id": 91095, "name": "活躍",
+			"remark": "普攻造成減防效果3回合，攻擊HP高於50%的敵人+30SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"newHPOver": 50
+			},
+			"function": 
+			{
+				"AddSP": 30
+			}
+		},
+		{"id": 91096, "name": "擊球節奏",
+			"remark": "攻擊非戰牛紋章+5SP",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"type": 1
+				},
+				{
+					"type": 2
+				},
+				{
+					"type": 4
+				},
+				{
+					"type": 5
+				},
+				{
+					"type": 6
+				}
+			],
+			"function": 
+			{
+				"AddSP": 5
+			}
+		},
+		{"id": 91097, "name": "熱情高漲",
+			"remark": "攻擊HP低於50%以下的敵人+5SP",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"dead": 0,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AddSP": 5
+			}
+		},
+		{"id": 91098, "name": "伺機而動",
+			"remark": "攻擊HP低於50%以下的敵人+5SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 1
+			},
+			"function": 
+			{
+				"AttackUp": -25,
+				"DamageDown": 25,
+				"ChangeNormalSkill": 19939
+			}
+		},
+		{"id": 91099, "name": "維利奧納武裝",
+			"remark": "SP未滿普攻為全體攻擊，SP滿時為單體攻擊並根據自身HP造成傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 19989
+			}
+		},
+		{"id": 91100, "name": "維利奧納武裝",
+			"remark": "隱藏力量",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"CriticalPowerAdd": 1,
+				"DamageDown": 15,
+				"SPRegen": 5
+			}
+		},
+		{"id": 91101, "name": "安可",
+			"remark": "必殺技發動後普攻能擊出更多技能珠直到SP再滿",
+			"type": "always",
+			"rate": 100
+		},
+		{"id": 91102, "name": "劍客",
+			"remark": "自身HP及SP未滿時，普攻造成2倍傷害並使目標減攻2回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"hpFull": 0,
+				"spFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21049
+			}
+		},
+		{"id": 91103, "name": "必中",
+			"remark": "攻擊+100%暴擊率，對減攻敵人暴擊傷害+100%及造成出血兩回合",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"CriticalUp": 100,
+				"ChangeNormalSkill": 21069
+			}
+		},
+		{"id": 91104, "name": "必中",
+			"remark": "攻擊+100%暴擊率，對減攻敵人暴擊傷害+100%及造成出血兩回合",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"attackDown": 1
+			},
+			"function": 
+			{
+				"AttackCriticalPowerAdd": 1
+			}
+		},
+		{"id": 91105, "name": "七膽",
+			"remark": "HP低於50%時暴擊率+50%、受傷減30%並回復4SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"CriticalUp": 50
+			}
+		},
+		{"id": 91106, "name": "七膽",
+			"remark": "HP低於50%時暴擊率+50%、受傷減30%並回復4SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30,
+				"AddSP": 4
+			}
+		},
+		{"id": 91107, "name": "無人之境",
+			"remark": "免疫禁足，對減防敵人反射2倍傷害、爆擊傷害+100%",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistNoMove": 1
+			}
+		},
+		{"id": 91108, "name": "無人之境",
+			"remark": "免疫禁足，對減防敵人反射2倍傷害、爆擊傷害+100%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 2
+			}
+		},
+		{"id": 91109, "name": "無人之境",
+			"remark": "免疫禁足，對減防敵人反射2倍傷害、爆擊傷害+100%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"AttackCriticalPowerAdd": 1
+			}
+		},
+		{"id": 91110, "name": "超級惡魔",
+			"remark": "必殺技攻擊段數提升並高機率出技珠",
+			"type": "always",
+			"rate": 100
+		},
+		{"id": 91111, "name": "千里赤兔",
+			"remark": "首回合獲得23技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"SectionAddFixedSP": 23
+			}
+		},
+		{"id": 91112, "name": "一炮一進",
+			"remark": "必殺技發動提升攻擊20%直到離開前排",
+			"type": "always",
+			"rate": 100
+		},
+		{"id": 91113, "name": "佈陣",
+			"remark": "普攻為前方一列並增加暴擊傷害及SP再生3回合(離開該列會消失)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"row": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20223
+			}
+		},
+		{"id": 91114, "name": "佈陣",
+			"remark": "普攻為前方一列並增加暴擊傷害及SP再生3回合(離開該列會消失)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"row": 2
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20224
+			}
+		},
+		{"id": 91115, "name": "佈陣",
+			"remark": "普攻為前方一列並增加暴擊傷害及SP再生3回合(離開該列會消失)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"row": 3
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20225
+			}
+		},
+		{"id": 91116, "name": "重炮",
+			"remark": "普攻附加自身100%當前生命傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20279
+			}
+		},
+		{"id": 91117, "name": "血星魔陣",
+			"remark": "於前排獲得攻擊吸血",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20479
+			}
+		},
+		{"id": 91118, "name": "大海",
+			"remark": "無禁足狀態下受到攻擊+8SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"nomove": 0
+			},
+			"function": 
+			{
+				"AddSP": 8
+			}
+		},
+		{"id": 91119, "name": "天旋地轉",
+			"remark": "使用必殺技有20%使自己暈眩",
+			"type": "always"
+		},
+		{"id": 91120, "name": "博愛",
+			"remark": "攻擊非魔人種族+3SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"race": 15
+			},
+			"function": 
+			{
+				"AddSP": -3
+			}
+		},
+		{"id": 91121, "name": "博愛",
+			"remark": "攻擊非魔人種族+3SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"AddSP": 3
+			}
+		},
+		{"id": 91122, "name": "特大針筒",
+			"remark": "對中毒目標的暴擊傷害+100%，使用必殺技後提升攻擊",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"AttackCriticalPowerAdd": 1
+			}
+		},
+		{"id": 91123, "name": "劍術高手",
+			"remark": "有護盾時失去50%防禦力，必殺技發動回復HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DefenceUp": -50
+			}
+		},
+		{"id": 91124, "name": "暴擊強化",
+			"remark": "暴擊傷害提升50%",
+			"type": "attack",
+			"function": 
+			{
+				"AttackCriticalPowerAdd": 0.5
+			}
+		},
+		{"id": 91125, "name": "暴擊強化(大)",
+			"remark": "暴擊傷害提升100%",
+			"type": "attack",
+			"function": 
+			{
+				"AttackCriticalPowerAdd": 1
+			}
+		},
+		{"id": 91126, "name": "月光魔法炮",
+			"remark": "滿技時蓄力普攻消耗技珠對敵全體造成傷害，傷害受攻擊及基礎回復影響",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"charge": 1,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 19553,
+				"BaseAttackUpByHeal": 100
+			}
+		},
+		{"id": 91127, "name": "聖炎",
+			"remark": "攻擊會消耗當前35%HP並造成更大傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21409
+			}
+		},
+		{"id": 91128, "name": "平衡點(一)",
+			"remark": "HP於15%~85%時攻擊傷害+10%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 85,
+				"newHPOver": 15
+			},
+			"function": 
+			{
+				"AttackUp": 20
+			}
+		},
+		{"id": 91129, "name": "平衡點(二)",
+			"remark": "HP於25%~75%時攻擊傷害+20%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 75,
+				"newHPOver": 25
+			},
+			"function": 
+			{
+				"AttackUp": 20
+			}
+		},
+		{"id": 91130, "name": "平衡點(三)",
+			"remark": "HP於35%~65%時攻擊傷害+30%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 65,
+				"newHPOver": 35
+			},
+			"function": 
+			{
+				"AttackUp": 30
+			}
+		},
+		{"id": 91131, "name": "平衡點(四)",
+			"remark": "HP於45%~55%時攻擊傷害+40%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 55,
+				"newHPOver": 45
+			},
+			"function": 
+			{
+				"AttackUp": 40
+			}
+		},
+		{"id": 91132, "name": "平衡點(五)",
+			"remark": "HP於49%~51%時攻擊傷害+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 51,
+				"newHPOver": 49
+			},
+			"function": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{"id": 91133, "name": "合成生命",
+			"remark": "普攻會消耗當前15%HP並回復全員HP上限25%，攻擊較易擊出回復珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"HitDropRStoneRateUp": 50,
+				"SparkDropRStoneRateUp": 50,
+				"ChangeNormalSkill": 21379
+			}
+		},
+		{"id": 91134, "name": "鬼食",
+			"remark": "技珠全滿普攻提升HP上限及跟據HP損失量提升攻擊3回合(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"Spfull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21659
+			}
+		},
+		{"id": 91135, "name": "烈酒",
+			"remark": "未中毒普攻後提升攻擊但會中毒(綁定)，中毒時為全體攻擊並解除中毒",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"poison": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21709
+			}
+		},
+		{"id": 91136, "name": "烈酒",
+			"remark": "未中毒普攻後提升攻擊但會中毒(綁定)，中毒時為全體攻擊並解除中毒",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"poison": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21708,
+				"ChangeNormalAction": 3
+			}
+		},
+		{"id": 91137, "name": "破壞姿態",
+			"remark": "普攻令下回合的攻擊提升100%(隔回合才能再發動此效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 17839
+			}
+		},
+		{"id": 91138, "name": "聖女(戰月)",
+			"remark": "攻擊時額外造成基礎防禦1倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 17859,
+				"HitDropSStoneRateUp": 1000,
+				"SparkDropSStoneRateUp": 1000
+			}
+		},
+		{"id": 91139, "name": "魂動節拍",
+			"remark": "普攻回復5SP，攻擊效高機率出現回復珠",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"AddSP": 5
+			}
+		},
+		{"id": 91140, "name": "天地之見得",
+			"remark": "滿技時普攻消耗技珠，3回合對敵單體攻擊變換並提升攻擊及暴擊率",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 20979
+			}
+		},
+		{"id": 91141, "name": "安德華拉諾特",
+			"remark": "HP低於75%時，受傷減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 75
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 91142, "name": "安德華拉諾特",
+			"remark": "HP低於50%時，受傷減25%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 91143, "name": "安德華拉諾特",
+			"remark": "HP低於25%時，受傷減30%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 25
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 91144, "name": "安德華拉諾特",
+			"remark": "對HP低於50%的敵人傷害+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 91145, "name": "安德華拉諾特",
+			"remark": "對HP低於25%的敵人傷害再+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 25
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 91146, "name": "盾劍一體",
+			"remark": "有護盾時攻擊力2倍並根據護盾量造成傷害，但防禦減半",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"AttackUp": 100,
+				"DefenceUp": -50,
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 21999
+			}
+		},
+		{"id": 91147, "name": "空弦",
+			"remark": "普攻時提升我方暴擊機率2回合，但一定機率令我方防禦下降",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ChangeNormalSkill": 21859
+			}
+		},
+		{"id": 91148, "name": "聖詩",
+			"remark": "必殺技令我方HP低於50%以下的角色回復HP",
+			"type": "always",
+			"rate": 100
+		},
+		{"id": 91149, "name": "護盾強化(大)",
+			"remark": "擁有護盾時攻擊力+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{"id": 91150, "name": "突變處理",
+			"remark": "攻擊與自身有相同異常狀態的敵人，每個狀態個別增加傷害 ",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"attackdown": 1
+			},
+			"selfCondition": 
+			{
+				"attackdown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 91151, "name": "突變處理",
+			"remark": "攻擊與自身有相同異常狀態的敵人，每個狀態個別增加傷害 ",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"defencedown": 1
+			},
+			"selfCondition": 
+			{
+				"defencedown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 91152, "name": "突變處理",
+			"remark": "攻擊與自身有相同異常狀態的敵人，每個狀態個別增加傷害 ",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"healdown": 1
+			},
+			"selfCondition": 
+			{
+				"healdown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 91153, "name": "突變處理",
+			"remark": "攻擊與自身有相同異常狀態的敵人，每個狀態個別增加傷害 ",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"poison": 1
+			},
+			"selfCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 91154, "name": "突變處理",
+			"remark": "攻擊與自身有相同異常狀態的敵人，每個狀態個別增加傷害 ",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"bleed": 1
+			},
+			"selfCondition": 
+			{
+				"bleed": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 91155, "name": "弱點觀察",
+			"remark": "普攻對HP全滿的敵人造成當前20%傷害",
+			"type": "always",
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21489
+			}
+		},
+		{"id": 91156, "name": "力場",
+			"remark": "SP全滿時普攻消耗所有SP產生護盾",
+			"type": "always",
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21509
+			}
+		},
+		{"id": 91157, "name": "狼血覺醒",
+			"remark": "發動必殺技或第二擊後，下回合前滿SP則普攻可消耗SP執行後續攻擊",
+			"type": "always",
+			"rate": 100
+		},
+		{"id": 91158, "name": "神槍手",
+			"remark": "無減攻時暴擊傷害+250%普攻必定暴擊但次回合減攻50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"attackdown": 0
+			},
+			"function": 
+			{
+				"CriticalPowerAdd": 2.5,
+				"ChangeNormalSkill": 20919
+			}
+		},
+		{"id": 91159, "name": "怪盜",
+			"remark": "攻擊-10%但造成傷害多50%，自身在後排以外受傷+10%，寶箱專家",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"BaseAttackUp": -20
+			}
+		},
+		{"id": 91160, "name": "怪盜",
+			"remark": "攻擊-10%但造成傷害多50%，自身在後排以外受傷+10%，寶箱專家",
+			"type": "attack",
+			"rate": 100,
+			"function": 
+			{
+				"AttackDamageUp": 100,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 91161, "name": "怪盜",
+			"remark": "攻擊-10%但造成傷害多50%，自身在後排以外受傷+10%，寶箱專家",
+			"type": "defence",
+			"rate": 100,
+			"selfConditionOr": 
+			[
+				{
+					"col": 2
+				},
+				{
+					"col": 3
+				}
+			],
+			"function": 
+			{
+				"DefenceDamageDown": -10
+			}
+		},
+		{"id": 91162, "name": "守陣",
+			"remark": "普攻時我方自身以外減傷12%(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ChangeNormalSkill": 22219
+			}
+		},
+		{"id": 91163, "name": "護盾轉換",
+			"remark": "有護盾時普攻消耗50%護盾為隊友產生護盾",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21579
+			}
+		},
+		{"id": 91164, "name": "正面裝甲",
+			"remark": "受到單體攻擊時傷害-25%並回復6SP",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25,
+				"AddSp": 6
+			}
+		},
+		{"id": 91165, "name": "楔形裝甲",
+			"remark": "HP上限及回復+20%但受單體傷害多20%",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -20
+			}
+		},
+		{"id": 91166, "name": "楔形裝甲",
+			"remark": "HP上限及回復+20%但受單體傷害多20%",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"HPUp": 20,
+				"HealUp": 20
+			}
+		},
+		{"id": 91167, "name": "勇者之劍",
+			"remark": "有護盾時普攻消耗50%護盾為隊友產生護盾",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 22079
+			}
+		},
+		{"id": 91168, "name": "希望之盾",
+			"remark": "有護盾時普攻消耗50%護盾為隊友產生護盾",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1,
+				"charge": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 35,
+				"AddSp": 6
+			}
+		},
+		{"id": 91169, "name": "賢者之石",
+			"remark": "普攻時同排回復3SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 22097
+			}
+		},
+		{"id": 91170, "name": "賢者之石",
+			"remark": "普攻時同排回復3SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 2
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 22098
+			}
+		},
+		{"id": 91171, "name": "賢者之石",
+			"remark": "普攻時同排回復3SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 22099
+			}
+		},
+		{"id": 91172, "name": "遠古之石",
+			"remark": "普攻時同排回復3SP及50%回復力的HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 22317
+			}
+		},
+		{"id": 91173, "name": "遠古之石",
+			"remark": "普攻時同排回復3SP及50%回復力的HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 2
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 22318
+			}
+		},
+		{"id": 91174, "name": "遠古之石",
+			"remark": "普攻時同排回復3SP及50%回復力的HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 22319
+			}
+		},
+		{"id": 91175, "name": "咒術之炎",
+			"remark": "目標每種異常狀態都能增加傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"attackDown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 80
+			}
+		},
+		{"id": 91176, "name": "咒術之炎",
+			"remark": "目標每種異常狀態都能增加傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 80
+			}
+		},
+		{"id": 91177, "name": "咒術之炎",
+			"remark": "目標每種異常狀態都能增加傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"healDown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 80
+			}
+		},
+		{"id": 91178, "name": "咒術之炎",
+			"remark": "目標每種異常狀態都能增加傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 80
+			}
+		},
+		{"id": 91179, "name": "咒術之炎",
+			"remark": "目標每種異常狀態都能增加傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"bleed": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 80
+			}
+		},
+		{"id": 91180, "name": "咒術之炎",
+			"remark": "目標每種異常狀態都能增加傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"paralysis": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 80
+			}
+		},
+		{"id": 91181, "name": "咒術之炎",
+			"remark": "目標每種異常狀態都能增加傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"stun": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 80
+			}
+		},
+		{"id": 91182, "name": "勇者之劍",
+			"remark": "有護盾時攻擊變換：高傷害全體攻擊並消除自身護盾",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"singleIDCount": { "singleID": 301207, "count": 1 }
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100,
+				"AttackDamageUpEffect": 0,
+				"ClearSingleID": 301207
+			}
+		},
+		{"id": 91183, "name": "希望之盾",
+			"remark": "有護盾時蓄力免疫弱化狀態，受傷減少35%及回復6SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1,
+				"charge": 1
+			},
+			"function": 
+			{
+				"ResistAttackDown": 1,
+				"ResistDefenceDown": 1,
+				"ResistHealDown": 1,
+				"ResistPressure": 1
+			}
+		},
+		{"id": 91184, "name": "天道輪迴",
+			"remark": "普攻HP25%以下的目標造成減防(最大3層)，滿層時必殺技對此目標造成3倍傷害",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ChangeNormalSkill": 20623
+			}
+		},
+		{"id": 91185, "name": "白虎之爪",
+			"remark": "技滿普攻造成增傷(最大三層)，滿層轉變為出血四回合、命中此目標+30SP",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 22199
+			}
+		},
+		{"id": 91186, "name": "白虎之爪",
+			"remark": "技滿普攻造成增傷(最大三層)，滿層轉變為出血四回合、命中此目標+30SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"singleIDCount": { "singleID": 311220, "count": 1 }
+			},
+			"function": 
+			{
+				"AddSP": 30
+			}
+		},
+		{"id": 91187, "name": "神獸之血",
+			"remark": "HP高於50%時反射4倍傷害，HP低於50%時攻擊及暴擊率+50%、減傷25%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DamageDown": 25,
+				"AttackUp": 50,
+				"CriticalUp": 50
+			}
+		},
+		{"id": 91188, "name": "神獸之血",
+			"remark": "HP高於50%時反射4倍傷害，HP低於50%時攻擊及暴擊率+50%、減傷25%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPOver": 50
+			},
+			"function": 
+			{
+				"DamageReflection": 4
+			}
+		},
+		{"id": 91189, "name": "狂暴之爪",
+			"remark": "必殺技強化狀態中，HP越低能力越強、並攻擊時消耗5SP永久提升攻擊(最大10層)",
+			"type": "always",
+			"rate": 100
+		},
+		{"id": 91190, "name": "白虎之爪",
+			"remark": "技滿普攻造成增傷(最大三層)，滿層轉變為出血四回合、命中此目標+30SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"singleIDCount": { "singleID": 301219, "count": 1 }
+			},
+			"targetCondition": 
+			{
+				"bleed": 0
+			},
+			"function": 
+			{
+				"ClearSingleID": 301219
+			}
+		},
+		{"id": 91191, "name": "一所懸命",
+			"remark": "必殺技提升攻擊(最大3層)，3層時HP上限減少、變換全體攻擊直到下次使用必殺技",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"singleIDCount": { "singleID": 301274, "count": 3 }
+			},
+			"function": 
+			{
+				"HpUp": -75,
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 22749
+			}
+		},
+		{"id": 91192, "name": "王牌",
+			"remark": "暴擊率+30%",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"CriticalUp": 30
+			}
+		},
+		{"id": 91193, "name": "空力效應",
+			"remark": "攻擊時自身產生護盾，破壞護盾時自身獲得更大護盾",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ChangeNormalSkill": 23019
+			}
+		},
+		
+		{"id": 92008, "name": "蓄力強化",
+			"remark": "蓄力狀態攻擊+25%",
+			"type": "always",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{"id": 92009, "name": "蓄力強化(大)",
+			"remark": "蓄力狀態攻擊+100%",
+			"type": "always",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"AttackUp": 100
+			}
+		},
+		{"id": 92010, "name": "蓄力免疫",
+			"remark": "蓄力狀態中免疫一切異常狀態",
+			"type": "always",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92011, "name": "蓄力防禦",
+			"remark": "蓄力中受傷額外減20%",
+			"type": "always",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 92012, "name": "龍氣",
+			"remark": "蓄力中並未滿技時受傷獲得20顆技能珠及反射10倍傷害",
+			"type": "defence",
+			"selfCondition": 
+			{
+				"side": 0,
+				"charge": 1,
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"AddSP": 20,
+				"DamageReflection": 10
+			}
+		},
+		{"id": 92013, "name": "女神之盾",
+			"remark": "於中排進行蓄力增加回復、減傷及免疫異常狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1,
+				"col": 2
+			},
+			"function": 
+			{
+				"HealUp": 15,
+				"DefenceDamageDown": 10,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92014, "name": "物干竿",
+			"remark": "蓄力普攻回復20SP，受到蓄力攻擊-30%傷害",
+			"type": "always",
+			"selfCondition": 
+			{
+				"side": 0,
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 17899,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 92015, "name": "物干竿",
+			"remark": "蓄力普攻回復20SP，蓄力攻擊不會增加傷害，受到蓄力攻擊-30%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 92016, "name": "芭蕉扇",
+			"remark": "蓄力攻擊對蓄力中的敵人造成3倍傷害",
+			"type": "attack",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"targetCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 92017, "name": "上鍊",
+			"remark": "暴擊傷害只有125%但儲力攻擊傷害增加1倍",
+			"type": "attack",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92018, "name": "上鍊",
+			"remark": "暴擊傷害只有125%但儲力攻擊傷害增加1倍",
+			"type": "attack",
+			"function": 
+			{
+				"AttackCriticalPowerAdd": -0.25
+			}
+		},
+		{"id": 92019, "name": "鐵炮",
+			"remark": "技滿時普攻可增加攻擊3回合，但蓄力攻擊只有110%傷害",
+			"type": "always",
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18439
+			}
+		},
+		{"id": 92020, "name": "鐵炮",
+			"remark": "技滿時普攻可增加攻擊3回合，但蓄力攻擊只有110%傷害",
+			"type": "always",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": -25,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 92021, "name": "詠唱",
+			"remark": "蓄力時每回合SP+8，但蓄力中受攻擊-3SP",
+			"type": "always",
+			"selfCondition": 
+			{
+				"side": 0,
+				"charge": 1
+			},
+			"function": 
+			{
+				"SPRegen": 8
+			}
+		},
+		{"id": 92022, "name": "詠唱",
+			"remark": "蓄力時每回合SP+8，但蓄力中受攻擊-3SP",
+			"type": "defence",
+			"selfCondition": 
+			{
+				"side": 0,
+				"charge": 1
+			},
+			"function": 
+			{
+				"AddSP": -3
+			}
+		},
+		{"id": 92023, "name": "女神衝浪板",
+			"remark": "後排蓄力減少25%傷害並免疫異常",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1,
+				"col": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92024, "name": "大防守",
+			"remark": "沒蓄力時受傷+3SP，蓄力時受傷+6SP並減少25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"AddSP": 3
+			}
+		},
+		{"id": 92025, "name": "大防守",
+			"remark": "沒蓄力時受傷+3SP，蓄力時受傷+6SP並減少25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"charge": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25,
+				"AddSP": 3
+			}
+		},
+		{"id": 92026, "name": "蓄力暴擊",
+			"remark": "蓄力狀態必定暴擊",
+			"type": "attack",
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 200
+			}
+		},
+		
+		{"id": 92105, "name": "過擊殺",
+			"remark": "攻擊即將死亡的敵人造成5倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 0
+			},
+			"function": 
+			{
+				"AttackDamageUp": 400
+			}
+		},
+		{"id": 92106, "name": "過擊回技",
+			"remark": "攻擊即將死亡的敵人回復15SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"newHPUnder": 0
+			},
+			"function": 
+			{
+				"AddSP": 15
+			}
+		},
+		{"id": 92107, "name": "葬禮",
+			"remark": "攻擊即將死亡的敵人獲得HP回復",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 0
+			},
+			"function": 
+			{
+				"Heal": 100,
+				"HealPercent": 20
+			}
+		},
+		{"id": 92108, "name": "葬禮",
+			"remark": "有護盾時防禦歸零並反射3倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DefenceUp": -100,
+				"DamageReflection": 3
+			}
+		},
+		{"id": 92109, "name": "前鋒破壞",
+			"remark": "於前排時對敵方前排造成4倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"targetCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"AttackDamageUp": 300
+			}
+		},
+		{"id": 92110, "name": "水紋蛇刃",
+			"remark": "於前排普攻可提升自身攻擊3回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 21189
+			}
+		},
+		{"id": 92111, "name": "連擊增傷",
+			"remark": "蓄力後連續普攻的第二次可造成增傷20%一回合(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9225
+			}
+		},
+		{"id": 92112, "name": "連擊麻痺",
+			"remark": "蓄力後連續普攻的第三次可造成麻痺",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9227
+			}
+		},
+		{"id": 92113, "name": "連擊暈眩",
+			"remark": "蓄力後連續普攻的第三次可造成暈眩",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9230
+			}
+		},
+		
+		{"id": 92201, "name": "限制免疫",
+			"remark": "無視一切行動不行的狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistParalysis": 1,
+				"ResistStun": 1,
+				"ResistNoMove": 1,
+				"ResistNoSkill": 1
+			}
+		},
+		{"id": 92202, "name": "弱化免疫",
+			"remark": "無視一切能力下降的狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistAttackDown": 1,
+				"ResistDefenceDown": 1,
+				"ResistHealDown": 1,
+				"ResistPressure": 1
+			}
+		},
+		{"id": 92203, "name": "減攻免疫",
+			"remark": "免疫攻擊下降狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistAttackDown": 1
+			}
+		},
+		{"id": 92204, "name": "減防免疫",
+			"remark": "免疫防禦下降狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistDefenceDown": 1
+			}
+		},
+		{"id": 92205, "name": "減回免疫",
+			"remark": "免疫回復下降狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistHealDown": 1
+			}
+		},
+		{"id": 92206, "name": "中毒免疫",
+			"remark": "免疫中毒狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistPoison": 1
+			}
+		},
+		{"id": 92207, "name": "麻痺免疫",
+			"remark": "免疫麻痺狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistParalysis": 1
+			}
+		},
+		{"id": 92208, "name": "損害免疫",
+			"remark": "無視一切持續回合傷害的狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistPoison": 1,
+				"ResistBleed": 1
+			}
+		},
+		{"id": 92209, "name": "出血免疫",
+			"remark": "免疫出血狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistBleed": 1
+			}
+		},
+		{"id": 92210, "name": "暈眩免疫",
+			"remark": "免疫暈眩狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistStun": 1
+			}
+		},
+		{"id": 92211, "name": "全免疫",
+			"remark": "免疫所有異常狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92212, "name": "技封免疫",
+			"remark": "免疫技能封印的狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistNoSkill": 1
+			}
+		},
+		{"id": 92213, "name": "禁足免疫",
+			"remark": "免疫不能移位的狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistNoMove": 1
+			}
+		},
+		{"id": 92214, "name": "壓力免疫",
+			"remark": "免疫必殺技技珠需求增加的狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistPressure": 1
+			}
+		},
+		{"id": 92215, "name": "地形免疫",
+			"remark": "不受負面地形影響",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistAllNegativeTerrain": 1
+			}
+		},
+		{"id": 92216, "name": "限制免疫",
+			"remark": "無視一切行動不行的狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistParalysis": 1,
+				"ResistStun": 1,
+				"ResistNoMove": 1
+			}
+		},
+		{"id": 92217, "name": "限制免疫",
+			"remark": "無視一切行動不行的狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ResistNoSkill": 1
+			}
+		},
+		{"id": 92218, "name": "限制免疫",
+			"remark": "無視一切行動不行的狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1,
+				"noskill": 1
+			},
+			"function": 
+			{
+				"ClearNoSkill": 1
+			}
+		},
+		{"id": 92219, "name": "毒倍加",
+			"remark": "中毒時受到的中毒傷害加倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"PoisonDamageUp": 100
+			}
+		},
+		{"id": 92220, "name": "出血倍加",
+			"remark": "出血時受到的出血傷害加倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"BleedDamageUp": 100
+			}
+		},
+		
+		{"id": 92251, "name": "護盾免疫",
+			"remark": "護盾未破壞前免疫所有異常狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92253, "name": "減攻治療",
+			"remark": "免疫攻擊下降並在使用回復技能時解除攻擊下降狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistAttackDown": 1
+			}
+		},
+		{"id": 92254, "name": "減防治療",
+			"remark": "免疫防禦下降並在使用回復技能時解除防禦下降狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistDefenceDown": 1
+			}
+		},
+		{"id": 92255, "name": "減回治療",
+			"remark": "免疫回復下降並在使用回復技能時解除回復下降狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistHealDown": 1
+			}
+		},
+		{"id": 92256, "name": "中毒治療",
+			"remark": "免疫中毒並在使用回復技能時解除中毒狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistPoison": 1
+			}
+		},
+		{"id": 92257, "name": "麻痺治療",
+			"remark": "免疫麻痺並在使用回復技能時解除麻痺狀態",
+			"type": "always",
+			"rate": 100,
+			"function": 
+			{
+				"ResistParalysis": 1
+			}
+		},
+		{"id": 92305, "name": "空技強化",
+			"remark": "技能珠未滿時攻擊力+25%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{"id": 92306, "name": "練氣",
+			"remark": "技能珠全滿時攻擊、防禦及回復+35%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"AttackUp": 40,
+				"DefenceUp": 40,
+				"HealUp": 40
+			}
+		},
+		{"id": 92307, "name": "穿甲",
+			"remark": "技能珠全滿時普攻造成額外3000傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 13389
+			}
+		},
+		{"id": 92308, "name": "技滿防禦",
+			"remark": "技能珠全滿時受傷減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 92309, "name": "重力飛拳",
+			"remark": "技能珠全滿時儲力普攻可造成自身當前HP3倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1,
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18029
+			}
+		},
+		{"id": 92310, "name": "齊心",
+			"remark": "滿技時普攻為我方提供2SP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 19169
+			}
+		},
+		{"id": 92311, "name": "血擊節奏",
+			"remark": "未滿技時普攻附加3回合出血",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 19189
+			}
+		},
+		{"id": 92312, "name": "技滿反射",
+			"remark": "技能珠全滿時反射2倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 2
+			}
+		},
+		{"id": 92313, "name": "殺神之咬",
+			"remark": "技能珠全滿時普攻神族造成4倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20579
+			}
+		},
+		{"id": 92314, "name": "技滿暴擊",
+			"remark": "技能珠全滿時暴擊率+100%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"CriticalUp": 100
+			}
+		},
+		
+		{"id": 92401, "name": "全滿防禦",
+			"remark": "HP全滿時受傷減20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"hpFull": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 92402, "name": "潛在力",
+			"remark": "HP低於50%時，暴擊率+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"CriticalUp": 50
+			}
+		},
+		{"id": 92403, "name": "絕體絕命",
+			"remark": "HP低於10%時，攻擊2倍免疫異常狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 10
+			},
+			"function": 
+			{
+				"AttackUp": 100,
+				"ClearAllNegative": 1,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92404, "name": "生存力",
+			"remark": "HP低於50%時，受傷減30%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 92406, "name": "全滿強化",
+			"remark": "HP全滿時攻擊+25%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"hpFull": 1
+			},
+			"function": 
+			{
+				"AttackUp": 25
+			}
+		},
+		{"id": 92408, "name": "狂喰",
+			"remark": "HP低於50%時，攻擊+50%並附加1%攻擊吸血",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AttackUp": 80,
+				"ChangeNormalSkill": 16959
+			}
+		},
+		{"id": 92409, "name": "冒險家",
+			"remark": "HP低於80%時受傷+5SP並減傷15%，低於50%時減傷效果加倍",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 80,
+				"side": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 15,
+				"AddSP": 5
+			}
+		},
+		{"id": 92410, "name": "全滿反射",
+			"remark": "HP全滿時反射5倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"hpFull": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 5
+			}
+		},
+		{"id": 92411, "name": "一擊決勝",
+			"remark": "當攻守雙方HP全滿，普攻可造成3倍暴擊效果",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"hpFull": 1
+			},
+			"targetCondition": 
+			{
+				"newHPOver": 100
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 100,
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 92412, "name": "殘命反射",
+			"remark": "HP低於50%時，反射5倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DamageReflection": 5
+			}
+		},
+		{"id": 92413, "name": "冒險家",
+			"remark": "HP低於50%減傷效果加倍",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 18
+			}
+		},
+		{"id": 92414, "name": "五輪書",
+			"remark": "HP未滿時使用必殺技增加自身20%攻擊5回合",
+			"type": "defence",
+			"rate": 100
+		},
+		{"id": 92415, "name": "金蟬子",
+			"remark": "HP全滿時受傷+8SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"hpFull": 1
+			},
+			"function": 
+			{
+				"AddSP": 8
+			}
+		},
+		{"id": 92416, "name": "決戰",
+			"remark": "HP低於50%時，暴擊率+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"CriticalUp": 50,
+				"AttackUp": 25
+			}
+		},
+		{"id": 92417, "name": "決戰",
+			"remark": "對HP低於50%的敵人暴擊率+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 50
+			}
+		},
+		{"id": 92418, "name": "潛在力",
+			"remark": "HP低於50%時，暴擊率+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"CriticalUp": 50
+			}
+		},
+		{"id": 92419, "name": "潛在力",
+			"remark": "HP低於50%時，暴擊率+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 25
+			},
+			"function": 
+			{
+				"CriticalUp": 50
+			}
+		},
+		{"id": 92420, "name": "生存力",
+			"remark": "HP低於50%時，受傷減30%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 92421, "name": "生存力",
+			"remark": "HP低於25%時，受傷減30%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 25
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 92422, "name": "殘命吸血",
+			"remark": "HP低於30%時攻擊附加吸血效果",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 30
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18529
+			}
+		},
+		{"id": 92423, "name": "暴怒(一)",
+			"remark": "HP低於20%時攻擊傷害+20%",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 20
+			},
+			"function": 
+			{
+				"AttackDamageUp": 20
+			}
+		},
+		{"id": 92424, "name": "暴怒(二)",
+			"remark": "HP低於15%時攻擊傷害+25%",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 15
+			},
+			"function": 
+			{
+				"AttackDamageUp": 25
+			}
+		},
+		{"id": 92425, "name": "暴怒(三)",
+			"remark": "HP低於10%時攻擊傷害+30%",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 10
+			},
+			"function": 
+			{
+				"AttackDamageUp": 30
+			}
+		},
+		{"id": 92426, "name": "暴怒(四)",
+			"remark": "HP低於5%時攻擊傷害+40%",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 40
+			}
+		},
+		{"id": 92427, "name": "暴怒(五)",
+			"remark": "HP低於1%時攻擊傷害+50%",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 60
+			}
+		},
+		{"id": 92428, "name": "全滿回技",
+			"remark": "HP全滿時+6SP自然回復",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"hpFull": 1
+			},
+			"function": 
+			{
+				"SPRegen": 6
+			}
+		},
+		{"id": 92429, "name": "霸王",
+			"remark": "HP低於50%時受傷減25%並回復4SP，HP高於50%時暴擊率+50%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25,
+				"AddSP": 4
+			}
+		},
+		{"id": 92430, "name": "霸王",
+			"remark": "HP低於50%時受傷減25%並回復4SP，HP高於50%時暴擊率+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPOver": 50
+			},
+			"function": 
+			{
+				"CriticalUp": 50
+			}
+		},
+		{"id": 92431, "name": "四拳",
+			"remark": "攻擊造成額外4%當前生命傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18869
+			}
+		},
+		{"id": 92432, "name": "無懼",
+			"remark": "於正中央HP未滿時普攻會為我方提升攻擊5回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"pos": 5,
+				"hpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20889
+			}
+		},
+		{"id": 92433, "name": "緊急擋格",
+			"remark": "HP低於65%並未滿技時，防禦+10%並受單體傷害減少35%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 65
+			},
+			"function": 
+			{
+				"BaseDefenceUp": 10
+			}
+		},
+		{"id": 92434, "name": "緊急擋格",
+			"remark": "HP低於65%並未滿技時，防禦+10%並受單體傷害減少35%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"newHPUnder": 65
+			},
+			"targetCondition": 
+			{
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 35
+			}
+		},
+		{"id": 92435, "name": "隱藏減傷",
+			"remark": "受傷減10%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 10
+			}
+		},
+		{"id": 92436, "name": "全滿暴擊",
+			"remark": "HP全滿時暴擊率+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"hpFull": 1
+			},
+			"function": 
+			{
+				"CriticalUp": 50
+			}
+		},
+		
+		{"id": 92501, "name": "護盾破壞",
+			"remark": "攻擊時消除目標護盾並直接造成傷害",
+			"type": "attack",
+			"rate": 100,
+			"function": 
+			{
+				"AttackDestroyBarrier": 1
+			}
+		},
+		{"id": 92504, "name": "制裁",
+			"remark": "對HP低於50%的敵人暴擊率+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 50
+			}
+		},
+		{"id": 92505, "name": "靈魂收割",
+			"remark": "攻擊即將死亡的敵人回復20%HP",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 0
+			},
+			"function": 
+			{
+				"HealPercent": 20
+			}
+		},
+		{"id": 92506, "name": "中毒猛擊",
+			"remark": "對中毒的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92507, "name": "減回猛擊",
+			"remark": "對減回的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"healDown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92508, "name": "減攻猛擊",
+			"remark": "對減攻的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"attackDown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92509, "name": "麻痺猛擊",
+			"remark": "對麻痺的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"paralysis": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92510, "name": "減防猛擊",
+			"remark": "對減防的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92511, "name": "魔力吸收",
+			"remark": "每擊中一個敵人回復自身4顆技能珠",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"dead": 0
+			},
+			"function": 
+			{
+				"AddSP": 4
+			}
+		},
+		{"id": 92512, "name": "異常猛擊",
+			"remark": "對陷入異常的敵人造成125%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"anyNegativeState": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92513, "name": "爆炎",
+			"remark": "必殺技造成敵方4%當前生命傷害",
+			"type": "always"
+		},
+		{"id": 92515, "name": "全滿猛擊",
+			"remark": "對HP全滿的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPOver": 100
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92516, "name": "減攻附加",
+			"remark": "25%機率普通攻擊附加減攻狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9211
+			}
+		},
+		{"id": 92517, "name": "減防附加",
+			"remark": "25%機率普通攻擊附加減防狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9212
+			}
+		},
+		{"id": 92518, "name": "減回附加",
+			"remark": "25%機率普通攻擊附加減回狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9213
+			}
+		},
+		{"id": 92519, "name": "中毒附加",
+			"remark": "25%機率普通攻擊附加中毒狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9214
+			}
+		},
+		{"id": 92520, "name": "出血附加",
+			"remark": "25%機率普通攻擊附加出血狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9215
+			}
+		},
+		{"id": 92523, "name": "嗜毒",
+			"remark": "攻擊中毒的敵人獲得25顆技能珠",
+			"type": "attack",
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"AddSP": 25
+			}
+		},
+		{"id": 92524, "name": "毒龍之牙",
+			"remark": "普攻暈眩的敵人附加3回合中毒6千",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 15949
+			}
+		},
+		{"id": 92525, "name": "出血猛擊",
+			"remark": "對出血的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"bleed": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92526, "name": "丙子之刃",
+			"remark": "25%機率普通攻擊附加中毒及出血",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 15659
+			}
+		},
+		{"id": 92527, "name": "辛卯之盾",
+			"remark": "擁有護盾時攻擊力+20%並攻擊時增加自身攻擊及回復5回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"AttackUp": 20,
+				"ChangeNormalSkill": 15679
+			}
+		},
+		{"id": 92528, "name": "攻擊鍛練",
+			"remark": "普攻增加自身攻擊力5回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9221
+			}
+		},
+		{"id": 92529, "name": "防禦鍛練",
+			"remark": "普攻增加自身防禦力5回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9222
+			}
+		},
+		{"id": 92530, "name": "回復鍛練",
+			"remark": "普攻增加自身回復力5回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9223
+			}
+		},
+		{"id": 92531, "name": "限制猛擊",
+			"remark": "對陷入限制的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"paralysis": 1
+				},
+				{
+					"stun": 1
+				}
+			],
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92532, "name": "回復攻擊",
+			"remark": "攻擊時回復HP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"Heal": 100
+			}
+		},
+		{"id": 92533, "name": "洞察力",
+			"remark": "普攻令敵人增傷10%(唯一效果)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 16809
+			}
+		},
+		{"id": 92534, "name": "回復攻擊",
+			"remark": "攻擊時回復HP(必殺技是全體攻擊專用)",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9224
+			}
+		},
+		{"id": 92535, "name": "獅王之力",
+			"remark": "攻擊造成額外4%當前生命傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 15619
+			}
+		},
+		{"id": 92536, "name": "成敗",
+			"remark": "攻擊HP低於30%的敵人增加25%傷害並回復10SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"newHPUnder": 30,
+				"dead": 0
+			},
+			"function": 
+			{
+				"AttackDamageUp": 25,
+				"AddSP": 10
+			}
+		},
+		{"id": 92537, "name": "彩虹引擎",
+			"remark": "普攻有5%攻擊吸血效果，普攻暈眩目標時造成當前5%HP傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 17159
+			}
+		},
+		{"id": 92538, "name": "弱化猛擊",
+			"remark": "對陷入弱化狀態的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"attackDown": 1
+				},
+				{
+					"defenceDown": 1
+				},
+				{
+					"healDown": 1
+				}
+			],
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92539, "name": "復仇",
+			"remark": "攻擊附加自身HP損失量4倍的傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 16499
+			}
+		},
+		{"id": 92540, "name": "解圍",
+			"remark": "對中央位置以外的敵人造成2倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"col": 1
+				},
+				{
+					"col": 3
+				},
+				{
+					"row": 1
+				},
+				{
+					"row": 3
+				}
+			],
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92541, "name": "單點突破",
+			"remark": "於前排時對中央位置的敵人造成1.75倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"targetCondition": 
+			{
+				"pos": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 75
+			}
+		},
+		{"id": 92542, "name": "女皇親征",
+			"remark": "於前排時攻擊+50%，並HP低於50%時回復+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"AttackUp": 50
+			}
+		},
+		{"id": 92543, "name": "女皇親征",
+			"remark": "於前排時攻擊+50%，並HP低於50%時回復+50%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3,
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"HealUp": 50
+			}
+		},
+		{"id": 92544, "name": "丙子靈刃",
+			"remark": "50%機率普通攻擊附加中毒及出血",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 19129
+			}
+		},
+		{"id": 92545, "name": "九頭毒龍",
+			"remark": "普攻暈眩的敵人附加4回合中毒",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 19149
+			}
+		},
+		{"id": 92546, "name": "損害猛擊",
+			"remark": "對陷入損害的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"poison": 1
+				},
+				{
+					"bleed": 1
+				}
+			],
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92547, "name": "能量攝取",
+			"remark": "命中敵人時回復50%回復力的HP及4SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"dead": 0
+			},
+			"function": 
+			{
+				"Heal": 50,
+				"AddSP": 4
+			}
+		},
+		{"id": 92548, "name": "起源之力",
+			"remark": "攻擊造成額外4%當前生命傷害及自身HP損失量4倍的傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18999
+			}
+		},
+		{"id": 92549, "name": "斬蛇劍",
+			"remark": "攻擊魔蛇紋章4倍傷害及回復5SP",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 300,
+				"AddSP": 5
+			}
+		},
+		{"id": 92550, "name": "龍之智慧",
+			"remark": "攻擊陷入損害狀態的敵人回復5SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetConditionOr": 
+			[
+				{
+					"poison": 1
+				},
+				{
+					"bleed": 1
+				}
+			],
+			"targetCondition": 
+			{
+				"dead": 0
+			},
+			"function": 
+			{
+				"AddSP": 5
+			}
+		},
+		{"id": 92551, "name": "追擊之鎚",
+			"remark": "攻擊HP50%以下的敵人回復8SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AddSP": 8
+			}
+		},
+		{"id": 92552, "name": "終焉",
+			"remark": "普攻對HP低於10%敵人造成80%毒爆效果",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20639
+			}
+		},
+		{"id": 92553, "name": "重力波",
+			"remark": "普攻造成2%當前生命傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 20739
+			}
+		},
+		{"id": 92554, "name": "暈眩猛擊",
+			"remark": "對陷入暈眩狀態的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"stun": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 92555, "name": "休止符",
+			"remark": "攻擊麻痺的敵人回復6SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"dead": 0,
+				"paralysis": 1
+			},
+			"function": 
+			{
+				"AddSP": 6
+			}
+		},
+		{"id": 92556, "name": "暴擊鍛練",
+			"remark": "普攻增加自身暴擊率5回合",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9233
+			}
+		},
+		{"id": 92557, "name": "制裁(大)",
+			"remark": "對HP低於50%的敵人暴擊率+100%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"AttackCriticalUp": 100
+			}
+		},
+		
+		{"id": 92601, "name": "受傷回技",
+			"remark": "每次受傷獲得6顆技能珠",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"AddSP": 6
+			}
+		},
+		{"id": 92603, "name": "反射",
+			"remark": "對攻擊者反彈150%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"DamageReflection": 2
+			}
+		},
+		{"id": 92605, "name": "自動抵擋",
+			"remark": "受傷時50%機率減少50%傷害",
+			"type": "defence",
+			"rate": 50,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 92606, "name": "護盾防禦",
+			"remark": "擁有護盾時受傷減少20%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 92607, "name": "弱化看破",
+			"remark": "能力下降的敵人攻擊自身減少20%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"attackDown": 1
+				},
+				{
+					"defenceDown": 1
+				},
+				{
+					"healDown": 1
+				}
+			],
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		{"id": 92608, "name": "靈巧",
+			"remark": "敵人每種狀態(弱化、中毒、出血)給予自身25%機率免疫75%傷害及異常免疫(減攻)",
+			"type": "defence",
+			"rate": 35,
+			"targetCondition": 
+			{
+				"attackDown": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 65,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92609, "name": "靈巧",
+			"remark": "敵人每種狀態(弱化、中毒、出血)給予自身25%機率免疫75%傷害及異常免疫(減防)",
+			"type": "defence",
+			"rate": 35,
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 65,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92610, "name": "靈巧",
+			"remark": "敵人每種狀態(弱化、中毒、出血)給予自身25%機率免疫75%傷害及異常免疫(減回)",
+			"type": "defence",
+			"rate": 35,
+			"targetCondition": 
+			{
+				"healDown": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 65,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92611, "name": "靈巧",
+			"remark": "敵人每種狀態(弱化、中毒、出血)給予自身25%機率免疫75%傷害及異常免疫(中毒)",
+			"type": "defence",
+			"rate": 35,
+			"targetCondition": 
+			{
+				"poison": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 65,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92612, "name": "靈巧",
+			"remark": "敵人每種狀態(弱化、中毒、出血)給予自身25%機率免疫75%傷害及異常免疫(流血)",
+			"type": "defence",
+			"rate": 35,
+			"targetCondition": 
+			{
+				"bleed": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 65,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 92613, "name": "蓄力抵抗",
+			"remark": "抵抗蓄力攻擊",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 92614, "name": "出血反射",
+			"remark": "目標陷入出血狀態時反射1倍傷害並回復5SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"bleed": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 2,
+				"AddSP": 5
+			}
+		},
+		{"id": 92615, "name": "弱化反射",
+			"remark": "目標陷入弱化狀態時反射2倍傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetConditionOr": 
+			[
+				{
+					"attackDown": 1
+				},
+				{
+					"defenceDown": 1
+				},
+				{
+					"healDown": 1
+				}
+			],
+			"function": 
+			{
+				"DamageReflection": 2
+			}
+		},
+		{"id": 92616, "name": "減防反射",
+			"remark": "目標陷入減防狀態時反射1倍傷害並回復5SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"defenceDown": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 2,
+				"AddSP": 5
+			}
+		},
+		{"id": 92617, "name": "光子裝甲",
+			"remark": "有護盾時受傷減少25%傷害並回復5SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25,
+				"AddSP": 5
+			}
+		},
+		{"id": 92618, "name": "範圍減免",
+			"remark": "減少25%受到的範圍攻擊傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 92619, "name": "金身",
+			"remark": "陷入暈眩或麻痺狀態後，受傷減66%並回復20SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"selfConditionOr": 
+			[
+				{
+					"paralysis": 1
+				},
+				{
+					"stun": 1
+				}
+			],
+			"function": 
+			{
+				"DefenceDamageDown": 66,
+				"AddSP": 20
+			}
+		},
+		{"id": 92620, "name": "烈炎之翼",
+			"remark": "減少20%受到的單體攻擊傷害並反射2倍傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20,
+				"DamageReflection": 2
+			}
+		},
+		{"id": 92621, "name": "流風護壁",
+			"remark": "有護盾時減少30%受到的範圍攻擊傷害並使用必殺技時回復5SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"targetCondition": 
+			{
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 92622, "name": "流風護壁D",
+			"remark": "有護盾時減少35%受到的範圍攻擊傷害並使用必殺技時回復10SP",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"targetCondition": 
+			{
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 35
+			}
+		},
+		{"id": 92623, "name": "黑血研究",
+			"remark": "受到出血敵人的範圍攻擊減少30%傷害並回復6SP",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"bleed": 1,
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30,
+				"AddSP": 6
+			}
+		},
+		{"id": 92624, "name": "劇毒研究",
+			"remark": "受到中毒敵人的範圍攻擊減少30%傷害並回復6SP",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"poison": 1,
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30,
+				"AddSP": 6
+			}
+		},
+		{"id": 92625, "name": "護盾防禦(大)",
+			"remark": "擁有護盾時受傷減少30%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 30
+			}
+		},
+		{"id": 92626, "name": "防弓盾",
+			"remark": "於後排受到獵鷹攻擊時減傷25%並+6SP ",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25,
+				"AddSP": 6
+			}
+		},
+		{"id": 92627, "name": "受傷回技(大)",
+			"remark": "每次受傷獲得12顆技能珠",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"AddSP": 12
+			}
+		},
+		{"id": 92628, "name": "護盾反射",
+			"remark": "擁有護盾時反射3倍傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 3
+			}
+		},
+		{"id": 92629, "name": "單體減免",
+			"remark": "減少20%受到的單體攻擊傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 20
+			}
+		},
+		
+		{"id": 92701, "name": "技滿變換(直)",
+			"remark": "技能珠全滿時攻擊變換為前方直列的範圍攻擊",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3
+			}
+		},
+		{"id": 92702, "name": "技滿變換(全)",
+			"remark": "技能珠全滿時攻擊變換為前方直列的範圍攻擊",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3
+			}
+		},
+		{"id": 92706, "name": "蓄力變換(全)",
+			"remark": "蓄力時攻擊變換",
+			"type": "always",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"charge": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3
+			}
+		},
+		{"id": 92707, "name": "六臂",
+			"remark": "蓄力時攻擊變換",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3
+			}
+		},
+		{"id": 92708, "name": "疑惑排解",
+			"remark": "技能珠全滿時攻擊變換為全體範圍攻擊，對中央以外的敵人造成2倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 18469
+			}
+		},
+		{"id": 92709, "name": "護盾產生",
+			"remark": "普通攻擊可為全隊提供20%護盾",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18479
+			}
+		},
+		{"id": 92710, "name": "護盾產生",
+			"remark": "普通攻擊可為全隊提供20%護盾",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 18489
+			}
+		},
+		{"id": 92711, "name": "攻擊鍛練",
+			"remark": "補位",
+			"type": "always"
+		},
+		{"id": 92712, "name": "後方偷襲",
+			"remark": "於前排時攻擊變換為後排3倍攻擊",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"col": 3
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3
+			}
+		},
+		{"id": 92713, "name": "第三可能",
+			"remark": "技能珠全滿時普攻變為對中排額外造成2%當前生命傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"ChangeNormalAction": 3,
+				"ChangeNormalSkill": 20469
+			}
+		},
+		
+		{"id": 92801, "name": "制敵機先",
+			"remark": "首回合獲得10技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"SectionAddFixedSP": 10
+			}
+		},
+		{"id": 92802, "name": "魔力之泉",
+			"remark": "每回合獲得3技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"SPRegen": 3
+			}
+		},
+		{"id": 92803, "name": "火神",
+			"remark": "首回合獲得60技能珠",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"function": 
+			{
+				"SectionAddFixedSP": 60
+			}
+		},
+		{"id": 92804, "name": "蘋果",
+			"remark": "HP低於50%時每回合回復HP",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"newHPUnder": 50
+			},
+			"function": 
+			{
+				"Regen": 100
+			}
+		},
+		{"id": 92805, "name": "弱化應對",
+			"remark": "陷入弱化狀態時，減傷10%並每回合回復4SP",
+			"type": "always",
+			"rate": 100,
+			"selfConditionOr": 
+			[
+				{
+					"attackDown": 1
+				},
+				{
+					"defenceDown": 1
+				},
+				{
+					"healDown": 1
+				}
+			],
+			"function": 
+			{
+				"DamageDown": 10,
+				"SPRegen": 3
+			}
+		},
+		{"id": 92806, "name": "戰火",
+			"remark": "蓄力時每擊中一個單位+2SP",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0,
+				"charge": 1
+			},
+			"targetCondition": 
+			{
+				"dead": 0
+			},
+			"function": 
+			{
+				"AddSP": 2
+			}
+		},
+		
+		{"id": 92901, "name": "元素剋制",
+			"remark": "對元素種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92902, "name": "龍剋制",
+			"remark": "對龍種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 2
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92903, "name": "亞人剋制",
+			"remark": "對亞人種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 3
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92904, "name": "妖精剋制",
+			"remark": "對妖精種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 4
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92905, "name": "野獸剋制",
+			"remark": "對野獸種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92906, "name": "巨像剋制",
+			"remark": "對巨像種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 6
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92907, "name": "昆蟲剋制",
+			"remark": "對昆蟲種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 7
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92908, "name": "獸人剋制",
+			"remark": "對獸人種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 8
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92909, "name": "人類剋制",
+			"remark": "對人類種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 9
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92910, "name": "精靈剋制",
+			"remark": "對精靈種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 10
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92911, "name": "魔獸剋制",
+			"remark": "對魔獸種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 14
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92912, "name": "魔人剋制",
+			"remark": "對魔人種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 15
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92913, "name": "神剋制",
+			"remark": "對神種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 16
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92914, "name": "機械剋制",
+			"remark": "對機械種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 19
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92915, "name": "童話剋制",
+			"remark": "對童話種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 20
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92916, "name": "愛神剋制",
+			"remark": "對愛神種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 21
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92917, "name": "武士剋制",
+			"remark": "對武士種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 24
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 92918, "name": "バカ剋制",
+			"remark": "對バカ種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 25
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 93001, "name": "元素抵抗",
+			"remark": "抵抗來自元素種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93002, "name": "龍抵抗",
+			"remark": "抵抗來自龍種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 2
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93003, "name": "亞人抵抗",
+			"remark": "抵抗來自亞人種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 3
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93004, "name": "妖精抵抗",
+			"remark": "抵抗來自妖精種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 4
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93005, "name": "野獸抵抗",
+			"remark": "抵抗來自野獸種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 5
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93006, "name": "巨像抵抗",
+			"remark": "抵抗來自巨像種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 6
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93007, "name": "昆蟲抵抗",
+			"remark": "抵抗來自昆蟲種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 7
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93008, "name": "獸人抵抗",
+			"remark": "抵抗來自獸人種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 8
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93009, "name": "人類抵抗",
+			"remark": "抵抗來自人類種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 9
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93010, "name": "精靈抵抗",
+			"remark": "抵抗來自精靈種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 10
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93011, "name": "魔獸抵抗",
+			"remark": "抵抗來自魔獸種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 14
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93012, "name": "魔人抵抗",
+			"remark": "抵抗來自魔人種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 15
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93013, "name": "神抵抗",
+			"remark": "抵抗來自神種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 16
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93014, "name": "機械抵抗",
+			"remark": "抵抗來自機械種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 19
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93015, "name": "童話抵抗",
+			"remark": "抵抗來自童話種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 20
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93016, "name": "愛神抵抗",
+			"remark": "抵抗來自愛神種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 21
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93017, "name": "武士抵抗",
+			"remark": "抵抗來自武士種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 24
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93018, "name": "バカ抵抗",
+			"remark": "抵抗來自バカ種族攻擊的40%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 25
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 40
+			}
+		},
+		{"id": 93101, "name": "元素剋制",
+			"remark": "對元素種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93102, "name": "龍剋制",
+			"remark": "對龍種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 2
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93103, "name": "亞人剋制",
+			"remark": "對亞人種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 3
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93104, "name": "妖精剋制",
+			"remark": "對妖精種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 4
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93105, "name": "野獸剋制",
+			"remark": "對野獸種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93106, "name": "巨像剋制",
+			"remark": "對巨像種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 6
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93107, "name": "昆蟲剋制",
+			"remark": "對昆蟲種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 7
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93108, "name": "獸人剋制",
+			"remark": "對獸人種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 8
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93109, "name": "人類剋制",
+			"remark": "對人類種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 9
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93110, "name": "精靈剋制",
+			"remark": "對精靈種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 10
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93111, "name": "魔獸剋制",
+			"remark": "對魔獸種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 14
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93112, "name": "魔人剋制",
+			"remark": "對魔人種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 15
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93113, "name": "神剋制",
+			"remark": "對神種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 16
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93114, "name": "機械剋制",
+			"remark": "對機械種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 19
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93115, "name": "童話剋制",
+			"remark": "對童話種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 20
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93116, "name": "愛神剋制",
+			"remark": "對愛神種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 21
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93117, "name": "武士剋制",
+			"remark": "對武士種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 24
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93118, "name": "バカ剋制",
+			"remark": "對バカ種族造成300%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 25
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93401, "name": "屬攻特化",
+			"remark": "攻擊剋制的屬性額外增加50%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93402, "name": "屬攻特化",
+			"remark": "攻擊剋制的屬性額外增加50%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water"
+			},
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93403, "name": "屬攻特化",
+			"remark": "攻擊剋制的屬性額外增加50%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood"
+			},
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93404, "name": "屬攻特化",
+			"remark": "攻擊剋制的屬性額外增加50%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "light"
+			},
+			"targetCondition": 
+			{
+				"element": "dark"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93405, "name": "屬攻特化",
+			"remark": "攻擊剋制的屬性額外增加50%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "dark"
+			},
+			"targetCondition": 
+			{
+				"element": "light"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		
+		{"id": 93406, "name": "屬防特化",
+			"remark": "受到剋制對方屬性的攻擊減少25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93407, "name": "屬防特化",
+			"remark": "受到剋制對方屬性的攻擊減少25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water"
+			},
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93408, "name": "屬防特化",
+			"remark": "受到剋制對方屬性的攻擊減少25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood"
+			},
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93411, "name": "獅子剋制",
+			"remark": "對獅子紋章做成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93412, "name": "狂狼剋制",
+			"remark": "對狂狼紋章做成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 2
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93413, "name": "戰牛剋制",
+			"remark": "對戰牛紋章做成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 3
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93414, "name": "獵鷹剋制",
+			"remark": "對獵鷹紋章做成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 4
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93415, "name": "魔蛇剋制",
+			"remark": "對魔蛇紋章做成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 5
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93416, "name": "幻獸剋制",
+			"remark": "對幻獸紋章做成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 6
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93421, "name": "獅子抵抗",
+			"remark": "抵抗來自獅子紋章攻擊的25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93422, "name": "狂狼抵抗",
+			"remark": "抵抗來自狂狼紋章攻擊的25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 2
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93423, "name": "戰牛抵抗",
+			"remark": "抵抗來自戰牛紋章攻擊的25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 3
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93424, "name": "獵鷹抵抗",
+			"remark": "抵抗來自獵鷹紋章攻擊的25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 4
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93425, "name": "魔蛇抵抗",
+			"remark": "抵抗來自魔蛇紋章攻擊的25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 5
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93426, "name": "幻獸抵抗",
+			"remark": "抵抗來自幻獸紋章攻擊的25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"type": 6
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 25
+			}
+		},
+		{"id": 93431, "name": "屬性反制",
+			"remark": "對剋制自己的屬性攻擊加成變為+50%，但受攻擊+25%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93432, "name": "屬性反制",
+			"remark": "對剋制自己的屬性攻擊加成變為+50%，但受攻擊+25%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93433, "name": "屬性反制",
+			"remark": "對剋制自己的屬性攻擊加成變為+50%，但受攻擊+25%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood"
+			},
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		
+		{"id": 93434, "name": "屬性反制",
+			"remark": "對剋制自己的屬性攻擊加成變為+50%，但受攻擊+25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -25
+			}
+		},
+		{"id": 93435, "name": "屬性反制",
+			"remark": "對剋制自己的屬性攻擊加成變為+50%，但受攻擊+25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -25
+			}
+		},
+		{"id": 93436, "name": "屬性反制",
+			"remark": "對剋制自己的屬性攻擊加成變為+50%，但受攻擊+25%傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood"
+			},
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -25
+			}
+		},
+		
+		{"id": 93437, "name": "額外屬剋(火)",
+			"remark": "對火屬性的敵人攻防剋制變成+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93438, "name": "額外屬剋(火)",
+			"remark": "對火屬性的敵人攻防剋制變成+50%",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 93439, "name": "額外屬剋(水)",
+			"remark": "對水屬性的敵人攻防剋制變成+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93440, "name": "額外屬剋(水)",
+			"remark": "對水屬性的敵人攻防剋制變成+50%",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 93441, "name": "額外屬剋(木)",
+			"remark": "對木屬性的敵人攻防剋制變成+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93442, "name": "額外屬剋(木)",
+			"remark": "對木屬性的敵人攻防剋制變成+50%",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 93443, "name": "額外屬剋(光)",
+			"remark": "對光屬性的敵人攻防剋制變成+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "light"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93444, "name": "額外屬剋(光)",
+			"remark": "對光屬性的敵人攻防剋制變成+50%",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "light"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 93445, "name": "額外屬剋(暗)",
+			"remark": "對暗屬性的敵人攻防剋制變成+50%",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "dark"
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 93446, "name": "額外屬剋(暗)",
+			"remark": "對暗屬性的敵人攻防剋制變成+50%",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"element": "dark"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 93447, "name": "防禦中和",
+			"remark": "受到剋制屬性攻擊時不會增加傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "water"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 33
+			}
+		},
+		{"id": 93448, "name": "防禦中和",
+			"remark": "受到剋制屬性攻擊時不會增加傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 33
+			}
+		},
+		{"id": 93449, "name": "防禦中和",
+			"remark": "受到剋制屬性攻擊時不會增加傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood"
+			},
+			"targetCondition": 
+			{
+				"element": "fire"
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 33
+			}
+		},
+		{"id": 93450, "name": "屬剋出血",
+			"remark": "SP未滿時普攻對剋制屬性的敵人造成出血效果",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire",
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9234
+			}
+		},
+		{"id": 93451, "name": "屬剋出血",
+			"remark": "SP未滿時普攻對剋制屬性的敵人造成出血效果",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "water",
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9235
+			}
+		},
+		{"id": 93452, "name": "屬剋出血",
+			"remark": "SP未滿時普攻對剋制屬性的敵人造成出血效果",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "wood",
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9236
+			}
+		},
+		{"id": 93453, "name": "屬剋出血",
+			"remark": "SP未滿時普攻對剋制屬性的敵人造成出血效果",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "light",
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9237
+			}
+		},
+		{"id": 93454, "name": "屬剋出血",
+			"remark": "SP未滿時普攻對剋制屬性的敵人造成出血效果",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "dark",
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9238
+			}
+		},
+		
+		{"id": 93301, "name": "清除者",
+			"remark": "對怪草、怪燈及小矮人造成20倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 27
+			},
+			"function": 
+			{
+				"AttackDamageUp": 1900
+			}
+		},
+		{"id": 93302, "name": "裝置破壞",
+			"remark": "對裝置系敵人造成20倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 26
+			},
+			"function": 
+			{
+				"AttackDamageUp": 1900
+			}
+		},
+		{"id": 93303, "name": "材料採集",
+			"remark": "對材料類敵人做成4倍傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetConditionOr": 
+			[
+				{
+					"race": 11
+				},
+				{
+					"race": 12
+				},
+				{
+					"race": 18
+				},
+				{
+					"race": 23
+				}
+			],
+			"function": 
+			{
+				"AttackDamageUp": 700
+			}
+		},
+		{"id": 93304, "name": "寶箱專家",
+			"remark": "對寶箱類敵人做成極大傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 28
+			},
+			"function": 
+			{
+				"AttackDamageUp": 3900
+			}
+		},
+		{"id": 93305, "name": "寶箱專家",
+			"remark": "對寶箱類敵人做成極大傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"charIDBegin": 1213,
+				"charIDEnd": 1214
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93306, "name": "寶箱專家",
+			"remark": "對寶箱類敵人做成極大傷害",
+			"type": "attack",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"race": 28
+			},
+			"function": 
+			{
+				"AttackDamageUp": 3900
+			}
+		},
+		
+		{"id": 93501, "name": "游珠神特效(大)",
+			"remark": "游珠神活動關卡中造成6倍傷害，活動期間限定",
+			"type": "attack",
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"questIDBegin": 31106,
+				"questIDEnd": 31120
+			},
+			"function": 
+			{
+				"AttackDamageUp": 600
+			}
+		},
+		{"id": 93502, "name": "游珠神特效(中)",
+			"remark": "游珠神活動關卡中造成3倍傷害，活動期間限定",
+			"type": "attack",
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"questIDBegin": 31106,
+				"questIDEnd": 31120
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 93503, "name": "游珠神特效(小)",
+			"remark": "游珠神活動關卡中造成2倍傷害，活動期間限定",
+			"type": "attack",
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"questIDBegin": 31106,
+				"questIDEnd": 31120
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100
+			}
+		},
+		{"id": 93504, "name": "游珠神特效(大)",
+			"remark": "游珠神活動關卡中普攻造成保證傷害",
+			"type": "always",
+			"selfCondition": 
+			{
+				"side": 0,
+				"questIDBegin": 31106,
+				"questIDEnd": 31120
+			},
+			"function": 
+			{
+				"ChangeNormalSkill": 9301
+			}
+		},
+		
+		{
+			"id": 93511,
+			"name": "藝術鑑賞(特)",
+			"remark": "於時之天梯關卡「自由的象徵」中獲得30%AP加成",
+			"type": "always"
+		},
+		{
+			"id": 93512,
+			"name": "藝術鑑賞(大)",
+			"remark": "於時之天梯關卡「自由的象徵」中獲得15%AP加成",
+			"type": "always"
+		},
+		{
+			"id": 93513,
+			"name": "藝術鑑賞(中)",
+			"remark": "於時之天梯關卡「自由的象徵」中獲得5%AP加成",
+			"type": "always"
+		},
+		{
+			"id": 93514,
+			"name": "藝術鑑賞(小)",
+			"remark": "於時之天梯關卡「自由的象徵」中獲得2.5%AP加成",
+			"type": "always"
+		},
+		
+		{"id": 94001, "name": "敵專用限制回避",
+			"remark": "35%無視一切行動不行的狀態",
+			"type": "always",
+			"rate": 35,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"ResistParalysis": 1,
+				"ResistStun": 1
+			}
+		},
+		{"id": 94002, "name": "敵專用麻痺反應",
+			"remark": "陷入麻痺時，受到攻擊會解除麻痺狀態",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"paralysis": 1,
+				"side": 1
+			},
+			"function": 
+			{
+				"ClearParalysis": 1
+			}
+		},
+		{"id": 94003, "name": "敵專用重力限制",
+			"remark": "限制重力的傷害上限",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"EnableHPPercentageDamageLimit": 1
+			}
+		},
+		{"id": 94004, "name": "敵專用攻擊中和",
+			"remark": "火屬自爆敵人專用",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "wood"
+			},
+			"function": 
+			{
+				"AttackDamageUp": -33,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 94005, "name": "敵專用限制免疫(聖符系列)",
+			"remark": "無視一切行動不行的狀態",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"ResistParalysis": 1,
+				"ResistStun": 1
+			}
+		},
+		{"id": 94006, "name": "敵專用中毒免疫(符系列)",
+			"remark": "中毒免疫",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"ResistPoison": 1
+			}
+		},
+		{"id": 94007, "name": "敵專用麻痺免疫(符系列)",
+			"remark": "麻痺免疫",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"ResistParalysis": 1
+			}
+		},
+		{"id": 94008, "name": "敵專用減傷",
+			"remark": "減少75%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"DamageDown": 75
+			}
+		},
+		{"id": 94009, "name": "敵十夜專用減傷",
+			"remark": "神族、減攻、HP50%以下減傷65%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetConditionOr": 
+			[
+				{
+					"HPUnder": 50
+				},
+				{
+					"race": 16
+				},
+				{
+					"attackdown": 1
+				}
+			],
+			"function": 
+			{
+				"DamageDown": 65
+			}
+		},
+		{"id": 94010, "name": "敵十夜專用神剋制",
+			"remark": "對神種族造成200%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"race": 16
+			},
+			"function": 
+			{
+				"AttackDamageUp": 200
+			}
+		},
+		{"id": 94011, "name": "敵專用25%HP以下額外限制回避",
+			"remark": "35%無視一切行動不行的狀態",
+			"type": "always",
+			"rate": 25,
+			"selfCondition": 
+			{
+				"side": 1,
+				"newHPUnder": 25
+			},
+			"function": 
+			{
+				"ResistParalysis": 1,
+				"ResistStun": 1
+			}
+		},
+		{"id": 94012, "name": "敵專用伏魔法器",
+			"remark": "有護盾時反射0.2倍傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 0.2
+			}
+		},
+		{"id": 94013, "name": "敵專用麻暈次數限制5次",
+			"remark": "敵專用麻暈次數限制5次",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},			
+			"function": 
+			{
+				"limitStateApply": { "state": ["paralysis", "stun"], "count": 5 }			
+			}
+		},
+		{"id": 94014, "name": "敵專用針對無盾增傷",
+			"remark": "對無盾造成120%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"barrier": 0
+			},
+			"function": 
+			{
+				"AttackDamageUp": 20
+			}
+		},
+		{"id": 94015, "name": "敵專用受傷解減攻",
+			"remark": "受到攻擊會機率解除減攻狀態",
+			"type": "defence",
+			"rate": 5,
+			"selfCondition": 
+			{
+				"attackdown": 1,
+				"side": 1
+			},
+			"function": 
+			{
+				"ClearAttackDown": 1
+			}
+		},
+		{"id": 94016, "name": "敵專用抵抗範圍攻擊",
+			"remark": "抵抗AOE傷害50%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 50
+			}
+		},
+		{"id": 94017, "name": "敵專用金身",
+			"remark": "陷入暈眩或麻痺狀態後，受傷減99%",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"selfConditionOr": 
+			[
+				{
+					"paralysis": 1
+				},
+				{
+					"stun": 1
+				}
+			],
+			"function": 
+			{
+				"DefenceDamageDown": 99
+			}
+		},
+		{"id": 94018, "name": "敵專用範圍攻擊反射",
+			"remark": "反射範圍攻擊",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 80,
+				"DamageReflection": 1
+			}
+		},
+		{"id": 94019, "name": "敵專用技封猛擊",
+			"remark": "對技封的敵人造成150%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"noskill": 1
+			},
+			"function": 
+			{
+				"AttackDamageUp": 50
+			}
+		},
+		{"id": 94020, "name": "敵專用出血反射",
+			"remark": "目標陷入出血狀態時反射1倍傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"bleed": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 0.1
+			}
+		},
+		{"id": 94021, "name": "敵專用出血量增加",
+			"remark": "受到出血傷害+100%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"BleedDamageUp": 100
+			}
+		},
+		{"id": 94022, "name": "敵專用惡夢關卡單體攻擊防禦",
+			"remark": "防禦單體攻擊",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"areaAction": 0,
+				"questIDBegin": 26101,
+				"questIDEnd": 26199
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 80
+			}
+		},
+		{"id": 94023, "name": "太公望惡夢專用護盾強化",
+			"remark": "擁有護盾時攻擊力+60%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"barrier": 1
+			},
+			"function": 
+			{
+				"AttackUp": 60
+			}
+		},
+		{"id": 94024, "name": "敵女蝸專用毒倍加",
+			"remark": "中毒時受到的中毒傷害4倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"PoisonDamageUp": 300
+			}
+		},
+		{"id": 94025, "name": "敵女蝸專用中毒後攻擊減少",
+			"remark": "中毒時受到的中毒傷害5倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"poison": 1
+			},
+			"function": 
+			{
+				"AttackUp": -30
+			}
+		},
+		{"id": 94026, "name": "敵專用100%減傷免疫異常",
+			"remark": "減少100%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"DamageDown": 100,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 94027, "name": "敵專用遊星塔完全無敵",
+			"remark": "減少100%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"questIDBegin": 25401,
+				"questIDEnd": 25440
+			},
+			"function": 
+			{
+				"DamageDown": 100,
+				"ResistAllNegative": 1,
+				"EnableHPPercentageDamageLimit": 1,
+				"Regen": 100
+			}
+		},
+		{"id": 94028, "name": "敵專用遊星塔重力反傷以外無效",
+			"remark": "減少100%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"questIDBegin": 25401,
+				"questIDEnd": 25440
+			},
+			"function": 
+			{
+				"DamageDown": 100,
+				"ResistAllNegative": 1
+			}
+		},
+		{"id": 94029, "name": "敵專用遊星塔火屬全中和",
+			"remark": "減少100%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "wood",
+				"questIDBegin": 25401,
+				"questIDEnd": 25440
+			},
+			"function": 
+			{
+				"AttackDamageUp": -33,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 94030, "name": "敵專用遊星塔火屬全中和",
+			"remark": "減少100%傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "water",
+				"questIDBegin": 25401,
+				"questIDEnd": 25440
+			},
+			"function": 
+			{
+				"AttackDamageUp": 100,
+				"AttackDamageUpEffect": 0
+			}
+		},
+		{"id": 94031, "name": "敵專用遊星塔火屬全中和",
+			"remark": "屬性中和",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "wood",
+				"questIDBegin": 25401,
+				"questIDEnd": 25440
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -100
+			}
+		},
+		{"id": 94032, "name": "敵專用遊星塔火屬全中和",
+			"remark": "屬性中和",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"element": "fire"
+			},
+			"targetCondition": 
+			{
+				"element": "water",
+				"questIDBegin": 25401,
+				"questIDEnd": 25440
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 33
+			}
+		},
+		{"id": 94033, "name": "敵烏拉諾斯專用出血倍加",
+			"remark": "出血時受到的出血傷害4倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"BleedDamageUp": 300,
+				"ResistPoison": 1
+			}
+		},
+		{"id": 94034, "name": "敵烏拉諾斯專用出血後攻擊減少",
+			"remark": "中毒時受到的中毒傷害5倍",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"bleed": 1
+			},
+			"function": 
+			{
+				"AttackUp": -20
+			}
+		},
+		{"id": 94035, "name": "敵專用麻暈次數限制2次",
+			"remark": "敵專用麻暈次數限制5次",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},			
+			"function": 
+			{
+				"limitStateApply": { "state": ["paralysis", "stun"], "count": 2 }			
+			}
+		},
+		{"id": 94036, "name": "敵專用於50%HP以上防未滿技者攻擊",
+			"remark": "防技能攻擊",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"newHPOver": 50
+			},
+			"targetCondition": 
+			{
+				"SpFull": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 90
+			}
+		},
+		{"id": 94037, "name": "敵專用於50%HP以上被滿技者攻擊增傷",
+			"remark": "防技能攻擊",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"newHPOver": 50
+			},
+			"targetCondition": 
+			{
+				"SpFull": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -100
+			}
+		},
+		{"id": 94038, "name": "敵專用遊星塔重力限制",
+			"remark": "限制重力的傷害上限",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"questIDBegin": 25401,
+				"questIDEnd": 25445
+			},
+			"function": 
+			{
+				"EnableHPPercentageDamageLimit": 1
+			}
+		},
+		{"id": 94039, "name": "敵專用遊星塔麻暈次數限制5次",
+			"remark": "敵專用麻暈次數限制5次",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"questIDBegin": 25401,
+				"questIDEnd": 25445
+			},			
+			"function": 
+			{
+				"limitStateApply": { "state": ["paralysis", "stun"], "count": 5 }			
+			}
+		},
+		{"id": 94040, "name": "敵專用單體攻擊反射",
+			"remark": "反射單體攻擊",
+			"type": "defence",
+			"rate": 100,
+			"targetCondition": 
+			{
+				"areaAction": 0
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 80,
+				"DamageReflection": 1
+			}
+		},
+		{"id": 94041, "name": "敵專用遊星塔減傷",
+			"remark": "減少50%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1,
+				"questIDBegin": 25401,
+				"questIDEnd": 25445
+			},	
+			"function": 
+			{
+				"DamageDown": 75
+			}
+		},
+		{"id": 94042, "name": "敵專用超強能力",
+			"remark": "減少100%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"EnableHPPercentageDamageLimit": 1,
+				"ResistAttackDown": 1,
+				"ResistDefenceDown": 1,
+				"ResistHealDown": 1,
+				"ResistPoison": 1,
+				"ResistBleed": 1,
+				"ResistParalysis": 1,
+				"ResistStun": 1
+			}
+		},
+		{"id": 94043, "name": "敵專用護盾破壞",
+			"remark": "攻擊時消除目標護盾並直接造成傷害",
+			"type": "attack",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"AttackDestroyBarrier": 1
+			}
+		},
+		{"id": 94044, "name": "敵專用擋護盾攻擊",
+			"remark": "抵抗有護盾者的攻擊",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"DefenceDamageDown": 90
+			}
+		},
+		{"id": 94045, "name": "敵專用反射",
+			"remark": "對攻擊者反彈100%傷害",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"function": 
+			{
+				"DamageReflection": 1
+			}
+		},
+		{"id": 94046, "name": "敵專用限制反射",
+			"remark": "陷入暈眩或麻痺狀態後，反射1倍傷害",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"selfConditionOr": 
+			[
+				{
+					"paralysis": 1
+				},
+				{
+					"stun": 1
+				}
+			],
+			"function": 
+			{
+				"DamageReflection": 1
+			}
+		},
+		
+		{"id": 94101, "name": "我方專用決賽關卡攻擊+80%",
+			"remark": "我方專用決賽關卡攻擊+80%",
+			"type": "always",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 0
+			},
+			"targetCondition": 
+			{
+				"questIDBegin": 29991,
+				"questIDEnd": 29995
+			},
+			"function": 
+			{
+				"AttackUp": 80
+			}
+		},
+		{"id": 94102, "name": "敵專用預賽關卡受範圍傷害增加",
+			"remark": "敵專用預賽關卡受範圍傷害增加",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"areaAction": 1,
+				"questIDBegin": 29988,
+				"questIDEnd": 29989
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -100
+			}
+		},
+		{"id": 94103, "name": "敵專用預賽關卡受剋制傷害增加",
+			"remark": "敵專用預賽關卡受剋制傷害增加",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"element": "fire",
+				"questIDBegin": 29988,
+				"questIDEnd": 29989
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -100
+			}
+		},
+		{"id": 94104, "name": "敵專用預賽關卡受剋制傷害增加",
+			"remark": "敵專用預賽關卡受剋制傷害增加",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"element": "water",
+				"questIDBegin": 29988,
+				"questIDEnd": 29989
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -100
+			}
+		},
+		{"id": 94105, "name": "敵專用預賽關卡受剋制傷害增加",
+			"remark": "敵專用預賽關卡受剋制傷害增加",
+			"type": "defence",
+			"rate": 100,
+			"selfCondition": 
+			{
+				"side": 1
+			},
+			"targetCondition": 
+			{
+				"element": "wood",
+				"questIDBegin": 29988,
+				"questIDEnd": 29989
+			},
+			"function": 
+			{
+				"DefenceDamageDown": -100
+			}
+		}
+	]
+}

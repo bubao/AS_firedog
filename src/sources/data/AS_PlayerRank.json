@@ -1,0 +1,6999 @@
+{
+	"MaxRank": 999,
+	"RankTable": 
+	[
+		{
+			"rank": 1,
+			"cost": 40,
+			"stamina": 35,
+			"friend": 25,
+			"exp": 0
+		},
+		{
+			"rank": 2,
+			"cost": 41,
+			"stamina": 35,
+			"friend": 25,
+			"exp": 20
+		},
+		{
+			"rank": 3,
+			"cost": 42,
+			"stamina": 36,
+			"friend": 25,
+			"exp": 60
+		},
+		{
+			"rank": 4,
+			"cost": 43,
+			"stamina": 36,
+			"friend": 26,
+			"exp": 120
+		},
+		{
+			"rank": 5,
+			"cost": 44,
+			"stamina": 36,
+			"friend": 26,
+			"exp": 200
+		},
+		{
+			"rank": 6,
+			"cost": 45,
+			"stamina": 37,
+			"friend": 26,
+			"exp": 300
+		},
+		{
+			"rank": 7,
+			"cost": 46,
+			"stamina": 37,
+			"friend": 27,
+			"exp": 450
+		},
+		{
+			"rank": 8,
+			"cost": 47,
+			"stamina": 37,
+			"friend": 27,
+			"exp": 660
+		},
+		{
+			"rank": 9,
+			"cost": 48,
+			"stamina": 38,
+			"friend": 27,
+			"exp": 940
+		},
+		{
+			"rank": 10,
+			"cost": 50,
+			"stamina": 38,
+			"friend": 32,
+			"exp": 1300
+		},
+		{
+			"rank": 11,
+			"cost": 50,
+			"stamina": 38,
+			"friend": 32,
+			"exp": 1750
+		},
+		{
+			"rank": 12,
+			"cost": 51,
+			"stamina": 39,
+			"friend": 32,
+			"exp": 2300
+		},
+		{
+			"rank": 13,
+			"cost": 51,
+			"stamina": 39,
+			"friend": 33,
+			"exp": 2960
+		},
+		{
+			"rank": 14,
+			"cost": 52,
+			"stamina": 39,
+			"friend": 33,
+			"exp": 3740
+		},
+		{
+			"rank": 15,
+			"cost": 52,
+			"stamina": 40,
+			"friend": 33,
+			"exp": 4650
+		},
+		{
+			"rank": 16,
+			"cost": 53,
+			"stamina": 40,
+			"friend": 34,
+			"exp": 5880
+		},
+		{
+			"rank": 17,
+			"cost": 53,
+			"stamina": 40,
+			"friend": 34,
+			"exp": 7240
+		},
+		{
+			"rank": 18,
+			"cost": 54,
+			"stamina": 41,
+			"friend": 34,
+			"exp": 8720
+		},
+		{
+			"rank": 19,
+			"cost": 54,
+			"stamina": 41,
+			"friend": 35,
+			"exp": 10340
+		},
+		{
+			"rank": 20,
+			"cost": 56,
+			"stamina": 41,
+			"friend": 35,
+			"exp": 12090
+		},
+		{
+			"rank": 21,
+			"cost": 56,
+			"stamina": 42,
+			"friend": 35,
+			"exp": 13980
+		},
+		{
+			"rank": 22,
+			"cost": 57,
+			"stamina": 42,
+			"friend": 36,
+			"exp": 16010
+		},
+		{
+			"rank": 23,
+			"cost": 57,
+			"stamina": 42,
+			"friend": 36,
+			"exp": 18180
+		},
+		{
+			"rank": 24,
+			"cost": 58,
+			"stamina": 43,
+			"friend": 36,
+			"exp": 20500
+		},
+		{
+			"rank": 25,
+			"cost": 58,
+			"stamina": 43,
+			"friend": 37,
+			"exp": 22970
+		},
+		{
+			"rank": 26,
+			"cost": 59,
+			"stamina": 43,
+			"friend": 37,
+			"exp": 25590
+		},
+		{
+			"rank": 27,
+			"cost": 59,
+			"stamina": 44,
+			"friend": 37,
+			"exp": 28360
+		},
+		{
+			"rank": 28,
+			"cost": 60,
+			"stamina": 44,
+			"friend": 38,
+			"exp": 31290
+		},
+		{
+			"rank": 29,
+			"cost": 60,
+			"stamina": 44,
+			"friend": 38,
+			"exp": 34380
+		},
+		{
+			"rank": 30,
+			"cost": 62,
+			"stamina": 50,
+			"friend": 38,
+			"exp": 37630
+		},
+		{
+			"rank": 31,
+			"cost": 62,
+			"stamina": 50,
+			"friend": 39,
+			"exp": 41040
+		},
+		{
+			"rank": 32,
+			"cost": 62,
+			"stamina": 50,
+			"friend": 39,
+			"exp": 44610
+		},
+		{
+			"rank": 33,
+			"cost": 63,
+			"stamina": 51,
+			"friend": 39,
+			"exp": 48350
+		},
+		{
+			"rank": 34,
+			"cost": 63,
+			"stamina": 51,
+			"friend": 40,
+			"exp": 52260
+		},
+		{
+			"rank": 35,
+			"cost": 63,
+			"stamina": 51,
+			"friend": 40,
+			"exp": 56340
+		},
+		{
+			"rank": 36,
+			"cost": 64,
+			"stamina": 52,
+			"friend": 40,
+			"exp": 60590
+		},
+		{
+			"rank": 37,
+			"cost": 64,
+			"stamina": 52,
+			"friend": 41,
+			"exp": 65020
+		},
+		{
+			"rank": 38,
+			"cost": 64,
+			"stamina": 52,
+			"friend": 41,
+			"exp": 69630
+		},
+		{
+			"rank": 39,
+			"cost": 65,
+			"stamina": 53,
+			"friend": 41,
+			"exp": 74410
+		},
+		{
+			"rank": 40,
+			"cost": 66,
+			"stamina": 53,
+			"friend": 46,
+			"exp": 79380
+		},
+		{
+			"rank": 41,
+			"cost": 66,
+			"stamina": 53,
+			"friend": 46,
+			"exp": 84530
+		},
+		{
+			"rank": 42,
+			"cost": 67,
+			"stamina": 54,
+			"friend": 46,
+			"exp": 89860
+		},
+		{
+			"rank": 43,
+			"cost": 67,
+			"stamina": 54,
+			"friend": 47,
+			"exp": 95380
+		},
+		{
+			"rank": 44,
+			"cost": 67,
+			"stamina": 54,
+			"friend": 47,
+			"exp": 101090
+		},
+		{
+			"rank": 45,
+			"cost": 68,
+			"stamina": 55,
+			"friend": 47,
+			"exp": 106990
+		},
+		{
+			"rank": 46,
+			"cost": 68,
+			"stamina": 55,
+			"friend": 48,
+			"exp": 113080
+		},
+		{
+			"rank": 47,
+			"cost": 68,
+			"stamina": 55,
+			"friend": 48,
+			"exp": 119360
+		},
+		{
+			"rank": 48,
+			"cost": 69,
+			"stamina": 57,
+			"friend": 48,
+			"exp": 125840
+		},
+		{
+			"rank": 49,
+			"cost": 69,
+			"stamina": 57,
+			"friend": 49,
+			"exp": 132510
+		},
+		{
+			"rank": 50,
+			"cost": 70,
+			"stamina": 57,
+			"friend": 49,
+			"exp": 139380
+		},
+		{
+			"rank": 51,
+			"cost": 71,
+			"stamina": 58,
+			"friend": 49,
+			"exp": 146450
+		},
+		{
+			"rank": 52,
+			"cost": 71,
+			"stamina": 58,
+			"friend": 50,
+			"exp": 153720
+		},
+		{
+			"rank": 53,
+			"cost": 71,
+			"stamina": 58,
+			"friend": 50,
+			"exp": 161200
+		},
+		{
+			"rank": 54,
+			"cost": 72,
+			"stamina": 59,
+			"friend": 50,
+			"exp": 168880
+		},
+		{
+			"rank": 55,
+			"cost": 72,
+			"stamina": 59,
+			"friend": 50,
+			"exp": 176770
+		},
+		{
+			"rank": 56,
+			"cost": 72,
+			"stamina": 59,
+			"friend": 50,
+			"exp": 184870
+		},
+		{
+			"rank": 57,
+			"cost": 73,
+			"stamina": 60,
+			"friend": 50,
+			"exp": 193180
+		},
+		{
+			"rank": 58,
+			"cost": 73,
+			"stamina": 60,
+			"friend": 50,
+			"exp": 201700
+		},
+		{
+			"rank": 59,
+			"cost": 73,
+			"stamina": 60,
+			"friend": 50,
+			"exp": 210430
+		},
+		{
+			"rank": 60,
+			"cost": 75,
+			"stamina": 65,
+			"friend": 50,
+			"exp": 219370
+		},
+		{
+			"rank": 61,
+			"cost": 75,
+			"stamina": 65,
+			"friend": 50,
+			"exp": 228530
+		},
+		{
+			"rank": 62,
+			"cost": 75,
+			"stamina": 65,
+			"friend": 50,
+			"exp": 237910
+		},
+		{
+			"rank": 63,
+			"cost": 76,
+			"stamina": 66,
+			"friend": 50,
+			"exp": 247500
+		},
+		{
+			"rank": 64,
+			"cost": 76,
+			"stamina": 66,
+			"friend": 50,
+			"exp": 257310
+		},
+		{
+			"rank": 65,
+			"cost": 76,
+			"stamina": 66,
+			"friend": 50,
+			"exp": 267340
+		},
+		{
+			"rank": 66,
+			"cost": 77,
+			"stamina": 68,
+			"friend": 50,
+			"exp": 277600
+		},
+		{
+			"rank": 67,
+			"cost": 77,
+			"stamina": 68,
+			"friend": 50,
+			"exp": 288080
+		},
+		{
+			"rank": 68,
+			"cost": 77,
+			"stamina": 68,
+			"friend": 50,
+			"exp": 298790
+		},
+		{
+			"rank": 69,
+			"cost": 78,
+			"stamina": 69,
+			"friend": 50,
+			"exp": 309720
+		},
+		{
+			"rank": 70,
+			"cost": 79,
+			"stamina": 69,
+			"friend": 50,
+			"exp": 320880
+		},
+		{
+			"rank": 71,
+			"cost": 79,
+			"stamina": 70,
+			"friend": 50,
+			"exp": 332270
+		},
+		{
+			"rank": 72,
+			"cost": 80,
+			"stamina": 70,
+			"friend": 50,
+			"exp": 343890
+		},
+		{
+			"rank": 73,
+			"cost": 80,
+			"stamina": 71,
+			"friend": 50,
+			"exp": 355740
+		},
+		{
+			"rank": 74,
+			"cost": 80,
+			"stamina": 71,
+			"friend": 50,
+			"exp": 367820
+		},
+		{
+			"rank": 75,
+			"cost": 81,
+			"stamina": 72,
+			"friend": 50,
+			"exp": 380140
+		},
+		{
+			"rank": 76,
+			"cost": 81,
+			"stamina": 72,
+			"friend": 50,
+			"exp": 392690
+		},
+		{
+			"rank": 77,
+			"cost": 81,
+			"stamina": 73,
+			"friend": 50,
+			"exp": 405480
+		},
+		{
+			"rank": 78,
+			"cost": 82,
+			"stamina": 73,
+			"friend": 50,
+			"exp": 418510
+		},
+		{
+			"rank": 79,
+			"cost": 82,
+			"stamina": 74,
+			"friend": 50,
+			"exp": 431780
+		},
+		{
+			"rank": 80,
+			"cost": 82,
+			"stamina": 74,
+			"friend": 50,
+			"exp": 445290
+		},
+		{
+			"rank": 81,
+			"cost": 83,
+			"stamina": 75,
+			"friend": 50,
+			"exp": 459040
+		},
+		{
+			"rank": 82,
+			"cost": 83,
+			"stamina": 75,
+			"friend": 50,
+			"exp": 473030
+		},
+		{
+			"rank": 83,
+			"cost": 83,
+			"stamina": 76,
+			"friend": 50,
+			"exp": 487270
+		},
+		{
+			"rank": 84,
+			"cost": 84,
+			"stamina": 76,
+			"friend": 50,
+			"exp": 501750
+		},
+		{
+			"rank": 85,
+			"cost": 84,
+			"stamina": 77,
+			"friend": 50,
+			"exp": 516480
+		},
+		{
+			"rank": 86,
+			"cost": 84,
+			"stamina": 77,
+			"friend": 50,
+			"exp": 531460
+		},
+		{
+			"rank": 87,
+			"cost": 85,
+			"stamina": 79,
+			"friend": 50,
+			"exp": 546690
+		},
+		{
+			"rank": 88,
+			"cost": 85,
+			"stamina": 79,
+			"friend": 50,
+			"exp": 562170
+		},
+		{
+			"rank": 89,
+			"cost": 85,
+			"stamina": 80,
+			"friend": 50,
+			"exp": 577900
+		},
+		{
+			"rank": 90,
+			"cost": 86,
+			"stamina": 80,
+			"friend": 50,
+			"exp": 593880
+		},
+		{
+			"rank": 91,
+			"cost": 86,
+			"stamina": 81,
+			"friend": 50,
+			"exp": 610110
+		},
+		{
+			"rank": 92,
+			"cost": 86,
+			"stamina": 81,
+			"friend": 50,
+			"exp": 626600
+		},
+		{
+			"rank": 93,
+			"cost": 87,
+			"stamina": 82,
+			"friend": 50,
+			"exp": 643340
+		},
+		{
+			"rank": 94,
+			"cost": 87,
+			"stamina": 82,
+			"friend": 50,
+			"exp": 660340
+		},
+		{
+			"rank": 95,
+			"cost": 87,
+			"stamina": 83,
+			"friend": 50,
+			"exp": 677600
+		},
+		{
+			"rank": 96,
+			"cost": 88,
+			"stamina": 83,
+			"friend": 50,
+			"exp": 695120
+		},
+		{
+			"rank": 97,
+			"cost": 88,
+			"stamina": 84,
+			"friend": 50,
+			"exp": 712900
+		},
+		{
+			"rank": 98,
+			"cost": 88,
+			"stamina": 84,
+			"friend": 50,
+			"exp": 730940
+		},
+		{
+			"rank": 99,
+			"cost": 89,
+			"stamina": 85,
+			"friend": 50,
+			"exp": 749240
+		},
+		{
+			"rank": 100,
+			"cost": 89,
+			"stamina": 85,
+			"friend": 50,
+			"exp": 767800
+		},
+		{
+			"rank": 101,
+			"cost": 89,
+			"stamina": 86,
+			"friend": 50,
+			"exp": 787000
+		},
+		{
+			"rank": 102,
+			"cost": 90,
+			"stamina": 86,
+			"friend": 50,
+			"exp": 806700
+		},
+		{
+			"rank": 103,
+			"cost": 90,
+			"stamina": 87,
+			"friend": 50,
+			"exp": 826900
+		},
+		{
+			"rank": 104,
+			"cost": 90,
+			"stamina": 87,
+			"friend": 50,
+			"exp": 847700
+		},
+		{
+			"rank": 105,
+			"cost": 91,
+			"stamina": 88,
+			"friend": 50,
+			"exp": 869000
+		},
+		{
+			"rank": 106,
+			"cost": 91,
+			"stamina": 88,
+			"friend": 50,
+			"exp": 890800
+		},
+		{
+			"rank": 107,
+			"cost": 91,
+			"stamina": 90,
+			"friend": 50,
+			"exp": 913100
+		},
+		{
+			"rank": 108,
+			"cost": 92,
+			"stamina": 90,
+			"friend": 50,
+			"exp": 935900
+		},
+		{
+			"rank": 109,
+			"cost": 92,
+			"stamina": 91,
+			"friend": 50,
+			"exp": 959300
+		},
+		{
+			"rank": 110,
+			"cost": 92,
+			"stamina": 91,
+			"friend": 50,
+			"exp": 983200
+		},
+		{
+			"rank": 111,
+			"cost": 93,
+			"stamina": 92,
+			"friend": 50,
+			"exp": 1007600
+		},
+		{
+			"rank": 112,
+			"cost": 93,
+			"stamina": 92,
+			"friend": 50,
+			"exp": 1032600
+		},
+		{
+			"rank": 113,
+			"cost": 93,
+			"stamina": 93,
+			"friend": 50,
+			"exp": 1058100
+		},
+		{
+			"rank": 114,
+			"cost": 94,
+			"stamina": 93,
+			"friend": 50,
+			"exp": 1084200
+		},
+		{
+			"rank": 115,
+			"cost": 94,
+			"stamina": 94,
+			"friend": 50,
+			"exp": 1110800
+		},
+		{
+			"rank": 116,
+			"cost": 94,
+			"stamina": 94,
+			"friend": 50,
+			"exp": 1137900
+		},
+		{
+			"rank": 117,
+			"cost": 95,
+			"stamina": 95,
+			"friend": 50,
+			"exp": 1165600
+		},
+		{
+			"rank": 118,
+			"cost": 95,
+			"stamina": 95,
+			"friend": 50,
+			"exp": 1193900
+		},
+		{
+			"rank": 119,
+			"cost": 95,
+			"stamina": 96,
+			"friend": 50,
+			"exp": 1222700
+		},
+		{
+			"rank": 120,
+			"cost": 96,
+			"stamina": 96,
+			"friend": 50,
+			"exp": 1252100
+		},
+		{
+			"rank": 121,
+			"cost": 96,
+			"stamina": 97,
+			"friend": 50,
+			"exp": 1282000
+		},
+		{
+			"rank": 122,
+			"cost": 96,
+			"stamina": 97,
+			"friend": 50,
+			"exp": 1312500
+		},
+		{
+			"rank": 123,
+			"cost": 97,
+			"stamina": 98,
+			"friend": 50,
+			"exp": 1343600
+		},
+		{
+			"rank": 124,
+			"cost": 97,
+			"stamina": 98,
+			"friend": 50,
+			"exp": 1375200
+		},
+		{
+			"rank": 125,
+			"cost": 97,
+			"stamina": 99,
+			"friend": 50,
+			"exp": 1407400
+		},
+		{
+			"rank": 126,
+			"cost": 98,
+			"stamina": 99,
+			"friend": 50,
+			"exp": 1440200
+		},
+		{
+			"rank": 127,
+			"cost": 98,
+			"stamina": 101,
+			"friend": 50,
+			"exp": 1473600
+		},
+		{
+			"rank": 128,
+			"cost": 98,
+			"stamina": 101,
+			"friend": 50,
+			"exp": 1507600
+		},
+		{
+			"rank": 129,
+			"cost": 99,
+			"stamina": 102,
+			"friend": 50,
+			"exp": 1542100
+		},
+		{
+			"rank": 130,
+			"cost": 99,
+			"stamina": 102,
+			"friend": 50,
+			"exp": 1577200
+		},
+		{
+			"rank": 131,
+			"cost": 99,
+			"stamina": 103,
+			"friend": 50,
+			"exp": 1612900
+		},
+		{
+			"rank": 132,
+			"cost": 100,
+			"stamina": 103,
+			"friend": 50,
+			"exp": 1649200
+		},
+		{
+			"rank": 133,
+			"cost": 100,
+			"stamina": 104,
+			"friend": 50,
+			"exp": 1686100
+		},
+		{
+			"rank": 134,
+			"cost": 100,
+			"stamina": 104,
+			"friend": 50,
+			"exp": 1723600
+		},
+		{
+			"rank": 135,
+			"cost": 101,
+			"stamina": 105,
+			"friend": 50,
+			"exp": 1761700
+		},
+		{
+			"rank": 136,
+			"cost": 101,
+			"stamina": 105,
+			"friend": 50,
+			"exp": 1800400
+		},
+		{
+			"rank": 137,
+			"cost": 101,
+			"stamina": 106,
+			"friend": 50,
+			"exp": 1839700
+		},
+		{
+			"rank": 138,
+			"cost": 102,
+			"stamina": 106,
+			"friend": 50,
+			"exp": 1879700
+		},
+		{
+			"rank": 139,
+			"cost": 102,
+			"stamina": 107,
+			"friend": 50,
+			"exp": 1920300
+		},
+		{
+			"rank": 140,
+			"cost": 102,
+			"stamina": 107,
+			"friend": 50,
+			"exp": 1961500
+		},
+		{
+			"rank": 141,
+			"cost": 103,
+			"stamina": 108,
+			"friend": 50,
+			"exp": 2003300
+		},
+		{
+			"rank": 142,
+			"cost": 103,
+			"stamina": 108,
+			"friend": 50,
+			"exp": 2045700
+		},
+		{
+			"rank": 143,
+			"cost": 103,
+			"stamina": 109,
+			"friend": 50,
+			"exp": 2088800
+		},
+		{
+			"rank": 144,
+			"cost": 104,
+			"stamina": 109,
+			"friend": 50,
+			"exp": 2132500
+		},
+		{
+			"rank": 145,
+			"cost": 104,
+			"stamina": 110,
+			"friend": 50,
+			"exp": 2176800
+		},
+		{
+			"rank": 146,
+			"cost": 104,
+			"stamina": 110,
+			"friend": 50,
+			"exp": 2221800
+		},
+		{
+			"rank": 147,
+			"cost": 105,
+			"stamina": 112,
+			"friend": 50,
+			"exp": 2267400
+		},
+		{
+			"rank": 148,
+			"cost": 105,
+			"stamina": 112,
+			"friend": 50,
+			"exp": 2313700
+		},
+		{
+			"rank": 149,
+			"cost": 105,
+			"stamina": 113,
+			"friend": 50,
+			"exp": 2360600
+		},
+		{
+			"rank": 150,
+			"cost": 106,
+			"stamina": 113,
+			"friend": 50,
+			"exp": 2408100
+		},
+		{
+			"rank": 151,
+			"cost": 106,
+			"stamina": 114,
+			"friend": 50,
+			"exp": 2456300
+		},
+		{
+			"rank": 152,
+			"cost": 106,
+			"stamina": 114,
+			"friend": 50,
+			"exp": 2504900
+		},
+		{
+			"rank": 153,
+			"cost": 107,
+			"stamina": 115,
+			"friend": 50,
+			"exp": 2554000
+		},
+		{
+			"rank": 154,
+			"cost": 107,
+			"stamina": 115,
+			"friend": 50,
+			"exp": 2603600
+		},
+		{
+			"rank": 155,
+			"cost": 107,
+			"stamina": 116,
+			"friend": 50,
+			"exp": 2653600
+		},
+		{
+			"rank": 156,
+			"cost": 108,
+			"stamina": 116,
+			"friend": 50,
+			"exp": 2704100
+		},
+		{
+			"rank": 157,
+			"cost": 108,
+			"stamina": 117,
+			"friend": 50,
+			"exp": 2755100
+		},
+		{
+			"rank": 158,
+			"cost": 108,
+			"stamina": 117,
+			"friend": 50,
+			"exp": 2806500
+		},
+		{
+			"rank": 159,
+			"cost": 109,
+			"stamina": 118,
+			"friend": 50,
+			"exp": 2858400
+		},
+		{
+			"rank": 160,
+			"cost": 109,
+			"stamina": 118,
+			"friend": 50,
+			"exp": 2910800
+		},
+		{
+			"rank": 161,
+			"cost": 109,
+			"stamina": 119,
+			"friend": 50,
+			"exp": 2963700
+		},
+		{
+			"rank": 162,
+			"cost": 110,
+			"stamina": 119,
+			"friend": 50,
+			"exp": 3017000
+		},
+		{
+			"rank": 163,
+			"cost": 110,
+			"stamina": 120,
+			"friend": 50,
+			"exp": 3070800
+		},
+		{
+			"rank": 164,
+			"cost": 110,
+			"stamina": 120,
+			"friend": 50,
+			"exp": 3125100
+		},
+		{
+			"rank": 165,
+			"cost": 111,
+			"stamina": 121,
+			"friend": 50,
+			"exp": 3179900
+		},
+		{
+			"rank": 166,
+			"cost": 111,
+			"stamina": 121,
+			"friend": 50,
+			"exp": 3235200
+		},
+		{
+			"rank": 167,
+			"cost": 111,
+			"stamina": 123,
+			"friend": 50,
+			"exp": 3291000
+		},
+		{
+			"rank": 168,
+			"cost": 112,
+			"stamina": 123,
+			"friend": 50,
+			"exp": 3347300
+		},
+		{
+			"rank": 169,
+			"cost": 112,
+			"stamina": 124,
+			"friend": 50,
+			"exp": 3404100
+		},
+		{
+			"rank": 170,
+			"cost": 112,
+			"stamina": 124,
+			"friend": 50,
+			"exp": 3461400
+		},
+		{
+			"rank": 171,
+			"cost": 113,
+			"stamina": 125,
+			"friend": 50,
+			"exp": 3519200
+		},
+		{
+			"rank": 172,
+			"cost": 113,
+			"stamina": 125,
+			"friend": 50,
+			"exp": 3577500
+		},
+		{
+			"rank": 173,
+			"cost": 113,
+			"stamina": 126,
+			"friend": 50,
+			"exp": 3636300
+		},
+		{
+			"rank": 174,
+			"cost": 114,
+			"stamina": 126,
+			"friend": 50,
+			"exp": 3695600
+		},
+		{
+			"rank": 175,
+			"cost": 114,
+			"stamina": 127,
+			"friend": 50,
+			"exp": 3755400
+		},
+		{
+			"rank": 176,
+			"cost": 114,
+			"stamina": 127,
+			"friend": 50,
+			"exp": 3815800
+		},
+		{
+			"rank": 177,
+			"cost": 115,
+			"stamina": 128,
+			"friend": 50,
+			"exp": 3876700
+		},
+		{
+			"rank": 178,
+			"cost": 115,
+			"stamina": 128,
+			"friend": 50,
+			"exp": 3938100
+		},
+		{
+			"rank": 179,
+			"cost": 115,
+			"stamina": 129,
+			"friend": 50,
+			"exp": 4000000
+		},
+		{
+			"rank": 180,
+			"cost": 116,
+			"stamina": 129,
+			"friend": 50,
+			"exp": 4062500
+		},
+		{
+			"rank": 181,
+			"cost": 116,
+			"stamina": 130,
+			"friend": 50,
+			"exp": 4125500
+		},
+		{
+			"rank": 182,
+			"cost": 116,
+			"stamina": 130,
+			"friend": 50,
+			"exp": 4189000
+		},
+		{
+			"rank": 183,
+			"cost": 117,
+			"stamina": 131,
+			"friend": 50,
+			"exp": 4253100
+		},
+		{
+			"rank": 184,
+			"cost": 117,
+			"stamina": 131,
+			"friend": 50,
+			"exp": 4317700
+		},
+		{
+			"rank": 185,
+			"cost": 117,
+			"stamina": 132,
+			"friend": 50,
+			"exp": 4382900
+		},
+		{
+			"rank": 186,
+			"cost": 118,
+			"stamina": 132,
+			"friend": 50,
+			"exp": 4448600
+		},
+		{
+			"rank": 187,
+			"cost": 118,
+			"stamina": 134,
+			"friend": 50,
+			"exp": 4514900
+		},
+		{
+			"rank": 188,
+			"cost": 118,
+			"stamina": 134,
+			"friend": 50,
+			"exp": 4581700
+		},
+		{
+			"rank": 189,
+			"cost": 119,
+			"stamina": 135,
+			"friend": 50,
+			"exp": 4649100
+		},
+		{
+			"rank": 190,
+			"cost": 119,
+			"stamina": 135,
+			"friend": 50,
+			"exp": 4717000
+		},
+		{
+			"rank": 191,
+			"cost": 119,
+			"stamina": 136,
+			"friend": 50,
+			"exp": 4785500
+		},
+		{
+			"rank": 192,
+			"cost": 120,
+			"stamina": 136,
+			"friend": 50,
+			"exp": 4854600
+		},
+		{
+			"rank": 193,
+			"cost": 120,
+			"stamina": 137,
+			"friend": 50,
+			"exp": 4924200
+		},
+		{
+			"rank": 194,
+			"cost": 120,
+			"stamina": 137,
+			"friend": 50,
+			"exp": 4994400
+		},
+		{
+			"rank": 195,
+			"cost": 121,
+			"stamina": 138,
+			"friend": 50,
+			"exp": 5065200
+		},
+		{
+			"rank": 196,
+			"cost": 121,
+			"stamina": 138,
+			"friend": 50,
+			"exp": 5136500
+		},
+		{
+			"rank": 197,
+			"cost": 121,
+			"stamina": 139,
+			"friend": 50,
+			"exp": 5208400
+		},
+		{
+			"rank": 198,
+			"cost": 122,
+			"stamina": 139,
+			"friend": 50,
+			"exp": 5280900
+		},
+		{
+			"rank": 199,
+			"cost": 122,
+			"stamina": 140,
+			"friend": 50,
+			"exp": 5354000
+		},
+		{
+			"rank": 200,
+			"cost": 122,
+			"stamina": 140,
+			"friend": 50,
+			"exp": 5427700
+		},
+		{
+			"rank": 201,
+			"cost": 123,
+			"stamina": 141,
+			"friend": 50,
+			"exp": 5502000
+		},
+		{
+			"rank": 202,
+			"cost": 123,
+			"stamina": 141,
+			"friend": 50,
+			"exp": 5576800
+		},
+		{
+			"rank": 203,
+			"cost": 123,
+			"stamina": 142,
+			"friend": 50,
+			"exp": 5652200
+		},
+		{
+			"rank": 204,
+			"cost": 124,
+			"stamina": 142,
+			"friend": 50,
+			"exp": 5728200
+		},
+		{
+			"rank": 205,
+			"cost": 124,
+			"stamina": 143,
+			"friend": 50,
+			"exp": 5804800
+		},
+		{
+			"rank": 206,
+			"cost": 124,
+			"stamina": 143,
+			"friend": 50,
+			"exp": 5882000
+		},
+		{
+			"rank": 207,
+			"cost": 125,
+			"stamina": 145,
+			"friend": 50,
+			"exp": 5959800
+		},
+		{
+			"rank": 208,
+			"cost": 125,
+			"stamina": 145,
+			"friend": 50,
+			"exp": 6038200
+		},
+		{
+			"rank": 209,
+			"cost": 125,
+			"stamina": 146,
+			"friend": 50,
+			"exp": 6117300
+		},
+		{
+			"rank": 210,
+			"cost": 126,
+			"stamina": 146,
+			"friend": 50,
+			"exp": 6197000
+		},
+		{
+			"rank": 211,
+			"cost": 126,
+			"stamina": 147,
+			"friend": 50,
+			"exp": 6277300
+		},
+		{
+			"rank": 212,
+			"cost": 126,
+			"stamina": 147,
+			"friend": 50,
+			"exp": 6358200
+		},
+		{
+			"rank": 213,
+			"cost": 127,
+			"stamina": 148,
+			"friend": 50,
+			"exp": 6439700
+		},
+		{
+			"rank": 214,
+			"cost": 127,
+			"stamina": 148,
+			"friend": 50,
+			"exp": 6521800
+		},
+		{
+			"rank": 215,
+			"cost": 127,
+			"stamina": 149,
+			"friend": 50,
+			"exp": 6604600
+		},
+		{
+			"rank": 216,
+			"cost": 128,
+			"stamina": 149,
+			"friend": 50,
+			"exp": 6688000
+		},
+		{
+			"rank": 217,
+			"cost": 128,
+			"stamina": 150,
+			"friend": 50,
+			"exp": 6772000
+		},
+		{
+			"rank": 218,
+			"cost": 128,
+			"stamina": 150,
+			"friend": 50,
+			"exp": 6856700
+		},
+		{
+			"rank": 219,
+			"cost": 129,
+			"stamina": 151,
+			"friend": 50,
+			"exp": 6942000
+		},
+		{
+			"rank": 220,
+			"cost": 129,
+			"stamina": 151,
+			"friend": 50,
+			"exp": 7027900
+		},
+		{
+			"rank": 221,
+			"cost": 129,
+			"stamina": 152,
+			"friend": 50,
+			"exp": 7114500
+		},
+		{
+			"rank": 222,
+			"cost": 130,
+			"stamina": 152,
+			"friend": 50,
+			"exp": 7201700
+		},
+		{
+			"rank": 223,
+			"cost": 130,
+			"stamina": 153,
+			"friend": 50,
+			"exp": 7289600
+		},
+		{
+			"rank": 224,
+			"cost": 130,
+			"stamina": 153,
+			"friend": 50,
+			"exp": 7378100
+		},
+		{
+			"rank": 225,
+			"cost": 131,
+			"stamina": 154,
+			"friend": 50,
+			"exp": 7467300
+		},
+		{
+			"rank": 226,
+			"cost": 131,
+			"stamina": 154,
+			"friend": 50,
+			"exp": 7557100
+		},
+		{
+			"rank": 227,
+			"cost": 131,
+			"stamina": 156,
+			"friend": 50,
+			"exp": 7647600
+		},
+		{
+			"rank": 228,
+			"cost": 132,
+			"stamina": 156,
+			"friend": 50,
+			"exp": 7738800
+		},
+		{
+			"rank": 229,
+			"cost": 132,
+			"stamina": 157,
+			"friend": 50,
+			"exp": 7830600
+		},
+		{
+			"rank": 230,
+			"cost": 132,
+			"stamina": 157,
+			"friend": 50,
+			"exp": 7923100
+		},
+		{
+			"rank": 231,
+			"cost": 133,
+			"stamina": 158,
+			"friend": 50,
+			"exp": 8016200
+		},
+		{
+			"rank": 232,
+			"cost": 133,
+			"stamina": 158,
+			"friend": 50,
+			"exp": 8110000
+		},
+		{
+			"rank": 233,
+			"cost": 133,
+			"stamina": 159,
+			"friend": 50,
+			"exp": 8204500
+		},
+		{
+			"rank": 234,
+			"cost": 134,
+			"stamina": 159,
+			"friend": 50,
+			"exp": 8299700
+		},
+		{
+			"rank": 235,
+			"cost": 134,
+			"stamina": 160,
+			"friend": 50,
+			"exp": 8395500
+		},
+		{
+			"rank": 236,
+			"cost": 134,
+			"stamina": 160,
+			"friend": 50,
+			"exp": 8492000
+		},
+		{
+			"rank": 237,
+			"cost": 135,
+			"stamina": 161,
+			"friend": 50,
+			"exp": 8589200
+		},
+		{
+			"rank": 238,
+			"cost": 135,
+			"stamina": 161,
+			"friend": 50,
+			"exp": 8687100
+		},
+		{
+			"rank": 239,
+			"cost": 135,
+			"stamina": 162,
+			"friend": 50,
+			"exp": 8785700
+		},
+		{
+			"rank": 240,
+			"cost": 136,
+			"stamina": 162,
+			"friend": 50,
+			"exp": 8885000
+		},
+		{
+			"rank": 241,
+			"cost": 136,
+			"stamina": 163,
+			"friend": 50,
+			"exp": 8985000
+		},
+		{
+			"rank": 242,
+			"cost": 136,
+			"stamina": 163,
+			"friend": 50,
+			"exp": 9085700
+		},
+		{
+			"rank": 243,
+			"cost": 137,
+			"stamina": 164,
+			"friend": 50,
+			"exp": 9187100
+		},
+		{
+			"rank": 244,
+			"cost": 137,
+			"stamina": 164,
+			"friend": 50,
+			"exp": 9289200
+		},
+		{
+			"rank": 245,
+			"cost": 137,
+			"stamina": 165,
+			"friend": 50,
+			"exp": 9392000
+		},
+		{
+			"rank": 246,
+			"cost": 138,
+			"stamina": 165,
+			"friend": 50,
+			"exp": 9495500
+		},
+		{
+			"rank": 247,
+			"cost": 138,
+			"stamina": 167,
+			"friend": 50,
+			"exp": 9599700
+		},
+		{
+			"rank": 248,
+			"cost": 138,
+			"stamina": 167,
+			"friend": 50,
+			"exp": 9704600
+		},
+		{
+			"rank": 249,
+			"cost": 139,
+			"stamina": 168,
+			"friend": 50,
+			"exp": 9810200
+		},
+		{
+			"rank": 250,
+			"cost": 139,
+			"stamina": 168,
+			"friend": 50,
+			"exp": 9916600
+		},
+		{
+			"rank": 251,
+			"cost": 139,
+			"stamina": 169,
+			"friend": 50,
+			"exp": 10023700
+		},
+		{
+			"rank": 252,
+			"cost": 140,
+			"stamina": 169,
+			"friend": 50,
+			"exp": 10131500
+		},
+		{
+			"rank": 253,
+			"cost": 140,
+			"stamina": 170,
+			"friend": 50,
+			"exp": 10240000
+		},
+		{
+			"rank": 254,
+			"cost": 140,
+			"stamina": 170,
+			"friend": 50,
+			"exp": 10349200
+		},
+		{
+			"rank": 255,
+			"cost": 140,
+			"stamina": 171,
+			"friend": 50,
+			"exp": 10459200
+		},
+		{
+			"rank": 256,
+			"cost": 141,
+			"stamina": 171,
+			"friend": 50,
+			"exp": 10569900
+		},
+		{
+			"rank": 257,
+			"cost": 141,
+			"stamina": 172,
+			"friend": 50,
+			"exp": 10681400
+		},
+		{
+			"rank": 258,
+			"cost": 141,
+			"stamina": 172,
+			"friend": 50,
+			"exp": 10793600
+		},
+		{
+			"rank": 259,
+			"cost": 141,
+			"stamina": 173,
+			"friend": 50,
+			"exp": 10906500
+		},
+		{
+			"rank": 260,
+			"cost": 142,
+			"stamina": 173,
+			"friend": 50,
+			"exp": 11020200
+		},
+		{
+			"rank": 261,
+			"cost": 142,
+			"stamina": 174,
+			"friend": 50,
+			"exp": 11134600
+		},
+		{
+			"rank": 262,
+			"cost": 142,
+			"stamina": 174,
+			"friend": 50,
+			"exp": 11249800
+		},
+		{
+			"rank": 263,
+			"cost": 142,
+			"stamina": 175,
+			"friend": 50,
+			"exp": 11365700
+		},
+		{
+			"rank": 264,
+			"cost": 143,
+			"stamina": 175,
+			"friend": 50,
+			"exp": 11482400
+		},
+		{
+			"rank": 265,
+			"cost": 143,
+			"stamina": 176,
+			"friend": 50,
+			"exp": 11599800
+		},
+		{
+			"rank": 266,
+			"cost": 143,
+			"stamina": 176,
+			"friend": 50,
+			"exp": 11718000
+		},
+		{
+			"rank": 267,
+			"cost": 143,
+			"stamina": 178,
+			"friend": 50,
+			"exp": 11837000
+		},
+		{
+			"rank": 268,
+			"cost": 144,
+			"stamina": 178,
+			"friend": 50,
+			"exp": 11956700
+		},
+		{
+			"rank": 269,
+			"cost": 144,
+			"stamina": 179,
+			"friend": 50,
+			"exp": 12077200
+		},
+		{
+			"rank": 270,
+			"cost": 144,
+			"stamina": 179,
+			"friend": 50,
+			"exp": 12198500
+		},
+		{
+			"rank": 271,
+			"cost": 144,
+			"stamina": 180,
+			"friend": 50,
+			"exp": 12320500
+		},
+		{
+			"rank": 272,
+			"cost": 145,
+			"stamina": 180,
+			"friend": 50,
+			"exp": 12443300
+		},
+		{
+			"rank": 273,
+			"cost": 145,
+			"stamina": 181,
+			"friend": 50,
+			"exp": 12566900
+		},
+		{
+			"rank": 274,
+			"cost": 145,
+			"stamina": 181,
+			"friend": 50,
+			"exp": 12691300
+		},
+		{
+			"rank": 275,
+			"cost": 145,
+			"stamina": 182,
+			"friend": 50,
+			"exp": 12816500
+		},
+		{
+			"rank": 276,
+			"cost": 146,
+			"stamina": 182,
+			"friend": 50,
+			"exp": 12942400
+		},
+		{
+			"rank": 277,
+			"cost": 146,
+			"stamina": 183,
+			"friend": 50,
+			"exp": 13069100
+		},
+		{
+			"rank": 278,
+			"cost": 146,
+			"stamina": 183,
+			"friend": 50,
+			"exp": 13196600
+		},
+		{
+			"rank": 279,
+			"cost": 146,
+			"stamina": 184,
+			"friend": 50,
+			"exp": 13324900
+		},
+		{
+			"rank": 280,
+			"cost": 147,
+			"stamina": 184,
+			"friend": 50,
+			"exp": 13454000
+		},
+		{
+			"rank": 281,
+			"cost": 147,
+			"stamina": 185,
+			"friend": 50,
+			"exp": 13583900
+		},
+		{
+			"rank": 282,
+			"cost": 147,
+			"stamina": 185,
+			"friend": 50,
+			"exp": 13714600
+		},
+		{
+			"rank": 283,
+			"cost": 147,
+			"stamina": 186,
+			"friend": 50,
+			"exp": 13846100
+		},
+		{
+			"rank": 284,
+			"cost": 148,
+			"stamina": 186,
+			"friend": 50,
+			"exp": 13978400
+		},
+		{
+			"rank": 285,
+			"cost": 148,
+			"stamina": 187,
+			"friend": 50,
+			"exp": 14111500
+		},
+		{
+			"rank": 286,
+			"cost": 148,
+			"stamina": 187,
+			"friend": 50,
+			"exp": 14245400
+		},
+		{
+			"rank": 287,
+			"cost": 148,
+			"stamina": 189,
+			"friend": 50,
+			"exp": 14380200
+		},
+		{
+			"rank": 288,
+			"cost": 149,
+			"stamina": 189,
+			"friend": 50,
+			"exp": 14515800
+		},
+		{
+			"rank": 289,
+			"cost": 149,
+			"stamina": 190,
+			"friend": 50,
+			"exp": 14652200
+		},
+		{
+			"rank": 290,
+			"cost": 149,
+			"stamina": 190,
+			"friend": 50,
+			"exp": 14789400
+		},
+		{
+			"rank": 291,
+			"cost": 149,
+			"stamina": 191,
+			"friend": 50,
+			"exp": 14927400
+		},
+		{
+			"rank": 292,
+			"cost": 150,
+			"stamina": 191,
+			"friend": 50,
+			"exp": 15066300
+		},
+		{
+			"rank": 293,
+			"cost": 150,
+			"stamina": 192,
+			"friend": 50,
+			"exp": 15206000
+		},
+		{
+			"rank": 294,
+			"cost": 150,
+			"stamina": 192,
+			"friend": 50,
+			"exp": 15346500
+		},
+		{
+			"rank": 295,
+			"cost": 150,
+			"stamina": 193,
+			"friend": 50,
+			"exp": 15487900
+		},
+		{
+			"rank": 296,
+			"cost": 151,
+			"stamina": 193,
+			"friend": 50,
+			"exp": 15630100
+		},
+		{
+			"rank": 297,
+			"cost": 151,
+			"stamina": 194,
+			"friend": 50,
+			"exp": 15773100
+		},
+		{
+			"rank": 298,
+			"cost": 151,
+			"stamina": 194,
+			"friend": 50,
+			"exp": 15917000
+		},
+		{
+			"rank": 299,
+			"cost": 151,
+			"stamina": 195,
+			"friend": 50,
+			"exp": 16061700
+		},
+		{
+			"rank": 300,
+			"cost": 152,
+			"stamina": 195,
+			"friend": 50,
+			"exp": 16207300
+		},
+		{
+			"rank": 301,
+			"cost": 152,
+			"stamina": 196,
+			"friend": 50,
+			"exp": 16353700
+		},
+		{
+			"rank": 302,
+			"cost": 152,
+			"stamina": 196,
+			"friend": 50,
+			"exp": 16501000
+		},
+		{
+			"rank": 303,
+			"cost": 152,
+			"stamina": 197,
+			"friend": 50,
+			"exp": 16649100
+		},
+		{
+			"rank": 304,
+			"cost": 153,
+			"stamina": 197,
+			"friend": 50,
+			"exp": 16798100
+		},
+		{
+			"rank": 305,
+			"cost": 153,
+			"stamina": 198,
+			"friend": 50,
+			"exp": 16947900
+		},
+		{
+			"rank": 306,
+			"cost": 153,
+			"stamina": 198,
+			"friend": 50,
+			"exp": 17098600
+		},
+		{
+			"rank": 307,
+			"cost": 153,
+			"stamina": 200,
+			"friend": 50,
+			"exp": 17250200
+		},
+		{
+			"rank": 308,
+			"cost": 154,
+			"stamina": 200,
+			"friend": 50,
+			"exp": 17402600
+		},
+		{
+			"rank": 309,
+			"cost": 154,
+			"stamina": 201,
+			"friend": 50,
+			"exp": 17555900
+		},
+		{
+			"rank": 310,
+			"cost": 154,
+			"stamina": 201,
+			"friend": 50,
+			"exp": 17710100
+		},
+		{
+			"rank": 311,
+			"cost": 154,
+			"stamina": 202,
+			"friend": 50,
+			"exp": 17865200
+		},
+		{
+			"rank": 312,
+			"cost": 155,
+			"stamina": 202,
+			"friend": 50,
+			"exp": 18021100
+		},
+		{
+			"rank": 313,
+			"cost": 155,
+			"stamina": 203,
+			"friend": 50,
+			"exp": 18177900
+		},
+		{
+			"rank": 314,
+			"cost": 155,
+			"stamina": 203,
+			"friend": 50,
+			"exp": 18335600
+		},
+		{
+			"rank": 315,
+			"cost": 155,
+			"stamina": 204,
+			"friend": 50,
+			"exp": 18494200
+		},
+		{
+			"rank": 316,
+			"cost": 156,
+			"stamina": 204,
+			"friend": 50,
+			"exp": 18653700
+		},
+		{
+			"rank": 317,
+			"cost": 156,
+			"stamina": 205,
+			"friend": 50,
+			"exp": 18814100
+		},
+		{
+			"rank": 318,
+			"cost": 156,
+			"stamina": 205,
+			"friend": 50,
+			"exp": 18975400
+		},
+		{
+			"rank": 319,
+			"cost": 156,
+			"stamina": 206,
+			"friend": 50,
+			"exp": 19137600
+		},
+		{
+			"rank": 320,
+			"cost": 157,
+			"stamina": 206,
+			"friend": 50,
+			"exp": 19300700
+		},
+		{
+			"rank": 321,
+			"cost": 157,
+			"stamina": 207,
+			"friend": 50,
+			"exp": 19464700
+		},
+		{
+			"rank": 322,
+			"cost": 157,
+			"stamina": 207,
+			"friend": 50,
+			"exp": 19629600
+		},
+		{
+			"rank": 323,
+			"cost": 157,
+			"stamina": 208,
+			"friend": 50,
+			"exp": 19795400
+		},
+		{
+			"rank": 324,
+			"cost": 158,
+			"stamina": 208,
+			"friend": 50,
+			"exp": 19962100
+		},
+		{
+			"rank": 325,
+			"cost": 158,
+			"stamina": 209,
+			"friend": 50,
+			"exp": 20129700
+		},
+		{
+			"rank": 326,
+			"cost": 158,
+			"stamina": 209,
+			"friend": 50,
+			"exp": 20298200
+		},
+		{
+			"rank": 327,
+			"cost": 158,
+			"stamina": 211,
+			"friend": 50,
+			"exp": 20467600
+		},
+		{
+			"rank": 328,
+			"cost": 159,
+			"stamina": 211,
+			"friend": 50,
+			"exp": 20637900
+		},
+		{
+			"rank": 329,
+			"cost": 159,
+			"stamina": 212,
+			"friend": 50,
+			"exp": 20809200
+		},
+		{
+			"rank": 330,
+			"cost": 159,
+			"stamina": 212,
+			"friend": 50,
+			"exp": 20981400
+		},
+		{
+			"rank": 331,
+			"cost": 159,
+			"stamina": 213,
+			"friend": 50,
+			"exp": 21154500
+		},
+		{
+			"rank": 332,
+			"cost": 160,
+			"stamina": 213,
+			"friend": 50,
+			"exp": 21328500
+		},
+		{
+			"rank": 333,
+			"cost": 160,
+			"stamina": 214,
+			"friend": 50,
+			"exp": 21503500
+		},
+		{
+			"rank": 334,
+			"cost": 160,
+			"stamina": 214,
+			"friend": 50,
+			"exp": 21679400
+		},
+		{
+			"rank": 335,
+			"cost": 160,
+			"stamina": 215,
+			"friend": 50,
+			"exp": 21856200
+		},
+		{
+			"rank": 336,
+			"cost": 161,
+			"stamina": 215,
+			"friend": 50,
+			"exp": 22034000
+		},
+		{
+			"rank": 337,
+			"cost": 161,
+			"stamina": 216,
+			"friend": 50,
+			"exp": 22212700
+		},
+		{
+			"rank": 338,
+			"cost": 161,
+			"stamina": 216,
+			"friend": 50,
+			"exp": 22392400
+		},
+		{
+			"rank": 339,
+			"cost": 161,
+			"stamina": 217,
+			"friend": 50,
+			"exp": 22573000
+		},
+		{
+			"rank": 340,
+			"cost": 162,
+			"stamina": 217,
+			"friend": 50,
+			"exp": 22754500
+		},
+		{
+			"rank": 341,
+			"cost": 162,
+			"stamina": 218,
+			"friend": 50,
+			"exp": 22937000
+		},
+		{
+			"rank": 342,
+			"cost": 162,
+			"stamina": 218,
+			"friend": 50,
+			"exp": 23120500
+		},
+		{
+			"rank": 343,
+			"cost": 162,
+			"stamina": 219,
+			"friend": 50,
+			"exp": 23304900
+		},
+		{
+			"rank": 344,
+			"cost": 163,
+			"stamina": 219,
+			"friend": 50,
+			"exp": 23490300
+		},
+		{
+			"rank": 345,
+			"cost": 163,
+			"stamina": 220,
+			"friend": 50,
+			"exp": 23676600
+		},
+		{
+			"rank": 346,
+			"cost": 163,
+			"stamina": 220,
+			"friend": 50,
+			"exp": 23863900
+		},
+		{
+			"rank": 347,
+			"cost": 163,
+			"stamina": 222,
+			"friend": 50,
+			"exp": 24052200
+		},
+		{
+			"rank": 348,
+			"cost": 164,
+			"stamina": 222,
+			"friend": 50,
+			"exp": 24241400
+		},
+		{
+			"rank": 349,
+			"cost": 164,
+			"stamina": 223,
+			"friend": 50,
+			"exp": 24431600
+		},
+		{
+			"rank": 350,
+			"cost": 164,
+			"stamina": 223,
+			"friend": 50,
+			"exp": 24622800
+		},
+		{
+			"rank": 351,
+			"cost": 164,
+			"stamina": 224,
+			"friend": 50,
+			"exp": 24814900
+		},
+		{
+			"rank": 352,
+			"cost": 165,
+			"stamina": 224,
+			"friend": 50,
+			"exp": 25008000
+		},
+		{
+			"rank": 353,
+			"cost": 165,
+			"stamina": 225,
+			"friend": 50,
+			"exp": 25202100
+		},
+		{
+			"rank": 354,
+			"cost": 165,
+			"stamina": 225,
+			"friend": 50,
+			"exp": 25397200
+		},
+		{
+			"rank": 355,
+			"cost": 165,
+			"stamina": 226,
+			"friend": 50,
+			"exp": 25593300
+		},
+		{
+			"rank": 356,
+			"cost": 166,
+			"stamina": 226,
+			"friend": 50,
+			"exp": 25790400
+		},
+		{
+			"rank": 357,
+			"cost": 166,
+			"stamina": 227,
+			"friend": 50,
+			"exp": 25988500
+		},
+		{
+			"rank": 358,
+			"cost": 166,
+			"stamina": 227,
+			"friend": 50,
+			"exp": 26187600
+		},
+		{
+			"rank": 359,
+			"cost": 166,
+			"stamina": 228,
+			"friend": 50,
+			"exp": 26387600
+		},
+		{
+			"rank": 360,
+			"cost": 167,
+			"stamina": 228,
+			"friend": 50,
+			"exp": 26588600
+		},
+		{
+			"rank": 361,
+			"cost": 167,
+			"stamina": 229,
+			"friend": 50,
+			"exp": 26790600
+		},
+		{
+			"rank": 362,
+			"cost": 167,
+			"stamina": 229,
+			"friend": 50,
+			"exp": 26993700
+		},
+		{
+			"rank": 363,
+			"cost": 167,
+			"stamina": 230,
+			"friend": 50,
+			"exp": 27197800
+		},
+		{
+			"rank": 364,
+			"cost": 168,
+			"stamina": 230,
+			"friend": 50,
+			"exp": 27402900
+		},
+		{
+			"rank": 365,
+			"cost": 168,
+			"stamina": 231,
+			"friend": 50,
+			"exp": 27609000
+		},
+		{
+			"rank": 366,
+			"cost": 168,
+			"stamina": 231,
+			"friend": 50,
+			"exp": 27816100
+		},
+		{
+			"rank": 367,
+			"cost": 168,
+			"stamina": 233,
+			"friend": 50,
+			"exp": 28024200
+		},
+		{
+			"rank": 368,
+			"cost": 169,
+			"stamina": 233,
+			"friend": 50,
+			"exp": 28233300
+		},
+		{
+			"rank": 369,
+			"cost": 169,
+			"stamina": 234,
+			"friend": 50,
+			"exp": 28443400
+		},
+		{
+			"rank": 370,
+			"cost": 169,
+			"stamina": 234,
+			"friend": 50,
+			"exp": 28654600
+		},
+		{
+			"rank": 371,
+			"cost": 169,
+			"stamina": 235,
+			"friend": 50,
+			"exp": 28866800
+		},
+		{
+			"rank": 372,
+			"cost": 170,
+			"stamina": 235,
+			"friend": 50,
+			"exp": 29080000
+		},
+		{
+			"rank": 373,
+			"cost": 170,
+			"stamina": 236,
+			"friend": 50,
+			"exp": 29294300
+		},
+		{
+			"rank": 374,
+			"cost": 170,
+			"stamina": 236,
+			"friend": 50,
+			"exp": 29509600
+		},
+		{
+			"rank": 375,
+			"cost": 170,
+			"stamina": 237,
+			"friend": 50,
+			"exp": 29725900
+		},
+		{
+			"rank": 376,
+			"cost": 171,
+			"stamina": 237,
+			"friend": 50,
+			"exp": 29943300
+		},
+		{
+			"rank": 377,
+			"cost": 171,
+			"stamina": 238,
+			"friend": 50,
+			"exp": 30161700
+		},
+		{
+			"rank": 378,
+			"cost": 171,
+			"stamina": 238,
+			"friend": 50,
+			"exp": 30381100
+		},
+		{
+			"rank": 379,
+			"cost": 171,
+			"stamina": 239,
+			"friend": 50,
+			"exp": 30601600
+		},
+		{
+			"rank": 380,
+			"cost": 172,
+			"stamina": 239,
+			"friend": 50,
+			"exp": 30823100
+		},
+		{
+			"rank": 381,
+			"cost": 172,
+			"stamina": 240,
+			"friend": 50,
+			"exp": 31045700
+		},
+		{
+			"rank": 382,
+			"cost": 172,
+			"stamina": 240,
+			"friend": 50,
+			"exp": 31269300
+		},
+		{
+			"rank": 383,
+			"cost": 172,
+			"stamina": 241,
+			"friend": 50,
+			"exp": 31494000
+		},
+		{
+			"rank": 384,
+			"cost": 173,
+			"stamina": 241,
+			"friend": 50,
+			"exp": 31719800
+		},
+		{
+			"rank": 385,
+			"cost": 173,
+			"stamina": 242,
+			"friend": 50,
+			"exp": 31946600
+		},
+		{
+			"rank": 386,
+			"cost": 173,
+			"stamina": 242,
+			"friend": 50,
+			"exp": 32174500
+		},
+		{
+			"rank": 387,
+			"cost": 173,
+			"stamina": 244,
+			"friend": 50,
+			"exp": 32403400
+		},
+		{
+			"rank": 388,
+			"cost": 174,
+			"stamina": 244,
+			"friend": 50,
+			"exp": 32633400
+		},
+		{
+			"rank": 389,
+			"cost": 174,
+			"stamina": 245,
+			"friend": 50,
+			"exp": 32864500
+		},
+		{
+			"rank": 390,
+			"cost": 174,
+			"stamina": 245,
+			"friend": 50,
+			"exp": 33096700
+		},
+		{
+			"rank": 391,
+			"cost": 174,
+			"stamina": 246,
+			"friend": 50,
+			"exp": 33329900
+		},
+		{
+			"rank": 392,
+			"cost": 175,
+			"stamina": 246,
+			"friend": 50,
+			"exp": 33564200
+		},
+		{
+			"rank": 393,
+			"cost": 175,
+			"stamina": 247,
+			"friend": 50,
+			"exp": 33799600
+		},
+		{
+			"rank": 394,
+			"cost": 175,
+			"stamina": 247,
+			"friend": 50,
+			"exp": 34036100
+		},
+		{
+			"rank": 395,
+			"cost": 175,
+			"stamina": 248,
+			"friend": 50,
+			"exp": 34273700
+		},
+		{
+			"rank": 396,
+			"cost": 176,
+			"stamina": 248,
+			"friend": 50,
+			"exp": 34512400
+		},
+		{
+			"rank": 397,
+			"cost": 176,
+			"stamina": 249,
+			"friend": 50,
+			"exp": 34752100
+		},
+		{
+			"rank": 398,
+			"cost": 176,
+			"stamina": 249,
+			"friend": 50,
+			"exp": 34992900
+		},
+		{
+			"rank": 399,
+			"cost": 176,
+			"stamina": 250,
+			"friend": 50,
+			"exp": 35234800
+		},
+		{
+			"rank": 400,
+			"cost": 177,
+			"stamina": 250,
+			"friend": 50,
+			"exp": 35477800
+		},
+		{
+			"rank": 401,
+			"cost": 177,
+			"stamina": 251,
+			"friend": 50,
+			"exp": 35721900
+		},
+		{
+			"rank": 402,
+			"cost": 177,
+			"stamina": 251,
+			"friend": 50,
+			"exp": 35967100
+		},
+		{
+			"rank": 403,
+			"cost": 177,
+			"stamina": 252,
+			"friend": 50,
+			"exp": 36213400
+		},
+		{
+			"rank": 404,
+			"cost": 178,
+			"stamina": 252,
+			"friend": 50,
+			"exp": 36460800
+		},
+		{
+			"rank": 405,
+			"cost": 178,
+			"stamina": 253,
+			"friend": 50,
+			"exp": 36709400
+		},
+		{
+			"rank": 406,
+			"cost": 178,
+			"stamina": 253,
+			"friend": 50,
+			"exp": 36959100
+		},
+		{
+			"rank": 407,
+			"cost": 178,
+			"stamina": 255,
+			"friend": 50,
+			"exp": 37209900
+		},
+		{
+			"rank": 408,
+			"cost": 179,
+			"stamina": 255,
+			"friend": 50,
+			"exp": 37461800
+		},
+		{
+			"rank": 409,
+			"cost": 179,
+			"stamina": 256,
+			"friend": 50,
+			"exp": 37714800
+		},
+		{
+			"rank": 410,
+			"cost": 179,
+			"stamina": 256,
+			"friend": 50,
+			"exp": 37968900
+		},
+		{
+			"rank": 411,
+			"cost": 179,
+			"stamina": 257,
+			"friend": 50,
+			"exp": 38224200
+		},
+		{
+			"rank": 412,
+			"cost": 180,
+			"stamina": 257,
+			"friend": 50,
+			"exp": 38480600
+		},
+		{
+			"rank": 413,
+			"cost": 180,
+			"stamina": 258,
+			"friend": 50,
+			"exp": 38738100
+		},
+		{
+			"rank": 414,
+			"cost": 180,
+			"stamina": 258,
+			"friend": 50,
+			"exp": 38996800
+		},
+		{
+			"rank": 415,
+			"cost": 180,
+			"stamina": 259,
+			"friend": 50,
+			"exp": 39256600
+		},
+		{
+			"rank": 416,
+			"cost": 181,
+			"stamina": 259,
+			"friend": 50,
+			"exp": 39517500
+		},
+		{
+			"rank": 417,
+			"cost": 181,
+			"stamina": 260,
+			"friend": 50,
+			"exp": 39779600
+		},
+		{
+			"rank": 418,
+			"cost": 181,
+			"stamina": 260,
+			"friend": 50,
+			"exp": 40042800
+		},
+		{
+			"rank": 419,
+			"cost": 181,
+			"stamina": 261,
+			"friend": 50,
+			"exp": 40307200
+		},
+		{
+			"rank": 420,
+			"cost": 182,
+			"stamina": 261,
+			"friend": 50,
+			"exp": 40572700
+		},
+		{
+			"rank": 421,
+			"cost": 182,
+			"stamina": 262,
+			"friend": 50,
+			"exp": 40839300
+		},
+		{
+			"rank": 422,
+			"cost": 182,
+			"stamina": 262,
+			"friend": 50,
+			"exp": 41107100
+		},
+		{
+			"rank": 423,
+			"cost": 182,
+			"stamina": 263,
+			"friend": 50,
+			"exp": 41376100
+		},
+		{
+			"rank": 424,
+			"cost": 183,
+			"stamina": 263,
+			"friend": 50,
+			"exp": 41646200
+		},
+		{
+			"rank": 425,
+			"cost": 183,
+			"stamina": 264,
+			"friend": 50,
+			"exp": 41917500
+		},
+		{
+			"rank": 426,
+			"cost": 183,
+			"stamina": 264,
+			"friend": 50,
+			"exp": 42189900
+		},
+		{
+			"rank": 427,
+			"cost": 183,
+			"stamina": 266,
+			"friend": 50,
+			"exp": 42463500
+		},
+		{
+			"rank": 428,
+			"cost": 184,
+			"stamina": 266,
+			"friend": 50,
+			"exp": 42738300
+		},
+		{
+			"rank": 429,
+			"cost": 184,
+			"stamina": 267,
+			"friend": 50,
+			"exp": 43014200
+		},
+		{
+			"rank": 430,
+			"cost": 184,
+			"stamina": 267,
+			"friend": 50,
+			"exp": 43291300
+		},
+		{
+			"rank": 431,
+			"cost": 184,
+			"stamina": 268,
+			"friend": 50,
+			"exp": 43569600
+		},
+		{
+			"rank": 432,
+			"cost": 185,
+			"stamina": 268,
+			"friend": 50,
+			"exp": 43849000
+		},
+		{
+			"rank": 433,
+			"cost": 185,
+			"stamina": 269,
+			"friend": 50,
+			"exp": 44129600
+		},
+		{
+			"rank": 434,
+			"cost": 185,
+			"stamina": 269,
+			"friend": 50,
+			"exp": 44411400
+		},
+		{
+			"rank": 435,
+			"cost": 185,
+			"stamina": 270,
+			"friend": 50,
+			"exp": 44694400
+		},
+		{
+			"rank": 436,
+			"cost": 186,
+			"stamina": 270,
+			"friend": 50,
+			"exp": 44978600
+		},
+		{
+			"rank": 437,
+			"cost": 186,
+			"stamina": 271,
+			"friend": 50,
+			"exp": 45264000
+		},
+		{
+			"rank": 438,
+			"cost": 186,
+			"stamina": 271,
+			"friend": 50,
+			"exp": 45550600
+		},
+		{
+			"rank": 439,
+			"cost": 186,
+			"stamina": 272,
+			"friend": 50,
+			"exp": 45838400
+		},
+		{
+			"rank": 440,
+			"cost": 187,
+			"stamina": 272,
+			"friend": 50,
+			"exp": 46127300
+		},
+		{
+			"rank": 441,
+			"cost": 187,
+			"stamina": 273,
+			"friend": 50,
+			"exp": 46417400
+		},
+		{
+			"rank": 442,
+			"cost": 187,
+			"stamina": 273,
+			"friend": 50,
+			"exp": 46708700
+		},
+		{
+			"rank": 443,
+			"cost": 187,
+			"stamina": 274,
+			"friend": 50,
+			"exp": 47001200
+		},
+		{
+			"rank": 444,
+			"cost": 188,
+			"stamina": 274,
+			"friend": 50,
+			"exp": 47295000
+		},
+		{
+			"rank": 445,
+			"cost": 188,
+			"stamina": 275,
+			"friend": 50,
+			"exp": 47590000
+		},
+		{
+			"rank": 446,
+			"cost": 188,
+			"stamina": 275,
+			"friend": 50,
+			"exp": 47886200
+		},
+		{
+			"rank": 447,
+			"cost": 188,
+			"stamina": 277,
+			"friend": 50,
+			"exp": 48183600
+		},
+		{
+			"rank": 448,
+			"cost": 189,
+			"stamina": 277,
+			"friend": 50,
+			"exp": 48482200
+		},
+		{
+			"rank": 449,
+			"cost": 189,
+			"stamina": 278,
+			"friend": 50,
+			"exp": 48782000
+		},
+		{
+			"rank": 450,
+			"cost": 189,
+			"stamina": 278,
+			"friend": 50,
+			"exp": 49083000
+		},
+		{
+			"rank": 451,
+			"cost": 189,
+			"stamina": 279,
+			"friend": 50,
+			"exp": 49385300
+		},
+		{
+			"rank": 452,
+			"cost": 190,
+			"stamina": 279,
+			"friend": 50,
+			"exp": 49688800
+		},
+		{
+			"rank": 453,
+			"cost": 190,
+			"stamina": 280,
+			"friend": 50,
+			"exp": 49993500
+		},
+		{
+			"rank": 454,
+			"cost": 190,
+			"stamina": 280,
+			"friend": 50,
+			"exp": 50299400
+		},
+		{
+			"rank": 455,
+			"cost": 190,
+			"stamina": 281,
+			"friend": 50,
+			"exp": 50606600
+		},
+		{
+			"rank": 456,
+			"cost": 191,
+			"stamina": 281,
+			"friend": 50,
+			"exp": 50915000
+		},
+		{
+			"rank": 457,
+			"cost": 191,
+			"stamina": 282,
+			"friend": 50,
+			"exp": 51224600
+		},
+		{
+			"rank": 458,
+			"cost": 191,
+			"stamina": 282,
+			"friend": 50,
+			"exp": 51535500
+		},
+		{
+			"rank": 459,
+			"cost": 191,
+			"stamina": 283,
+			"friend": 50,
+			"exp": 51847600
+		},
+		{
+			"rank": 460,
+			"cost": 192,
+			"stamina": 283,
+			"friend": 50,
+			"exp": 52161000
+		},
+		{
+			"rank": 461,
+			"cost": 192,
+			"stamina": 284,
+			"friend": 50,
+			"exp": 52475600
+		},
+		{
+			"rank": 462,
+			"cost": 192,
+			"stamina": 284,
+			"friend": 50,
+			"exp": 52791500
+		},
+		{
+			"rank": 463,
+			"cost": 192,
+			"stamina": 285,
+			"friend": 50,
+			"exp": 53108600
+		},
+		{
+			"rank": 464,
+			"cost": 193,
+			"stamina": 285,
+			"friend": 50,
+			"exp": 53427000
+		},
+		{
+			"rank": 465,
+			"cost": 193,
+			"stamina": 286,
+			"friend": 50,
+			"exp": 53746600
+		},
+		{
+			"rank": 466,
+			"cost": 193,
+			"stamina": 286,
+			"friend": 50,
+			"exp": 54067500
+		},
+		{
+			"rank": 467,
+			"cost": 193,
+			"stamina": 288,
+			"friend": 50,
+			"exp": 54389600
+		},
+		{
+			"rank": 468,
+			"cost": 194,
+			"stamina": 288,
+			"friend": 50,
+			"exp": 54713000
+		},
+		{
+			"rank": 469,
+			"cost": 194,
+			"stamina": 289,
+			"friend": 50,
+			"exp": 55037700
+		},
+		{
+			"rank": 470,
+			"cost": 194,
+			"stamina": 289,
+			"friend": 50,
+			"exp": 55363600
+		},
+		{
+			"rank": 471,
+			"cost": 194,
+			"stamina": 290,
+			"friend": 50,
+			"exp": 55690800
+		},
+		{
+			"rank": 472,
+			"cost": 195,
+			"stamina": 290,
+			"friend": 50,
+			"exp": 56019300
+		},
+		{
+			"rank": 473,
+			"cost": 195,
+			"stamina": 291,
+			"friend": 50,
+			"exp": 56349100
+		},
+		{
+			"rank": 474,
+			"cost": 195,
+			"stamina": 291,
+			"friend": 50,
+			"exp": 56680100
+		},
+		{
+			"rank": 475,
+			"cost": 195,
+			"stamina": 292,
+			"friend": 50,
+			"exp": 57012400
+		},
+		{
+			"rank": 476,
+			"cost": 196,
+			"stamina": 292,
+			"friend": 50,
+			"exp": 57346000
+		},
+		{
+			"rank": 477,
+			"cost": 196,
+			"stamina": 293,
+			"friend": 50,
+			"exp": 57680900
+		},
+		{
+			"rank": 478,
+			"cost": 196,
+			"stamina": 293,
+			"friend": 50,
+			"exp": 58017100
+		},
+		{
+			"rank": 479,
+			"cost": 196,
+			"stamina": 294,
+			"friend": 50,
+			"exp": 58354600
+		},
+		{
+			"rank": 480,
+			"cost": 197,
+			"stamina": 294,
+			"friend": 50,
+			"exp": 58693400
+		},
+		{
+			"rank": 481,
+			"cost": 197,
+			"stamina": 295,
+			"friend": 50,
+			"exp": 59033500
+		},
+		{
+			"rank": 482,
+			"cost": 197,
+			"stamina": 295,
+			"friend": 50,
+			"exp": 59374900
+		},
+		{
+			"rank": 483,
+			"cost": 197,
+			"stamina": 296,
+			"friend": 50,
+			"exp": 59717600
+		},
+		{
+			"rank": 484,
+			"cost": 198,
+			"stamina": 296,
+			"friend": 50,
+			"exp": 60061600
+		},
+		{
+			"rank": 485,
+			"cost": 198,
+			"stamina": 297,
+			"friend": 50,
+			"exp": 60406900
+		},
+		{
+			"rank": 486,
+			"cost": 198,
+			"stamina": 297,
+			"friend": 50,
+			"exp": 60753500
+		},
+		{
+			"rank": 487,
+			"cost": 198,
+			"stamina": 299,
+			"friend": 50,
+			"exp": 61101400
+		},
+		{
+			"rank": 488,
+			"cost": 199,
+			"stamina": 299,
+			"friend": 50,
+			"exp": 61450600
+		},
+		{
+			"rank": 489,
+			"cost": 199,
+			"stamina": 300,
+			"friend": 50,
+			"exp": 61801100
+		},
+		{
+			"rank": 490,
+			"cost": 199,
+			"stamina": 300,
+			"friend": 50,
+			"exp": 62152900
+		},
+		{
+			"rank": 491,
+			"cost": 199,
+			"stamina": 301,
+			"friend": 50,
+			"exp": 62506000
+		},
+		{
+			"rank": 492,
+			"cost": 200,
+			"stamina": 301,
+			"friend": 50,
+			"exp": 62860500
+		},
+		{
+			"rank": 493,
+			"cost": 200,
+			"stamina": 302,
+			"friend": 50,
+			"exp": 63216300
+		},
+		{
+			"rank": 494,
+			"cost": 200,
+			"stamina": 302,
+			"friend": 50,
+			"exp": 63573400
+		},
+		{
+			"rank": 495,
+			"cost": 200,
+			"stamina": 303,
+			"friend": 50,
+			"exp": 63931800
+		},
+		{
+			"rank": 496,
+			"cost": 201,
+			"stamina": 303,
+			"friend": 50,
+			"exp": 64291600
+		},
+		{
+			"rank": 497,
+			"cost": 201,
+			"stamina": 304,
+			"friend": 50,
+			"exp": 64652700
+		},
+		{
+			"rank": 498,
+			"cost": 201,
+			"stamina": 304,
+			"friend": 50,
+			"exp": 65015100
+		},
+		{
+			"rank": 499,
+			"cost": 201,
+			"stamina": 305,
+			"friend": 50,
+			"exp": 65378900
+		},
+		{
+			"rank": 500,
+			"cost": 202,
+			"stamina": 305,
+			"friend": 50,
+			"exp": 65744000
+		},
+		{
+			"rank": 501,
+			"cost": 202,
+			"stamina": 306,
+			"friend": 50,
+			"exp": 66110500
+		},
+		{
+			"rank": 502,
+			"cost": 202,
+			"stamina": 306,
+			"friend": 50,
+			"exp": 66478300
+		},
+		{
+			"rank": 503,
+			"cost": 202,
+			"stamina": 307,
+			"friend": 50,
+			"exp": 66847500
+		},
+		{
+			"rank": 504,
+			"cost": 203,
+			"stamina": 307,
+			"friend": 50,
+			"exp": 67218000
+		},
+		{
+			"rank": 505,
+			"cost": 203,
+			"stamina": 308,
+			"friend": 50,
+			"exp": 67589900
+		},
+		{
+			"rank": 506,
+			"cost": 203,
+			"stamina": 308,
+			"friend": 50,
+			"exp": 67963100
+		},
+		{
+			"rank": 507,
+			"cost": 203,
+			"stamina": 310,
+			"friend": 50,
+			"exp": 68337700
+		},
+		{
+			"rank": 508,
+			"cost": 204,
+			"stamina": 310,
+			"friend": 50,
+			"exp": 68713600
+		},
+		{
+			"rank": 509,
+			"cost": 204,
+			"stamina": 311,
+			"friend": 50,
+			"exp": 69090900
+		},
+		{
+			"rank": 510,
+			"cost": 204,
+			"stamina": 311,
+			"friend": 50,
+			"exp": 69469600
+		},
+		{
+			"rank": 511,
+			"cost": 204,
+			"stamina": 312,
+			"friend": 50,
+			"exp": 69849600
+		},
+		{
+			"rank": 512,
+			"cost": 205,
+			"stamina": 312,
+			"friend": 50,
+			"exp": 70231000
+		},
+		{
+			"rank": 513,
+			"cost": 205,
+			"stamina": 313,
+			"friend": 50,
+			"exp": 70613800
+		},
+		{
+			"rank": 514,
+			"cost": 205,
+			"stamina": 313,
+			"friend": 50,
+			"exp": 70997900
+		},
+		{
+			"rank": 515,
+			"cost": 205,
+			"stamina": 314,
+			"friend": 50,
+			"exp": 71383400
+		},
+		{
+			"rank": 516,
+			"cost": 206,
+			"stamina": 314,
+			"friend": 50,
+			"exp": 71770300
+		},
+		{
+			"rank": 517,
+			"cost": 206,
+			"stamina": 315,
+			"friend": 50,
+			"exp": 72158600
+		},
+		{
+			"rank": 518,
+			"cost": 206,
+			"stamina": 315,
+			"friend": 50,
+			"exp": 72548300
+		},
+		{
+			"rank": 519,
+			"cost": 206,
+			"stamina": 316,
+			"friend": 50,
+			"exp": 72939400
+		},
+		{
+			"rank": 520,
+			"cost": 207,
+			"stamina": 316,
+			"friend": 50,
+			"exp": 73331800
+		},
+		{
+			"rank": 521,
+			"cost": 207,
+			"stamina": 317,
+			"friend": 50,
+			"exp": 73725600
+		},
+		{
+			"rank": 522,
+			"cost": 207,
+			"stamina": 317,
+			"friend": 50,
+			"exp": 74120800
+		},
+		{
+			"rank": 523,
+			"cost": 207,
+			"stamina": 318,
+			"friend": 50,
+			"exp": 74517400
+		},
+		{
+			"rank": 524,
+			"cost": 208,
+			"stamina": 318,
+			"friend": 50,
+			"exp": 74915400
+		},
+		{
+			"rank": 525,
+			"cost": 208,
+			"stamina": 319,
+			"friend": 50,
+			"exp": 75314800
+		},
+		{
+			"rank": 526,
+			"cost": 208,
+			"stamina": 319,
+			"friend": 50,
+			"exp": 75715600
+		},
+		{
+			"rank": 527,
+			"cost": 208,
+			"stamina": 321,
+			"friend": 50,
+			"exp": 76117800
+		},
+		{
+			"rank": 528,
+			"cost": 209,
+			"stamina": 321,
+			"friend": 50,
+			"exp": 76521400
+		},
+		{
+			"rank": 529,
+			"cost": 209,
+			"stamina": 322,
+			"friend": 50,
+			"exp": 76926500
+		},
+		{
+			"rank": 530,
+			"cost": 209,
+			"stamina": 322,
+			"friend": 50,
+			"exp": 77333000
+		},
+		{
+			"rank": 531,
+			"cost": 209,
+			"stamina": 323,
+			"friend": 50,
+			"exp": 77740900
+		},
+		{
+			"rank": 532,
+			"cost": 210,
+			"stamina": 323,
+			"friend": 50,
+			"exp": 78150200
+		},
+		{
+			"rank": 533,
+			"cost": 210,
+			"stamina": 324,
+			"friend": 50,
+			"exp": 78560900
+		},
+		{
+			"rank": 534,
+			"cost": 210,
+			"stamina": 324,
+			"friend": 50,
+			"exp": 78973000
+		},
+		{
+			"rank": 535,
+			"cost": 210,
+			"stamina": 325,
+			"friend": 50,
+			"exp": 79386600
+		},
+		{
+			"rank": 536,
+			"cost": 211,
+			"stamina": 325,
+			"friend": 50,
+			"exp": 79801600
+		},
+		{
+			"rank": 537,
+			"cost": 211,
+			"stamina": 326,
+			"friend": 50,
+			"exp": 80218000
+		},
+		{
+			"rank": 538,
+			"cost": 211,
+			"stamina": 326,
+			"friend": 50,
+			"exp": 80635900
+		},
+		{
+			"rank": 539,
+			"cost": 211,
+			"stamina": 327,
+			"friend": 50,
+			"exp": 81055200
+		},
+		{
+			"rank": 540,
+			"cost": 212,
+			"stamina": 327,
+			"friend": 50,
+			"exp": 81475900
+		},
+		{
+			"rank": 541,
+			"cost": 212,
+			"stamina": 328,
+			"friend": 50,
+			"exp": 81898100
+		},
+		{
+			"rank": 542,
+			"cost": 212,
+			"stamina": 328,
+			"friend": 50,
+			"exp": 82321700
+		},
+		{
+			"rank": 543,
+			"cost": 212,
+			"stamina": 329,
+			"friend": 50,
+			"exp": 82746800
+		},
+		{
+			"rank": 544,
+			"cost": 213,
+			"stamina": 329,
+			"friend": 50,
+			"exp": 83173300
+		},
+		{
+			"rank": 545,
+			"cost": 213,
+			"stamina": 330,
+			"friend": 50,
+			"exp": 83601200
+		},
+		{
+			"rank": 546,
+			"cost": 213,
+			"stamina": 330,
+			"friend": 50,
+			"exp": 84030600
+		},
+		{
+			"rank": 547,
+			"cost": 213,
+			"stamina": 332,
+			"friend": 50,
+			"exp": 84461400
+		},
+		{
+			"rank": 548,
+			"cost": 214,
+			"stamina": 332,
+			"friend": 50,
+			"exp": 84893700
+		},
+		{
+			"rank": 549,
+			"cost": 214,
+			"stamina": 333,
+			"friend": 50,
+			"exp": 85327500
+		},
+		{
+			"rank": 550,
+			"cost": 214,
+			"stamina": 333,
+			"friend": 50,
+			"exp": 85762700
+		},
+		{
+			"rank": 551,
+			"cost": 214,
+			"stamina": 334,
+			"friend": 50,
+			"exp": 86199400
+		},
+		{
+			"rank": 552,
+			"cost": 215,
+			"stamina": 334,
+			"friend": 50,
+			"exp": 86637600
+		},
+		{
+			"rank": 553,
+			"cost": 215,
+			"stamina": 335,
+			"friend": 50,
+			"exp": 87077200
+		},
+		{
+			"rank": 554,
+			"cost": 215,
+			"stamina": 335,
+			"friend": 50,
+			"exp": 87518300
+		},
+		{
+			"rank": 555,
+			"cost": 215,
+			"stamina": 336,
+			"friend": 50,
+			"exp": 87960900
+		},
+		{
+			"rank": 556,
+			"cost": 216,
+			"stamina": 336,
+			"friend": 50,
+			"exp": 88404900
+		},
+		{
+			"rank": 557,
+			"cost": 216,
+			"stamina": 337,
+			"friend": 50,
+			"exp": 88850400
+		},
+		{
+			"rank": 558,
+			"cost": 216,
+			"stamina": 337,
+			"friend": 50,
+			"exp": 89297400
+		},
+		{
+			"rank": 559,
+			"cost": 216,
+			"stamina": 338,
+			"friend": 50,
+			"exp": 89745900
+		},
+		{
+			"rank": 560,
+			"cost": 217,
+			"stamina": 338,
+			"friend": 50,
+			"exp": 90195900
+		},
+		{
+			"rank": 561,
+			"cost": 217,
+			"stamina": 339,
+			"friend": 50,
+			"exp": 90647300
+		},
+		{
+			"rank": 562,
+			"cost": 217,
+			"stamina": 339,
+			"friend": 50,
+			"exp": 91100200
+		},
+		{
+			"rank": 563,
+			"cost": 217,
+			"stamina": 340,
+			"friend": 50,
+			"exp": 91554600
+		},
+		{
+			"rank": 564,
+			"cost": 218,
+			"stamina": 340,
+			"friend": 50,
+			"exp": 92010500
+		},
+		{
+			"rank": 565,
+			"cost": 218,
+			"stamina": 341,
+			"friend": 50,
+			"exp": 92467900
+		},
+		{
+			"rank": 566,
+			"cost": 218,
+			"stamina": 341,
+			"friend": 50,
+			"exp": 92926800
+		},
+		{
+			"rank": 567,
+			"cost": 218,
+			"stamina": 343,
+			"friend": 50,
+			"exp": 93387200
+		},
+		{
+			"rank": 568,
+			"cost": 219,
+			"stamina": 343,
+			"friend": 50,
+			"exp": 93849100
+		},
+		{
+			"rank": 569,
+			"cost": 219,
+			"stamina": 344,
+			"friend": 50,
+			"exp": 94312500
+		},
+		{
+			"rank": 570,
+			"cost": 219,
+			"stamina": 344,
+			"friend": 50,
+			"exp": 94777400
+		},
+		{
+			"rank": 571,
+			"cost": 219,
+			"stamina": 345,
+			"friend": 50,
+			"exp": 95243800
+		},
+		{
+			"rank": 572,
+			"cost": 220,
+			"stamina": 345,
+			"friend": 50,
+			"exp": 95711800
+		},
+		{
+			"rank": 573,
+			"cost": 220,
+			"stamina": 346,
+			"friend": 50,
+			"exp": 96181300
+		},
+		{
+			"rank": 574,
+			"cost": 220,
+			"stamina": 346,
+			"friend": 50,
+			"exp": 96652300
+		},
+		{
+			"rank": 575,
+			"cost": 220,
+			"stamina": 347,
+			"friend": 50,
+			"exp": 97124800
+		},
+		{
+			"rank": 576,
+			"cost": 221,
+			"stamina": 347,
+			"friend": 50,
+			"exp": 97598800
+		},
+		{
+			"rank": 577,
+			"cost": 221,
+			"stamina": 348,
+			"friend": 50,
+			"exp": 98074400
+		},
+		{
+			"rank": 578,
+			"cost": 221,
+			"stamina": 348,
+			"friend": 50,
+			"exp": 98551500
+		},
+		{
+			"rank": 579,
+			"cost": 221,
+			"stamina": 349,
+			"friend": 50,
+			"exp": 99030100
+		},
+		{
+			"rank": 580,
+			"cost": 222,
+			"stamina": 349,
+			"friend": 50,
+			"exp": 99510200
+		},
+		{
+			"rank": 581,
+			"cost": 222,
+			"stamina": 350,
+			"friend": 50,
+			"exp": 99991900
+		},
+		{
+			"rank": 582,
+			"cost": 222,
+			"stamina": 350,
+			"friend": 50,
+			"exp": 100475100
+		},
+		{
+			"rank": 583,
+			"cost": 222,
+			"stamina": 351,
+			"friend": 50,
+			"exp": 100959900
+		},
+		{
+			"rank": 584,
+			"cost": 223,
+			"stamina": 351,
+			"friend": 50,
+			"exp": 101446200
+		},
+		{
+			"rank": 585,
+			"cost": 223,
+			"stamina": 352,
+			"friend": 50,
+			"exp": 101934000
+		},
+		{
+			"rank": 586,
+			"cost": 223,
+			"stamina": 352,
+			"friend": 50,
+			"exp": 102423400
+		},
+		{
+			"rank": 587,
+			"cost": 223,
+			"stamina": 354,
+			"friend": 50,
+			"exp": 102914300
+		},
+		{
+			"rank": 588,
+			"cost": 224,
+			"stamina": 354,
+			"friend": 50,
+			"exp": 103406800
+		},
+		{
+			"rank": 589,
+			"cost": 224,
+			"stamina": 355,
+			"friend": 50,
+			"exp": 103900800
+		},
+		{
+			"rank": 590,
+			"cost": 224,
+			"stamina": 355,
+			"friend": 50,
+			"exp": 104396400
+		},
+		{
+			"rank": 591,
+			"cost": 224,
+			"stamina": 356,
+			"friend": 50,
+			"exp": 104893600
+		},
+		{
+			"rank": 592,
+			"cost": 225,
+			"stamina": 356,
+			"friend": 50,
+			"exp": 105392300
+		},
+		{
+			"rank": 593,
+			"cost": 225,
+			"stamina": 357,
+			"friend": 50,
+			"exp": 105892600
+		},
+		{
+			"rank": 594,
+			"cost": 225,
+			"stamina": 357,
+			"friend": 50,
+			"exp": 106394400
+		},
+		{
+			"rank": 595,
+			"cost": 225,
+			"stamina": 358,
+			"friend": 50,
+			"exp": 106897800
+		},
+		{
+			"rank": 596,
+			"cost": 226,
+			"stamina": 358,
+			"friend": 50,
+			"exp": 107402800
+		},
+		{
+			"rank": 597,
+			"cost": 226,
+			"stamina": 359,
+			"friend": 50,
+			"exp": 107909300
+		},
+		{
+			"rank": 598,
+			"cost": 226,
+			"stamina": 359,
+			"friend": 50,
+			"exp": 108417400
+		},
+		{
+			"rank": 599,
+			"cost": 226,
+			"stamina": 360,
+			"friend": 50,
+			"exp": 108927100
+		},
+		{
+			"rank": 600,
+			"cost": 227,
+			"stamina": 360,
+			"friend": 50,
+			"exp": 109438400
+		},
+		{
+			"rank": 601,
+			"cost": 227,
+			"stamina": 361,
+			"friend": 50,
+			"exp": 109951300
+		},
+		{
+			"rank": 602,
+			"cost": 227,
+			"stamina": 361,
+			"friend": 50,
+			"exp": 110465700
+		},
+		{
+			"rank": 603,
+			"cost": 227,
+			"stamina": 362,
+			"friend": 50,
+			"exp": 110981700
+		},
+		{
+			"rank": 604,
+			"cost": 228,
+			"stamina": 362,
+			"friend": 50,
+			"exp": 111499300
+		},
+		{
+			"rank": 605,
+			"cost": 228,
+			"stamina": 363,
+			"friend": 50,
+			"exp": 112018500
+		},
+		{
+			"rank": 606,
+			"cost": 228,
+			"stamina": 363,
+			"friend": 50,
+			"exp": 112539300
+		},
+		{
+			"rank": 607,
+			"cost": 228,
+			"stamina": 365,
+			"friend": 50,
+			"exp": 113061700
+		},
+		{
+			"rank": 608,
+			"cost": 229,
+			"stamina": 365,
+			"friend": 50,
+			"exp": 113585700
+		},
+		{
+			"rank": 609,
+			"cost": 229,
+			"stamina": 366,
+			"friend": 50,
+			"exp": 114111300
+		},
+		{
+			"rank": 610,
+			"cost": 229,
+			"stamina": 366,
+			"friend": 50,
+			"exp": 114638500
+		},
+		{
+			"rank": 611,
+			"cost": 229,
+			"stamina": 367,
+			"friend": 50,
+			"exp": 115167300
+		},
+		{
+			"rank": 612,
+			"cost": 230,
+			"stamina": 367,
+			"friend": 50,
+			"exp": 115697700
+		},
+		{
+			"rank": 613,
+			"cost": 230,
+			"stamina": 368,
+			"friend": 50,
+			"exp": 116229700
+		},
+		{
+			"rank": 614,
+			"cost": 230,
+			"stamina": 368,
+			"friend": 50,
+			"exp": 116763300
+		},
+		{
+			"rank": 615,
+			"cost": 230,
+			"stamina": 369,
+			"friend": 50,
+			"exp": 117298500
+		},
+		{
+			"rank": 616,
+			"cost": 231,
+			"stamina": 369,
+			"friend": 50,
+			"exp": 117835400
+		},
+		{
+			"rank": 617,
+			"cost": 231,
+			"stamina": 370,
+			"friend": 50,
+			"exp": 118373900
+		},
+		{
+			"rank": 618,
+			"cost": 231,
+			"stamina": 370,
+			"friend": 50,
+			"exp": 118914000
+		},
+		{
+			"rank": 619,
+			"cost": 231,
+			"stamina": 371,
+			"friend": 50,
+			"exp": 119455700
+		},
+		{
+			"rank": 620,
+			"cost": 232,
+			"stamina": 371,
+			"friend": 50,
+			"exp": 119999100
+		},
+		{
+			"rank": 621,
+			"cost": 232,
+			"stamina": 372,
+			"friend": 50,
+			"exp": 120544100
+		},
+		{
+			"rank": 622,
+			"cost": 232,
+			"stamina": 372,
+			"friend": 50,
+			"exp": 121090700
+		},
+		{
+			"rank": 623,
+			"cost": 232,
+			"stamina": 373,
+			"friend": 50,
+			"exp": 121638900
+		},
+		{
+			"rank": 624,
+			"cost": 233,
+			"stamina": 373,
+			"friend": 50,
+			"exp": 122188800
+		},
+		{
+			"rank": 625,
+			"cost": 233,
+			"stamina": 374,
+			"friend": 50,
+			"exp": 122740300
+		},
+		{
+			"rank": 626,
+			"cost": 233,
+			"stamina": 374,
+			"friend": 50,
+			"exp": 123293500
+		},
+		{
+			"rank": 627,
+			"cost": 233,
+			"stamina": 376,
+			"friend": 50,
+			"exp": 123848300
+		},
+		{
+			"rank": 628,
+			"cost": 234,
+			"stamina": 376,
+			"friend": 50,
+			"exp": 124404700
+		},
+		{
+			"rank": 629,
+			"cost": 234,
+			"stamina": 377,
+			"friend": 50,
+			"exp": 124962800
+		},
+		{
+			"rank": 630,
+			"cost": 234,
+			"stamina": 377,
+			"friend": 50,
+			"exp": 125522500
+		},
+		{
+			"rank": 631,
+			"cost": 234,
+			"stamina": 378,
+			"friend": 50,
+			"exp": 126083900
+		},
+		{
+			"rank": 632,
+			"cost": 235,
+			"stamina": 378,
+			"friend": 50,
+			"exp": 126647000
+		},
+		{
+			"rank": 633,
+			"cost": 235,
+			"stamina": 379,
+			"friend": 50,
+			"exp": 127211700
+		},
+		{
+			"rank": 634,
+			"cost": 235,
+			"stamina": 379,
+			"friend": 50,
+			"exp": 127778100
+		},
+		{
+			"rank": 635,
+			"cost": 235,
+			"stamina": 380,
+			"friend": 50,
+			"exp": 128346100
+		},
+		{
+			"rank": 636,
+			"cost": 236,
+			"stamina": 380,
+			"friend": 50,
+			"exp": 128915800
+		},
+		{
+			"rank": 637,
+			"cost": 236,
+			"stamina": 381,
+			"friend": 50,
+			"exp": 129487200
+		},
+		{
+			"rank": 638,
+			"cost": 236,
+			"stamina": 381,
+			"friend": 50,
+			"exp": 130060200
+		},
+		{
+			"rank": 639,
+			"cost": 236,
+			"stamina": 382,
+			"friend": 50,
+			"exp": 130634900
+		},
+		{
+			"rank": 640,
+			"cost": 237,
+			"stamina": 382,
+			"friend": 50,
+			"exp": 131211300
+		},
+		{
+			"rank": 641,
+			"cost": 237,
+			"stamina": 383,
+			"friend": 50,
+			"exp": 131789400
+		},
+		{
+			"rank": 642,
+			"cost": 237,
+			"stamina": 383,
+			"friend": 50,
+			"exp": 132369100
+		},
+		{
+			"rank": 643,
+			"cost": 237,
+			"stamina": 384,
+			"friend": 50,
+			"exp": 132950500
+		},
+		{
+			"rank": 644,
+			"cost": 238,
+			"stamina": 384,
+			"friend": 50,
+			"exp": 133533600
+		},
+		{
+			"rank": 645,
+			"cost": 238,
+			"stamina": 385,
+			"friend": 50,
+			"exp": 134118400
+		},
+		{
+			"rank": 646,
+			"cost": 238,
+			"stamina": 385,
+			"friend": 50,
+			"exp": 134704900
+		},
+		{
+			"rank": 647,
+			"cost": 238,
+			"stamina": 387,
+			"friend": 50,
+			"exp": 135293100
+		},
+		{
+			"rank": 648,
+			"cost": 239,
+			"stamina": 387,
+			"friend": 50,
+			"exp": 135882900
+		},
+		{
+			"rank": 649,
+			"cost": 239,
+			"stamina": 388,
+			"friend": 50,
+			"exp": 136474400
+		},
+		{
+			"rank": 650,
+			"cost": 239,
+			"stamina": 388,
+			"friend": 50,
+			"exp": 137067600
+		},
+		{
+			"rank": 651,
+			"cost": 239,
+			"stamina": 389,
+			"friend": 50,
+			"exp": 137662500
+		},
+		{
+			"rank": 652,
+			"cost": 240,
+			"stamina": 389,
+			"friend": 50,
+			"exp": 138259100
+		},
+		{
+			"rank": 653,
+			"cost": 240,
+			"stamina": 390,
+			"friend": 50,
+			"exp": 138857400
+		},
+		{
+			"rank": 654,
+			"cost": 240,
+			"stamina": 390,
+			"friend": 50,
+			"exp": 139457400
+		},
+		{
+			"rank": 655,
+			"cost": 240,
+			"stamina": 391,
+			"friend": 50,
+			"exp": 140059200
+		},
+		{
+			"rank": 656,
+			"cost": 241,
+			"stamina": 391,
+			"friend": 50,
+			"exp": 140662700
+		},
+		{
+			"rank": 657,
+			"cost": 241,
+			"stamina": 392,
+			"friend": 50,
+			"exp": 141267900
+		},
+		{
+			"rank": 658,
+			"cost": 241,
+			"stamina": 392,
+			"friend": 50,
+			"exp": 141874800
+		},
+		{
+			"rank": 659,
+			"cost": 241,
+			"stamina": 393,
+			"friend": 50,
+			"exp": 142483400
+		},
+		{
+			"rank": 660,
+			"cost": 242,
+			"stamina": 393,
+			"friend": 50,
+			"exp": 143093700
+		},
+		{
+			"rank": 661,
+			"cost": 242,
+			"stamina": 394,
+			"friend": 50,
+			"exp": 143705800
+		},
+		{
+			"rank": 662,
+			"cost": 242,
+			"stamina": 394,
+			"friend": 50,
+			"exp": 144319600
+		},
+		{
+			"rank": 663,
+			"cost": 242,
+			"stamina": 395,
+			"friend": 50,
+			"exp": 144935100
+		},
+		{
+			"rank": 664,
+			"cost": 243,
+			"stamina": 395,
+			"friend": 50,
+			"exp": 145552300
+		},
+		{
+			"rank": 665,
+			"cost": 243,
+			"stamina": 396,
+			"friend": 50,
+			"exp": 146171300
+		},
+		{
+			"rank": 666,
+			"cost": 243,
+			"stamina": 396,
+			"friend": 50,
+			"exp": 146792000
+		},
+		{
+			"rank": 667,
+			"cost": 243,
+			"stamina": 398,
+			"friend": 50,
+			"exp": 147414400
+		},
+		{
+			"rank": 668,
+			"cost": 244,
+			"stamina": 398,
+			"friend": 50,
+			"exp": 148038600
+		},
+		{
+			"rank": 669,
+			"cost": 244,
+			"stamina": 399,
+			"friend": 50,
+			"exp": 148664500
+		},
+		{
+			"rank": 670,
+			"cost": 244,
+			"stamina": 399,
+			"friend": 50,
+			"exp": 149292200
+		},
+		{
+			"rank": 671,
+			"cost": 244,
+			"stamina": 400,
+			"friend": 50,
+			"exp": 149921600
+		},
+		{
+			"rank": 672,
+			"cost": 245,
+			"stamina": 400,
+			"friend": 50,
+			"exp": 150552800
+		},
+		{
+			"rank": 673,
+			"cost": 245,
+			"stamina": 401,
+			"friend": 50,
+			"exp": 151185700
+		},
+		{
+			"rank": 674,
+			"cost": 245,
+			"stamina": 401,
+			"friend": 50,
+			"exp": 151820400
+		},
+		{
+			"rank": 675,
+			"cost": 245,
+			"stamina": 402,
+			"friend": 50,
+			"exp": 152456800
+		},
+		{
+			"rank": 676,
+			"cost": 246,
+			"stamina": 402,
+			"friend": 50,
+			"exp": 153095000
+		},
+		{
+			"rank": 677,
+			"cost": 246,
+			"stamina": 403,
+			"friend": 50,
+			"exp": 153734900
+		},
+		{
+			"rank": 678,
+			"cost": 246,
+			"stamina": 403,
+			"friend": 50,
+			"exp": 154376600
+		},
+		{
+			"rank": 679,
+			"cost": 246,
+			"stamina": 404,
+			"friend": 50,
+			"exp": 155020100
+		},
+		{
+			"rank": 680,
+			"cost": 247,
+			"stamina": 404,
+			"friend": 50,
+			"exp": 155665300
+		},
+		{
+			"rank": 681,
+			"cost": 247,
+			"stamina": 405,
+			"friend": 50,
+			"exp": 156312300
+		},
+		{
+			"rank": 682,
+			"cost": 247,
+			"stamina": 405,
+			"friend": 50,
+			"exp": 156961100
+		},
+		{
+			"rank": 683,
+			"cost": 247,
+			"stamina": 406,
+			"friend": 50,
+			"exp": 157611600
+		},
+		{
+			"rank": 684,
+			"cost": 248,
+			"stamina": 406,
+			"friend": 50,
+			"exp": 158263900
+		},
+		{
+			"rank": 685,
+			"cost": 248,
+			"stamina": 407,
+			"friend": 50,
+			"exp": 158918000
+		},
+		{
+			"rank": 686,
+			"cost": 248,
+			"stamina": 407,
+			"friend": 50,
+			"exp": 159573900
+		},
+		{
+			"rank": 687,
+			"cost": 248,
+			"stamina": 409,
+			"friend": 50,
+			"exp": 160231600
+		},
+		{
+			"rank": 688,
+			"cost": 249,
+			"stamina": 409,
+			"friend": 50,
+			"exp": 160891000
+		},
+		{
+			"rank": 689,
+			"cost": 249,
+			"stamina": 410,
+			"friend": 50,
+			"exp": 161552200
+		},
+		{
+			"rank": 690,
+			"cost": 249,
+			"stamina": 410,
+			"friend": 50,
+			"exp": 162215200
+		},
+		{
+			"rank": 691,
+			"cost": 249,
+			"stamina": 411,
+			"friend": 50,
+			"exp": 162880000
+		},
+		{
+			"rank": 692,
+			"cost": 250,
+			"stamina": 411,
+			"friend": 50,
+			"exp": 163546600
+		},
+		{
+			"rank": 693,
+			"cost": 250,
+			"stamina": 412,
+			"friend": 50,
+			"exp": 164215000
+		},
+		{
+			"rank": 694,
+			"cost": 250,
+			"stamina": 412,
+			"friend": 50,
+			"exp": 164885200
+		},
+		{
+			"rank": 695,
+			"cost": 250,
+			"stamina": 413,
+			"friend": 50,
+			"exp": 165557200
+		},
+		{
+			"rank": 696,
+			"cost": 251,
+			"stamina": 413,
+			"friend": 50,
+			"exp": 166231000
+		},
+		{
+			"rank": 697,
+			"cost": 251,
+			"stamina": 414,
+			"friend": 50,
+			"exp": 166906600
+		},
+		{
+			"rank": 698,
+			"cost": 251,
+			"stamina": 414,
+			"friend": 50,
+			"exp": 167584000
+		},
+		{
+			"rank": 699,
+			"cost": 251,
+			"stamina": 415,
+			"friend": 50,
+			"exp": 168263200
+		},
+		{
+			"rank": 700,
+			"cost": 252,
+			"stamina": 415,
+			"friend": 50,
+			"exp": 168944300
+		},
+		{
+			"rank": 701,
+			"cost": 252,
+			"stamina": 416,
+			"friend": 50,
+			"exp": 169627200
+		},
+		{
+			"rank": 702,
+			"cost": 252,
+			"stamina": 416,
+			"friend": 50,
+			"exp": 170311900
+		},
+		{
+			"rank": 703,
+			"cost": 252,
+			"stamina": 417,
+			"friend": 50,
+			"exp": 170998400
+		},
+		{
+			"rank": 704,
+			"cost": 253,
+			"stamina": 417,
+			"friend": 50,
+			"exp": 171686700
+		},
+		{
+			"rank": 705,
+			"cost": 253,
+			"stamina": 418,
+			"friend": 50,
+			"exp": 172376900
+		},
+		{
+			"rank": 706,
+			"cost": 253,
+			"stamina": 418,
+			"friend": 50,
+			"exp": 173068900
+		},
+		{
+			"rank": 707,
+			"cost": 253,
+			"stamina": 420,
+			"friend": 50,
+			"exp": 173762700
+		},
+		{
+			"rank": 708,
+			"cost": 254,
+			"stamina": 420,
+			"friend": 50,
+			"exp": 174458400
+		},
+		{
+			"rank": 709,
+			"cost": 254,
+			"stamina": 421,
+			"friend": 50,
+			"exp": 175155900
+		},
+		{
+			"rank": 710,
+			"cost": 254,
+			"stamina": 421,
+			"friend": 50,
+			"exp": 175855200
+		},
+		{
+			"rank": 711,
+			"cost": 254,
+			"stamina": 422,
+			"friend": 50,
+			"exp": 176556400
+		},
+		{
+			"rank": 712,
+			"cost": 255,
+			"stamina": 422,
+			"friend": 50,
+			"exp": 177259400
+		},
+		{
+			"rank": 713,
+			"cost": 255,
+			"stamina": 423,
+			"friend": 50,
+			"exp": 177964200
+		},
+		{
+			"rank": 714,
+			"cost": 255,
+			"stamina": 423,
+			"friend": 50,
+			"exp": 178670900
+		},
+		{
+			"rank": 715,
+			"cost": 255,
+			"stamina": 424,
+			"friend": 50,
+			"exp": 179379400
+		},
+		{
+			"rank": 716,
+			"cost": 256,
+			"stamina": 424,
+			"friend": 50,
+			"exp": 180089800
+		},
+		{
+			"rank": 717,
+			"cost": 256,
+			"stamina": 425,
+			"friend": 50,
+			"exp": 180802000
+		},
+		{
+			"rank": 718,
+			"cost": 256,
+			"stamina": 425,
+			"friend": 50,
+			"exp": 181516100
+		},
+		{
+			"rank": 719,
+			"cost": 256,
+			"stamina": 426,
+			"friend": 50,
+			"exp": 182232100
+		},
+		{
+			"rank": 720,
+			"cost": 257,
+			"stamina": 426,
+			"friend": 50,
+			"exp": 182949900
+		},
+		{
+			"rank": 721,
+			"cost": 257,
+			"stamina": 427,
+			"friend": 50,
+			"exp": 183669600
+		},
+		{
+			"rank": 722,
+			"cost": 257,
+			"stamina": 427,
+			"friend": 50,
+			"exp": 184391100
+		},
+		{
+			"rank": 723,
+			"cost": 257,
+			"stamina": 428,
+			"friend": 50,
+			"exp": 185114500
+		},
+		{
+			"rank": 724,
+			"cost": 258,
+			"stamina": 428,
+			"friend": 50,
+			"exp": 185839800
+		},
+		{
+			"rank": 725,
+			"cost": 258,
+			"stamina": 429,
+			"friend": 50,
+			"exp": 186567000
+		},
+		{
+			"rank": 726,
+			"cost": 258,
+			"stamina": 429,
+			"friend": 50,
+			"exp": 187296000
+		},
+		{
+			"rank": 727,
+			"cost": 258,
+			"stamina": 431,
+			"friend": 50,
+			"exp": 188026900
+		},
+		{
+			"rank": 728,
+			"cost": 259,
+			"stamina": 431,
+			"friend": 50,
+			"exp": 188759700
+		},
+		{
+			"rank": 729,
+			"cost": 259,
+			"stamina": 432,
+			"friend": 50,
+			"exp": 189494400
+		},
+		{
+			"rank": 730,
+			"cost": 259,
+			"stamina": 432,
+			"friend": 50,
+			"exp": 190231000
+		},
+		{
+			"rank": 731,
+			"cost": 259,
+			"stamina": 433,
+			"friend": 50,
+			"exp": 190969400
+		},
+		{
+			"rank": 732,
+			"cost": 260,
+			"stamina": 433,
+			"friend": 50,
+			"exp": 191709700
+		},
+		{
+			"rank": 733,
+			"cost": 260,
+			"stamina": 434,
+			"friend": 50,
+			"exp": 192451900
+		},
+		{
+			"rank": 734,
+			"cost": 260,
+			"stamina": 434,
+			"friend": 50,
+			"exp": 193196000
+		},
+		{
+			"rank": 735,
+			"cost": 260,
+			"stamina": 435,
+			"friend": 50,
+			"exp": 193942000
+		},
+		{
+			"rank": 736,
+			"cost": 261,
+			"stamina": 435,
+			"friend": 50,
+			"exp": 194689900
+		},
+		{
+			"rank": 737,
+			"cost": 261,
+			"stamina": 436,
+			"friend": 50,
+			"exp": 195439700
+		},
+		{
+			"rank": 738,
+			"cost": 261,
+			"stamina": 436,
+			"friend": 50,
+			"exp": 196191400
+		},
+		{
+			"rank": 739,
+			"cost": 261,
+			"stamina": 437,
+			"friend": 50,
+			"exp": 196945000
+		},
+		{
+			"rank": 740,
+			"cost": 262,
+			"stamina": 437,
+			"friend": 50,
+			"exp": 197700500
+		},
+		{
+			"rank": 741,
+			"cost": 262,
+			"stamina": 438,
+			"friend": 50,
+			"exp": 198457900
+		},
+		{
+			"rank": 742,
+			"cost": 262,
+			"stamina": 438,
+			"friend": 50,
+			"exp": 199217200
+		},
+		{
+			"rank": 743,
+			"cost": 262,
+			"stamina": 439,
+			"friend": 50,
+			"exp": 199978400
+		},
+		{
+			"rank": 744,
+			"cost": 263,
+			"stamina": 439,
+			"friend": 50,
+			"exp": 200741600
+		},
+		{
+			"rank": 745,
+			"cost": 263,
+			"stamina": 440,
+			"friend": 50,
+			"exp": 201506700
+		},
+		{
+			"rank": 746,
+			"cost": 263,
+			"stamina": 440,
+			"friend": 50,
+			"exp": 202273700
+		},
+		{
+			"rank": 747,
+			"cost": 263,
+			"stamina": 442,
+			"friend": 50,
+			"exp": 203042600
+		},
+		{
+			"rank": 748,
+			"cost": 264,
+			"stamina": 442,
+			"friend": 50,
+			"exp": 203813400
+		},
+		{
+			"rank": 749,
+			"cost": 264,
+			"stamina": 443,
+			"friend": 50,
+			"exp": 204586200
+		},
+		{
+			"rank": 750,
+			"cost": 264,
+			"stamina": 443,
+			"friend": 50,
+			"exp": 205360900
+		},
+		{
+			"rank": 751,
+			"cost": 264,
+			"stamina": 444,
+			"friend": 50,
+			"exp": 206137500
+		},
+		{
+			"rank": 752,
+			"cost": 265,
+			"stamina": 444,
+			"friend": 50,
+			"exp": 206916100
+		},
+		{
+			"rank": 753,
+			"cost": 265,
+			"stamina": 445,
+			"friend": 50,
+			"exp": 207696600
+		},
+		{
+			"rank": 754,
+			"cost": 265,
+			"stamina": 445,
+			"friend": 50,
+			"exp": 208479000
+		},
+		{
+			"rank": 755,
+			"cost": 265,
+			"stamina": 446,
+			"friend": 50,
+			"exp": 209263400
+		},
+		{
+			"rank": 756,
+			"cost": 266,
+			"stamina": 446,
+			"friend": 50,
+			"exp": 210049700
+		},
+		{
+			"rank": 757,
+			"cost": 266,
+			"stamina": 447,
+			"friend": 50,
+			"exp": 210838000
+		},
+		{
+			"rank": 758,
+			"cost": 266,
+			"stamina": 447,
+			"friend": 50,
+			"exp": 211628200
+		},
+		{
+			"rank": 759,
+			"cost": 266,
+			"stamina": 448,
+			"friend": 50,
+			"exp": 212420400
+		},
+		{
+			"rank": 760,
+			"cost": 267,
+			"stamina": 448,
+			"friend": 50,
+			"exp": 213214500
+		},
+		{
+			"rank": 761,
+			"cost": 267,
+			"stamina": 449,
+			"friend": 50,
+			"exp": 214010600
+		},
+		{
+			"rank": 762,
+			"cost": 267,
+			"stamina": 449,
+			"friend": 50,
+			"exp": 214808600
+		},
+		{
+			"rank": 763,
+			"cost": 267,
+			"stamina": 450,
+			"friend": 50,
+			"exp": 215608600
+		},
+		{
+			"rank": 764,
+			"cost": 268,
+			"stamina": 450,
+			"friend": 50,
+			"exp": 216410600
+		},
+		{
+			"rank": 765,
+			"cost": 268,
+			"stamina": 451,
+			"friend": 50,
+			"exp": 217214500
+		},
+		{
+			"rank": 766,
+			"cost": 268,
+			"stamina": 451,
+			"friend": 50,
+			"exp": 218020400
+		},
+		{
+			"rank": 767,
+			"cost": 268,
+			"stamina": 453,
+			"friend": 50,
+			"exp": 218828300
+		},
+		{
+			"rank": 768,
+			"cost": 269,
+			"stamina": 453,
+			"friend": 50,
+			"exp": 219638100
+		},
+		{
+			"rank": 769,
+			"cost": 269,
+			"stamina": 454,
+			"friend": 50,
+			"exp": 220449900
+		},
+		{
+			"rank": 770,
+			"cost": 269,
+			"stamina": 454,
+			"friend": 50,
+			"exp": 221263700
+		},
+		{
+			"rank": 771,
+			"cost": 269,
+			"stamina": 455,
+			"friend": 50,
+			"exp": 222079500
+		},
+		{
+			"rank": 772,
+			"cost": 270,
+			"stamina": 455,
+			"friend": 50,
+			"exp": 222897200
+		},
+		{
+			"rank": 773,
+			"cost": 270,
+			"stamina": 456,
+			"friend": 50,
+			"exp": 223716900
+		},
+		{
+			"rank": 774,
+			"cost": 270,
+			"stamina": 456,
+			"friend": 50,
+			"exp": 224538600
+		},
+		{
+			"rank": 775,
+			"cost": 270,
+			"stamina": 457,
+			"friend": 50,
+			"exp": 225362300
+		},
+		{
+			"rank": 776,
+			"cost": 271,
+			"stamina": 457,
+			"friend": 50,
+			"exp": 226188000
+		},
+		{
+			"rank": 777,
+			"cost": 271,
+			"stamina": 458,
+			"friend": 50,
+			"exp": 227015700
+		},
+		{
+			"rank": 778,
+			"cost": 271,
+			"stamina": 458,
+			"friend": 50,
+			"exp": 227845400
+		},
+		{
+			"rank": 779,
+			"cost": 271,
+			"stamina": 459,
+			"friend": 50,
+			"exp": 228677100
+		},
+		{
+			"rank": 780,
+			"cost": 272,
+			"stamina": 459,
+			"friend": 50,
+			"exp": 229510800
+		},
+		{
+			"rank": 781,
+			"cost": 272,
+			"stamina": 460,
+			"friend": 50,
+			"exp": 230346500
+		},
+		{
+			"rank": 782,
+			"cost": 272,
+			"stamina": 460,
+			"friend": 50,
+			"exp": 231184200
+		},
+		{
+			"rank": 783,
+			"cost": 272,
+			"stamina": 461,
+			"friend": 50,
+			"exp": 232023900
+		},
+		{
+			"rank": 784,
+			"cost": 273,
+			"stamina": 461,
+			"friend": 50,
+			"exp": 232865600
+		},
+		{
+			"rank": 785,
+			"cost": 273,
+			"stamina": 462,
+			"friend": 50,
+			"exp": 233709300
+		},
+		{
+			"rank": 786,
+			"cost": 273,
+			"stamina": 462,
+			"friend": 50,
+			"exp": 234555000
+		},
+		{
+			"rank": 787,
+			"cost": 273,
+			"stamina": 464,
+			"friend": 50,
+			"exp": 235402700
+		},
+		{
+			"rank": 788,
+			"cost": 274,
+			"stamina": 464,
+			"friend": 50,
+			"exp": 236252500
+		},
+		{
+			"rank": 789,
+			"cost": 274,
+			"stamina": 465,
+			"friend": 50,
+			"exp": 237104300
+		},
+		{
+			"rank": 790,
+			"cost": 274,
+			"stamina": 465,
+			"friend": 50,
+			"exp": 237958100
+		},
+		{
+			"rank": 791,
+			"cost": 274,
+			"stamina": 466,
+			"friend": 50,
+			"exp": 238813900
+		},
+		{
+			"rank": 792,
+			"cost": 275,
+			"stamina": 466,
+			"friend": 50,
+			"exp": 239671700
+		},
+		{
+			"rank": 793,
+			"cost": 275,
+			"stamina": 467,
+			"friend": 50,
+			"exp": 240531600
+		},
+		{
+			"rank": 794,
+			"cost": 275,
+			"stamina": 467,
+			"friend": 50,
+			"exp": 241393500
+		},
+		{
+			"rank": 795,
+			"cost": 275,
+			"stamina": 468,
+			"friend": 50,
+			"exp": 242257400
+		},
+		{
+			"rank": 796,
+			"cost": 276,
+			"stamina": 468,
+			"friend": 50,
+			"exp": 243123400
+		},
+		{
+			"rank": 797,
+			"cost": 276,
+			"stamina": 469,
+			"friend": 50,
+			"exp": 243991400
+		},
+		{
+			"rank": 798,
+			"cost": 276,
+			"stamina": 469,
+			"friend": 50,
+			"exp": 244861500
+		},
+		{
+			"rank": 799,
+			"cost": 276,
+			"stamina": 470,
+			"friend": 50,
+			"exp": 245733600
+		},
+		{
+			"rank": 800,
+			"cost": 277,
+			"stamina": 470,
+			"friend": 50,
+			"exp": 246607700
+		},
+		{
+			"rank": 801,
+			"cost": 277,
+			"stamina": 471,
+			"friend": 50,
+			"exp": 247483900
+		},
+		{
+			"rank": 802,
+			"cost": 277,
+			"stamina": 471,
+			"friend": 50,
+			"exp": 248362100
+		},
+		{
+			"rank": 803,
+			"cost": 277,
+			"stamina": 472,
+			"friend": 50,
+			"exp": 249242400
+		},
+		{
+			"rank": 804,
+			"cost": 278,
+			"stamina": 472,
+			"friend": 50,
+			"exp": 250124800
+		},
+		{
+			"rank": 805,
+			"cost": 278,
+			"stamina": 473,
+			"friend": 50,
+			"exp": 251009200
+		},
+		{
+			"rank": 806,
+			"cost": 278,
+			"stamina": 473,
+			"friend": 50,
+			"exp": 251895700
+		},
+		{
+			"rank": 807,
+			"cost": 278,
+			"stamina": 475,
+			"friend": 50,
+			"exp": 252784200
+		},
+		{
+			"rank": 808,
+			"cost": 279,
+			"stamina": 475,
+			"friend": 50,
+			"exp": 253674800
+		},
+		{
+			"rank": 809,
+			"cost": 279,
+			"stamina": 476,
+			"friend": 50,
+			"exp": 254567500
+		},
+		{
+			"rank": 810,
+			"cost": 279,
+			"stamina": 476,
+			"friend": 50,
+			"exp": 255462200
+		},
+		{
+			"rank": 811,
+			"cost": 279,
+			"stamina": 477,
+			"friend": 50,
+			"exp": 256359000
+		},
+		{
+			"rank": 812,
+			"cost": 280,
+			"stamina": 477,
+			"friend": 50,
+			"exp": 257257900
+		},
+		{
+			"rank": 813,
+			"cost": 280,
+			"stamina": 478,
+			"friend": 50,
+			"exp": 258158800
+		},
+		{
+			"rank": 814,
+			"cost": 280,
+			"stamina": 478,
+			"friend": 50,
+			"exp": 259061800
+		},
+		{
+			"rank": 815,
+			"cost": 280,
+			"stamina": 479,
+			"friend": 50,
+			"exp": 259966900
+		},
+		{
+			"rank": 816,
+			"cost": 281,
+			"stamina": 479,
+			"friend": 50,
+			"exp": 260874100
+		},
+		{
+			"rank": 817,
+			"cost": 281,
+			"stamina": 480,
+			"friend": 50,
+			"exp": 261783400
+		},
+		{
+			"rank": 818,
+			"cost": 281,
+			"stamina": 480,
+			"friend": 50,
+			"exp": 262694800
+		},
+		{
+			"rank": 819,
+			"cost": 281,
+			"stamina": 481,
+			"friend": 50,
+			"exp": 263608200
+		},
+		{
+			"rank": 820,
+			"cost": 282,
+			"stamina": 481,
+			"friend": 50,
+			"exp": 264523700
+		},
+		{
+			"rank": 821,
+			"cost": 282,
+			"stamina": 482,
+			"friend": 50,
+			"exp": 265441300
+		},
+		{
+			"rank": 822,
+			"cost": 282,
+			"stamina": 482,
+			"friend": 50,
+			"exp": 266361000
+		},
+		{
+			"rank": 823,
+			"cost": 282,
+			"stamina": 483,
+			"friend": 50,
+			"exp": 267282800
+		},
+		{
+			"rank": 824,
+			"cost": 283,
+			"stamina": 483,
+			"friend": 50,
+			"exp": 268206700
+		},
+		{
+			"rank": 825,
+			"cost": 283,
+			"stamina": 484,
+			"friend": 50,
+			"exp": 269132700
+		},
+		{
+			"rank": 826,
+			"cost": 283,
+			"stamina": 484,
+			"friend": 50,
+			"exp": 270060800
+		},
+		{
+			"rank": 827,
+			"cost": 283,
+			"stamina": 486,
+			"friend": 50,
+			"exp": 270991000
+		},
+		{
+			"rank": 828,
+			"cost": 284,
+			"stamina": 486,
+			"friend": 50,
+			"exp": 271923400
+		},
+		{
+			"rank": 829,
+			"cost": 284,
+			"stamina": 487,
+			"friend": 50,
+			"exp": 272857900
+		},
+		{
+			"rank": 830,
+			"cost": 284,
+			"stamina": 487,
+			"friend": 50,
+			"exp": 273794500
+		},
+		{
+			"rank": 831,
+			"cost": 284,
+			"stamina": 488,
+			"friend": 50,
+			"exp": 274733200
+		},
+		{
+			"rank": 832,
+			"cost": 285,
+			"stamina": 488,
+			"friend": 50,
+			"exp": 275674000
+		},
+		{
+			"rank": 833,
+			"cost": 285,
+			"stamina": 489,
+			"friend": 50,
+			"exp": 276616900
+		},
+		{
+			"rank": 834,
+			"cost": 285,
+			"stamina": 489,
+			"friend": 50,
+			"exp": 277562000
+		},
+		{
+			"rank": 835,
+			"cost": 285,
+			"stamina": 490,
+			"friend": 50,
+			"exp": 278509200
+		},
+		{
+			"rank": 836,
+			"cost": 286,
+			"stamina": 490,
+			"friend": 50,
+			"exp": 279458500
+		},
+		{
+			"rank": 837,
+			"cost": 286,
+			"stamina": 491,
+			"friend": 50,
+			"exp": 280409900
+		},
+		{
+			"rank": 838,
+			"cost": 286,
+			"stamina": 491,
+			"friend": 50,
+			"exp": 281363500
+		},
+		{
+			"rank": 839,
+			"cost": 286,
+			"stamina": 492,
+			"friend": 50,
+			"exp": 282319200
+		},
+		{
+			"rank": 840,
+			"cost": 287,
+			"stamina": 492,
+			"friend": 50,
+			"exp": 283277000
+		},
+		{
+			"rank": 841,
+			"cost": 287,
+			"stamina": 493,
+			"friend": 50,
+			"exp": 284237000
+		},
+		{
+			"rank": 842,
+			"cost": 287,
+			"stamina": 493,
+			"friend": 50,
+			"exp": 285199100
+		},
+		{
+			"rank": 843,
+			"cost": 287,
+			"stamina": 494,
+			"friend": 50,
+			"exp": 286163400
+		},
+		{
+			"rank": 844,
+			"cost": 288,
+			"stamina": 494,
+			"friend": 50,
+			"exp": 287129800
+		},
+		{
+			"rank": 845,
+			"cost": 288,
+			"stamina": 495,
+			"friend": 50,
+			"exp": 288098400
+		},
+		{
+			"rank": 846,
+			"cost": 288,
+			"stamina": 495,
+			"friend": 50,
+			"exp": 289069100
+		},
+		{
+			"rank": 847,
+			"cost": 288,
+			"stamina": 497,
+			"friend": 50,
+			"exp": 290042000
+		},
+		{
+			"rank": 848,
+			"cost": 289,
+			"stamina": 497,
+			"friend": 50,
+			"exp": 291017000
+		},
+		{
+			"rank": 849,
+			"cost": 289,
+			"stamina": 498,
+			"friend": 50,
+			"exp": 291994200
+		},
+		{
+			"rank": 850,
+			"cost": 289,
+			"stamina": 498,
+			"friend": 50,
+			"exp": 292973500
+		},
+		{
+			"rank": 851,
+			"cost": 289,
+			"stamina": 499,
+			"friend": 50,
+			"exp": 293955000
+		},
+		{
+			"rank": 852,
+			"cost": 290,
+			"stamina": 499,
+			"friend": 50,
+			"exp": 294938700
+		},
+		{
+			"rank": 853,
+			"cost": 290,
+			"stamina": 500,
+			"friend": 50,
+			"exp": 295924500
+		},
+		{
+			"rank": 854,
+			"cost": 290,
+			"stamina": 500,
+			"friend": 50,
+			"exp": 296912500
+		},
+		{
+			"rank": 855,
+			"cost": 290,
+			"stamina": 501,
+			"friend": 50,
+			"exp": 297902700
+		},
+		{
+			"rank": 856,
+			"cost": 291,
+			"stamina": 501,
+			"friend": 50,
+			"exp": 298895100
+		},
+		{
+			"rank": 857,
+			"cost": 291,
+			"stamina": 502,
+			"friend": 50,
+			"exp": 299889600
+		},
+		{
+			"rank": 858,
+			"cost": 291,
+			"stamina": 502,
+			"friend": 50,
+			"exp": 300886300
+		},
+		{
+			"rank": 859,
+			"cost": 291,
+			"stamina": 503,
+			"friend": 50,
+			"exp": 301885200
+		},
+		{
+			"rank": 860,
+			"cost": 292,
+			"stamina": 503,
+			"friend": 50,
+			"exp": 302886300
+		},
+		{
+			"rank": 861,
+			"cost": 292,
+			"stamina": 504,
+			"friend": 50,
+			"exp": 303889600
+		},
+		{
+			"rank": 862,
+			"cost": 292,
+			"stamina": 504,
+			"friend": 50,
+			"exp": 304895100
+		},
+		{
+			"rank": 863,
+			"cost": 292,
+			"stamina": 505,
+			"friend": 50,
+			"exp": 305902700
+		},
+		{
+			"rank": 864,
+			"cost": 293,
+			"stamina": 505,
+			"friend": 50,
+			"exp": 306912500
+		},
+		{
+			"rank": 865,
+			"cost": 293,
+			"stamina": 506,
+			"friend": 50,
+			"exp": 307924500
+		},
+		{
+			"rank": 866,
+			"cost": 293,
+			"stamina": 506,
+			"friend": 50,
+			"exp": 308938700
+		},
+		{
+			"rank": 867,
+			"cost": 293,
+			"stamina": 508,
+			"friend": 50,
+			"exp": 309955100
+		},
+		{
+			"rank": 868,
+			"cost": 294,
+			"stamina": 508,
+			"friend": 50,
+			"exp": 310973700
+		},
+		{
+			"rank": 869,
+			"cost": 294,
+			"stamina": 509,
+			"friend": 50,
+			"exp": 311994500
+		},
+		{
+			"rank": 870,
+			"cost": 294,
+			"stamina": 509,
+			"friend": 50,
+			"exp": 313017500
+		},
+		{
+			"rank": 871,
+			"cost": 294,
+			"stamina": 510,
+			"friend": 50,
+			"exp": 314042700
+		},
+		{
+			"rank": 872,
+			"cost": 295,
+			"stamina": 510,
+			"friend": 50,
+			"exp": 315070200
+		},
+		{
+			"rank": 873,
+			"cost": 295,
+			"stamina": 511,
+			"friend": 50,
+			"exp": 316099900
+		},
+		{
+			"rank": 874,
+			"cost": 295,
+			"stamina": 511,
+			"friend": 50,
+			"exp": 317131800
+		},
+		{
+			"rank": 875,
+			"cost": 295,
+			"stamina": 512,
+			"friend": 50,
+			"exp": 318165900
+		},
+		{
+			"rank": 876,
+			"cost": 296,
+			"stamina": 512,
+			"friend": 50,
+			"exp": 319202200
+		},
+		{
+			"rank": 877,
+			"cost": 296,
+			"stamina": 513,
+			"friend": 50,
+			"exp": 320240700
+		},
+		{
+			"rank": 878,
+			"cost": 296,
+			"stamina": 513,
+			"friend": 50,
+			"exp": 321281500
+		},
+		{
+			"rank": 879,
+			"cost": 296,
+			"stamina": 514,
+			"friend": 50,
+			"exp": 322324500
+		},
+		{
+			"rank": 880,
+			"cost": 297,
+			"stamina": 514,
+			"friend": 50,
+			"exp": 323369700
+		},
+		{
+			"rank": 881,
+			"cost": 297,
+			"stamina": 515,
+			"friend": 50,
+			"exp": 324417200
+		},
+		{
+			"rank": 882,
+			"cost": 297,
+			"stamina": 515,
+			"friend": 50,
+			"exp": 325466900
+		},
+		{
+			"rank": 883,
+			"cost": 297,
+			"stamina": 516,
+			"friend": 50,
+			"exp": 326518800
+		},
+		{
+			"rank": 884,
+			"cost": 298,
+			"stamina": 516,
+			"friend": 50,
+			"exp": 327573000
+		},
+		{
+			"rank": 885,
+			"cost": 298,
+			"stamina": 517,
+			"friend": 50,
+			"exp": 328629400
+		},
+		{
+			"rank": 886,
+			"cost": 298,
+			"stamina": 517,
+			"friend": 50,
+			"exp": 329688000
+		},
+		{
+			"rank": 887,
+			"cost": 298,
+			"stamina": 519,
+			"friend": 50,
+			"exp": 330748900
+		},
+		{
+			"rank": 888,
+			"cost": 299,
+			"stamina": 519,
+			"friend": 50,
+			"exp": 331812000
+		},
+		{
+			"rank": 889,
+			"cost": 299,
+			"stamina": 520,
+			"friend": 50,
+			"exp": 332877400
+		},
+		{
+			"rank": 890,
+			"cost": 299,
+			"stamina": 520,
+			"friend": 50,
+			"exp": 333945000
+		},
+		{
+			"rank": 891,
+			"cost": 299,
+			"stamina": 521,
+			"friend": 50,
+			"exp": 335014900
+		},
+		{
+			"rank": 892,
+			"cost": 300,
+			"stamina": 521,
+			"friend": 50,
+			"exp": 336087100
+		},
+		{
+			"rank": 893,
+			"cost": 300,
+			"stamina": 522,
+			"friend": 50,
+			"exp": 337161500
+		},
+		{
+			"rank": 894,
+			"cost": 300,
+			"stamina": 522,
+			"friend": 50,
+			"exp": 338238200
+		},
+		{
+			"rank": 895,
+			"cost": 300,
+			"stamina": 523,
+			"friend": 50,
+			"exp": 339317100
+		},
+		{
+			"rank": 896,
+			"cost": 301,
+			"stamina": 523,
+			"friend": 50,
+			"exp": 340398300
+		},
+		{
+			"rank": 897,
+			"cost": 301,
+			"stamina": 524,
+			"friend": 50,
+			"exp": 341481800
+		},
+		{
+			"rank": 898,
+			"cost": 301,
+			"stamina": 524,
+			"friend": 50,
+			"exp": 342567500
+		},
+		{
+			"rank": 899,
+			"cost": 301,
+			"stamina": 525,
+			"friend": 50,
+			"exp": 343655500
+		},
+		{
+			"rank": 900,
+			"cost": 302,
+			"stamina": 525,
+			"friend": 50,
+			"exp": 344745800
+		},
+		{
+			"rank": 901,
+			"cost": 302,
+			"stamina": 526,
+			"friend": 50,
+			"exp": 345838400
+		},
+		{
+			"rank": 902,
+			"cost": 302,
+			"stamina": 526,
+			"friend": 50,
+			"exp": 346933200
+		},
+		{
+			"rank": 903,
+			"cost": 302,
+			"stamina": 527,
+			"friend": 50,
+			"exp": 348030300
+		},
+		{
+			"rank": 904,
+			"cost": 303,
+			"stamina": 527,
+			"friend": 50,
+			"exp": 349129700
+		},
+		{
+			"rank": 905,
+			"cost": 303,
+			"stamina": 528,
+			"friend": 50,
+			"exp": 350231400
+		},
+		{
+			"rank": 906,
+			"cost": 303,
+			"stamina": 528,
+			"friend": 50,
+			"exp": 351335400
+		},
+		{
+			"rank": 907,
+			"cost": 303,
+			"stamina": 530,
+			"friend": 50,
+			"exp": 352441700
+		},
+		{
+			"rank": 908,
+			"cost": 304,
+			"stamina": 530,
+			"friend": 50,
+			"exp": 353550300
+		},
+		{
+			"rank": 909,
+			"cost": 304,
+			"stamina": 531,
+			"friend": 50,
+			"exp": 354661200
+		},
+		{
+			"rank": 910,
+			"cost": 304,
+			"stamina": 531,
+			"friend": 50,
+			"exp": 355774400
+		},
+		{
+			"rank": 911,
+			"cost": 304,
+			"stamina": 532,
+			"friend": 50,
+			"exp": 356889900
+		},
+		{
+			"rank": 912,
+			"cost": 305,
+			"stamina": 532,
+			"friend": 50,
+			"exp": 358007700
+		},
+		{
+			"rank": 913,
+			"cost": 305,
+			"stamina": 533,
+			"friend": 50,
+			"exp": 359127800
+		},
+		{
+			"rank": 914,
+			"cost": 305,
+			"stamina": 533,
+			"friend": 50,
+			"exp": 360250200
+		},
+		{
+			"rank": 915,
+			"cost": 305,
+			"stamina": 534,
+			"friend": 50,
+			"exp": 361374900
+		},
+		{
+			"rank": 916,
+			"cost": 306,
+			"stamina": 534,
+			"friend": 50,
+			"exp": 362501900
+		},
+		{
+			"rank": 917,
+			"cost": 306,
+			"stamina": 535,
+			"friend": 50,
+			"exp": 363631200
+		},
+		{
+			"rank": 918,
+			"cost": 306,
+			"stamina": 535,
+			"friend": 50,
+			"exp": 364762800
+		},
+		{
+			"rank": 919,
+			"cost": 306,
+			"stamina": 536,
+			"friend": 50,
+			"exp": 365896700
+		},
+		{
+			"rank": 920,
+			"cost": 307,
+			"stamina": 536,
+			"friend": 50,
+			"exp": 367033000
+		},
+		{
+			"rank": 921,
+			"cost": 307,
+			"stamina": 537,
+			"friend": 50,
+			"exp": 368171600
+		},
+		{
+			"rank": 922,
+			"cost": 307,
+			"stamina": 537,
+			"friend": 50,
+			"exp": 369312500
+		},
+		{
+			"rank": 923,
+			"cost": 307,
+			"stamina": 538,
+			"friend": 50,
+			"exp": 370455700
+		},
+		{
+			"rank": 924,
+			"cost": 308,
+			"stamina": 538,
+			"friend": 50,
+			"exp": 371601300
+		},
+		{
+			"rank": 925,
+			"cost": 308,
+			"stamina": 539,
+			"friend": 50,
+			"exp": 372749200
+		},
+		{
+			"rank": 926,
+			"cost": 308,
+			"stamina": 539,
+			"friend": 50,
+			"exp": 373899400
+		},
+		{
+			"rank": 927,
+			"cost": 308,
+			"stamina": 541,
+			"friend": 50,
+			"exp": 375052000
+		},
+		{
+			"rank": 928,
+			"cost": 309,
+			"stamina": 541,
+			"friend": 50,
+			"exp": 376206900
+		},
+		{
+			"rank": 929,
+			"cost": 309,
+			"stamina": 542,
+			"friend": 50,
+			"exp": 377364100
+		},
+		{
+			"rank": 930,
+			"cost": 309,
+			"stamina": 542,
+			"friend": 50,
+			"exp": 378523700
+		},
+		{
+			"rank": 931,
+			"cost": 309,
+			"stamina": 543,
+			"friend": 50,
+			"exp": 379685600
+		},
+		{
+			"rank": 932,
+			"cost": 310,
+			"stamina": 543,
+			"friend": 50,
+			"exp": 380849900
+		},
+		{
+			"rank": 933,
+			"cost": 310,
+			"stamina": 544,
+			"friend": 50,
+			"exp": 382016500
+		},
+		{
+			"rank": 934,
+			"cost": 310,
+			"stamina": 544,
+			"friend": 50,
+			"exp": 383185500
+		},
+		{
+			"rank": 935,
+			"cost": 310,
+			"stamina": 545,
+			"friend": 50,
+			"exp": 384356800
+		},
+		{
+			"rank": 936,
+			"cost": 311,
+			"stamina": 545,
+			"friend": 50,
+			"exp": 385530500
+		},
+		{
+			"rank": 937,
+			"cost": 311,
+			"stamina": 546,
+			"friend": 50,
+			"exp": 386706600
+		},
+		{
+			"rank": 938,
+			"cost": 311,
+			"stamina": 546,
+			"friend": 50,
+			"exp": 387885000
+		},
+		{
+			"rank": 939,
+			"cost": 311,
+			"stamina": 547,
+			"friend": 50,
+			"exp": 389065800
+		},
+		{
+			"rank": 940,
+			"cost": 312,
+			"stamina": 547,
+			"friend": 50,
+			"exp": 390248900
+		},
+		{
+			"rank": 941,
+			"cost": 312,
+			"stamina": 548,
+			"friend": 50,
+			"exp": 391434400
+		},
+		{
+			"rank": 942,
+			"cost": 312,
+			"stamina": 548,
+			"friend": 50,
+			"exp": 392622300
+		},
+		{
+			"rank": 943,
+			"cost": 312,
+			"stamina": 549,
+			"friend": 50,
+			"exp": 393812600
+		},
+		{
+			"rank": 944,
+			"cost": 313,
+			"stamina": 549,
+			"friend": 50,
+			"exp": 395005200
+		},
+		{
+			"rank": 945,
+			"cost": 313,
+			"stamina": 550,
+			"friend": 50,
+			"exp": 396200200
+		},
+		{
+			"rank": 946,
+			"cost": 313,
+			"stamina": 550,
+			"friend": 50,
+			"exp": 397397600
+		},
+		{
+			"rank": 947,
+			"cost": 313,
+			"stamina": 552,
+			"friend": 50,
+			"exp": 398597400
+		},
+		{
+			"rank": 948,
+			"cost": 314,
+			"stamina": 552,
+			"friend": 50,
+			"exp": 399799600
+		},
+		{
+			"rank": 949,
+			"cost": 314,
+			"stamina": 553,
+			"friend": 50,
+			"exp": 401004100
+		},
+		{
+			"rank": 950,
+			"cost": 314,
+			"stamina": 553,
+			"friend": 50,
+			"exp": 402211000
+		},
+		{
+			"rank": 951,
+			"cost": 314,
+			"stamina": 554,
+			"friend": 50,
+			"exp": 403420300
+		},
+		{
+			"rank": 952,
+			"cost": 315,
+			"stamina": 554,
+			"friend": 50,
+			"exp": 404632000
+		},
+		{
+			"rank": 953,
+			"cost": 315,
+			"stamina": 555,
+			"friend": 50,
+			"exp": 405846100
+		},
+		{
+			"rank": 954,
+			"cost": 315,
+			"stamina": 555,
+			"friend": 50,
+			"exp": 407062600
+		},
+		{
+			"rank": 955,
+			"cost": 315,
+			"stamina": 556,
+			"friend": 50,
+			"exp": 408281500
+		},
+		{
+			"rank": 956,
+			"cost": 316,
+			"stamina": 556,
+			"friend": 50,
+			"exp": 409502800
+		},
+		{
+			"rank": 957,
+			"cost": 316,
+			"stamina": 557,
+			"friend": 50,
+			"exp": 410726500
+		},
+		{
+			"rank": 958,
+			"cost": 316,
+			"stamina": 557,
+			"friend": 50,
+			"exp": 411952600
+		},
+		{
+			"rank": 959,
+			"cost": 316,
+			"stamina": 558,
+			"friend": 50,
+			"exp": 413181100
+		},
+		{
+			"rank": 960,
+			"cost": 317,
+			"stamina": 558,
+			"friend": 50,
+			"exp": 414412000
+		},
+		{
+			"rank": 961,
+			"cost": 317,
+			"stamina": 559,
+			"friend": 50,
+			"exp": 415645400
+		},
+		{
+			"rank": 962,
+			"cost": 317,
+			"stamina": 559,
+			"friend": 50,
+			"exp": 416881200
+		},
+		{
+			"rank": 963,
+			"cost": 317,
+			"stamina": 560,
+			"friend": 50,
+			"exp": 418119400
+		},
+		{
+			"rank": 964,
+			"cost": 318,
+			"stamina": 560,
+			"friend": 50,
+			"exp": 419360000
+		},
+		{
+			"rank": 965,
+			"cost": 318,
+			"stamina": 561,
+			"friend": 50,
+			"exp": 420603000
+		},
+		{
+			"rank": 966,
+			"cost": 318,
+			"stamina": 561,
+			"friend": 50,
+			"exp": 421848500
+		},
+		{
+			"rank": 967,
+			"cost": 318,
+			"stamina": 563,
+			"friend": 50,
+			"exp": 423096400
+		},
+		{
+			"rank": 968,
+			"cost": 319,
+			"stamina": 563,
+			"friend": 50,
+			"exp": 424346700
+		},
+		{
+			"rank": 969,
+			"cost": 319,
+			"stamina": 564,
+			"friend": 50,
+			"exp": 425599400
+		},
+		{
+			"rank": 970,
+			"cost": 319,
+			"stamina": 564,
+			"friend": 50,
+			"exp": 426854600
+		},
+		{
+			"rank": 971,
+			"cost": 319,
+			"stamina": 565,
+			"friend": 50,
+			"exp": 428112200
+		},
+		{
+			"rank": 972,
+			"cost": 320,
+			"stamina": 565,
+			"friend": 50,
+			"exp": 429372300
+		},
+		{
+			"rank": 973,
+			"cost": 320,
+			"stamina": 566,
+			"friend": 50,
+			"exp": 430634800
+		},
+		{
+			"rank": 974,
+			"cost": 320,
+			"stamina": 566,
+			"friend": 50,
+			"exp": 431899700
+		},
+		{
+			"rank": 975,
+			"cost": 320,
+			"stamina": 567,
+			"friend": 50,
+			"exp": 433167100
+		},
+		{
+			"rank": 976,
+			"cost": 321,
+			"stamina": 567,
+			"friend": 50,
+			"exp": 434436900
+		},
+		{
+			"rank": 977,
+			"cost": 321,
+			"stamina": 568,
+			"friend": 50,
+			"exp": 435709200
+		},
+		{
+			"rank": 978,
+			"cost": 321,
+			"stamina": 568,
+			"friend": 50,
+			"exp": 436983900
+		},
+		{
+			"rank": 979,
+			"cost": 321,
+			"stamina": 569,
+			"friend": 50,
+			"exp": 438261100
+		},
+		{
+			"rank": 980,
+			"cost": 322,
+			"stamina": 569,
+			"friend": 50,
+			"exp": 439540700
+		},
+		{
+			"rank": 981,
+			"cost": 322,
+			"stamina": 570,
+			"friend": 50,
+			"exp": 440822800
+		},
+		{
+			"rank": 982,
+			"cost": 322,
+			"stamina": 570,
+			"friend": 50,
+			"exp": 442107400
+		},
+		{
+			"rank": 983,
+			"cost": 322,
+			"stamina": 571,
+			"friend": 50,
+			"exp": 443394400
+		},
+		{
+			"rank": 984,
+			"cost": 323,
+			"stamina": 571,
+			"friend": 50,
+			"exp": 444683900
+		},
+		{
+			"rank": 985,
+			"cost": 323,
+			"stamina": 572,
+			"friend": 50,
+			"exp": 445975900
+		},
+		{
+			"rank": 986,
+			"cost": 323,
+			"stamina": 572,
+			"friend": 50,
+			"exp": 447270300
+		},
+		{
+			"rank": 987,
+			"cost": 323,
+			"stamina": 574,
+			"friend": 50,
+			"exp": 448567200
+		},
+		{
+			"rank": 988,
+			"cost": 324,
+			"stamina": 574,
+			"friend": 50,
+			"exp": 449866600
+		},
+		{
+			"rank": 989,
+			"cost": 324,
+			"stamina": 575,
+			"friend": 50,
+			"exp": 451168500
+		},
+		{
+			"rank": 990,
+			"cost": 324,
+			"stamina": 575,
+			"friend": 50,
+			"exp": 452472800
+		},
+		{
+			"rank": 991,
+			"cost": 324,
+			"stamina": 576,
+			"friend": 50,
+			"exp": 453779600
+		},
+		{
+			"rank": 992,
+			"cost": 325,
+			"stamina": 576,
+			"friend": 50,
+			"exp": 455088900
+		},
+		{
+			"rank": 993,
+			"cost": 325,
+			"stamina": 577,
+			"friend": 50,
+			"exp": 456400700
+		},
+		{
+			"rank": 994,
+			"cost": 325,
+			"stamina": 577,
+			"friend": 50,
+			"exp": 457715000
+		},
+		{
+			"rank": 995,
+			"cost": 325,
+			"stamina": 578,
+			"friend": 50,
+			"exp": 459031800
+		},
+		{
+			"rank": 996,
+			"cost": 326,
+			"stamina": 578,
+			"friend": 50,
+			"exp": 460351100
+		},
+		{
+			"rank": 997,
+			"cost": 326,
+			"stamina": 579,
+			"friend": 50,
+			"exp": 461672900
+		},
+		{
+			"rank": 998,
+			"cost": 326,
+			"stamina": 579,
+			"friend": 50,
+			"exp": 462997200
+		},
+		{
+			"rank": 999,
+			"cost": 326,
+			"stamina": 580,
+			"friend": 50,
+			"exp": 464324000
+		}
+	]
+}

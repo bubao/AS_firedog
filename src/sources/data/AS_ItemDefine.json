@@ -1,0 +1,1722 @@
+{
+	"item": 
+	[
+		{
+			"id": 1,
+			"name": "回復藥",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 250,
+			"des": "單體回復30%HP",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+				,"hpFull": 0
+			},	
+			"modifier": 
+			{
+				"HealPercent": 30
+			},
+			"apply": "once"						
+		},
+		{
+			"id": 2,
+			"name": "全回復藥",
+			"icon": 2,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 500,
+			"des": "單體回復100%HP",
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0	
+			},	
+			"modifier":
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"	
+		},
+		{
+			"id": 3,
+			"name": "秘藥",
+			"icon": 3,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體回復50%HP",	
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0
+			},
+			"modifier": 
+			{
+				"HealPercent": 50
+			},
+			"apply": "once"
+		},
+		{
+			"id": 4,
+			"name": "鳳凰羽毛",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 2000,
+			"des": "復活一個行使",
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1
+			},
+			"modifier": 
+			{
+				"Revive": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 5,
+			"name": "元氣藥",
+			"icon": 5,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 300,
+			"des": "立即補滿技能值",
+			"type": "heal",
+			"target": "ally",
+			"condition":
+			{
+				"dead": 0,
+				"spFull": 0
+			},						
+			"modifier": 
+			{
+				"spFull": 1
+			},
+			"apply": "once"									
+		},
+		{
+			"id": 11,
+			"name": "炎生葉",
+			"icon": 11,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "單體回復100%HP，火屬性限定",
+			"type": "heal",	
+			"target": "ally",
+			"condition":
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 12,
+			"name": "炎氣花",
+			"icon": 12,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體回復100%HP，火屬性限定",
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"						
+		},
+		{
+			"id": 13,
+			"name": "炎天羽毛",
+			"icon": 13,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 2000,
+			"des": "復活一個行使並完全回復，火屬性限定",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1,
+				"element": "fire"
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 14,
+			"singleID": 100014,			
+			"name": "炎劍石",
+			"icon": 14,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "3回合提升攻擊力15%，火屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "fire"
+			},
+			"modifier": 
+			{
+				"AttackUp": 15
+			},
+			"turn": 3
+		},
+		{
+			"id": 15,
+			"singleID": 100015,						
+			"name": "炎之護石",
+			"icon": 15,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "2回合減少受傷害30%，火屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "fire"
+			},			
+			"modifier": 
+			{
+				"DamageDown": 30					
+			},
+			"turn": 2		
+		},
+		
+		{
+			"id": 21,
+			"name": "水生葉",
+			"icon": 21,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "單體回復100%HP，水屬性限定",
+			"type": "heal",	
+			"target": "ally",
+			"condition":
+			{
+				"dead": 0,
+				"hpFull": 0,				
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 22,
+			"name": "水氣花",
+			"icon": 22,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體回復100%HP，水屬性限定",
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"						
+		},
+		{
+			"id": 23,
+			"name": "水天羽毛",
+			"icon": 23,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 2000,
+			"des": "復活一個行使並完全回復，水屬性限定",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1,
+				"element": "water"
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 24,
+			"name": "水劍石",
+			"icon": 24,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "3回合提升攻擊力15%，水屬性限定",		
+			"type": "support",
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "water"
+			},
+			"modifier": 
+			{
+				"AttackUp": 15
+			},
+			"turn": 3
+		},
+		{
+			"id": 25,
+			"name": "水之護石",
+			"icon": 25,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "2回合減少受傷害30%，水屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "water"
+			},			
+			"modifier": 
+			{
+				"DamageDown": 30					
+			},
+			"turn": 2		
+		},
+		
+		{
+			"id": 31,
+			"name": "翠生葉",
+			"icon": 31,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "單體回復100%HP，木屬性限定",
+			"type": "heal",	
+			"target": "ally",
+			"condition":
+			{
+				"dead": 0,
+				"hpFull": 0,				
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 32,
+			"name": "翠氣花",
+			"icon": 32,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體回復100%HP，木屬性限定",
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "wood"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"						
+		},
+		{
+			"id": 33,
+			"name": "翠天羽毛",
+			"icon": 33,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 2000,
+			"des": "復活一個行使並完全回復，木屬性限定",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1,
+				"hpFull": 0,				
+				"element": "wood"
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 34,
+			"name": "翠劍石",
+			"icon": 34,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "3回合提升攻擊力15%，木屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "wood"
+			},			
+			"modifier": 
+			{
+				"AttackUp": 15
+			},
+			"turn": 3
+		},
+		{
+			"id": 35,
+			"name": "翠之護石",
+			"icon": 35,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "2回合減少受傷害30%，木屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "wood"
+			},			
+			"modifier": 
+			{
+				"DamageDown": 30					
+			},
+			"turn": 2		
+		},
+		
+		{
+			"id": 41,
+			"name": "琥生葉",
+			"icon": 41,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "單體回復100%HP，光屬性限定",
+			"type": "heal",	
+			"target": "ally",
+			"condition":
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 42,
+			"name": "琥氣花",
+			"icon": 42,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體回復100%HP，光屬性限定",
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "light"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"						
+		},
+		{
+			"id": 43,
+			"name": "琥天羽毛",
+			"icon": 43,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 2000,
+			"des": "復活一個行使並完全回復，光屬性限定",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1,
+				"element": "light"
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 44,
+			"name": "琥劍石",
+			"icon": 44,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "3回合提升攻擊力15%，光屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "light"
+			},			
+			"modifier": 
+			{
+				"AttackUp": 15
+			},
+			"turn": 3
+		},
+		{
+			"id": 45,
+			"name": "琥之護石",
+			"icon": 45,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "2回合減少受傷害30%，光屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "light"
+			},			
+			"modifier": 
+			{
+				"DamageDown": 30					
+			},
+			"turn": 2		
+		},
+		
+		{
+			"id": 51,
+			"name": "黑生葉",
+			"icon": 51,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "單體回復100%HP，暗屬性限定",
+			"type": "heal",	
+			"target": "ally",
+			"condition":
+			{
+				"dead": 0,
+				"hpFull": 0,				
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 52,
+			"name": "黑氣花",
+			"icon": 52,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體回復100%HP，暗屬性限定",
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "dark"
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"						
+		},
+		{
+			"id": 53,
+			"name": "黑天羽毛",
+			"icon": 53,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 2000,
+			"des": "復活一個行使並完全回復，暗屬性限定",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1,
+				"element": "dark"
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 54,
+			"name": "黑劍石",
+			"icon": 54,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "3回合提升攻擊力15%，暗屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "dark"
+			},			
+			"modifier": 
+			{
+				"AttackUp": 15
+			},
+			"turn": 3
+		},
+		{
+			"id": 55,
+			"name": "黑之護石",
+			"icon": 55,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "2回合減少受傷害30%，暗屬性限定",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "dark"
+			},			
+			"modifier": 
+			{
+				"DamageDown": 30					
+			},
+			"turn": 2		
+		},
+		{
+			"id": 61,
+			"name": "萬能藥",
+			"icon": 61,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 2000,
+			"des": "單體回復100%HP並立即補滿技能值",
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"						
+		},
+		{
+			"id": 62,
+			"name": "星界石",
+			"icon": 62,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 5000,
+			"des": "復活一個行使並完全回復",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 71,
+			"name": "聖水",
+			"icon": 56,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "全異常狀態解除",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"anyNegativeState": 1
+			},						
+			"modifier": 
+			{
+				"ClearAllNegative": 1
+			},
+			"apply": "once"	
+		}
+		,
+		{
+			"id": 72,
+			"name": "解毒劑",
+			"icon": 57,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "解除「毒」狀態",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,	
+				"poison": 1
+			},						
+			"modifier": 
+			{
+				"ClearPoison": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 73,
+			"name": "勇氣藥劑",
+			"icon": 58,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "解除「攻擊力下降」狀態",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"attackDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearAttackDown": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 74,
+			"name": "堅韌藥劑",
+			"icon": 59,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "解除「防禦力下降」狀態",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"defenceDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearDefenceDown": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 75,
+			"name": "心靈藥劑",
+			"icon": 60,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "解除「回復力下降」狀態",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"healDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearHealDown": 1
+			},
+			"apply": "once"						
+		}
+		,	
+		{
+			"id": 76,
+			"name": "荔園幣",
+			"icon": 86,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 10000,
+			"des": "復活一個行使並完全回復",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 77,
+			"name": "荔園氣球",
+			"icon": 87,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 5000,
+			"des": "1回合提升攻擊力及防禦力30%",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},			
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"DefenceUp": 30
+			},
+			"turn": 1
+		},
+		{
+			"id": 78,
+			"name": "香口膠",
+			"icon": 88,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 5000,
+			"des": "全異常狀態解除",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"anyNegativeState": 1				
+			},						
+			"modifier": 
+			{
+				"ClearAllNegative": 1
+			},
+			"apply": "once"					
+		}
+		,
+		{
+			"id": 79,
+			"name": "香蕉",
+			"icon": 89,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 5000,
+			"des": "1回合提升爆擊率100%",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},			
+			"modifier": 
+			{
+				"CriticalUp": 100
+			},
+			"turn": 1
+		},
+		{
+			"id": 80,
+			"name": "月餅",
+			"icon": 91,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 3000,
+			"des": "全體回復30%HP及增加4點技能珠",		
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"HealPercent": 30,
+				"AddSP": 4
+			},
+			"apply": "once"
+		},
+		{
+			"id": 81,
+			"name": "燈籠",
+			"icon": 90,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 10000,
+			"des": "單體100%護盾",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},			
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 82,
+			"name": "南瓜頭",
+			"icon": 92,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 10000,
+			"des": "全體回復100%HP",	
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0
+			},
+			"modifier": 
+			{
+				"HealPercent": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 83,
+			"name": "糖果",
+			"icon": 93,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 2000,
+			"des": "2回合提升攻擊力30%及爆擊率50%",	
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"CriticalUp": 50
+			},
+			"turn": 2
+		},
+		{
+			"id": 84,
+			"name": "小鬼",
+			"icon": 94,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 5000,
+			"des": "1回合減少受傷害50%",	
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"DamageDown": 50
+			},
+			"turn": 1
+		},
+		{
+			"id": 85,
+			"name": "士的糖",
+			"icon": 95,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 500,
+			"des": "解除「攻擊力下降」狀態時回復100%HP",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"attackDown": 1
+			},						
+			"modifier": 
+			{
+				"HealPercent": 100,
+				"ClearAttackDown": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 86,
+			"name": "雪人",
+			"icon": 96,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 3000,
+			"des": "解除「防禦力下降」狀態時啟動單體80%護盾",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"defenceDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearDefenceDown": 1,
+				"BarrierEffect": 1,
+				"Barrier": 80
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 87,
+			"name": "聖誕襪",
+			"icon": 97,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 5000,
+			"des": "解除「回復力下降」狀態時增加10點技能珠",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"healDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearHealDown": 1,
+				"AddSP": 10
+			},
+			"apply": "once"						
+		}
+		,	
+		{
+			"id": 88,
+			"name": "福猴",
+			"icon": 98,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 8888,
+			"des": "2回合提升攻擊力,防禦力及回復力20%",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},			
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"DefenceUp": 20,
+				"HealUp": 20
+			},
+			"turn": 2
+		},
+		{
+			"id": 89,
+			"name": "大吉",
+			"icon": 84,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 50,
+			"des": "單體回復50%HP及增加10點技能珠",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"HealPercent": 50,
+				"AddSP": 10
+			},
+			"apply": "once"			
+		}
+		,
+		{
+			"id": 90,
+			"name": "炮竹",
+			"icon": 83,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 1000,
+			"des": "1回合提升攻擊力10%及爆擊率100%",	
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"AttackUp": 10,
+				"CriticalUp": 100
+			},
+			"turn": 1			
+		}
+		,
+		{
+			"id": 91,
+			"name": "利是",
+			"icon": 81,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 10000,
+			"des": "單體70%護盾",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},			
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 70
+			},
+			"apply": "once"						
+		}
+		,	
+		{
+			"id": 92,
+			"name": "復活免",
+			"icon": 99,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 5000,
+			"des": "解除「毒」狀態及2回合提升攻擊力30%",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0	
+			},
+			"modifier": 
+			{
+				"ClearPoison": 1,
+				"AttackUp": 30
+			},
+			"apply": "once",
+			"turn": 3			
+		}
+		,
+		{
+			"id": 93,
+			"name": "復活蛋",
+			"icon": 100,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 5000,
+			"des": "解除「麻痺」狀態及2回合提升回復力30%",	
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0	
+			},
+			"modifier": 
+			{
+				"ClearParalysis": 1,
+				"HealUp": 50
+			},
+			"apply": "once",
+			"turn": 3			
+		}
+		,
+		{
+			"id": 94,
+			"name": "小免耳飾",
+			"icon": 101,
+			"maxOwn": 999,
+			"maxCarry": 5,
+			"sellPrice": 5000,
+			"des": "解除「出血」狀態及2回合提升防禦力30%",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0	
+			},			
+			"modifier": 
+			{
+				"ClearBleed": 1,
+				"DefenceUp": 50
+			},
+			"apply": "once",
+			"turn": 3						
+		}
+		,	
+		{
+			"id": 95,
+			"name": "兩週年紀念蛋糕",
+			"icon": 102,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 22222,
+			"des": "全體回復30%HP及全異常狀態解除",		
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0	
+			},			
+			"modifier": 
+			{
+				"HealPercent": 30,
+				"ClearAllNegative": 1
+			},
+			"apply": "once"					
+		}
+		,
+		{
+			"id": 96,
+			"name": "彩虹羽毛",
+			"icon": 103,
+			"maxOwn": 999,
+			"maxCarry": 1,
+			"sellPrice": 20000,
+			"des": "復活所有行使，復活後回復50%HP",
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 1
+			},
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 50
+			},
+			"apply": "once"
+		},
+		{
+			"id": 97,
+			"name": "迷你力量裝置",
+			"icon": 104,
+			"maxOwn": 999,
+			"maxCarry": 2,
+			"sellPrice": 20000,
+			"des": "999回合提升全隊攻擊15%",		
+			"type": "support",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0	
+			},
+			"modifier": 
+			{
+				"AttackUp": 15
+			},
+			"turn": 999
+		},
+		{
+			"id": 98,
+			"name": "自律偵察裝置",
+			"icon": 105,
+			"maxOwn": 999,
+			"maxCarry": 4,
+			"sellPrice": 20000,
+			"des": "5回合提升全隊暴擊率40%",		
+			"type": "support",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"CriticalUp": 40
+			},
+			"turn": 5
+		},
+		{
+			"id": 99,
+			"name": "蜘蛛軟糖",
+			"icon": 106,
+			"maxOwn": 999,
+			"maxCarry": 6,
+			"sellPrice": 20000,
+			"des": "全體回復30%HP",		
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"HealPercent": 30
+			},
+			"apply": "once"
+		},
+		{
+			"id": 100,
+			"name": "魔法眼球糖",
+			"icon": 107,
+			"maxOwn": 999,
+			"maxCarry": 2,
+			"sellPrice": 20000,
+			"des": "全體回復10SP",		
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0
+			},
+			"modifier": 
+			{
+				"AddSP": 10
+			},
+			"apply": "once"
+		},
+		{
+			"id": 9001,
+			"name": "火單2回攻+50%",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 250,
+			"des": "2回合火屬性攻擊力+50%",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "fire"
+			},			
+			"modifier": 
+			{
+				"AttackUp": 50
+			},
+			"turn": 2		
+		},
+		{
+			"id": 9011,
+			"name": "火單2回傷-50%",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 250,
+			"des": "2回合火屬性角色受傷害-50%",		
+			"type": "support",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "fire"
+			},			
+			"modifier": 
+			{
+				"DamageDown": 50						
+			},
+			"turn": 2		
+		}
+		,
+		{
+			"id": 9021,
+			"name": "火單HP全回",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 250,
+			"des": "火屬性角色HP全回復",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,				
+				"element": "fire"
+			},			
+			"modifier": 
+			{
+				"HealPercent": 100		
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 9031,
+			"name": "火單HPSP全回",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 250,
+			"des": "火屬性角色HP、SP全回復",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "fire"
+			},			
+			"modifier": 
+			{
+				"HealPercent": 100,
+				"SpFull": 1																	
+			},
+			"apply": "once"						
+		}
+		,										
+		{
+			"id": 9041,
+			"name": "火單復活、HPSP全回",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "復活火屬性角色、HP+SP全回復",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1,
+				"element": "fire"				
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1								
+			},
+			"apply": "once"						
+		}	
+		,		
+		{
+			"id": 9051,
+			"name": "全火HP全回",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體火屬性角色HP全回復",		
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,
+				"element": "fire"				
+			},						
+			"modifier": 
+			{
+				"HealPercent": 100				
+			},
+			"apply": "once"						
+		}
+		,						
+		{
+			"id": 9054,
+			"name": "全光HP全回",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體光屬性角色HP全回復",		
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0,				
+				"element": "light"				
+			},						
+			"modifier": 
+			{
+				"HealPercent": 100				
+			},
+			"apply": "once"						
+		}		
+		,	
+		{
+			"id": 9061,
+			"name": "全體HP全回",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 3,
+			"sellPrice": 1000,
+			"des": "全體角色HP全回復",		
+			"type": "heal",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"hpFull": 0
+			},						
+			"modifier": 
+			{
+				"HealPercent": 100				
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 9071,
+			"name": "復活、HPSP全回",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "復活角色、HP+SP全回復",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 1
+			},						
+			"modifier": 
+			{
+				"Revive": 1,
+				"HealPercent": 100,
+				"SpFull": 1								
+			},
+			"apply": "once"						
+		}			
+		,
+		{
+			"id": 9081,
+			"name": "HPSP全回",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "HP+SP全回復",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0
+			},						
+			"modifier": 
+			{
+				"HealPercent": 100,
+				"SpFull": 1								
+			},
+			"apply": "once"						
+		}			
+		,
+		{
+			"id": 9101,
+			"name": "單體解毒",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "單體解毒",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,	
+				"poison": 1
+			},						
+			"modifier": 
+			{
+				"ClearPoison": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 9102,
+			"name": "單體解減攻",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "單體解減攻",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"attackDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearAttackDown": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 9103,
+			"name": "單體解減防",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "單體解減防",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"defenceDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearDefenceDown": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 9104,
+			"name": "單體解減回",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "單體解減回",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0,		
+				"healDown": 1
+			},						
+			"modifier": 
+			{
+				"ClearHealDown": 1
+			},
+			"apply": "once"						
+		}
+		,		
+		{
+			"id": 9105,
+			"name": "單體全解",
+			"icon": 4,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 2000,
+			"des": "單體全解",		
+			"type": "heal",	
+			"target": "ally",
+			"condition": 
+			{
+				"dead": 0		
+			},						
+			"conditionOr": 
+			[
+				{ "poison": 1 },
+				{ "attackDown": 1 },
+				{ "defenceDown": 1 },
+				{ "healDown": 1	},
+				{ "paralysis": 1 }																																						
+			],									
+			"modifier": 
+			{
+				"ClearPoison": 1,			
+				"ClearAttackDown": 1,			
+				"ClearDefenceDown": 1,
+				"ClearHealDown": 1,
+				"ClearParalysis": 1
+			},
+			"apply": "once"						
+		}
+		,
+		{
+			"id": 9106,
+			"name": "火全2回攻+50%",
+			"icon": 1,
+			"maxOwn": 999,
+			"maxCarry": 10,
+			"sellPrice": 250,
+			"des": "2回合全體火屬性攻擊力+50%",		
+			"type": "support",	
+			"target": "team",
+			"condition": 
+			{
+				"dead": 0,
+				"element": "fire"
+			},			
+			"modifier": 
+			{
+				"AttackUp": 50
+			},
+			"turn": 2		
+		}		
+		
+	]
+}

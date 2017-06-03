@@ -1,0 +1,500 @@
+{
+	"skill": 
+	[
+		
+		{"id": 120001,"name": "隨機減攻圈X2",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 2,	
+			"modifier": 
+			{
+				"AttackDown": 65
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120002,"name": "隨機減防圈X2",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 2,	
+			"modifier": 
+			{
+				"DefenceDown": 90
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120003,"name": "隨機減回圈X2",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 2,	
+			"modifier": 
+			{
+				"HealDown": 90
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120004,"name": "隨機增傷圈X2",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 2,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120005,"name": "隨機毒池X2",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 2,
+			"modifier": 
+			{
+				"PoisonFixed": 1500
+			},
+			"turn": 3,
+			"resistChar": [267,268,389,390,804,894],
+			"effectFile": "EffectParticle_Sc_ToxicWater01"
+		},
+		{"id": 120006,"name": "隨機封技圈X2",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 2,
+			"modifier": 
+			{
+				"NoSkill": 1
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120011,"name": "隨機減攻圈X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,	
+			"modifier": 
+			{
+				"AttackDown": 65
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120012,"name": "隨機減防圈X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,	
+			"modifier": 
+			{
+				"DefenceDown": 90
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120013,"name": "隨機減回圈X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,	
+			"modifier": 
+			{
+				"HealDown": 90
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120014,"name": "隨機增傷圈X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120015,"name": "隨機毒池X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,
+			"modifier": 
+			{
+				"PoisonFixed": 2000
+			},
+			"turn": 3,
+			"resistChar": [267,268,389,390,804,894],
+			"effectFile": "EffectParticle_Sc_ToxicWater01"
+		},
+		{"id": 120016,"name": "隨機封技圈X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,
+			"modifier": 
+			{
+				"NoSkill": 1
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 121001,"name": "隨機加攻圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"AttackUp": 20
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121002,"name": "隨機加防圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"DefenceUp": 40
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121003,"name": "隨機加回圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"HealUp": 40
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121004,"name": "隨機減傷圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"DamageDown": 80
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121005,"name": "隨機再生圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"Regen": 100
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121006,"name": "隨機爆擊圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"CriticalUp": 100
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121007,"name": "隨機SP再生圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"SPRegen": 5
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+
+		{"id": 121023,"name": "惡夢隨機加回圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"HealUp": 40
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121024,"name": "惡夢隨機80%減傷圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"DamageDown": 80
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 121026,"name": "惡夢隨機爆擊圈X1",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"CriticalUp": 100
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		
+		{"id": 120021,"name": "隨機減攻圈X1",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"AttackDown": 65
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120022,"name": "隨機減防圈X1",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"DefenceDown": 90
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120024,"name": "隨機增傷圈X1",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 1,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120025,"name": "隨機3000毒池X1",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 1,
+			"modifier": 
+			{
+				"PoisonFixed": 3000
+			},
+			"turn": 1,
+			"resistChar": [267,268,389,390,804,894],
+			"effectFile": "EffectParticle_Sc_ToxicWater01"
+		},
+		
+		{"id": 120031,"name": "隨機減攻圈X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,	
+			"modifier": 
+			{
+				"AttackDown": 65
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120034,"name": "隨機增傷圈X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 120035,"name": "隨機3000毒池X3",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 3,
+			"modifier": 
+			{
+				"PoisonFixed": 3000
+			},
+			"turn": 1,
+			"resistChar": [267,268,389,390,804,894],
+			"effectFile": "EffectParticle_Sc_ToxicWater01"
+		},
+		{"id": 123001,"name": "前排永久增傷圈X3",
+			"pos": [7,8,9],
+			"randomPos": 0,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 999,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+
+		{"id": 123002,"name": "全SP再生圈",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 0,
+			"modifier": 
+			{
+				"SPRegen": 99
+			},
+			"turn": 999,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 123003,"name": "全減攻圈",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 0,	
+			"modifier": 
+			{
+				"AttackDown": 100
+			},
+			"turn": 99,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 123004,"name": "隨機再生圈X2",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 2,	
+			"modifier": 
+			{
+				"Regen": 200
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 123005,"name": "隨機加攻圈X2",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 2,
+			"modifier": 
+			{
+				"AttackUp": 80
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		
+		{"id": 123006,"name": "天地永久增傷圈X3",
+			"pos": [7,4,1],
+			"randomPos": 0,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 999,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 123007,"name": "一大噸負面地形圈",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 0,	
+			"modifier": 
+			{
+				"AttackDown": 90,
+				"DefenceDown": 90,
+				"HealDown": 90,
+				"HPDown": 50,
+				"DamageUp": 50,
+				"NoSkill": 1,
+				"Pressure": 10
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 123008,"name": "全再生圈",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 0,
+			"modifier": 
+			{
+				"AttackDown": 50,
+				"DefenceDown": 20,
+				"HealDown": 20,
+				"HPDown": 20,
+				"SPRegen": 99,
+				"Regen": 100
+			},
+			"turn": 999,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 123009,"name": "中排永久增傷圈X3",
+			"pos": [4,5,6],
+			"randomPos": 0,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 999,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 123010,"name": "位置8永久增傷圈",
+			"pos": [8],
+			"randomPos": 0,
+			"modifier": 
+			{
+				"DamageUp": 80
+			},
+			"turn": 999,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 123011,"name": "全HP-80%地形圈",
+			"pos": [1,2,3,4,5,6,7,8,9],
+			"randomPos": 0,	
+			"modifier": 
+			{
+				"HPDown": 80
+			},
+			"turn": 1,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		
+		{"id": 999901,"name": "poison",
+			"pos": [1, 2, 3],
+			"randomPos": 0,
+			"modifier": 
+			{
+				"PoisonFixed": 1000
+			},
+			"turn": 2,
+			"effectFile": "EffectParticle_Sc_ToxicWater01"
+		},
+		{"id": 999902,"name": "",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"AttackUp": 15
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 999903,"name": "fire",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,				
+			"modifier": 
+			{
+				"_Fire": 1000
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Fire01"
+		},
+		{"id": 999904,"name": "",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"Regen": 80
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Buffzone01"
+		},
+		{"id": 999905,"name": "",
+			"pos": [6],
+			"randomPos": 0,	
+			"modifier": 
+			{
+				"AttackDown": 80
+			},
+			"turn": 3,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 999906,"name": "",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,	
+			"modifier": 
+			{
+				"DefenceDown": 50
+			},
+			"turn": 2,
+			"effectFile": "EffectParticle_Sc_Debuffzone02"
+		},
+		{"id": 999907,"name": "poison",
+			"pos": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"randomPos": 1,
+			"modifier": 
+			{
+				"PoisonFixed": 500
+			},
+			"turn": 2,
+			"effectFile": "EffectParticle_Sc_ToxicWater01"
+		}		
+		
+	]
+}
+
+	

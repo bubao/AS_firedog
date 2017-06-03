@@ -1,0 +1,446 @@
+{
+	"ShopGoods": 
+	[
+		{
+			"id": "com.firedogstudio.asproject.rainbowticket2",
+			"idEN": "com.firedogstudio.asprojecten.rainbowticket2",
+			"name": "彩虹禮包",
+			"nameEN": "Rainbow Pack",
+			"type": 2,
+			"count": 15,
+			"freeCount": 0,
+			"exTicketID": 1004,  
+			"exTicketCount": 1,
+			"maxBuy": 1,
+			"resetCounterWeekly": false,
+			"displayCheck": true,
+			"price": 78,
+			"unitPrice": 5.2,
+			"special": false,
+			"des": "為感謝大家一直對ＡＳ的支持，我們特意推出６星彩虹禮包！\n\n彩虹禮包內含＜能量方塊Ｘ１５＋彩虹召喚券Ｘ１＞，於彩虹召喚機使用彩虹召喚券，保證可得到一位６星行使！每人只得一次機會的超值優惠現在只需要＄７８！勇者們千萬不要錯過喔～\n\n彩虹召喚內含行使包括：\n\n６☆　齊天大聖‧孫悟空\n６☆　神王‧姬迦美修\n６☆　極冬之女王‧芬布兒\n６☆　天照‧卑彌呼\n６☆　聖狼王‧羅慕路斯\n６☆　血腥姬‧瑪麗一世\n６☆　雪魔導‧娜美西亞\n６☆　閃光‧西格妮\n６☆　長髮公主.翠珊\n６☆　維新之嵐‧坂本龍馬\n６☆　暴怒王‧薩麥爾\n６☆　攻略完成!露絲希布\n６☆　戰爭女神‧弗蕾亞\n６☆　九尾‧妲己\n６☆　絕代雙嬌‧大小二喬\n６☆　子之鼠‧宮毘羅\n６☆　古之邪神‧海德拉\n６☆　獄焰提督‧周瑜\n６☆　馭狼者‧小紅帽\n６☆　伏魔帝君‧鐘馗\n６☆　玄奘法師・唐三藏\n６☆　小惡魔‧碧絲",
+			"desEN": "Thank you for supporting Astral Stairways! We now present to you the Six Stars Rainbow Pack! Inside the bundle you will find 15 energy cubes and a rainbow ticket. Use the rainbow ticket in gacha to summon a six star follower! Anyone can buy the exclusive bundle once for $78 HKD! Don't miss it!\n\nFollowers in the rainbow summon pool include: \n\n６☆ Heaven Sage．Sun Wukong\n６☆ God King．Gilgamesh\n６☆ Winter Queen．Fimbul\n６☆ Amaterasu．Himiko\n６☆ Sacred Wolf．Romulus\n６☆ Bloody Queen．Mary I\n６☆ Snow Sorceress．Nemesia\n６☆ Lighting．Sigourney\n６☆ Rapunzel．Trishanne\n６☆ Reform Leader．Sakamoto\n６☆ Wrath．Samil\n６☆ God of War．Freyja\n６☆ Nine Tailed．Daji\n６☆ Two Qiaos of Jiangdong\n６☆ Hellfire Admiral．Zhou Yu\n６☆ Wolfmaster．Red Riding Hood\n６☆ Demon Killer．Zhong Kui\n６☆ Tirpitaka．Sanzang\n６☆ Little Devil．Bice",			
+			"banner": 
+			{
+				"name" : "banner_20160530_02.png"
+			},
+			"bannerEN": 
+			{
+				"name" : "banner_20160530_02_en.png"
+			}			
+		},
+		
+		{
+			"id": "com.firedogstudio.asproject.valuepack1",
+			"idEN": "com.firedogstudio.asprojecten.valuepack1",
+			"name": "最強進化包",
+			"nameEN": "Instant Evo Pack",
+			"type": 2,
+			"count": 15,
+			"freeCount": 0,
+			"maxBuy": 1,
+			"resetCounterDoubleWeekly": true,
+			"_displayCheck": true,
+			"price": 78,
+			"unitPrice": 5.2,
+			"special": false,
+			"des": "進化沒難度！最強進化包！\n\n養成行使最大的難關就是進化，\n最強進化包一次幫你解決問題！\n只需在行使滿等級時使用進化之證，\n即可進化強力行使！\n\n最強進化包: 能量方塊x15、進化之證x2",
+			"desEN": "Easy Evolution! Instant Evo Pack!\n\nIs collecting all the required materials to evolve your character a bit too challenging? The Instant Evo Pack will solve that problem! Evolve your character with the Evovice when he or she is maxed level! Swipe side ways on the required materials in the evolution interface to use the Evovice!\n\nInstant Evo Pack: Energy Cubes x15, Evovice x2",			
+			"banner": 
+			{
+				"name" : "banner_20170424_01.png"
+			},
+			"bannerEN": 
+			{
+				"name" : "banner_20170424_01_en.png"
+			},
+			
+			"eventBonus": 1,
+			
+			"bonusChar": 888,
+			"bonusCharCount": 2,	
+
+			"eventStartTime": "1-1-2014 0:0:0",
+			"eventEndTime": "12-31-2027 0:0:0"				
+		},
+		
+		{
+			"id": "com.firedogstudio.asproject.valuepack2",
+			"idEN": "com.firedogstudio.asprojecten.valuepack2",
+			"name": "快速升技包",
+			"nameEN": "Skill Up Pack",
+			"type": 2,
+			"count": 15,
+			"freeCount": 0,
+			"maxBuy": 1,
+			"resetCounterDoubleWeekly": true,
+			"_displayCheck": true,
+			"price": 78,
+			"unitPrice": 5.2,
+			"special": false,
+			"des": "馬上升技變最強！快速升技包！\n\n如要進一步強化行使就需要提升技能等級！\n快速升技包內含所有行使均能使用的全能之魂。\n只要使用即有機會提升行使的技能等級！\n\n快速升技包: 能量方塊x15、全能之魂x5",					
+			"desEN": "Maximize Ultimate Move! Skill Up Pack!\n\nWant to further increase the strength of your follower? \nThe Skill Up Pack contains all-powerful souls which can be used on any followers!\nThey have a base 30% chance of successfully increasing the ultimate move of any followers! \n\nSkill Up Pack: Energy Cube x15, All-powerful Soul x5",
+			"banner": 
+			{
+				"name" : "banner_20170424_02.png"
+			},
+			"bannerEN": 
+			{
+				"name" : "banner_20170424_02_en.png"
+			},
+			
+			"eventBonus": 1,
+			
+			"bonusChar": 734,
+			"bonusCharCount": 5,	
+
+			"eventStartTime": "1-1-2014 0:0:0",
+			"eventEndTime": "12-31-2027 0:0:0"				
+		},
+				
+		{
+			"id": "com.firedogstudio.asproject.valuepack3",
+			"idEN": "com.firedogstudio.asprojecten.valuepack3",
+			"name": "天地創造包",
+			"nameEN": "Terra Power Pack",
+			"type": 2,
+			"count": 15,
+			"freeCount": 0,
+			"maxBuy": 1,
+			"resetCounterDoubleWeekly": true,
+			"_displayCheck": true,
+			"price": 78,
+			"unitPrice": 5.2,
+			"special": false,
+			"des": "轉換理想地形！天地創造包！\n\n地形技是《星界之梯》中的一個重要系統，\n適當的地形技將會帶來更大的戰果！\n使用創界石轉換地形即可轉換傳說地形技！\n組出最強隊形不是夢！\n\n天地創造包: 能量方塊x15、創界石x5",
+			"desEN": "Strengthen the Terrain Skill! Terra Power Pack!\n\nTerrain Skills are very important for all characters.\nWith the correct terrain skills working together, you can change the tide of the battle! Use these Realm Stones to get legendary tier skills!\n\nTerra Power Pack: Energy Cube x15, Realm Stone x5",
+			"banner": 
+			{
+				"name" : "banner_20170424_03.png"
+			},
+			"bannerEN": 
+			{
+				"name" : "banner_20170424_03_en.png"
+			},
+			
+			"eventBonus": 1,
+			
+			"bonusChar": 315,
+			"bonusCharCount": 5,	
+
+			"eventStartTime": "1-1-2014 0:0:0",
+			"eventEndTime": "12-31-2027 0:0:0"				
+		},
+		
+		{
+			"id": "com.firedogstudio.asproject.valuepack4",
+			"idEN": "com.firedogstudio.asprojecten.valuepack4",
+			"name": "快高長大包",
+			"nameEN": "Power Leveling Pack",
+			"type": 2,
+			"count": 15,
+			"freeCount": 0,
+			"maxBuy": 1,
+			"resetCounterDoubleWeekly": true,
+			"_displayCheck": true,
+			"price": 78,
+			"unitPrice": 5.2,
+			"special": false,
+			"des": "萌新變強者！快高長大包！\n\n可愛的新行使等級不夠強，\n如想成為即戰力，\n快高長大包就適合你！\n內含最高經驗值的小妖大帝！\n馬上把你的新行使變成戰力吧！\n\n快高長大包: 能量方塊x15、小妖大帝(暗)x10",
+			"desEN": "Strengthen the Terrain Skill! Terra Power Pack!\n\nTerrain Skills are very important for all characters.\nWith the correct terrain skills working together, you can change the tide of the battle! Use these Realm Stones to get legendary tier skills!\n\nTerra Power Pack: Energy Cube x15, Realm Stone x5",			
+			"banner": 
+			{
+				"name" : "banner_20170424_04.png"
+			},
+			"bannerEN": 
+			{
+				"name" : "banner_20170424_04_en.png"
+			},
+			
+			"eventBonus": 1,
+			
+			"bonusChar": 450,
+			"bonusCharCount": 10,	
+
+			"eventStartTime": "1-1-2014 0:0:0",
+			"eventEndTime": "12-31-2027 0:0:0"				
+		},
+				
+		{
+			"id": "com.firedogstudio.asproject.1ethercube",
+			"idEN": "com.firedogstudio.asprojecten.1ethercube",
+			"name": "能量方塊 x 1",
+			"nameEN": "Energy Cube x 1",
+			"type": 1,
+			"count": 1,
+			"freeCount": 0,
+			"price": 8,
+			"unitPrice": 8,	
+			"special": false,
+			"des": ""
+		},
+		{
+			"id": "com.firedogstudio.asproject.3ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.3ethercubes",
+			"name": "能量方塊 x 3",
+			"nameEN": "Energy Cube x 3",
+			"type": 1,
+			"count": 3,
+			"freeCount": 0,
+			"price": 23,
+			"unitPrice": 7.67,				
+			"special": false,
+			"des": "",
+			"eventName": "充值優惠！",
+			"eventNameEN": "",
+			"eventBonus": 1,
+			"bonusStone": 0,
+			"bonusGachaTicket": 0,
+			"bonusStaminaTicket": 1,
+			"bonusContinueTicket": 0,
+			"bonusEnergyTicket": 0,			
+			"eventStartTime": "12-05-2017 14:0:0",
+			"eventEndTime": "18-05-2017 13:59:59"			
+		},			
+		{
+			"id": "com.firedogstudio.asproject.6ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.6ethercubes",
+			"name": "能量方塊 x 6",
+			"nameEN": "Energy Cube x 6",
+			"type": 1,
+			"count": 6,
+			"freeCount": 0,
+			"price": 38,
+			"unitPrice": 6.33,				
+			"special": false,
+			"des": "",
+			"eventName": "充值優惠！",
+			"eventNameEN": "",
+			"eventBonus": 1,
+			"bonusStone": 0,
+			"bonusGachaTicket": 0,
+			"bonusStaminaTicket": 1,
+			"bonusContinueTicket": 0,
+			"bonusEnergyTicket": 0,			
+			"bonusChar": 641,
+			"bonusCharCount": 2,				
+			"eventStartTime": "12-05-2017 14:0:0",
+			"eventEndTime": "18-05-2017 13:59:59"			
+		},
+		{
+			"id": "com.firedogstudio.asproject.15ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.15ethercubes",
+			"name": "能量方塊 x 15",
+			"nameEN": "Energy Cube x 15",
+			"type": 1,
+			"count": 15,
+			"freeCount": 0,
+			"price": 78,
+			"unitPrice": 5.2,	
+			"special": false,
+			"des": "",
+			"firstBuyGift": 
+			{		
+				"staminaTicket": 3,
+				"continueTicket": 2
+			},			
+			"eventDouble": 0,
+			"eventBonus": 0,
+			"bonusStone": 3,
+			"eventStartTime": "29-10-2014 0:0:0",
+			"eventEndTime": "30-10-2014 23:59:59"
+		},
+		{
+			"id": "com.firedogstudio.asproject.30ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.30ethercubes",
+			"name": "能量方塊 x 30",
+			"nameEN": "Energy Cube x 30",
+			"type": 1,
+			"count": 30,
+			"freeCount": 0,
+			"price": 148,
+			"unitPrice": 4.93,	
+			"special": false,
+			"des": "",
+			"eventName": "充值優惠！",
+			"eventNameEN": "",
+			"eventDouble": 0,							
+			
+			"eventBonus": 1,			
+			"bonusStone": 0,
+			"bonusGachaTicket": 0,
+			"bonusStaminaTicket": 0,
+			"bonusChar": 0,
+			"bonusCharCount": 0,
+						
+			"eventStartTime": "21-11-2015 0:0:0",
+			"eventEndTime": "30-11-2015 23:59:59"
+		},
+		{
+			"id": "com.firedogstudio.asproject.60ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.60ethercubes",
+			"name": "能量方塊 x 60",
+			"nameEN": "Energy Cube x 60",
+			"type": 1,
+			"count": 60,
+			"freeCount": 0,
+			"price": 288,
+			"unitPrice": 4.8,	
+			"special": false,
+			"des": "",
+			"eventName": "充值優惠！",	
+			"eventNameEN": "",			
+			"eventBonus": 1,
+			"bonusStone": 0,
+			"bonusGachaTicket": 0,
+			"bonusStaminaTicket": 0,
+			"bonusContinueTicket": 0,
+			"bonusEnergyTicket": 0,
+			
+			"bonusChar": 448,
+			"bonusCharCount": 5,
+			
+			"bonusChar2": 641,
+			"bonusChar2Count": 3,
+			
+			"bonusChar3": 319,
+			"bonusChar3Count": 5,
+			
+			"eventStartTime": "12-05-2017 14:0:0",
+			"eventEndTime": "18-05-2017 13:59:59"			
+		},
+		{
+			"id": "com.firedogstudio.asproject.90ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.90ethercubes",
+			"name": "能量方塊 x 90",
+			"nameEN": "Energy Cube x 90",
+			"type": 1,
+			"count": 90,
+			"freeCount": 0,
+			"price": 418,
+			"unitPrice": 4.64,	
+			"special": false,
+			"des": "",
+			"eventName": "充值優惠！",	
+			"eventNameEN": "",	
+			"eventBonus": 1,
+			"bonusStone": 0,
+			"bonusGachaTicket": 0,
+			"bonusStaminaTicket": 0,
+			"bonusContinueTicket": 5,			
+			"bonusEnergyTicket": 0,
+			
+			"bonusChar": 448,
+			"bonusCharCount": 10,
+
+			"bonusChar2": 641,
+			"bonusChar2Count": 5,
+			
+			"bonusChar3": 315,
+			"bonusChar3Count": 3,	
+			
+			"eventStartTime": "12-05-2017 14:0:0",
+			"eventEndTime": "18-05-2017 13:59:59"			
+		},
+		{
+			"id": "com.firedogstudio.asproject.120ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.120ethercubes",
+			"name": "能量方塊 x 120",
+			"nameEN": "Energy Cube x 120",
+			"type": 1,
+			"count": 120,
+			"freeCount": 0,
+			"price": 548,
+			"unitPrice": 4.57,	
+			"special": false,
+			"des": "",
+			"eventName": "充值優惠！",	
+			"eventNameEN": "",
+			
+			"eventOnceGift": 
+			{
+				"continueTicket": 0,
+				"staminaTicket": 5,
+				"gachaTicket": 0,
+				"energyTicket": 0,
+				"char": 447,
+				"charCount": 10,
+				"char2": 734,
+				"char2Count": 5,
+				"char3": 610,
+				"char3Count": 1,
+				"item": 0,
+				"itemCount": 0
+			},		
+			
+			"eventBonus": 1,
+			"bonusStone": 0,
+			"bonusGachaTicket": 0,
+			"bonusStaminaTicket": 0,
+			"bonusContinueTicket": 8,	
+			"bonusEnergyTicket": 0,
+			
+			"bonusChar": 448,
+			"bonusCharCount": 13,	
+
+			"bonusChar2": 641,
+			"bonusChar2Count": 8,	
+			
+			"bonusChar3": 315,
+			"bonusChar3Count": 6,	
+			
+			"eventStartTime": "12-05-2017 14:0:0",
+			"eventEndTime": "18-05-2017 13:59:59"			
+		},
+		{
+			"id": "com.firedogstudio.asproject.180ethercubes",
+			"idEN": "com.firedogstudio.asprojecten.180ethercubes",
+			"name": "能量方塊 x 180",
+			"nameEN": "Energy Cube x 180",
+			"type": 1,
+			"count": 180,
+			"freeCount": 0,
+			"price": 788,
+			"unitPrice": 4.38,	
+			"special": false,
+			"des": "",
+			"eventName": "充值優惠！",	
+			"eventNameEN": "",
+			
+			"eventOnceGift": 
+			{
+				"continueTicket": 0,
+				"staminaTicket": 8,
+				"gachaTicket": 0,
+				"energyTicket": 0,
+				"char": 447,
+				"charCount": 20,
+				"char2": 734,
+				"char2Count": 8,
+				"char3": 883,
+				"char3Count": 1,
+				"item": 0,
+				"itemCount": 0
+			},		
+			
+			"eventBonus": 1,
+			"bonusStone": 0,
+			"bonusGachaTicket": 0,
+			"bonusStaminaTicket": 0,
+			"bonusContinueTicket": 12,	
+			"bonusEnergyTicket": 0,
+			
+			"bonusChar": 448,
+			"bonusCharCount": 20,	
+
+			"bonusChar2": 641,
+			"bonusChar2Count": 10,	
+			
+			"bonusChar3": 315,
+			"bonusChar3Count": 9,	
+			
+			"eventStartTime": "12-05-2017 14:0:0",
+			"eventEndTime": "18-05-2017 13:59:59"			
+		}			
+		
+	]
+}

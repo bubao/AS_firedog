@@ -1,0 +1,159 @@
+{
+	"event":
+	{
+		"eventID": 0,
+		"bg": "Quest_Bg2",
+		"bg2": "Quest_Bg2",
+		"title": "ad11-banner",
+		"button": "QuestIcon_3",
+		"rank": "QuestIcon_6",
+		"reward": "QuestIcon_20111",
+		"rewardRank": "QuestIcon_20111",
+		"help": "QuestIcon_20121",
+		"startTime": "22-8-2014 0:0:0",
+		"endTime": "24-9-2014 23:59:59"
+	},	
+	"button":
+	[
+		{
+			"eventID": 0,
+			"questId": 10111,
+			"zoneId": 0,
+			"icon": "QuestIcon_3",
+			"startTime": "22-8-2014 0:0:0",
+			"endTime": "24-9-2014 23:59:59"
+		},
+		{
+			"eventID": 0,
+			"questId": 0,
+			"zoneId": 23091,
+			"icon": "QuestIcon_23061",
+			"startTime": "22-8-2014 0:0:0",
+			"endTime": "24-9-2014 23:59:59"
+		}
+	],
+	"gift": 
+	[
+		{
+			"cd": 100,
+			"txt": 1300808,
+			"f": 100
+		},
+		{
+			"cd": 200,
+			"m": 10000
+		},
+		{
+			"cd": 500,
+			"f": 200
+		},
+		{
+			"cd": 1000,
+			"c": 153,
+			"count": 1
+		},
+		{
+			"cd": 1500,
+			"f": 100
+		},
+		{
+			"cd": 2000,
+			"m": 10000
+		},
+		{
+			"cd": 2500,
+			"f": 200
+		},
+		{
+			"cd": 3000,
+			"s": 1
+		}
+	],
+	"rankgift": 
+	[
+		{
+			"begin": 1,
+			"end": 300,
+			"c": 153,
+			"cc": 1,
+			"gacha": 2,
+			"s": 4
+		},
+		{
+			"begin": 301,
+			"end": 1000,
+			"gacha": 2,
+			"s": 4
+		},
+		{
+			"begin": 777,
+			"end": 777,
+			"txt": 1300813,
+			"c": 153,
+			"cc": 1,
+			"gacha": 2,
+			"s": 4
+		},
+		{
+			"begin": 999,
+			"end": 999,
+			"txt": 1300813,
+			"c": 153,
+			"cc": 1,
+			"gacha": 2,
+			"s": 4
+		},
+		{
+			"begin": 1001,
+			"end": 5000,
+			"gacha": 1,
+			"s": 3
+		},
+		{
+			"begin": 5001,
+			"end": 10000,
+			"s": 5
+		},
+		{
+			"begin": 7777,
+			"end": 7777,
+			"txt": 1300813,
+			"c": 153,
+			"cc": 1,
+			"gacha": 2,
+			"s": 4
+		},
+		{
+			"begin": 9999,
+			"end": 9999,
+			"txt": 1300813,
+			"c": 153,
+			"cc": 1,
+			"gacha": 2,
+			"s": 4
+		},
+		{
+			"begin": 10001,
+			"end": 20000,
+			"f": 1000,
+			"s": 3
+		},
+		{
+			"begin": 20001,
+			"end": 50000,
+			"s": 1
+		},
+		{
+			"begin": 50001,
+			"end": 100000,
+			"f": 1000,
+		}
+	],
+	"help":
+	[
+	"Tutor_Battle_01",
+	"Tutor_Battle_02",
+	"Tutor_Battle_03",
+	"Tutor_Battle_04"
+	]
+}

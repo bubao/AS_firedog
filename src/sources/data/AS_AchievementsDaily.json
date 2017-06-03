@@ -1,0 +1,123 @@
+{
+	"schedule":[
+		{
+			"time":[	{"start":"10-5-2018 0:0:0",	"end":"9-5-2019 23:59:59", "v":0, "weekday": 0, "randomCount": 5 }		],
+			"data":[
+				{	"id":30049701,	"type":4,	"txt": "完成任何關卡1次",			"txtEN": "Complete any quest 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10 },"stamina": 20, "random": 1	},
+				{	"id":30049702,	"type":4,	"txt": "完成任何關卡5次",			"txtEN": "Complete any quest 5 times",				"cd":	{	"count": 5	},	"reward":	{	"c": 449, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30079703,	"type":7,	"txt": "打敗敵人50隻",			"txtEN": "Defeat 50 enemies",				"cd":	{	"count": 50	},	"reward":	{	"c": 531, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30139704,	"type":13,	"txt": "進行一次合成",			"txtEN": "Synthesize 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049705,	"type":4,	"txt": "完成宇宙人關卡3次",			"txtEN": "Complete alien quest 3 times",				"cd":	{	"id":[ 21111,21112,21113,21114,21115,21116,21117,21118,21119,21120,21121,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141 ],  "count": 3	},	"reward":	{	"c": 446, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30049706,	"type":4,	"txt": "完成星界農場1次",			"txtEN": "Complete Astral Farm 1 time",				"cd":	{	"id":[ 25211,25221,25231,25241,25251],  "count": 1	},	"reward":	{	"c": 448, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30199707,	"type":19,	"txt": "進行一次進化",			"txtEN": "Evolve 1 time",				"cd":	{	"count": 1	},	"reward":	{	"c": 447, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30049708,	"type":4,	"txt": "完成恆星鎖匙專用關卡1次",			"txtEN": "Unlock & complete any key quest 1 time",				"cd":	{	"id":[21137,21138,21139,21140,21141,21150,21151,21142,21143,21144,21145,21146,21147,21148,21149,21152,21153,21154,21155,21156,21157,21158,21159,21160,21161,21162,21163,21164,21165,21166,21167,21168,21169,21170,21171,21172,21173,21174,21175,21176,21177,21178,21179,21180,21181,21182,21183,21184,21185,21186,21187,21188,21189,21190,21191,21192,21193,21194,21195,21196,21197,21198,21199,21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224,21225],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 50, "random": 1	},
+				{	"id":30249709,	"type":24,	"txt": "進行地形轉換",			"txtEN": "Change terrain skill 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049710,	"type":4,	"txt": "完成曜日關卡1次",			"txtEN": "Complete weekday quest 1 time",				"cd":	{	"id":[20111,20112,20113,20121,20122,20123,20124,20131,20132,20141,20151,20161,20162,20163,20171,20172],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 40, "random": 1	},
+				{	"id":30179711,	"type":17,	"txt": "進行友情召喚",			"txtEN": "Perform FP summon 1 time",				"cd":	{	"count": 1 },	"reward":	{	"c": 450, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30109799,	"type":10,	"txt": "完成所有星期日限時任務",	"txtEN": "Finish all Sunday timed missions",	"cd":	{	"id":[30049701,30049702,30079703,30139704,30049705,30049706,30199707,30049708,30249709,30049710,30179711],  "count": 5	},	"reward":	{	"s": 3 },"stamina": 30	}
+			]
+		},
+		{
+			"time":[	{"start":"10-5-2018 0:0:0",	"end":"9-5-2019 23:59:59", "v":0, "weekday": 1, "randomCount": 5 }		],
+			"data":[
+				{	"id":30049101,	"type":4,	"txt": "完成任何關卡1次",			"txtEN": "Complete any quest 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10 },"stamina": 20, "random": 1	},
+				{	"id":30049102,	"type":4,	"txt": "完成任何關卡5次",			"txtEN": "Complete any quest 5 times",				"cd":	{	"count": 5	},	"reward":	{	"c": 449, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30079103,	"type":7,	"txt": "打敗敵人50隻",			"txtEN": "Defeat 50 enemies",				"cd":	{	"count": 50	},	"reward":	{	"c": 531, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30139104,	"type":13,	"txt": "進行一次合成",			"txtEN": "Synthesize 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049105,	"type":4,	"txt": "完成宇宙人關卡3次",			"txtEN": "Complete alien quest 3 times",				"cd":	{	"id":[ 21111,21112,21113,21114,21115,21116,21117,21118,21119,21120,21121,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141 ],  "count": 3	},	"reward":	{	"c": 446, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30049106,	"type":4,	"txt": "完成星界農場1次",			"txtEN": "Complete Astral Farm 1 time",				"cd":	{	"id":[ 25211,25221,25231,25241,25251],  "count": 1	},	"reward":	{	"c": 448, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30199107,	"type":19,	"txt": "進行一次進化",			"txtEN": "Evolve 1 time",				"cd":	{	"count": 1	},	"reward":	{	"c": 447, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30049108,	"type":4,	"txt": "完成恆星鎖匙專用關卡1次",			"txtEN": "Unlock & complete any key quest 1 time",				"cd":	{	"id":[21137,21138,21139,21140,21141,21150,21151,21142,21143,21144,21145,21146,21147,21148,21149,21152,21153,21154,21155,21156,21157,21158,21159,21160,21161,21162,21163,21164,21165,21166,21167,21168,21169,21170,21171,21172,21173,21174,21175,21176,21177,21178,21179,21180,21181,21182,21183,21184,21185,21186,21187,21188,21189,21190,21191,21192,21193,21194,21195,21196,21197,21198,21199,21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224,21225],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 50, "random": 1	},
+				{	"id":30249109,	"type":24,	"txt": "進行地形轉換",			"txtEN": "Change terrain skill 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049110,	"type":4,	"txt": "完成曜日關卡1次",			"txtEN": "Complete weekday quest 1 time",				"cd":	{	"id":[20111,20112,20113,20121,20122,20123,20124,20131,20132,20141,20151,20161,20162,20163,20171,20172],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 40, "random": 1	},
+				{	"id":30179111,	"type":17,	"txt": "進行友情召喚",			"txtEN": "Perform FP summon 1 time",				"cd":	{	"count": 1 },	"reward":	{	"c": 450, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30109199,	"type":10,	"txt": "完成所有星期一限時任務",	"txtEN": "Finish all Sunday timed missions",	"cd":	{	"id":[30049101,30049102,30079103,30139104,30049105,30049106,30199107,30049108,30249109,30049110,30179111],  "count": 5	},	"reward":	{	"s": 3 },"stamina": 30	}
+			]
+		},
+		{
+			"time":[	{"start":"10-5-2018 0:0:0",	"end":"9-5-2019 23:59:59", "v":0, "weekday": 2, "randomCount": 5 }		],
+			"data":[
+				{	"id":30049201,	"type":4,	"txt": "完成任何關卡1次",			"txtEN": "Complete any quest 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10 },"stamina": 20, "random": 1	},
+				{	"id":30049202,	"type":4,	"txt": "完成任何關卡5次",			"txtEN": "Complete any quest 5 times",				"cd":	{	"count": 5	},	"reward":	{	"c": 449, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30079203,	"type":7,	"txt": "打敗敵人50隻",			"txtEN": "Defeat 50 enemies",				"cd":	{	"count": 50	},	"reward":	{	"c": 531, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30139204,	"type":13,	"txt": "進行一次合成",			"txtEN": "Synthesize 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049205,	"type":4,	"txt": "完成宇宙人關卡3次",			"txtEN": "Complete alien quest 3 times",				"cd":	{	"id":[ 21111,21112,21113,21114,21115,21116,21117,21118,21119,21120,21121,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141 ],  "count": 3	},	"reward":	{	"c": 446, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30049206,	"type":4,	"txt": "完成星界農場1次",			"txtEN": "Complete Astral Farm 1 time",				"cd":	{	"id":[ 25211,25221,25231,25241,25251],  "count": 1	},	"reward":	{	"c": 448, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30199207,	"type":19,	"txt": "進行一次進化",			"txtEN": "Evolve 1 time",				"cd":	{	"count": 1	},	"reward":	{	"c": 447, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30049208,	"type":4,	"txt": "完成恆星鎖匙專用關卡1次",			"txtEN": "Unlock & complete any key quest 1 time",				"cd":	{	"id":[21137,21138,21139,21140,21141,21150,21151,21142,21143,21144,21145,21146,21147,21148,21149,21152,21153,21154,21155,21156,21157,21158,21159,21160,21161,21162,21163,21164,21165,21166,21167,21168,21169,21170,21171,21172,21173,21174,21175,21176,21177,21178,21179,21180,21181,21182,21183,21184,21185,21186,21187,21188,21189,21190,21191,21192,21193,21194,21195,21196,21197,21198,21199,21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224,21225],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 50, "random": 1	},
+				{	"id":30249209,	"type":24,	"txt": "進行地形轉換",			"txtEN": "Change terrain skill 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049210,	"type":4,	"txt": "完成曜日關卡1次",			"txtEN": "Complete weekday quest 1 time",				"cd":	{	"id":[20111,20112,20113,20121,20122,20123,20124,20131,20132,20141,20151,20161,20162,20163,20171,20172],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 40, "random": 1	},
+				{	"id":30179211,	"type":17,	"txt": "進行友情召喚",			"txtEN": "Perform FP summon 1 time",				"cd":	{	"count": 1 },	"reward":	{	"c": 450, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30109299,	"type":10,	"txt": "完成所有星期二限時任務",	"txtEN": "Finish all Sunday timed missions",	"cd":	{	"id":[30049201,30049202,30079203,30139204,30049205,30049206,30199207,30049208,30249209,30049210,30179211],  "count": 5	},	"reward":	{	"s": 3 },"stamina": 30	}
+			]
+		},
+		{
+			"time":[	{"start":"10-5-2018 0:0:0",	"end":"9-5-2019 23:59:59", "v":0, "weekday": 3, "randomCount": 5 }		],
+			"data":[
+				{	"id":30049301,	"type":4,	"txt": "完成任何關卡1次",			"txtEN": "Complete any quest 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10 },"stamina": 20, "random": 1	},
+				{	"id":30049302,	"type":4,	"txt": "完成任何關卡5次",			"txtEN": "Complete any quest 5 times",				"cd":	{	"count": 5	},	"reward":	{	"c": 449, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30079303,	"type":7,	"txt": "打敗敵人50隻",			"txtEN": "Defeat 50 enemies",				"cd":	{	"count": 50	},	"reward":	{	"c": 531, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30139304,	"type":13,	"txt": "進行一次合成",			"txtEN": "Synthesize 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049305,	"type":4,	"txt": "完成宇宙人關卡3次",			"txtEN": "Complete alien quest 3 times",				"cd":	{	"id":[ 21111,21112,21113,21114,21115,21116,21117,21118,21119,21120,21121,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141 ],  "count": 3	},	"reward":	{	"c": 446, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30049306,	"type":4,	"txt": "完成星界農場1次",			"txtEN": "Complete Astral Farm 1 time",				"cd":	{	"id":[ 25211,25221,25231,25241,25251],  "count": 1	},	"reward":	{	"c": 448, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30199307,	"type":19,	"txt": "進行一次進化",			"txtEN": "Evolve 1 time",				"cd":	{	"count": 1	},	"reward":	{	"c": 447, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30049308,	"type":4,	"txt": "完成恆星鎖匙專用關卡1次",			"txtEN": "Unlock & complete any key quest 1 time",				"cd":	{	"id":[21137,21138,21139,21140,21141,21150,21151,21142,21143,21144,21145,21146,21147,21148,21149,21152,21153,21154,21155,21156,21157,21158,21159,21160,21161,21162,21163,21164,21165,21166,21167,21168,21169,21170,21171,21172,21173,21174,21175,21176,21177,21178,21179,21180,21181,21182,21183,21184,21185,21186,21187,21188,21189,21190,21191,21192,21193,21194,21195,21196,21197,21198,21199,21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224,21225],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 50, "random": 1	},
+				{	"id":30249309,	"type":24,	"txt": "進行地形轉換",			"txtEN": "Change terrain skill 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049310,	"type":4,	"txt": "完成曜日關卡1次",			"txtEN": "Complete weekday quest 1 time",				"cd":	{	"id":[20111,20112,20113,20121,20122,20123,20124,20131,20132,20141,20151,20161,20162,20163,20171,20172],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 40, "random": 1	},
+				{	"id":30179311,	"type":17,	"txt": "進行友情召喚",			"txtEN": "Perform FP summon 1 time",				"cd":	{	"count": 1 },	"reward":	{	"c": 450, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30109399,	"type":10,	"txt": "完成所有星期三限時任務",	"txtEN": "Finish all Sunday timed missions",	"cd":	{	"id":[30049301,30049302,30079303,30139304,30049305,30049306,30199307,30049308,30249309,30049310,30179311],  "count": 5	},	"reward":	{	"s": 3 },"stamina": 30	}
+			]
+		},
+		{
+			"time":[	{"start":"10-5-2018 0:0:0",	"end":"9-5-2019 23:59:59", "v":0, "weekday": 4, "randomCount": 5 }		],
+			"data":[
+				{	"id":30049401,	"type":4,	"txt": "完成任何關卡1次",			"txtEN": "Complete any quest 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10 },"stamina": 20, "random": 1	},
+				{	"id":30049402,	"type":4,	"txt": "完成任何關卡5次",			"txtEN": "Complete any quest 5 times",				"cd":	{	"count": 5	},	"reward":	{	"c": 449, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30079403,	"type":7,	"txt": "打敗敵人50隻",			"txtEN": "Defeat 50 enemies",				"cd":	{	"count": 50	},	"reward":	{	"c": 531, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30139404,	"type":13,	"txt": "進行一次合成",			"txtEN": "Synthesize 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049405,	"type":4,	"txt": "完成宇宙人關卡3次",			"txtEN": "Complete alien quest 3 times",				"cd":	{	"id":[ 21111,21112,21113,21114,21115,21116,21117,21118,21119,21120,21121,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141 ],  "count": 3	},	"reward":	{	"c": 446, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30049406,	"type":4,	"txt": "完成星界農場1次",			"txtEN": "Complete Astral Farm 1 time",				"cd":	{	"id":[ 25211,25221,25231,25241,25251],  "count": 1	},	"reward":	{	"c": 448, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30199407,	"type":19,	"txt": "進行一次進化",			"txtEN": "Evolve 1 time",				"cd":	{	"count": 1	},	"reward":	{	"c": 447, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30049408,	"type":4,	"txt": "完成恆星鎖匙專用關卡1次",			"txtEN": "Unlock & complete any key quest 1 time",				"cd":	{	"id":[21137,21138,21139,21140,21141,21150,21151,21142,21143,21144,21145,21146,21147,21148,21149,21152,21153,21154,21155,21156,21157,21158,21159,21160,21161,21162,21163,21164,21165,21166,21167,21168,21169,21170,21171,21172,21173,21174,21175,21176,21177,21178,21179,21180,21181,21182,21183,21184,21185,21186,21187,21188,21189,21190,21191,21192,21193,21194,21195,21196,21197,21198,21199,21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224,21225],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 50, "random": 1	},
+				{	"id":30249409,	"type":24,	"txt": "進行地形轉換",			"txtEN": "Change terrain skill 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049410,	"type":4,	"txt": "完成曜日關卡1次",			"txtEN": "Complete weekday quest 1 time",				"cd":	{	"id":[20111,20112,20113,20121,20122,20123,20124,20131,20132,20141,20151,20161,20162,20163,20171,20172],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 40, "random": 1	},
+				{	"id":30179411,	"type":17,	"txt": "進行友情召喚",			"txtEN": "Perform FP summon 1 time",				"cd":	{	"count": 1 },	"reward":	{	"c": 450, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30109499,	"type":10,	"txt": "完成所有星期四限時任務",	"txtEN": "Finish all Sunday timed missions",	"cd":	{	"id":[30049401,30049402,30079403,30139404,30049405,30049406,30199407,30049408,30249409,30049410,30179411],  "count": 5	},	"reward":	{	"s": 3 },"stamina": 30	}
+			]
+		},
+		{
+			"time":[	{"start":"10-5-2018 0:0:0",	"end":"9-5-2019 23:59:59", "v":0, "weekday": 5, "randomCount": 5 }		],
+			"data":[
+				{	"id":30049501,	"type":4,	"txt": "完成任何關卡1次",			"txtEN": "Complete any quest 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10 },"stamina": 20, "random": 1	},
+				{	"id":30049502,	"type":4,	"txt": "完成任何關卡5次",			"txtEN": "Complete any quest 5 times",				"cd":	{	"count": 5	},	"reward":	{	"c": 449, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30079503,	"type":7,	"txt": "打敗敵人50隻",			"txtEN": "Defeat 50 enemies",				"cd":	{	"count": 50	},	"reward":	{	"c": 531, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30139504,	"type":13,	"txt": "進行一次合成",			"txtEN": "Synthesize 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049505,	"type":4,	"txt": "完成宇宙人關卡3次",			"txtEN": "Complete alien quest 3 times",				"cd":	{	"id":[ 21111,21112,21113,21114,21115,21116,21117,21118,21119,21120,21121,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141 ],  "count": 3	},	"reward":	{	"c": 446, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30049506,	"type":4,	"txt": "完成星界農場1次",			"txtEN": "Complete Astral Farm 1 time",				"cd":	{	"id":[ 25211,25221,25231,25241,25251],  "count": 1	},	"reward":	{	"c": 448, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30199507,	"type":19,	"txt": "進行一次進化",			"txtEN": "Evolve 1 time",				"cd":	{	"count": 1	},	"reward":	{	"c": 447, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30049508,	"type":4,	"txt": "完成恆星鎖匙專用關卡1次",			"txtEN": "Unlock & complete any key quest 1 time",				"cd":	{	"id":[21137,21138,21139,21140,21141,21150,21151,21142,21143,21144,21145,21146,21147,21148,21149,21152,21153,21154,21155,21156,21157,21158,21159,21160,21161,21162,21163,21164,21165,21166,21167,21168,21169,21170,21171,21172,21173,21174,21175,21176,21177,21178,21179,21180,21181,21182,21183,21184,21185,21186,21187,21188,21189,21190,21191,21192,21193,21194,21195,21196,21197,21198,21199,21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224,21225],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 50, "random": 1	},
+				{	"id":30249509,	"type":24,	"txt": "進行地形轉換",			"txtEN": "Change terrain skill 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049510,	"type":4,	"txt": "完成曜日關卡1次",			"txtEN": "Complete weekday quest 1 time",				"cd":	{	"id":[20111,20112,20113,20121,20122,20123,20124,20131,20132,20141,20151,20161,20162,20163,20171,20172],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 40, "random": 1	},
+				{	"id":30179511,	"type":17,	"txt": "進行友情召喚",			"txtEN": "Perform FP summon 1 time",				"cd":	{	"count": 1 },	"reward":	{	"c": 450, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30109599,	"type":10,	"txt": "完成所有星期五限時任務",	"txtEN": "Finish all Sunday timed missions",	"cd":	{	"id":[30049501,30049502,30079503,30139504,30049505,30049506,30199507,30049508,30249509,30049510,30179511],  "count": 5	},	"reward":	{	"s": 3 },"stamina": 30	}
+			]
+		},
+		{
+			"time":[	{"start":"10-5-2018 0:0:0",	"end":"9-5-2019 23:59:59", "v":0, "weekday": 6, "randomCount": 5 }		],
+			"data":[
+				{	"id":30049601,	"type":4,	"txt": "完成任何關卡1次",			"txtEN": "Complete any quest 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10 },"stamina": 20, "random": 1	},
+				{	"id":30049602,	"type":4,	"txt": "完成任何關卡5次",			"txtEN": "Complete any quest 5 times",				"cd":	{	"count": 5	},	"reward":	{	"c": 449, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30079603,	"type":7,	"txt": "打敗敵人50隻",			"txtEN": "Defeat 50 enemies",				"cd":	{	"count": 50	},	"reward":	{	"c": 531, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30139604,	"type":13,	"txt": "進行一次合成",			"txtEN": "Synthesize 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049605,	"type":4,	"txt": "完成宇宙人關卡3次",			"txtEN": "Complete alien quest 3 times",				"cd":	{	"id":[ 21111,21112,21113,21114,21115,21116,21117,21118,21119,21120,21121,21132,21133,21134,21135,21136,21137,21138,21139,21140,21141 ],  "count": 3	},	"reward":	{	"c": 446, "count" : 5 },"stamina": 50, "random": 1	},
+				{	"id":30049606,	"type":4,	"txt": "完成星界農場1次",			"txtEN": "Complete Astral Farm 1 time",				"cd":	{	"id":[ 25211,25221,25231,25241,25251],  "count": 1	},	"reward":	{	"c": 448, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30199607,	"type":19,	"txt": "進行一次進化",			"txtEN": "Evolve 1 time",				"cd":	{	"count": 1	},	"reward":	{	"c": 447, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30049608,	"type":4,	"txt": "完成恆星鎖匙專用關卡1次",			"txtEN": "Unlock & complete any key quest 1 time",				"cd":	{	"id":[21137,21138,21139,21140,21141,21150,21151,21142,21143,21144,21145,21146,21147,21148,21149,21152,21153,21154,21155,21156,21157,21158,21159,21160,21161,21162,21163,21164,21165,21166,21167,21168,21169,21170,21171,21172,21173,21174,21175,21176,21177,21178,21179,21180,21181,21182,21183,21184,21185,21186,21187,21188,21189,21190,21191,21192,21193,21194,21195,21196,21197,21198,21199,21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224,21225],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 50, "random": 1	},
+				{	"id":30249609,	"type":24,	"txt": "進行地形轉換",			"txtEN": "Change terrain skill 1 time",				"cd":	{	"count": 1	},	"reward":	{	"questTicket": 10  },"stamina": 30, "random": 1	},
+				{	"id":30049610,	"type":4,	"txt": "完成曜日關卡1次",			"txtEN": "Complete weekday quest 1 time",				"cd":	{	"id":[20111,20112,20113,20121,20122,20123,20124,20131,20132,20141,20151,20161,20162,20163,20171,20172],  "count": 1	},	"reward":	{	"c": 319, "count" : 2 },"stamina": 40, "random": 1	},
+				{	"id":30179611,	"type":17,	"txt": "進行友情召喚",			"txtEN": "Perform FP summon 1 time",				"cd":	{	"count": 1 },	"reward":	{	"c": 450, "count" : 5 },"stamina": 30, "random": 1	},
+				{	"id":30109699,	"type":10,	"txt": "完成所有星期六限時任務",	"txtEN": "Finish all Sunday timed missions",	"cd":	{	"id":[30049601,30049602,30079603,30139604,30049605,30049606,30199607,30049608,30249609,30049610,30179611],  "count": 5	},	"reward":	{	"s": 3 },"stamina": 30	}
+			]
+		}
+	]
+}

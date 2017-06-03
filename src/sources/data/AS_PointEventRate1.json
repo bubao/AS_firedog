@@ -1,0 +1,32 @@
+{
+	"event":
+	{
+		"eventID": 1
+	},	
+	"questIDs":
+	[
+		29011,
+		29012,
+		29013,
+		29014
+	],
+	"rate":
+	[
+		{
+			"stamina": 15,
+			"rate": 0.70
+		},
+		{
+			"stamina": 25,
+			"rate": 0.85
+		},
+		{
+			"stamina": 35,
+			"rate": 1.00
+		},
+		{
+			"stamina": 99,
+			"rate": 1.05
+		}
+	]
+}

@@ -1,0 +1,350 @@
+{
+	"schedule":[
+		{
+			"time":[	{"start":"24-3-2016 0:0:0",	"end":"28-3-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120001,	"type":12,	"txt": "完成中級復活節關卡１０次",	"cd":	{	"id":[27105],  "count": 10	},	"reward":	{	"i": 93, "count": 10	}	},
+				{	"id":30120002,	"type":12,	"txt": "完成中級復活節關卡２０次",	"cd":	{	"id":[27105],  "count": 20	},	"reward":	{	"c": 774, "count" : 5 }	},
+				{	"id":30120003,	"type":12,	"txt": "完成中級復活節關卡３０次",	"cd":	{	"id":[27105],  "count": 30	},	"reward":	{	"s": 1 }	},
+				{	"id":30120004,	"type":12,	"txt": "完成高級復活節關卡１０次",	"cd":	{	"id":[27106],  "count": 10	},	"reward":	{	"i": 94, "count": 10	}	},
+				{	"id":30120005,	"type":12,	"txt": "完成高級復活節關卡２０次",	"cd":	{	"id":[27106],  "count": 20	},	"reward":	{	"c": 775, "count" : 3 }	},
+				{	"id":30120006,	"type":12,	"txt": "完成高級復活節關卡３０次",	"cd":	{	"id":[27106],  "count": 30	},	"reward":	{	"s": 2 }	},
+				{	"id":30120007,	"type":12,	"txt": "完成極惡復活節關卡１０次",	"cd":	{	"id":[27107],  "count": 10	},	"reward":	{	"i": 92, "count": 10	}	},
+				{	"id":30120008,	"type":12,	"txt": "完成極惡復活節關卡２０次",	"cd":	{	"id":[27107],  "count": 20	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30120009,	"type":12,	"txt": "完成極惡復活節關卡３０次",	"cd":	{	"id":[27107],  "count": 30	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"29-4-2016 0:0:0",	"end":"6-5-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120010,	"type":12,	"txt": "擊退！超極惡「紅龍」５次",		"cd":	{	"id":[24172],  "count": 5	},	"reward":	{	"c": 646, "count": 3	}	},
+				{	"id":30120011,	"type":12,	"txt": "擊退！超極惡「關羽」５次",		"cd":	{	"id":[24192],  "count": 5	},	"reward":	{	"c": 448, "count" : 5 }	},
+				{	"id":30120012,	"type":12,	"txt": "擊退！超極惡「阿修羅」５次",		"cd":	{	"id":[24212],  "count": 5	},	"reward":	{	"c": 446, "count" : 5 }	},
+				{	"id":30120013,	"type":12,	"txt": "擊退！超極惡「九命」５次",		"cd":	{	"id":[24182],  "count": 5	},	"reward":	{	"c": 644, "count" : 3	}	},
+				{	"id":30120014,	"type":12,	"txt": "擊退！超極惡「奧莉婭」５次",		"cd":	{	"id":[24202],  "count": 5	},	"reward":	{	"c": 642, "count" : 3 }	},
+				{	"id":30120015,	"type":12,	"txt": "擊退！超極惡「如來」５次",		"cd":	{	"id":[24232],  "count": 5	},	"reward":	{	"c": 449, "count" : 5 }	},
+				{	"id":30100101,	"type":10,	"txt": "超極惡任務全制霸！！",			"cd":	{	"id":[30120010, 30120011, 30120012, 30120013, 30120014, 30120015],  "count": 6	},	"reward":	{	"c": 733 , "count" : 5 }	},
+				{	"id":30120016,	"type":12,	"txt": "擊退！惡夢「冥府姬‧泊瑟芬」３次",	"cd":	{	"id":[26104],  "count": 3	},	"reward":	{	"c": 637, "count" : 3 }	},
+				{	"id":30120017,	"type":12,	"txt": "擊退！惡夢「白雪女王」３次",		"cd":	{	"id":[26103],  "count": 3	},	"reward":	{	"c": 643, "count" : 3	}	},
+				{	"id":30120018,	"type":12,	"txt": "擊退！惡夢「超魔‧巴爾」３次",	"cd":	{	"id":[26101],  "count": 3	},	"reward":	{	"c": 647, "count" : 3 }	},
+				{	"id":30120019,	"type":12,	"txt": "擊退！惡夢「魂殺之血‧十夜」３次",	"cd":	{	"id":[26102],  "count": 3	},	"reward":	{	"c": 315, "count" : 3 }	},
+				{	"id":30100102,	"type":10,	"txt": "惡夢任務全制霸！！",			"cd":	{	"id":[30120016, 30120017, 30120018, 30120019],  "count": 4	},	"reward":	{	"c": 734 , "count" : 5 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"1-6-2016 0:0:0",	"end":"9-6-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120020,	"type":12,	"txt": "完成火狗子龍舟競賽！中級５次",	"cd":	{	"id":[27108],  "count": 5	},	"reward":	{	"i": 5, "count" : 10 }	},
+				{	"id":30120021,	"type":12,	"txt": "完成火狗子龍舟競賽！中級１０次",	"cd":	{	"id":[27108],  "count": 10	},	"reward":	{	"c": 866, "count" : 1 }	},
+				{	"id":30120022,	"type":12,	"txt": "完成火狗子龍舟競賽！高級５次",	"cd":	{	"id":[27109],  "count": 5	},	"reward":	{	"i": 61, "count" : 10 }	},
+				{	"id":30120023,	"type":12,	"txt": "完成火狗子龍舟競賽！高級１０次",	"cd":	{	"id":[27109],  "count": 10	},	"reward":	{	"c": 866, "count" : 1 }	},
+				{	"id":30120024,	"type":12,	"txt": "完成火狗子龍舟競賽！極惡５次",	"cd":	{	"id":[27110],  "count": 5	},	"reward":	{	"i": 62, "count" : 10 }	},
+				{	"id":30120025,	"type":12,	"txt": "完成火狗子龍舟競賽！極惡１０次",	"cd":	{	"id":[27110],  "count": 10	},	"reward":	{	"c": 866, "count" : 1 }	},
+				{	"id":30090100,	"type":9,	"txt": "擊退！「端午火狗子」１０次",		"cd":	{	"id":[866],  "count": 10	},	"reward":	{	"c": 866, "count" : 1 }	},
+				{	"id":30090101,	"type":9,	"txt": "擊退！「端午火狗子」２０次",		"cd":	{	"id":[866],  "count": 20	},	"reward":	{	"c": 159, "count" : 1 }	},
+				{	"id":30090102,	"type":9,	"txt": "擊退！「端午火狗子」３０次",		"cd":	{	"id":[866],  "count": 30	},	"reward":	{	"c": 866, "count" : 1 }	},
+				{	"id":30090103,	"type":9,	"txt": "擊退！「端午火狗子」４０次",		"cd":	{	"id":[866],  "count": 40	},	"reward":	{	"i": 95, "count" : 10 }	},
+				{	"id":30090104,	"type":9,	"txt": "擊退！「端午火狗子」５０次",		"cd":	{	"id":[866],  "count": 50	},	"reward":	{	"c": 866, "count" : 1 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"25-8-2016 0:0:0",	"end":"31-8-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120026,	"type":12,	"txt": "完成盛夏泳裝大激鬥！初級５次",	"cd":	{	"id":[27114],  "count": 5	},	"reward":	{	"i": 5, "count" : 10 }	},
+				{	"id":30120027,	"type":12,	"txt": "完成盛夏泳裝大激鬥！初級１０次",	"cd":	{	"id":[27114],  "count": 10	},	"reward":	{	"c": 995, "count" : 1 }	},
+				{	"id":30120028,	"type":12,	"txt": "完成盛夏泳裝大激鬥！中級５次",	"cd":	{	"id":[27115],  "count": 5	},	"reward":	{	"i": 5, "count" : 10 }	},
+				{	"id":30120029,	"type":12,	"txt": "完成盛夏泳裝大激鬥！中級１０次",	"cd":	{	"id":[27115],  "count": 10	},	"reward":	{	"c": 995, "count" : 1 }	},
+				{	"id":30120030,	"type":12,	"txt": "完成盛夏泳裝大激鬥！高級５次",	"cd":	{	"id":[27116],  "count": 5	},	"reward":	{	"i": 61, "count" : 10 }	},
+				{	"id":30120031,	"type":12,	"txt": "完成盛夏泳裝大激鬥！高級１０次",	"cd":	{	"id":[27116],  "count": 10	},	"reward":	{	"c": 995, "count" : 1 }	},
+				{	"id":30120032,	"type":12,	"txt": "完成盛夏泳裝大激鬥！極惡５次",	"cd":	{	"id":[27117],  "count": 5	},	"reward":	{	"i": 62, "count" : 10 }	},
+				{	"id":30120033,	"type":12,	"txt": "完成盛夏泳裝大激鬥！極惡１０次",	"cd":	{	"id":[27117],  "count": 10	},	"reward":	{	"c": 995, "count" : 1 }	},
+				{	"id":30090105,	"type":9,	"txt": "擊退！「殘暑暴君‧紅龍」１０次",	"cd":	{	"id":[995],  "count": 10	},	"reward":	{	"c": 995, "count" : 1 }	},
+				{	"id":30090106,	"type":9,	"txt": "擊退！「殘暑暴君‧紅龍」２０次",	"cd":	{	"id":[995],  "count": 20	},	"reward":	{	"c": 159, "count" : 1 }	},
+				{	"id":30090107,	"type":9,	"txt": "擊退！「殘暑暴君‧紅龍」３０次",	"cd":	{	"id":[995],  "count": 30	},	"reward":	{	"c": 995, "count" : 1 }	},
+				{	"id":30090108,	"type":9,	"txt": "擊退！「殘暑暴君‧紅龍」４０次",	"cd":	{	"id":[995],  "count": 40	},	"reward":	{	"i": 62, "count" : 15 }	},
+				{	"id":30090109,	"type":9,	"txt": "擊退！「殘暑暴君‧紅龍」５０次",	"cd":	{	"id":[995],  "count": 50	},	"reward":	{	"c": 995, "count" : 1 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"29-3-2037 14:0:0",	"end":"30-3-2037 13:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120034,	"type":12,	"txt": "遊星之塔第五層通過",	"txtEN": "Astral Tower 5/F Complete",	"cd":	{	"id":[25405],  "count": 1	},	"reward":	{	"s": 1  }	},
+				{	"id":30120035,	"type":12,	"txt": "遊星之塔第十層通過",	"txtEN": "Astral Tower 10/F Complete",	"cd":	{	"id":[25410],  "count": 1	},	"reward":	{	"s": 2  }	},
+				{	"id":30120036,	"type":12,	"txt": "遊星之塔第十五層通過",	"txtEN": "Astral Tower 15/F Complete",	"cd":	{	"id":[25415],  "count": 1	},	"reward":	{	"c": 888, "count" : 1 }	},
+				{	"id":30120037,	"type":12,	"txt": "遊星之塔全制霸！！",	"txtEN": "Astral Tower Conquered!",	"cd":	{	"id":[25420],  "count": 1	},	"reward":	{	"c": 1039, "count" : 1 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"30-3-2037 14:0:0",	"end":"31-3-2037 13:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120038,	"type":12,	"txt": "遊星之塔第五層通過",	"txtEN": "Astral Tower 5/F Complete",	"cd":	{	"id":[25425],  "count": 1	},	"reward":	{	"s": 1  }	},
+				{	"id":30120039,	"type":12,	"txt": "遊星之塔第十層通過",	"txtEN": "Astral Tower 10/F Complete",	"cd":	{	"id":[25430],  "count": 1	},	"reward":	{	"s": 2  }	},
+				{	"id":30120040,	"type":12,	"txt": "遊星之塔第十五層通過",	"txtEN": "Astral Tower 15/F Complete",	"cd":	{	"id":[25435],  "count": 1	},	"reward":	{	"c": 888, "count" : 1 }	},
+				{	"id":30120041,	"type":12,	"txt": "遊星之塔全制霸！！",	"txtEN": "Astral Tower Conquered!",		"cd":	{	"id":[25440],  "count": 1	},	"reward":	{	"c": 1039, "count" : 1 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"24-12-2016 14:0:0",	"end":"31-12-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120042,	"type":12,	"txt": "火狗聖誕派對2016！十次會！",	"txtEN": "Complete Firedog Xmas Party 10 times",	"cd":	{	"id":[27122],  "count": 10	},	"reward":	{	"c": 888, "count" : 1 }	},
+				{	"id":30120043,	"type":12,	"txt": "火狗聖誕派對2016！二十次會！",	"txtEN": "Complete Firedog Xmas Party 20 times",	"cd":	{	"id":[27122],  "count": 20	},	"reward":	{	"gacha": 1}	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"26-10-2016 14:0:0",	"end":"1-11-2016 13:59:59", "v":1 }		],
+			"data":[
+				{	"id":30090110,	"type":9,	"txt": "擊退！萬聖魔．梅菲斯特」１０次",		"cd":	{	"id":[1064],  "count": 10	},	"reward":	{	"i": 100, "count" : 2 }	},
+				{	"id":30090111,	"type":9,	"txt": "擊退！「萬聖魔．梅菲斯特」２０次",	"cd":	{	"id":[1064],  "count": 20	},	"reward":	{	"c": 1064, "count" : 1 }	},
+				{	"id":30090112,	"type":9,	"txt": "擊退！「萬聖魔．梅菲斯特」３０次",	"cd":	{	"id":[1064],  "count": 30	},	"reward":	{	"c": 298, "count" : 1 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"27-1-2017 14:0:0",	"end":"6-2-2017 13:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120044,	"type":12,	"txt": "於「雞年添喜慶」跟火狗子拜年１０次",	"txtEN": "Complete Year of Rooster Celebration 10 times",	"cd":	{	"id":[27123],  "count": 10	},	"reward":	{	"c": 441, "count" : 1 }	},
+				{	"id":30120045,	"type":12,	"txt": "於「雞年添喜慶」跟火狗子拜年２０次",	"txtEN": "Complete Year of Rooster Celebration 20 times",	"cd":	{	"id":[27123],  "count": 20	},	"reward":	{	"c": 772, "count" : 1 }	},
+				{	"id":30120046,	"type":12,	"txt": "於「雞年添喜慶」跟火狗子拜年３０次",	"txtEN": "Complete Year of Rooster Celebration 30 times",	"cd":	{	"id":[27123],  "count": 30	},	"reward":	{	"c": 1162, "count" : 1 } }
+			]
+		},
+		
+		{
+			"time":[	{"start":"22-5-2017 14:0:0",	"end":"31-5-2017 13:59:59", "v":1 }		],
+			"data":[
+				{	"id":30120047,	"type":12,	"txt": "遊星之塔第五層通過",	"txtEN": "Astral Tower 5/F Complete",	"cd":	{	"id":[25405],  "count": 1	},	"reward":	{	"s": 1  }	},
+				{	"id":30120048,	"type":12,	"txt": "遊星之塔第十層通過",	"txtEN": "Astral Tower 10/F Complete",	"cd":	{	"id":[25410],  "count": 1	},	"reward":	{	"s": 2  }	},
+				{	"id":30120049,	"type":12,	"txt": "遊星之塔第十五層通過",	"txtEN": "Astral Tower 15/F Complete",	"cd":	{	"id":[25415],  "count": 1	},	"reward":	{	"c": 888, "count" : 1 }	},
+				{	"id":30120050,	"type":12,	"txt": "遊星之塔第二十層通過",	"txtEN": "Astral Tower 20/F Complete",		"cd":	{	"id":[25420],  "count": 1	},	"reward":	{	"c": 1039, "count" : 1 }	},
+				{	"id":30120051,	"type":12,	"txt": "遊星之塔全制霸！！",	"txtEN": "Astral Tower Conquered!",		"cd":	{	"id":[25425],  "count": 1	},	"reward":	{	"c": 1115, "count" : 1 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"17-3-2016 18:0:0",	"end":"31-3-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040001,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070001,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100001,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040001, 30070001],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"1-4-2016 0:0:0",	"end":"14-4-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040002,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070002,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100002,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040002, 30070002],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+				
+		{
+			"time":[	{"start":"15-4-2016 0:0:0",	"end":"28-4-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040003,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070003,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100003,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040003, 30070003],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+						
+		{
+			"time":[	{"start":"29-4-2016 0:0:0",	"end":"12-5-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040004,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070004,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100004,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040004, 30070004],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"13-5-2016 0:0:0",	"end":"9-6-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040005,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070005,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100005,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040005, 30070005],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"10-6-2016 0:0:0",	"end":"23-6-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040006,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070006,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100006,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040006, 30070006],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"24-6-2016 0:0:0",	"end":"7-7-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040007,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070007,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100007,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040007, 30070007],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"8-7-2016 0:0:0",	"end":"21-7-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040008,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070008,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100008,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040008, 30070008],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"22-7-2016 0:0:0",	"end":"4-8-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040009,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070009,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100009,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040009, 30070009],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"5-8-2016 0:0:0",	"end":"18-8-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040010,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070010,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100010,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040010, 30070010],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"9-9-2016 0:0:0",	"end":"22-9-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040011,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070011,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100011,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040011, 30070011],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"23-9-2016 0:0:0",	"end":"6-10-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040012,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070012,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100012,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040012, 30070012],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"7-10-2016 0:0:0",	"end":"20-10-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040013,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070013,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100013,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040013, 30070013],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"21-10-2016 0:0:0",	"end":"3-11-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040014,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070014,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100014,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040014, 30070014],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"4-11-2016 0:0:0",	"end":"17-11-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040015,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070015,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100015,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040015, 30070015],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"18-11-2016 0:0:0",	"end":"1-12-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040016,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070016,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100016,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040016, 30070016],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"2-12-2016 0:0:0",	"end":"15-12-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040017,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070017,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100017,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040017, 30070017],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"16-12-2016 0:0:0",	"end":"29-12-2016 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040018,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070018,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100018,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040018, 30070018],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"30-12-2016 0:0:0",	"end":"12-1-2017 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040019,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070019,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100019,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040019, 30070019],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		
+		{
+			"time":[	{"start":"13-1-2017 0:0:0",	"end":"26-1-2017 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040020,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070020,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100020,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040020, 30070020],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		{
+			"time":[	{"start":"27-1-2017 0:0:0",	"end":"9-2-2017 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040021,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070021,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100021,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040021, 30070021],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		{
+			"time":[	{"start":"10-2-2017 0:0:0",	"end":"23-2-2017 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040022,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070022,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100022,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040022, 30070022],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		{
+			"time":[	{"start":"24-2-2017 0:0:0",	"end":"9-3-2017 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040023,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070023,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100023,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040023, 30070023],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		{
+			"time":[	{"start":"10-3-2017 0:0:0",	"end":"23-3-2017 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040024,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070024,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100024,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040024, 30070024],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		},
+		{
+			"time":[	{"start":"24-3-2017 0:0:0",	"end":"6-4-2017 23:59:59", "v":1 }		],
+			"data":[
+				{	"id":30040025,	"type":4,	"txt": "完成任何關卡合共３０次",	"txtEN": "Finish any quests 30 times",	"cd":	{	"id":[0],  "count": 30	},	"reward":	{	"c": 315, "count" : 5 }	},
+				{	"id":30070025,	"type":7,	"txt": "擊殺敵角合共８８８隻",		"txtEN": "Defeat 888 enemies",			"cd":	{	"id":[0],  "count": 888	},	"reward":	{	"c": 776, "count" : 3 }	},
+				{	"id":30100025,	"type":10,	"txt": "完成所有限時任務",			"txtEN": "Finish all timed missions",	"cd":	{	"id":[30040025, 30070025],  "count": 2	},	"reward":	{	"s": 3 }	}
+			]
+		}
+
+	]
+}

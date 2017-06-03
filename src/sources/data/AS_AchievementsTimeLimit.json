@@ -1,0 +1,208 @@
+{
+"schedule":
+[
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250001,	"type":25,	"txt": "<瑪麗一世>覺醒任務開啟",	"txtEN": "<Mary I>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[222],	"count": 99	}	,	"reward":	{	"m": 10000 }},	
+				{	"id":20090001,	"type":9,	"txt": "<color=#f4a100>覺醒 <血腥姬‧瑪麗一世></color>\n擊倒<冥府姬‧泊瑟芬>50次",	"txtEN": "<color=#f4a100>Awaken <Bloody Queen．Mary I></color>\nDefeat<Underworld Queen．Persephone>50times",	"subject":"覺醒 <血腥姬‧瑪麗一世>",	"subjectEN": "Awaken <Bloody Queen．Mary I>",	"depand":20250001,	"cd":		{	"id":[300],  "count": 50	},	"reward":	{	"c": 889, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250002,	"type":25,	"txt": "<西格妮>覺醒任務開啟",	"txtEN": "<Sigourney>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[339],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090002,	"type":9,	"txt": "<color=#f4a100>覺醒 <閃光‧西格妮></color>\n擊倒<完全燃燒‧火狗重神>50次",	"txtEN": "<color=#f4a100>Awaken <Lightning．Sigourney></color>\nDefeat<Full Burst．FireGelion>50times",	"depand":20250002,	"cd":		{	"id":[282],  "count": 50	},	"reward":	{	"c": 895, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250003,	"type":25,	"txt": "<翠珊>覺醒任務開啟",	"txtEN": "<Trishanne>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[268],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090003,	"type":9,	"txt": "<color=#f4a100>覺醒 <長髮公主‧翠珊></color>\n擊倒<白雪女王>50次",	"txtEN": "<color=#f4a100>Awaken <Rapunzel．Trishanne></color>\nDefeat<Snow White>50times",	"depand":20250003,	"cd":		{	"id":[390],  "count": 50 },	"reward":	{	"c": 893, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250004,	"type":25,	"txt": "<弗蕾亞>覺醒任務開啟",	"txtEN": "<Freyja>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[464],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090004,	"type":9,	"txt": "<color=#f4a100>覺醒 <戰爭女神‧弗蕾亞></color>\n擊倒<天地創造‧尤米爾>50次",	"txtEN": "<color=#f4a100>Awaken <God of War．Freyja></color>\nDefeat<Ancestor．Ymir>50times",	"depand":20250004,	"cd":		{	"id":[484],  "count": 50	},	"reward":	{	"c": 905, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250005,	"type":25,	"txt": "<妲己>覺醒任務開啟",	"txtEN": "<Daji>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[514],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090005,	"type":9,	"txt": "<color=#f4a100>覺醒 <九尾‧妲己></color>\n擊倒<拜將封神‧太公望>50次",	"txtEN": "<color=#f4a100>Awaken <Nine Tailed．Daji></color>\nDefeat<Gods Sealer．Wang>50times",	"depand":20250005,	"cd":		{	"id":[528],  "count": 50	},	"reward":	{	"c": 907, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250006,	"type":25,	"txt": "<宮毘羅>覺醒任務開啟",	"txtEN": "<Kumbhira>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[566],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090006,	"type":9,	"txt": "<color=#f4a100>覺醒 <子之鼠‧宮毘羅></color>\n擊倒<裡十三支‧九命>50次",	"txtEN": "<color=#f4a100>Awaken <Rat of Zi．Kumbhira></color>\nDefeat<Secret 13th Branch．Nine Lives>50times",	"depand":20250006,	"cd":		{	"id":[584],  "count": 50	},	"reward":	{	"c": 911, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250007,	"type":25,	"txt": "<海德拉>覺醒任務開啟",	"txtEN": "<Hydra>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[594],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090007,	"type":9,	"txt": "<color=#f4a100>覺醒 <古之邪神‧海德拉></color>\n擊倒<最後之啟示‧紅龍>50次",	"txtEN": "<color=#f4a100>Awaken <Ancient Dark God．Hydra></color>\nDefeat<Last Revelation．Red Dragon>50times",	"depand":20250007,	"cd":		{	"id":[606],  "count": 50	},	"reward":	{	"c": 913, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250008,	"type":25,	"txt": "<鐘馗>覺醒任務開啟",	"txtEN": "<Zhong Kui>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[736],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090008,	"type":9,	"txt": "<color=#f4a100>覺醒 <伏魔帝君‧鐘馗></color>\n擊倒<狂神‧阿修羅>50次",	"txtEN": "<color=#f4a100>Awaken <Demon Killer．Zhong Kui></color>\nDefeat<Chaos．Asura>50times",	"depand":20250008,	"cd":		{	"id":[750],  "count": 50	},	"reward":	{	"c": 919, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250009,	"type":25,	"txt": "<織田信長>覺醒任務開啟",	"txtEN": "<Oda Nobunaga>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[838],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090009,	"type":9,	"txt": "<color=#f4a100>覺醒 <天下統一‧織田信長></color>\n擊倒<叛逆之炎‧明智光秀>50次",	"txtEN": "<color=#f4a100>Awaken <Unity．Oda Nobunaga></color>\nDefeat<Treacherous Flame．Akechi>50times",	"depand":20250009,	"cd":		{	"id":[844],  "count": 50	},	"reward":	{	"c": 925, "count" : 1 }	}]
+		},
+		
+		
+		
+		
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250010,	"type":25,	"txt": "<娜美西亞>覺醒任務開啟",	"txtEN": "<Nemesia>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[252],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120001,	"type":12,	"txt": "<color=#f4a100>覺醒 <雪魔導‧娜美西亞></color>\n擊破<寒獄‧大紅蓮 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Snow Mage．Nemesia></color>\nDefeat<Nifilheim - Red Lotus(Boss)>30times",	"depand":20250010,	"cd":		{	"id":[24153],  "count": 30	},	"reward":	{	"c": 891, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250011,	"type":25,	"txt": "<坂本龍馬>覺醒任務開啟",	"txtEN": "<Sakamoto Ryoma>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[360],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120002,	"type":12,	"txt": "<color=#f4a100>覺醒 <維新之嵐‧坂本龍馬></color>\n擊破<新撰組 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Reform Leader．Sakamoto></color>\nDefeat<Shinsengumi(Boss)>30times",	"depand":20250011,	"cd":		{	"id":[24133],  "count": 30	},	"reward":	{	"c": 897, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250012,	"type":25,	"txt": "<薩麥爾>覺醒任務開啟",	"txtEN": "<Samil>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[402],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120003,	"type":12,	"txt": "<color=#f4a100>覺醒 <暴怒王‧薩麥爾></color>\n擊破<月之天使 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Wrath．Samil></color>\nDefeat<Lunar Angel(Boss)>30times",	"depand":20250012,	"cd":		{	"id":[24143],  "count": 30	},	"reward":	{	"c": 901, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250013,	"type":25,	"txt": "<露絲希布>覺醒任務開啟",	"txtEN": "<Rosehip>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[452],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120004,	"type":12,	"txt": "<color=#f4a100>覺醒 <攻略完成!露絲希布></color>\n擊破<聖潔與爆炎 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Good Ending! Rosehip></color>\nDefeat<Divinity X Flameburst(Boss)>30times",	"depand":20250013,	"cd":		{	"id":[24103],  "count": 30	},	"reward":	{	"c": 903, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250014,	"type":25,	"txt": "<大小二喬>覺醒任務開啟",	"txtEN": "<Two Qiaos of Jiangdong>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[548],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120005,	"type":12,	"txt": "<color=#f4a100>覺醒 <絕代雙嬌‧大小二喬></color>\n擊破<孔明的陷阱 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Two Qiaos of Jiangdong></color>\nDefeat<Kongming's Trap(Boss)>30times",	"depand":20250014,	"cd":		{	"id":[24163],  "count": 30	},	"reward":	{	"c": 909, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250015,	"type":25,	"txt": "<周瑜>覺醒任務開啟",	"txtEN": "<Zhou Yu>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[677],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120006,	"type":12,	"txt": "<color=#f4a100>覺醒 <獄焰提督‧周瑜></color>\n擊破<武 神 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Hellfire Admiral．Zhou Yu></color>\nDefeat<War God(Boss)>30times",	"depand":20250015,	"cd":		{	"id":[24193],  "count": 30	},	"reward":	{	"c": 915, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250016,	"type":25,	"txt": "<小紅帽>覺醒任務開啟",	"txtEN": "<Red Riding Hood>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[704],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120007,	"type":12,	"txt": "<color=#f4a100>覺醒 <馭狼者‧小紅帽></color>\n擊破<漆黑輪舞 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Wolfmaster．Red Riding Hood></color>\nDefeat<Black Swan(Boss)>30times",	"depand":20250016,	"cd":		{	"id":[24203],  "count": 30	},	"reward":	{	"c": 917, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250017,	"type":25,	"txt": "<唐三藏>覺醒任務開啟",	"txtEN": "<Sanzang>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[763],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120008,	"type":12,	"txt": "<color=#f4a100>覺醒 <玄奘法師・唐三藏></color>\n擊破<大雷音寺 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Tirpitaka．Sanzang></color>\nDefeat<Dai Lei Yin Temple(Boss)>30times",	"depand":20250017,	"cd":		{	"id":[24233],  "count": 30	},	"reward":	{	"c": 921, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250018,	"type":25,	"txt": "<碧絲>覺醒任務開啟",	"txtEN": "<Bice>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[814],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120009,	"type":12,	"txt": "<color=#f4a100>覺醒 <小惡魔‧碧絲></color>\n擊破<請小心山火! 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Little Devil．Bice></color>\nDefeat<Caution! Wildfire!(Boss)>30times",	"depand":20250018,	"cd":		{	"id":[24243],  "count": 30	},	"reward":	{	"c": 923, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250019,	"type":25,	"txt": "<王者之劍>覺醒任務開啟",	"txtEN": "<Excalibur>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[868],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120010,	"type":12,	"txt": "<color=#f4a100>覺醒 <勝利‧王者之劍></color>\n擊破<精靈鍛冶師 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Victory．Excalibur></color>\nDefeat<Spirit Smith(Boss)>30times",	"depand":20250019,	"cd":		{	"id":[24263],  "count": 30	},	"reward":	{	"c": 927, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250020,	"type":25,	"txt": "<芭絲蒂>覺醒任務開啟",	"txtEN": "<Bastet>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[930],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120011,	"type":12,	"txt": "<color=#f4a100>覺醒 <貓神‧芭絲蒂></color>\n擊破<法老的詛咒 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Goddess of Cats．Bastet></color>\nDefeat<Pharaoh's Curse(Boss)>30times",	"depand":20250020,	"cd":		{	"id":[24273],  "count": 30	},	"reward":	{	"c": 1101, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250021,	"type":25,	"txt": "<沖田總司>覺醒任務開啟",	"txtEN": "<Okita Souji>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[362],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120012,	"type":12,	"txt": "<color=#f4a100>覺醒 <天劍‧沖田總司></color>\n擊破<壬生之狼 超極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Heaven Blade．Okita></color>\nDefeat<Wolf of Mibu(Expert)>30times",	"depand":20250021,	"cd":		{	"id":[22653,21193],  "count": 30	},	"reward":	{	"c": 1103, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250022,	"type":25,	"txt": "<奧丁>覺醒任務開啟",	"txtEN": "<Odin>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[466],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120013,	"type":12,	"txt": "<color=#f4a100>覺醒 <眾神之主‧奧丁></color>\n擊破<勝利神劍 超極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Allfather．Odin></color>\nDefeat<Victory Edge(Expert)>30times",	"depand":20250022,	"cd":		{	"id":[22553,21191],  "count": 30	},	"reward":	{	"c": 1105, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250023,	"type":25,	"txt": "<趙雲>覺醒任務開啟",	"txtEN": "<Zhao Yun>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[218],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120014,	"type":12,	"txt": "<color=#f4a100>覺醒 <勇武姬‧趙雲></color>\n擊破<失落之古文明 超極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Brave Zhao Yun></color>\nDefeat<Lost Civilization(Expert)>30times",	"depand":20250023,	"cd":		{	"id":[22353,21187],  "count": 30	},	"reward":	{	"c": 1109, "count" : 1 }	}]
+		},	
+		
+		
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250024,	"type":25,	"txt": "<劉備>覺醒任務開啟",	"txtEN": "<Liu Bei>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[544],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090010,	"type":9,	"txt": "<color=#f4a100>覺醒 <昭烈帝‧劉備></color>\n擊倒<雲龍‧諸葛孔明>30次",	"txtEN": "<color=#f4a100>Awaken <Emperor Zhaolie．Liu Bei></color>\nDefeat<Cloud Dragon．Kongming>30times",	"depand":20250024,	"cd":		{	"id":[554],  "count": 30	},	"reward":	{	"c": 1107, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250025,	"type":25,	"txt": "<米莉莎>覺醒任務開啟",	"txtEN": "<Melissa>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[460],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090011,	"type":9,	"txt": "<color=#f4a100>覺醒 <攻略完成!米莉莎></color>\n擊倒<徹底攻略!拉杜>50次",	"txtEN": "<color=#f4a100>Awaken <Good Ending! Melissa></color>\nDefeat<Completed!Rato>50times",	"depand":20250025,	"cd":		{	"id":[314],  "count": 50	},	"reward":	{	"c": 1111, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250026,	"type":25,	"txt": "<呂布>覺醒任務開啟",	"txtEN": "<Lu bu>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[550],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090012,	"type":9,	"txt": "<color=#f4a100>覺醒 <戰神‧呂布></color>\n擊倒<潛龍．諸葛孔明>30次",	"txtEN": "<color=#f4a100>Awaken <God of War．Lu Bu></color>\nDefeat<Crouching Dragon．Kongming>30times",	"depand":20250026,	"cd":		{	"id":[560],  "count": 30	},	"reward":	{	"c": 1113, "count" : 1 }	}]
+		},
+		
+		
+		
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250027,	"type":25,	"txt": "<露美爾達>覺醒任務開啟",	"txtEN": "<Romilda>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[1018],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120015,	"type":12,	"txt": "<color=#f4a100>覺醒 <露美爾達&四號戰車F2></color>\n擊破<巴巴羅薩行動 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Romilda & Panzer IV/F2></color>\nDefeat<Operation Barbarossa(Boss)>30times",	"depand":20250027,	"cd":		{	"id":[24283],  "count": 30	},	"reward":	{	"c": 1043, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250028,	"type":25,	"txt": "<達貢>覺醒任務開啟",	"txtEN": "<Dagon>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[1050],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120016,	"type":12,	"txt": "<color=#f4a100>覺醒 <深海之主‧達貢></color>\n擊破<纏繞塵世的巨蟒 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Overlord of Deep Ones．Dagon></color>\nDefeat<Serpent of Midgard(Boss)>30times",	"depand":20250028,	"cd":		{	"id":[24293],  "count": 30	},	"reward":	{	"c": 1059, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250029,	"type":25,	"txt": "<庫胡林>覺醒任務開啟",	"txtEN": "<Cu Chulainn>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[1075],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20120017,	"type":12,	"txt": "<color=#f4a100>覺醒 <暗影之槍．庫胡林EX></color>\n擊破<嫉妒禁止! 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Shadow Spear．Cu Chulainn EX></color>\nDefeat<No Jealousy!(Boss)>30times",	"depand":20250029,	"cd":		{	"id":[24303],  "count": 30	},	"reward":	{	"c": 1081, "count" : 1 }	}]
+		},
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250030,	"type":25,	"txt": "<加百列>覺醒任務開啟",	"txtEN": "<Gabriel>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[1125],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090013,	"type":9,	"txt": "<color=#f4a100>覺醒 <神之左手‧加百列></color>\n擊倒<絕對營養指標‧約斐爾>50次",	"txtEN": "<color=#f4a100>Awaken Left Hand of God．Gabriel</color>\nDefeat<Absolute DRI．Jophiel>50times",	"depand":20250030,	"cd":		{	"id":[1133],  "count": 50	},	"reward":	{	"c": 1134, "count" : 1 }	}]
+		},
+		
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250031,	"type":25,	"txt": "<酒吞童子>覺醒任務開啟",	"txtEN": "<Shuten Doji>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[1171],	"count": 99	}	, "reward":	{	"m": 10000 }},
+				{	"id":20090014,	"type":9,	"txt": "<color=#f4a100>覺醒 <千杯不醉．酒吞童子></color>\n擊倒<鬼鬼島之主．溫羅>50次",	"txtEN": "<color=#f4a100>Awaken Alcoholic Demon．Shuten Doji</color>\nDefeat<Lord of Onigashima．Onra>50times",	"depand":20250031,	"cd":		{	"id":[1182],  "count": 50	},	"reward":	{	"c": 1183, "count" : 1 }	}]
+		},
+		
+		{
+			"time":[	{"start":"1-1-1970 0:0:0",	"end":"1-1-2070 0:0:0", "v":1 }	],
+			"data":[ 
+				{	"id":20250032,	"type":25,	"txt": "<瑪麗亞·居禮>覺醒任務開啟",	"txtEN": "<Maria．Curie>Awaken mission unlocked",	"hide":1,	"cd":		{	"id":[1147],	"count": 99	}	,"reward":	{	"m": 10000 }},
+				{	"id":20120018,	"type":12,	"txt": "<color=#f4a100>覺醒 <放射線淑女·居禮></color>\n擊破<元素大師 究極惡>30次",	"txtEN": "<color=#f4a100>Awaken <Lady of Radioactivity．Curie></color>\nDefeat<Master of Elements (Expert)>30times",	"depand":20250032,	"cd":		{	"id":[24333],  "count": 30	},	"reward":	{	"c": 1159, "count" : 1 }	}]
+		}
+]
+}

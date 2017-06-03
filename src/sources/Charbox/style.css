@@ -1,0 +1,59 @@
+*{box-sizing:border-box;}
+body{margin:0;background-color:#000;color:#fff;font-family:'Roboto';
+	display: flex;
+    flex-direction: column;
+    height: 100vh;}
+th{white-space:nowrap;}
+ul{list-style:none;padding:0;margin:0;}
+body > .container{display:flex;height:100%;}
+body > .container > .wrap_list{overflow:auto;flex:1;height:100%;}
+.hide{display:none;}
+
+#top .toggle:after{display:block;content:'';clear:both;}
+#top .toggle button{height:30px;float:right;}
+
+.forceMiddle{height:100%;font-size:0;}
+.forceMiddle > *{display:inline-block;vertical-align:middle;font-size:16px;}
+.forceMiddle:before{height:100%;display:inline-block;content:'';vertical-align:middle;}
+
+table{font-size:14px;}
+table th{font-size:12px;}
+
+.toggle .search span{padding:5px;}
+.toggle .search span.active{background-color:#fff;color:#000;}
+
+#filter{padding:5px;}
+#filter table th{font-size:12px;width:4em;vertical-align:top;padding: 4px 5px;}
+#filter [type=radio],
+#filter [type=checkbox]{display:none;}
+#filter [type=text]{border-color:none;border-color:1px solid #fff;color:#FF0;font-weight:600;background-color:transparent;border-radius:.5em;}
+
+#filter label{display:inline-block;border:1px #fff solid;border-radius:.5em;padding:2px 5px;}
+
+#filter table td > span{display:inline-block;}
+#filter input:checked + *,
+#filter input:checked + * {
+	color: #FF0;
+	font-weight: 600;
+}
+#char_list{width:100%;}
+#char_list li{position:absolute;width:64px;height:64px;text-align:center;font-size:48px;cursor:pointer;}
+.skillUpGroup .value li{position:relative;display:inline-block;line-height:0;}
+.skillUpGroup .value .display,
+#char_list li .value{position:absolute;right:0;bottom:0;font-size:16px;
+color:#fff;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;line-height:1em;}
+#char_list li span{font-size:48px;}
+
+#char_detail{overflow-y:auto;width:400px;padding:20px;}
+#char_detail .close{position:absolute;font-size:20px;top:10px;right:10px;}
+#char_detail table{text-align:left;}
+#char_detail table > tbody > tr > th{width:4em;}
+#char_detail table th{font-size:12px;}
+#char_detail table th,
+#char_detail table td{vertical-align:top;line-height:16px;}
+#char_detail table .ability td .name{font-weight:600;margin-bottom:5px;}
+#char_detail table .ability td > div:not(:last-child){margin-bottom:10px;}
+#char_detail table.parameter{margin:10px;}
+#char_detail table [colspan] > div:not(:empty){margin-top:2px;margin-bottom:10px;}
+#char_detail table.parameter td{width:4em;}
+#char_detail .sp{float:right;}

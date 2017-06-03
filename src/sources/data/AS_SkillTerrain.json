@@ -1,0 +1,638 @@
+{
+	"terrainSkill":
+	[
+
+		{
+			"id": 1001,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"AttackUp": 5
+			}
+			,
+			"displayValue": 5
+		},
+		{
+			"id": 1002,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"HealUp": 5
+			}
+			,
+			"displayValue": 5			
+		},	
+		{
+			"id": 1003,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"DefenceUp": 5
+			}	
+			,
+			"displayValue": 5						
+		},	
+		{
+			"id": 1004,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"AttackUp": 5
+			}	
+			,
+			"displayValue": 5						
+		},
+		{
+			"id": 1005,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"HealUp": 5
+			}	
+			,
+			"displayValue": 5						
+		},	
+		{
+			"id": 1006,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"DefenceUp": 5
+			}	
+			,
+			"displayValue": 5						
+		},	
+		{
+			"id": 1007,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"AttackUp": 5
+			}	
+			,
+			"displayValue": 5						
+		},
+		{
+			"id": 1008,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"HealUp": 5
+			}	
+			,
+			"displayValue": 5						
+		},	
+		{
+			"id": 1009,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"DefenceUp": 5
+			}	
+			,
+			"displayValue": 5						
+		},	
+		{
+			"id": 1101,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"AttackUp": 10
+			}	
+			,
+			"displayValue": 10			
+		},
+		{
+			"id": 1102,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"HealUp": 10
+			}		
+			,
+			"displayValue": 10						
+		},	
+		{
+			"id": 1103,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"DefenceUp": 10
+			}	
+			,
+			"displayValue": 10						
+		},	
+		{
+			"id": 1104,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"AttackUp": 10
+			}	
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1105,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"HealUp": 10
+			}	
+			,
+			"displayValue": 10						
+		},	
+		{
+			"id": 1106,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"DefenceUp": 10
+			}	
+			,
+			"displayValue": 10						
+		},	
+		{
+			"id": 1107,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"AttackUp": 10
+			}	
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1108,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"HealUp": 10
+			}
+			,
+			"displayValue": 10						
+		},	
+		{
+			"id": 1109,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"DefenceUp": 10
+			}	
+			,
+			"displayValue": 10						
+		},	
+		{
+			"id": 1201,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"AttackUp": 15
+			}	
+			,
+			"displayValue": 15			
+		},
+		{
+			"id": 1202,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"HealUp": 15
+			}	
+			,
+			"displayValue": 15			
+		},	
+		{
+			"id": 1203,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"DefenceUp": 15
+			}		
+			,
+			"displayValue": 15			
+		},	
+		{
+			"id": 1204,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"AttackUp": 15
+			}	
+			,
+			"displayValue": 15			
+		},
+		{
+			"id": 1205,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"HealUp": 15
+			}			
+			,
+			"displayValue": 15			
+		},	
+		{
+			"id": 1206,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"DefenceUp": 15
+			}	
+			,
+			"displayValue": 15			
+		},	
+		{
+			"id": 1207,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"AttackUp": 15
+			}	
+			,
+			"displayValue": 15			
+		},
+		{
+			"id": 1208,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"HealUp": 15
+			}		
+			,
+			"displayValue": 15			
+		},	
+		{
+			"id": 1209,
+			"type": "terrain",										
+			"target": "self",			
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"DefenceUp": 15
+			}	
+			,
+			"displayValue": 15			
+		},	
+		
+		{
+			"id": 1301,			
+			"type": "terrain",										
+			"name": "白虎",			
+			"target": "team",			
+			"source":
+			{	
+				"pos": 8
+			},
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"AttackUp": 10
+			}
+			,
+			"displayValue": 10			
+		},		
+		{
+			"id": 1302,			
+			"type": "terrain",										
+			"name": "玄武",
+			"target": "team",			
+			"source":
+			{	
+				"pos": 4
+			},
+			"condition":
+			{						
+				"row": 1
+			},
+			"modifier":
+			{
+				"AttackUp": 5,
+				"HealUp": 5
+			}
+			,
+			"displayValue": 5			
+		},	
+		{
+			"id": 1303,			
+			"type": "terrain",										
+			"name": "神盾",
+			"target": "team",
+			"source":
+			{
+				"col": 3		
+			},			
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"DefenceUp": 10
+			}
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1304,			
+			"type": "terrain",										
+			"name": "青龍",
+			"target": "team",
+			"source":
+			{
+				"pos": 2
+			},				
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"DefenceUp": 10
+			}
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1305,			
+			"type": "terrain",										
+			"name": "朱雀",		
+			"target": "team",
+			"source":
+			{
+				"pos": 6				
+			},				
+			"condition":
+			{						
+				"row": 3
+			},
+			"modifier":
+			{
+				"DefenceUp": 5,
+				"HealUp": 5
+			}
+			,
+			"displayValue": 5			
+		},
+		{
+			"id": 1306,			
+			"type": "terrain",										
+			"name": "魔槍",
+			"target": "team",
+			"source":
+			{
+				"col": 1		
+			},				
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"AttackUp": 10
+			}
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1307,			
+			"type": "terrain",										
+			"name": "聖槍",
+			"target": "team",
+			"source":
+			{
+				"col": 3		
+			},				
+			"condition":
+			{						
+				"col": 3
+			},
+			"modifier":
+			{
+				"AttackUp": 10
+			}
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1308,			
+			"type": "terrain",										
+			"name": "龍鱗",
+			"target": "team",
+			"source":
+			{
+				"col": 1		
+			},				
+			"condition":
+			{						
+				"col": 1
+			},
+			"modifier":
+			{
+				"DefenceUp": 10
+			}
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1309,			
+			"type": "terrain",										
+			"name": "天元",
+			"target": "team",
+			"source":
+			{
+				"pos": 5		
+			},				
+			"condition":
+			{						
+				"col": 2
+			},
+			"modifier":
+			{
+				"AttackUp": 10,
+				"DefenceUp": 10,
+				"HealUp": 10,
+				"CriticalUp": 10
+			}
+			,
+			"displayValue": 10						
+		},
+		{
+			"id": 1310,			
+			"type": "terrain",										
+			"name": "天地",
+			"target": "team",
+			"source":
+			{
+				"row": 1				
+			},				
+			"condition":
+			{						
+				"row": 1
+			},
+			"modifier":
+			{
+				"AttackUp": 20
+			}
+			,
+			"displayValue": 20						
+		},
+		{
+			"id": 1311,			
+			"type": "terrain",										
+			"name": "龍虎",
+			"target": "team",
+			"source":
+			{
+				"row": 3		
+			},				
+			"condition":
+			{						
+				"row": 3
+			},
+			"modifier":
+			{
+				"DefenceUp": 20
+			}
+			,
+			"displayValue": 20						
+		}
+	]
+}
+	

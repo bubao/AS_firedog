@@ -1,0 +1,3056 @@
+{
+	"skill": 
+	[
+		{
+			"id": 10103,
+			"type": "attack",				
+			"target": "enemy",			
+			"modifier": 
+			{
+				"PoisonFixed": 500,
+				"AttackDown": 15,
+				"DefenceDown": 20								
+			},
+			"apply": "turn",
+			"turn": 2,
+			"rate": 10
+		},
+		{
+			"id": 20103,
+			"type": "attack",				
+			"target": "allEnemy",
+			"modifier": 
+			{
+				"PoisonFixed": 500,
+				"AttackDown": 15,
+				"DefenceDown": 20								
+			},
+			"apply": "turn",			
+			"turn": 2,
+			"rate": 10
+		},
+		{
+			"id": 110001,
+			"singleID": 200001,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減攻30",
+			"modifier": 
+			{
+				"AttackDown": 30
+			},
+			"turn": 3
+		},
+		{
+			"id": 110002,
+			"singleID": 200002,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減防50",
+			"modifier": 
+			{
+				"DefenceDown": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110003,
+			"singleID": 200003,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減回50",
+			"modifier": 
+			{
+				"HealDown": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110004,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用當前HP50",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 50
+				}
+			}	
+		},
+		{
+			"id": 110005,
+			"singleID": 200005,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用中毒5回500",
+			"modifier": 
+			{
+				"PoisonFixed": 500
+			},
+			"turn": 5
+		},
+		{
+			"id": 110006,
+			"singleID": 200006,
+			"type": "support",	
+			"target": "team",
+			"name": "敵白盾加攻30回血",
+			"modifier": 
+			{
+				"AttackUp": 30,
+				"Heal": 100,
+				"Regen": 100
+			},
+			"turn": 2
+		},
+		{
+			"id": 110007,
+			"singleID": 200007,
+			"type": "support",	
+			"target": "self",
+			"name": "敵超防禦",
+			"modifier": 
+			{
+				"DefenceUp": 200
+			},
+			"turn": 3
+		},
+		{
+			"id": 110008,
+			"type": "support",	
+			"target": "self",
+			"name": "敵頻死加攻",
+			"modifier": 
+			{
+				"AttackUp": 20
+			},
+			"turn": 30
+		},
+		{
+			"id": 110009,
+			"singleID": 200009,
+			"type": "support",	
+			"target": "self",
+			"name": "敵超必加攻",
+			"modifier": 
+			{
+				"AttackUp": 40
+			},
+			"turn": 2
+		},
+		{
+			"id": 110010,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用當前HP90",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 90
+				}
+			}	
+		},
+		{
+			"id": 110011,
+			"type": "support",	
+			"target": "team",
+			"name": "敵回血",
+			"modifier": 
+			{
+				"Heal": 100
+			}
+		},
+		{
+			"id": 110012,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用200%傷害",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 200
+				}
+			}	
+		},
+		{
+			"id": 110013,
+			"type": "support",	
+			"target": "team",
+			"name": "敵海戟加攻20回血",
+			"modifier": 
+			{
+				"BaseAttackUp": 20,
+				"Heal": 100
+			},
+			"turn": 3
+		},
+		{
+			"id": 110014,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵水機娘零防",
+			"postFunction":
+			{
+				"type": "support",			
+				"target": "self",
+				"modifier": 
+				{
+					"DefenceDown": 100
+				},
+				"turn": 1
+			}
+		},
+		{
+			"id": 110015,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵水機娘零防加攻",
+			"postFunction":
+			{
+				"type": "support",			
+				"target": "self",
+				"modifier": 
+				{
+					"AttackUp": 30,
+					"DefenceDown": 100
+				},
+				"turn": 30
+			}
+		},
+		{
+			"id": 110016,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵火狗子全員中毒",
+			"modifier": 
+			{
+				"PoisonFixed": 500
+			},
+			"turn": 30,
+			"postFunction":
+			{
+				"type": "support",			
+				"target": "self",
+				"modifier": 
+				{
+					"PoisonFixed": 1031
+				},
+				"turn": 30
+			}
+		},
+		{
+			"id": 110017,
+			"type": "support",	
+			"target": "team",
+			"name": "敵攻擊強化",
+			"modifier": 
+			{
+				"AttackUp": 10
+			},
+			"turn": 2
+		},
+		{
+			"id": 110018,
+			"type": "support",	
+			"target": "team",
+			"name": "敵防禦強化",
+			"modifier": 
+			{
+				"DamageDown": 15
+			},
+			"turn": 2
+		},
+		{
+			"id": 110019,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用當前HP25",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 25
+				}
+			}
+		},
+		{
+			"id": 110020,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用麻痺",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 10
+				}
+			},
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110021,
+			"singleID": 200021,
+			"type": "support",	
+			"target": "self",
+			"name": "敵火狗重神強化",
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistParalysis": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110022,
+			"type": "support",	
+			"target": "self",
+			"name": "敵火狗重神減傷",
+			"modifier": 
+			{
+				"DamageDown": 20
+			},
+			"turn": 2
+		},
+		{
+			"id": 110023,
+			"singleID": 200023,
+			"type": "support",	
+			"target": "self",
+			"name": "敵火狗重神超必加攻",
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistParalysis": 1
+			},
+			"turn": 30
+		},
+		{
+			"id": 110024,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵火狗重神超必",
+			"hitFunction":
+			{
+				"conditionOr": 
+				[
+					{ "newHPUnder": 50 },
+					{ "row": 2 }
+				],			
+				"override": 
+				{
+					"ActionPower": 300
+				}
+			}
+		},
+		{
+			"id": 110025,
+			"type": "support",	
+			"target": "team",
+			"name": "敵回血+防毒",
+			"modifier": 
+			{
+				"Heal": 100,
+				"ClearPoison": 1,
+				"ResistPoison": 1
+			},
+			"apply": "once",
+			"turn": 1
+		},
+		{
+			"id": 110026,
+			"type": "support",	
+			"target": "team",
+			"name": "敵攻擊強化疊加",
+			"modifier": 
+			{
+				"BaseAttackUp": 5
+			},
+			"turn": 30
+		},
+		{
+			"id": 110027,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵攻擊吸血",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"Heal": 100
+				},
+				"apply": "once"	
+			}
+		},
+		{
+			"id": 110028,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵彼得必殺",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 100
+				}
+			},
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110029,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵阿拉丁必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"paralysis": 1
+				},
+				"override": 
+				{
+					"ActionPower": 400
+				}
+			},
+			"modifier": 
+			{
+				"ClearParalysis": 1
+			}
+		},
+		{
+			"id": 110030,
+			"singleID": 200001,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減攻30回合",
+			"modifier": 
+			{
+				"AttackDown": 30
+			},
+			"turn": 30
+		},
+		{
+			"id": 110031,
+			"type": "support",	
+			"target": "self",
+			"name": "敵減傷50",
+			"modifier": 
+			{
+				"DamageDown": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110032,
+			"type": "support",	
+			"target": "self",
+			"name": "敵減傷5防麻",
+			"modifier": 
+			{
+				"DamageDown": 5,
+				"ResistParalysis": 1
+			},
+			"turn": 3
+		},
+		{
+			"id": 110033,
+			"type": "support",	
+			"target": "self",
+			"name": "敵白雪防麻",
+			"modifier": 
+			{
+				"Heal": 400,
+				"ResistParalysis": 1
+			},
+			"apply": "once",
+			"turn": 999
+		},
+		{
+			"id": 110034,
+			"type": "support",
+			"target": "self",
+			"name": "敵白雪護盾回血",
+			"modifier": 
+			{
+				"Heal": 200,
+				"BarrierEffect": 1,
+				"Barrier": 200
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110035,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵白雪全體當前50HP",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 50
+				}
+			},
+			"modifier": 
+			{
+				"PoisonFixed": 1000
+			},
+			"turn": 3
+		},
+		{
+			"id": 110036,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵白雪必殺",
+			"modifier": 
+			{
+				"PoisonFixed": 1000
+			},
+			"turn": 999
+		},
+		{
+			"id": 110037,
+			"type": "support",	
+			"target": "self",
+			"name": "敵白魔女吃毒",
+			"modifier": 
+			{
+				"Heal": 200,
+				"PoisonFixed": 10000
+			},
+			"apply": "once",
+			"turn": 999
+		},
+		{
+			"id": 110038,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵亞特拉絲必殺",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"singleID": 300381,
+				"modifier": 
+				{
+					"AttackUp": 20,
+					"Regen": 50
+				},
+				"turn": 5
+			}
+		},
+		{
+			"id": 110039,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵火狗仔專用麻痺",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"FixedDamage": 999
+				}
+			},
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110040,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵妖姬必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"newHPOver": 100
+				},				
+				"override": 
+				{
+					"ActionPower": 400
+				}
+			}
+		},
+		{
+			"id": 110041,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減回30回合",
+			"modifier": 
+			{
+				"HealDown": 8
+			},
+			"turn": 30
+		},
+		{
+			"id": 110042,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵冥姬一擊必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"newHPUnder": 99
+				},				
+				"override": 
+				{
+					"HPPercentageDamage": 100
+				}
+			}
+		},
+		{
+			"id": 110043,
+			"type": "support",	
+			"target": "self",
+			"name": "敵冥姬輪迴轉生",
+			"modifier": 
+			{
+				"HealPercent": 100,
+				"HPDown": 20
+			},
+			"apply": "once",
+			"turn": 999,
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"firstCheck": 
+				{
+					"poison": 0
+				},
+				"modifier": 
+				{
+					"AttackUp": 15
+				},
+				"turn": 999
+			}
+		},
+		{
+			"id": 110044,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用麻痺100傷",
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110045,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用三弱化",
+			"modifier": 
+			{
+				"AttackDown": 30,
+				"DefenceDown": 50,
+				"HealDown": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110046,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵萊絲必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"defenceDown": 1
+				},
+				"override": 
+				{
+					"ActionPower": 400
+				}
+			},
+			"modifier": 
+			{
+				"ClearDefenceDown": 1
+			}
+		},
+		{
+			"id": 110047,
+			"type": "support",
+			"target": "self",
+			"name": "敵護盾",
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 200
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110048,
+			"type": "support",
+			"target": "self",
+			"name": "敵太公望血換護盾",
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 400,
+				"HPReducePercent": 10
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110049,
+			"type": "support",	
+			"target": "enemy",
+			"name": "敵專用減防50無攻擊",
+			"modifier": 
+			{
+				"DefenceDown": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110050,
+			"type": "support",
+			"target": "self",
+			"name": "敵免疫減防加暴擊",
+			"modifier": 
+			{
+				"CriticalUp": 20,
+				"ResistDefenceDown": 1,
+				"ClearDefenceDown": 1
+			},
+			"apply": "once",
+			"turn": 5
+		},
+		{
+			"id": 110051,
+			"type": "support",
+			"target": "self",
+			"name": "敵狀態全免",
+			"modifier": 
+			{
+				"ResistAttackDown": 1,
+				"ResistDefenceDown": 1,
+				"ResistHealDown": 1,
+				"ResistPoison": 1,
+				"ResistParalysis": 1
+			},
+			"turn": 99
+		},
+		{
+			"id": 110052,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵攻擊加攻",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"AttackUp": 20
+				},
+				"turn": 30
+			}
+		},
+		{
+			"id": 110053,
+			"type": "attack",				
+			"target": "enemy",		
+			"name": "敵攻擊加防",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"DefenceUp": 100
+				},
+				"turn": 3
+			}
+		},
+		{
+			"id": 110054,
+			"type": "support",
+			"target": "self",
+			"name": "敵憤怒之拳",
+			"modifier": 
+			{
+				"HPReducePercent": 10,
+				"AttackUp": 100,
+				"ChangeNormalAction": 3,
+				"ChangeMode": 1
+			},
+			"apply": "once",
+			"turn": 2
+		},
+		{
+			"id": 110055,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵月天使一擊必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"anyNegativeState": 1
+				},
+				"override": 
+				{
+					"HPPercentageDamage": 100
+				}
+			}
+		},
+		{
+			"id": 110056,
+			"type": "support",
+			"target": "enemy",
+			"name": "敵月天使標記",
+			"modifier": 
+			{
+				"DamageUp": 100
+			},
+			"turn": 3
+		},
+		{
+			"id": 110057,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵沖田必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"attackDown": 1
+				},
+				"override": 
+				{
+					"ActionPower": 400
+				}
+			},
+			"modifier": 
+			{
+				"ClearAttackDown": 1
+			}
+		},
+		{
+			"id": 110058,
+			"type": "support",	
+			"target": "team",
+			"name": "敵詩卡莉強化疊加",
+			"modifier": 
+			{
+				"BaseAttackUp": 10,
+				"BaseDefenceUp": 10,
+				"CriticalUp": 10
+			},
+			"turn": 999
+		},
+		{
+			"id": 110059,
+			"type": "support",	
+			"target": "self",
+			"name": "敵反射傷害",
+			"modifier": 
+			{
+				"DamageReflection": 0.2
+			},
+			"turn": 999
+		},
+		{
+			"id": 110060,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵固定傷害",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"FixedDamage": 4000
+				}
+			}
+		},
+		{
+			"id": 110061,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用當前HP10",
+			"hitFunction":
+			{
+				"override":
+				{
+					"HPPercentageDamage": 10
+				}
+			}
+		},
+		{
+			"id": 110062,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用攻擊100%傷害調整",
+			"hitFunction":
+			{
+				"override":
+				{
+					"ActionPower": 100
+				}
+			}
+		},
+		{
+			"id": 110063,
+			"singleID": 200063,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用出血3回800",
+			"modifier": 
+			{
+				"BleedFixed": 800
+			},
+			"turn": 3
+		},
+		{
+			"id": 110064,
+			"type": "attack",
+			"target": "enemy",
+			"name": "月天使815傷害",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"FixedDamage": 815
+				}
+			}
+		},
+		{
+			"id": 110065,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵八歧大蛇必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"poison": 1
+				},
+				"override": 
+				{
+					"AdditionFixedDamage": 1000
+				}
+			}
+		},
+		{
+			"id": 110066,
+			"type": "attack",				
+			"target": "enemy",		
+			"name": "敵攻擊加攻減防",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BaseAttackUp": 5,
+					"DefenceDown": 5
+				},
+				"turn": 30
+			}
+		},
+		{
+			"id": 110067,
+			"singleID": 200067,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用中毒2000",
+			"modifier": 
+			{
+				"PoisonFixed": 2000
+			},
+			"turn": 999
+		},
+		{
+			"id": 110068,
+			"singleID": 200067,
+			"type": "attack",
+			"target": "enemy",
+			"rate": 35,
+			"name": "敵35%麻痺",
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110069,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用增傷50%",
+			"modifier": 
+			{
+				"DamageUP": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110070,
+			"type": "support",	
+			"target": "self",
+			"name": "敵專用失去1600HP+1攻160回",
+			"modifier": 
+			{
+				"BaseAttackUp": 5,
+				"HPLossExchange": { "HPLoss": 1600, "Attack": 1, "Defence": 0, "Heal": 160 }
+			},
+			"turn": 999
+		},
+		{
+			"id": 110071,
+			"type": "support",	
+			"target": "team",
+			"name": "敵狀態全解",
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 100,
+				"ClearAllNegative": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110072,
+			"type": "support",	
+			"target": "team",
+			"name": "敵免疫麻痺",
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 100,
+				"ResistParalysis": 1
+			},
+			"apply": "once",
+			"turn": 999
+		},
+		{
+			"id": 110073,
+			"type": "support",	
+			"target": "self",
+			"name": "敵免疫傷害一回合",
+			"modifier": 
+			{
+				"DamageDown": 99,
+				"ResistAllNegative": 1
+			},
+			"turn": 1
+		},
+		{
+			"id": 110074,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵100%暈",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 100
+				}
+			},
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110075,
+			"type": "support",	
+			"target": "team",
+			"name": "敵免疫麻痺",
+			"modifier": 
+			{
+				"ResistParalysis": 1,
+				"ResistStun": 1,
+				"BaseHealUp": 100
+			},
+			"apply": "once",
+			"turn": 8
+		},
+		{
+			"id": 110076,
+			"singleID": 200063,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵針對蓄力出血",
+			"firstCheck": 
+			{
+				"charge": 1
+			},
+			"modifier": 
+			{
+				"BleedFixed": 3000
+			},
+			"turn": 999
+		},
+		{
+			"id": 110077,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵破盾",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AttackDestroyBarrier": 1
+				}
+			},
+			"postFunction":
+			{
+				"singleID": 200063,
+				"type": "attack",	
+				"target": "enemy",
+				"firstCheck": 
+				{
+					"charge": 1
+				},
+				"modifier": 
+				{
+					"BleedFixed": 3000
+				},
+				"turn": 999
+			}
+		},
+		{
+			"id": 110078,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵麻痺",
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2,
+			"postFunction":
+			{
+				"singleID": 200063,
+				"type": "attack",	
+				"target": "enemy",
+				"firstCheck": 
+				{
+					"charge": 1
+				},
+				"modifier": 
+				{
+					"BleedFixed": 3000
+				},
+				"turn": 999
+			}
+		},
+		{
+			"id": 110079,
+			"type": "support",	
+			"target": "self",
+			"name": "敵50%血量以上自然回復",
+			"condition": 
+			{
+				"newHPOver": 50
+			},
+			"modifier": 
+			{
+				"Regen": 100
+			},
+			"turn": 30
+		},
+		{
+			"id": 110080,
+			"singleID": 200001,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減攻30",
+			"modifier": 
+			{
+				"AttackDown": 30
+			},
+			"turn": 3,
+			"postFunction":
+			{
+				"singleID": 200063,
+				"type": "attack",	
+				"target": "enemy",
+				"firstCheck": 
+				{
+					"charge": 1
+				},
+				"modifier": 
+				{
+					"BleedFixed": 3000
+				},
+				"turn": 999
+			}
+		},
+		{
+			"id": 110081,
+			"singleID": 200003,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減回50",
+			"modifier": 
+			{
+				"HealDown": 50
+			},
+			"turn": 3,
+			"postFunction":
+			{
+				"singleID": 200063,
+				"type": "attack",	
+				"target": "enemy",
+				"firstCheck": 
+				{
+					"charge": 1
+				},
+				"modifier": 
+				{
+					"BleedFixed": 3000
+				},
+				"turn": 999
+			}
+		},
+		{
+			"id": 110082,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵50%暈",
+			"rate": 50,
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110083,
+			"type": "support",
+			"target": "self",
+			"name": "敵加暴擊",
+			"modifier": 
+			{
+				"CriticalUp": 25
+			},
+			"turn": 30
+		},
+		{
+			"id": 110084,
+			"type": "support",
+			"target": "self",
+			"name": "敵30回合最後機會",
+			"modifier": 
+			{
+				"AttackUp": 100,
+				"DamageUP": 20
+			},
+			"turn": 999
+		},
+		{
+			"id": 110085,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵無條件即死攻擊",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AttackDestroyBarrier": 1,
+					"HPPercentageDamage": 120
+				}
+			}
+		},
+		{
+			"id": 110086,
+			"singleID": 200063,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵針對沒蓄力出血",
+			"condition": 
+			{
+				"charge": 0
+			},
+			"modifier": 
+			{
+				"BleedByBaseAttack": 50
+			},
+			"turn": 2
+		},
+		{
+			"id": 110087,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵針對沒蓄力暈",
+			"firstCheck": 
+			{
+				"charge": 0
+			},
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110088,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵自爆攻擊",
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"HPReducePercent": 200
+				},
+				"apply": "once"
+			},
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 20,
+					"HPExchangeDamage": 
+					{
+						"Percent": 50,
+						"Rate": 0.1
+					},
+					"AdditionHPPercentageDamage": 35
+				}
+			}
+		},
+		{
+			"id": 110089,
+			"type": "support",
+			"target": "self",
+			"name": "敵自滅",
+			"modifier": 
+			{
+				"HPReducePercent": 100
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110090,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對神50%重力",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"race": 16
+				},
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 50
+				}
+			}
+		},
+		{
+			"id": 110091,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵破盾重力50",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AttackDestroyBarrier": 1,
+					"HPPercentageDamage": 50
+				}
+			}
+		},
+		{
+			"id": 110092,
+			"singleID": 200002,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用減防100",
+			"modifier": 
+			{
+				"DefenceDown": 100
+			},
+			"turn": 3
+		},
+		{
+			"id": 110093,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用200%+50重力",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 200,
+					"AdditionHPPercentageDamage": 50
+				}
+			}
+		},
+		{
+			"id": 110094,
+			"type": "support",
+			"target": "self",
+			"name": "敵反射解異常",
+			"modifier": 
+			{
+				"DamageReflection": 0.1,
+				"ClearAllNegative": 1
+			},
+			"apply": "once",
+			"turn": 2
+		},
+		{
+			"id": 110095,
+			"type": "support",
+			"target": "self",
+			"name": "敵加攻解異常",
+			"modifier": 
+			{
+				"AttackUp": 20,
+				"ResistAllNegative": 1,
+				"ClearAllNegative": 1
+			},
+			"apply": "once",
+			"turn": 3
+		},
+		{
+			"id": 110096,
+			"type": "support",
+			"target": "self",
+			"name": "敵加暴擊解異常",
+			"modifier": 
+			{
+				"CriticalUp": 25,
+				"ClearAllNegative": 1
+			},
+			"apply": "once",
+			"turn": 30
+		},
+		{
+			"id": 110097,
+			"type": "support",
+			"target": "team",
+			"name": "敵異常全解",
+			"modifier": 
+			{
+				"ClearAllNegative": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110098,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用額外10%重力+20%解除減攻",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 10
+				}
+			},
+			"postFunction":
+			{
+				"type": "support",			
+				"target": "self",
+				"rate": 20,
+				"modifier": 
+				{
+					"ClearAttackDown": 1
+				},
+				"apply": "once"
+			}
+		},
+		{
+			"id": 110099,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵阿修羅必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"race": 9
+				},
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 35
+				}
+			}
+		},
+		{
+			"id": 110100,
+			"singleID": 200003,
+			"type": "attack",	
+			"target": "enemy",
+			"rate": 25,
+			"name": "敵阿修羅減回50",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 25
+				}
+			},
+			"modifier": 
+			{
+				"HealDown": 50
+			},
+			"turn": 2
+		},
+		{
+			"id": 110101,
+			"singleID": 200005,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用中毒30回1000",
+			"modifier": 
+			{
+				"PoisonFixed": 1000
+			},
+			"turn": 30
+		},
+		{
+			"id": 110102,
+			"singleID": 200008,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵白雪專用額外中毒",
+			"condition": 
+			{
+				"poison": 1
+			},
+			"modifier": 
+			{
+				"PoisonFixed": 9000
+			},
+			"turn": 30
+		},
+		{
+			"id": 110103,
+			"type": "support",
+			"target": "self",
+			"name": "敵白雪大護盾",
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 800
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110104,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用清空技能珠",
+			"modifier": 
+			{
+				"AddSP": -99
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110105,
+			"singleID": 200063,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用出血1回2000",
+			"modifier": 
+			{
+				"BleedFixed": 2000
+			},
+			"turn": 1
+		},
+		{
+			"id": 110106,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用攻擊時消耗自身10%HP",
+			"rate": 10,
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2,
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"HPReducePercent": 10
+				},
+				"apply": "once"
+			}
+		},
+		{
+			"id": 110107,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用30回合減防20",
+			"modifier": 
+			{
+				"DefenceDown": 20
+			},
+			"turn": 30
+		},
+		{
+			"id": 110108,
+			"singleID": 300287,
+			"type": "support",
+			"target": "self",
+			"name": "敵專用王者咆哮",
+			"modifier": 
+			{
+				"ClearAttackDown": 1,
+				"ClearDefenceDown": 1,
+				"ClearHealDown": 1,
+				"ResistAttackDown": 1,
+				"ResistDefenceDown": 1,
+				"ResistHealDown": 1,
+				"Heal": 600,
+				"Regen": 300,
+				"AttackUp": 100
+			},
+			"apply": "once",
+			"turn": 30,
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "teamExcludeSelf",
+				"modifier": 
+				{
+					"AttackUp": 50,
+					"DefenceUp": 500
+				},
+				"turn": 30
+			}
+		},
+		{
+			"id": 110109,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用攻擊後加護盾",
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "team",
+				"modifier": 
+				{
+					"BarrierEffect": 1,
+					"Barrier": 400
+				},
+				"apply": "once"
+			}
+		},
+		
+		{
+			"id": 110110,
+			"type": "support",	
+			"target": "team",
+			"name": "敵免疫暈眩",
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 100,
+				"ResistStun": 1
+			},
+			"apply": "once",
+			"turn": 999
+		},
+		
+		
+		{
+			"id": 110111,
+			"singleID": 200111,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用壓力",
+			"modifier": 
+			{
+				"Pressure": 10
+			},
+			"turn": 10
+		},
+		{
+			"id": 110112,
+			"singleID": 200112,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用技封",
+			"modifier": 
+			{
+				"NoSkill": 1
+			},
+			"turn": 5
+		},
+		{
+			"id": 110113,
+			"singleID": 200113,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用禁錮",
+			"modifier": 
+			{
+				"NoMove": 1
+			},
+			"turn": 3
+		},
+		{
+			"id": 110114,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵木機娘專用根據HP量造成傷害",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 100,
+					"HPExchangeDamage": 
+					{
+						"Percent": 1,
+						"Rate": 1
+					}
+				}
+			}
+		},
+		{
+			"id": 110115,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵木機娘專用根據HP量造成傷害",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 100,
+					"HPExchangeDamage": 
+					{
+						"Percent": 2,
+						"Rate": 1
+					}
+				}
+			}
+		},
+		{
+			"id": 110116,
+			"type": "support",
+			"target": "self",
+			"name": "敵無減防則反射傷害",
+			"condition": 
+			{
+				"defenceDown": 0
+			},
+			"modifier": 
+			{
+				"DamageReflection": 0.2
+			},
+			"turn": 3
+		},
+		{
+			"id": 110117,
+			"type": "attack",				
+			"target": "enemy",		
+			"name": "敵攻擊加攻減防綁定",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BaseAttackUp": 25,
+					"DefenceDown": 10
+				},
+				"turn": 3
+			}
+		},
+		{
+			"id": 110118,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用攻擊時消耗自身10%HP",
+			"rate": 10,
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2,
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"HPReducePercent": 10
+				},
+				"apply": "once"
+			}
+		},
+		{
+			"id": 110119,
+			"type": "support",	
+			"target": "teamExcludeSelf",
+			"name": "敵專用自身以外減傷15%",
+			"modifier": 
+			{
+				"DamageDown": 15
+			},
+			"turn": 1
+		},
+		{
+			"id": 110120,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對童話額外50%重力",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"race": 20
+				},
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 50
+				}
+			}
+		},
+		{
+			"id": 110121,
+			"type": "support",	
+			"target": "self",
+			"name": "敵專用護盾、再生、減傷但中毒出血四倍",
+			"modifier": 
+			{
+				"Heal": 100,
+				"Regen": 100,
+				"DamageDown": 50,
+				"BarrierEffect": 1,
+				"Barrier": 400,
+				"BleedDamageUp": 300,
+				"PoisonDamageUp": 300
+			},
+			"apply": "once",
+			"turn": 30
+		},
+		{
+			"id": 110122,
+			"singleID": 200112,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用技封+禁錮",
+			"modifier": 
+			{
+				"NoSkill": 1
+			},
+			"turn": 10,
+			"postFunction": 
+			{
+				"singleID": 200113,
+				"type": "attack",	
+				"target": "enemy",
+				"modifier": 
+				{
+					"NoMove": 1
+				},
+				"turn": 3
+			}
+		},
+		{
+			"id": 110123,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵托勒密專用必殺",
+			"preFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"HPReducePercent": 5
+				},
+				"apply": "once"
+			},
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 100,
+					"HPExchangeDamage": 
+					{
+						"Percent": 1,
+						"Rate": 1
+					}
+				}
+			}
+		},
+		{
+			"id": 110124,
+			"singleID": 200111,
+			"type": "attack",	
+			"target": "enemy",
+			"rate": 50,
+			"name": "敵專用50%機率壓力",
+			"modifier": 
+			{
+				"Pressure": 10
+			},
+			"turn": 10
+		},
+		{
+			"id": 110125,
+			"singleID": 200112,
+			"type": "attack",	
+			"target": "enemy",
+			"rate": 50,
+			"name": "敵專用50%機率技封",
+			"modifier": 
+			{
+				"NoSkill": 1
+			},
+			"turn": 5
+		},
+		{
+			"id": 110126,
+			"singleID": 200113,
+			"type": "attack",
+			"target": "enemy",
+			"rate": 50,
+			"name": "敵專用50%機率禁錮",
+			"modifier": 
+			{
+				"NoMove": 1
+			},
+			"turn": 3
+		},
+		{
+			"id": 110127,
+			"type": "support",
+			"target": "self",
+			"name": "敵圖坦卡門專用全體毒3回合",
+			"preFunction": 
+			{
+				"type": "support",
+				"target": "enemy",
+				"modifier": 
+				{
+					"ClearPoison": 1
+				},
+				"apply": "once"
+			},
+			"modifier": 
+			{
+				"PoisonByBaseAttack": 1000
+			},
+			"turn": 5,
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "enemy",
+				"modifier": 
+				{
+					"PoisonByBaseAttack": 10
+				},
+				"turn": 5
+			}
+		},
+		{
+			"id": 110128,
+			"type": "support",
+			"target": "self",
+			"name": "敵圖坦卡門專用全體毒10回合",
+			"preFunction": 
+			{
+				"type": "support",
+				"target": "enemy",
+				"modifier": 
+				{
+					"ClearPoison": 1
+				},
+				"apply": "once"
+			},
+			"modifier": 
+			{
+				"PoisonByBaseAttack": 1000
+			},
+			"turn": 10,
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "enemy",
+				"modifier": 
+				{
+					"PoisonByBaseAttack": 10
+				},
+				"turn": 10
+			}
+		},
+		{
+			"id": 110129,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵圖坦卡門專用無毒則SP全失",
+			"condition": 
+			{
+				"poison": 0
+			},
+			"modifier": 
+			{
+				"AddSP": -99
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110130,
+			"singleID": 200112,
+			"type": "support",	
+			"target": "enemy",
+			"name": "敵暗燈專用技封",
+			"modifier": 
+			{
+				"NoSkill": 1
+			},
+			"turn": 5
+		},
+		{
+			"id": 110131,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用額外25%重力",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 25
+				}
+			}
+		},
+		{
+			"id": 110132,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用毒發攻擊",
+			"condition": 
+			{
+				"poison": 1
+			},
+			"modifier": 
+			{
+				"CumulativePoison": 1
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110133,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵攻擊後全體回血",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "team",
+				"modifier": 
+				{
+					"Heal": 100
+				},
+				"apply": "once"	
+			}
+		},
+		{
+			"id": 110134,
+			"type": "support",
+			"target": "team",
+			"name": "敵祝螎必殺",
+			"modifier": 
+			{
+				"CriticalUp": 100,
+				"DamageUp": 100
+			},
+			"turn": 3
+		},
+		{"id": 110135,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵小次郎必殺技",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"charge": 1
+				},
+				"override": 
+				{
+					"ActionPower": 300
+				}
+			}
+		},
+		{"id": 110136,
+			"type": "support",
+			"target": "team",
+			"name": "敵戰牛王必殺",
+			"modifier": 
+			{
+				"DamageReflection": 1,
+				"BarrierEffect": 1,
+				"Barrier": 100
+			},
+			"apply": "once",
+			"turn": 1
+		},
+		{
+			"id": 110137,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵戰牛王無條件即死攻擊",
+			"preFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"HPReducePercent": 99
+				},
+				"apply": "once"
+			},
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AttackDestroyBarrier": 1,
+					"HPPercentageDamage": 120
+				}
+			}
+		},
+		{
+			"id": 110138,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用當前HP75",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 75
+				}
+			}	
+		},
+		{
+			"id": 110139,
+			"type": "support",	
+			"target": "self",
+			"name": "敵女蝸後期強化",
+			"modifier": 
+			{
+				"BaseAttackUp": 15,
+				"PoisonDamageUp": 100
+			},
+			"turn": 999
+		},
+		{
+			"id": 110140,
+			"type": "support",	
+			"target": "team",
+			"name": "敵女蝸頻死強化",
+			"modifier": 
+			{
+				"BaseAttackUp": 15,
+				"Heal": 100,
+				"Regen": 100
+			},
+			"turn": 999
+		},
+		{
+			"id": 110141,
+			"type": "attack",				
+			"target": "enemy",		
+			"name": "敵攻擊加攻損血",
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BaseAttackUp": 5,
+					"HPReducePercent": 5
+				},
+				"apply": "once",
+				"turn": 30
+			}
+		},
+		{
+			"id": 110142,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用攻擊附加自身當前HP傷害",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 200,
+					"HPExchangeDamage": 
+					{
+						"Percent": 1,
+						"Rate": 0.6
+					}
+				}
+			}
+		},
+		{
+			"id": 110143,
+			"singleID": 200143,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用HP下降30",
+			"modifier": 
+			{
+				"HPDown": 30
+			},
+			"turn": 3
+		},
+		{
+			"id": 110144,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵梅菲斯特專用",
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"rate": 20,
+				"modifier": 
+				{
+					"Stun": 1
+				},
+				"turn": 2
+			}
+		},
+		{
+			"id": 110145,
+			"type": "support",
+			"target": "self",
+			"name": "敵彌得加特專用",
+			"modifier": 
+			{
+				"PoisonFixed": 10000,
+				"AttackUp": 40,
+				"ResistBleed": 1
+			},
+			"endCondition": 
+			{
+				"newHPUnder": 50
+			}
+		},
+		{
+			"id": 110146,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對神90%重力",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"race": 16
+				},
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 90
+				}
+			}
+		},
+		{
+			"id": 110147,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對獵鷹3倍傷害",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"type": 4
+				},
+				"override": 
+				{
+					"ActionPower": 300
+				}
+			}
+		},
+		{
+			"id": 110148,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對魔蛇3倍傷害",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"type": 5
+				},
+				"override": 
+				{
+					"ActionPower": 300
+				}
+			}
+		},
+		{
+			"id": 110149,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵信長必殺",
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"HPDown": 30,
+					"AttackUp": 20
+				},
+				"turn": 30
+			}
+		},
+		{
+			"id": 110150,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵信長必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"defenceDown": 1
+				},
+				"override": 
+				{
+					"ActionPower": 200
+				}
+			}
+		},
+		{
+			"id": 110151,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對獅子3倍傷害",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"type": 1
+				},
+				"override": 
+				{
+					"ActionPower": 300
+				}
+			}
+		},
+		{
+			"id": 110152,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對狂狼3倍傷害",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"type": 2
+				},
+				"override": 
+				{
+					"ActionPower": 300
+				}
+			}
+		},
+		{
+			"id": 110153,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對魔人90%重力",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"race": 16
+				},
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 90
+				}
+			}
+		},
+		{"id": 110154,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用維利奧納武裝",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 100,
+					"HPExchangeDamage": 
+					{
+						"Percent": 2,
+						"Rate": 1
+					}
+				}
+			}
+		},
+		{"id": 110155,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用複式磁水炮",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 100,
+					"HPLossDamage": 
+					{
+						"Rate": 0.04
+					}
+				}
+			}
+		},
+		{"id": 110156,
+			"singleID": 300988,
+			"type": "support",
+			"target": "team",
+			"name": "敵專用羅蕾萊",
+			"modifier": 
+			{
+				"HPUp": 20,
+				"DamageUp": 10
+			},
+			"turn": 4
+		},
+		{"id": 110157,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用操命者‧艾路菲特",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 100,
+					"HPExchangeDamage": 
+					{
+						"Percent": 1,
+						"Rate": 1
+					}
+				}
+			},
+			"preFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BarrierEffect": 1,
+					"Barrier": 500
+				},
+				"apply": "once"
+			}
+		},
+		{"id": 110158,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用操命者‧艾路菲特",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"ActionPower": 100,
+					"HPExchangeDamage": 
+					{
+						"Percent": 1.5,
+						"Rate": 1
+					}
+				}
+			}
+		},
+		{"id": 110159,
+			"type": "support",
+			"target": "teamExcludeSelf",
+			"name": "敵專用宙斯回復",
+			"modifier": 
+			{
+				"HealPercent": 100
+			}
+		},
+		{
+			"id": 110160,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵赫拉無條件即死攻擊",
+			"preFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"HPReducePercent": 60
+				},
+				"apply": "once"
+			},
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AttackDestroyBarrier": 1,
+					"HPPercentageDamage": 120
+				}
+			}
+		},
+		{"id": 110161,
+			"type": "support",
+			"target": "team",
+			"name": "敵阿基里斯必殺",
+			"modifier": 
+			{
+				"BarrierEffect": 1,
+				"Barrier": 100,
+				"DamageDown": 50
+			},
+			"apply": "once",
+			"turn": 1
+		},
+		{"id": 110162,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵德古拉吸血效果",
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"condition": 
+				{
+					"bleed": 0
+				},
+				"modifier": 
+				{
+					"HealDamagePercent": 1000
+				}
+			},
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 20
+				}
+			}
+		},
+		{"id": 110163,
+			"type": "support",
+			"target": "self",
+			"name": "敵德古拉必殺",
+			"modifier": 
+			{
+				"HPUp": 100,
+				"HealPercent": 10,
+				"ClearAllNegative": 1
+			},
+			"turn": 999
+		},
+		{
+			"id": 110164,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用破盾",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AttackDestroyBarrier": 1
+				}
+			}
+		},
+		{
+			"id": 110165,
+			"type": "support",
+			"target": "self",
+			"name": "敵烏拉諾斯爆盾BUFF",
+			"condition": 
+			{
+				"barrier": 1
+			},
+			"modifier": 
+			{
+				"AttackUp": 50,
+				"CriticalUp": 100,
+				"Regen": 100
+			},
+			"turn": 3,
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"Heal": 100
+				},
+				"apply": "once"
+			}
+		},
+		{
+			"id": 110166,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵月天使一擊必殺",
+			"hitFunction":
+			{
+				"condition": 
+				{
+					"anyNegativeState": 1
+				},
+				"override": 
+				{
+					"AttackDestroyBarrier": 1,
+					"HPPercentageDamage": 120
+				}
+			}
+		},
+		{"id": 110167,
+			"type": "support",
+			"target": "environment",
+			"name": "敵專用全回合制狀態全清",
+			"modifier": 
+			{
+				"EndAllOppositeSkill": 1
+			},
+			"apply": "once"
+		},
+		{"id": 110168,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用死靈術師",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"newHPUnder": 20
+				},
+				"override": 
+				{
+					"AttackDestroyBarrier": 1,
+					"HPPercentageDamage": 120
+				}
+			}
+		},
+		{
+			"id": 110169,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用對戰牛3倍傷害",
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"type": 3
+				},
+				"override": 
+				{
+					"ActionPower": 300
+				}
+			}
+		},
+		{
+			"id": 110170,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用低難度普攻40%+20重力",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 40,
+					"AdditionHPPercentageDamage": 20
+				}
+			}
+		},
+		{
+			"id": 110171,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用低難度技能80%+40重力",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 80,
+					"AdditionHPPercentageDamage": 40
+				}
+			}
+		},
+		{
+			"id": 110172,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵25%暈",
+			"rate": 25,
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110173,
+			"singleID": 200063,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用出血3回",
+			"modifier": 
+			{
+				"BleedByBaseAttack": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110174,
+			"singleID": 200002,
+			"type": "attack",	
+			"target": "enemy",
+			"rate": 50,
+			"name": "敵專用50%減防50",
+			"modifier": 
+			{
+				"DefenceDown": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110175,
+			"singleID": 200003,
+			"type": "attack",	
+			"target": "enemy",
+			"rate": 50,
+			"name": "敵專用50%減回50",
+			"modifier": 
+			{
+				"HealDown": 50
+			},
+			"turn": 3
+		},
+		{
+			"id": 110176,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用當前HP90+清SP",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 90
+				}
+			},
+			"modifier": 
+			{
+				"AddSP": -99
+			},
+			"apply": "once"
+		},
+		{
+			"id": 110177,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用靈鳥攻擊之術",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 65
+				}
+			},
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"Heal": 100
+				},
+				"apply": "once"	
+			}
+		},
+		{
+			"id": 110178,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵專用靈鳥太強連自己都怕",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 65
+				}
+			},
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"DamageUp": 900
+				},
+				"turn": 999
+			}
+		},
+		{
+			"id": 110179,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵50%麻痺",
+			"rate": 50,
+			"modifier": 
+			{
+				"Paralysis": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110180,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵攻擊解除自身護盾",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 25
+				}
+			},
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BarrierDown": 100
+				},
+				"apply": "once"	
+			}
+		},
+		{
+			"id": 110181,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵攻擊解除自身護盾+重力90%",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"HPPercentageDamage": 90
+				}
+			},
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BarrierDown": 100
+				},
+				"apply": "once"	
+			}
+		},
+		{
+			"id": 110182,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵攻擊解除自身護盾+針對CHARGE追加暈眩",
+			"firstCheck": 
+			{
+				"charge": 1
+			},
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2,
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 15
+				}
+			},
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BarrierDown": 100
+				},
+				"apply": "once"	
+			}
+		},
+		{
+			"id": 110183,
+			"type": "support",
+			"target": "self",
+			"name": "敵牛頓大護盾",
+			"modifier": 
+			{
+				"DamageReflection": 0.2,
+				"BarrierEffect": 1,
+				"Barrier": 1000
+			},
+			"apply": "once",
+			"turn": 1
+		},
+		{
+			"id": 110184,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵攻擊暈眩+解除自身護盾",
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2,
+			"hitFunction":
+			{
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 15
+				}
+			},
+			"postFunction":
+			{
+				"type": "support",
+				"target": "self",
+				"modifier": 
+				{
+					"BarrierDown": 100
+				},
+				"apply": "once"	
+			}
+		},
+		
+		{
+			"id": 110185,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵門得列夫普攻根據護盾造成傷害",
+			"hitFunction": 
+			{
+				"override": 
+				{
+					"BarrierDamage": 
+					{
+						"Rate": 0.01
+					}
+				}
+			}
+		},
+		
+		{
+			"id": 110186,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵門得列夫中毒+中毒猛擊",
+			"rate": 50,
+			"hitFunction": 
+			{
+				"condition": 
+				{
+					"poison": 1
+				},
+				"override": 
+				{
+					"AdditionHPPercentageDamage": 35
+				}
+			},
+			"modifier": 
+			{
+				"PoisonByBaseAttack": 10
+			},
+			"turn": 6
+		},
+		
+		{
+			"id": 110187,
+			"type": "attack",
+			"target": "enemy",
+			"name": "敵專用當前HP10+護盾",
+			"hitFunction":
+			{
+				"override":
+				{
+					"HPPercentageDamage": 10
+				}
+			},
+			"postFunction": 
+			{
+				"type": "support",
+				"target": "team",
+				"modifier": 
+				{
+					"BarrierEffect": 1,
+					"Barrier": 400
+				},
+				"apply": "once"
+			}
+		},
+		
+		{
+			"id": 110188,
+			"type": "attack",	
+			"target": "enemy",
+			"name": "敵寶箱箱專用200%+75重力",
+			"hitFunction":
+			{
+				"override": 
+				{
+					"ActionPower": 200,
+					"AdditionHPPercentageDamage": 75
+				}
+			}
+		},
+		{
+			"id": 110189,
+			"singleID": 300257,
+			"type": "support",	
+			"target": "self",
+			"name": "敵自身暈",
+			"modifier": 
+			{
+				"Stun": 1
+			},
+			"turn": 2
+		},
+		{
+			"id": 110190,
+			"singleID": 300257,
+			"type": "support",
+			"target": "self",
+			"name": "敵愛麗斯SP自身藥水(減防綁定)",
+			"modifier": 
+			{
+				"DamageReflection": 0.2,
+				"DamageDown": 50,
+				"DefenceDown": 5,
+				"CriticalUp": 100,
+				"ResistParalysis": 1,
+				"ResistStun": 1
+			},
+			"apply": "once",
+			"turn": 999
+		}
+	]
+}

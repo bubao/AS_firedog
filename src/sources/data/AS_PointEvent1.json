@@ -1,0 +1,91 @@
+{
+	"event":
+	{
+		"eventID": 1,
+		"bg": "gamebg_event01",
+		"bg2": "gamebg_event02",
+		"button": "ranking_icon_201506",
+		"rank": "bu_pointevent_3",
+		"reward": "bu_pointevent_2",
+		"help": "bu_pointevent_4",
+		"resultNPC": "npc2",
+		"startTime": "16-6-2015 16:0:0",
+		"endTime": "24-6-2015 23:59:59"
+	},	
+	
+	"button":
+	[
+		{
+			"eventID": 0,
+			"questId": 29011,
+			"zoneId": 0,
+			"icon": "bu_pointevent_0",
+			"startTime": "16-6-2015 16:0:0",
+			"endTime": "24-6-2015 23:59:59"
+		}
+	],
+	
+	"help":	
+	[
+	"Tutor_Battle_01",
+	"Tutor_Battle_02",
+	"Tutor_Battle_03",
+	"Tutor_Battle_04"
+	],
+	
+	"gift": 
+	[		
+		{	"cd": 50,	"txt": 1300808,	"m": 10000	},
+		{	"cd": 150,	"continue": 1	},
+		{	"cd": 500,	"f": 400	},
+		{	"cd": 750,	"c": 443,	"count": 1	},
+
+		{	"cd": 1000,	"m": 30000	},		
+		{	"cd": 1500,	"stamina": 1	},
+		{	"cd": 2000,	"f": 600	},
+		{	"cd": 3000,	"c": 447,	"count": 1	},
+
+		{	"cd": 4000,	"m": 50000	},
+		{	"cd": 5000,	"s": 1	},
+		{	"cd": 6000,	"f": 1000	},
+		{	"cd": 7000,	"gacha": 1	},
+
+		{	"cd": 8000,	"m": 100000	},
+		{	"cd": 10000,	"s": 1	},
+
+		{	"cd": 12500,	"c": 277,	"count": 1	},
+		{	"cd": 15000,	"s": 1	},
+		{	"cd": 20000,	"s": 1	},
+
+		{	"cd": 25000,	"c": 277,	"count": 1	},
+		{	"cd": 35000,	"s": 1	},
+		{	"cd": 45000,	"s": 1	},
+
+		{	"cd": 55000,	"c": 277,	"count": 1	},
+		{	"cd": 70000,	"s": 1	},
+		{	"cd": 80000,	"s": 2	},
+
+		{	"cd": 90000,	"s": 2	},
+		{	"cd": 100000,	"gacha": 1	},
+		{	"cd": 110000,	"gacha": 1	}
+	],
+	"rankgift": 
+	[
+		{	"begin": 1,	"end": 200,	"c": 277,	"cc": 3 },
+		{	"begin": 1,	"end": 1,	"c": 610,	"cc": 1,	"txt": 1300813	},
+		{	"begin": 2,	"end": 2,	"c": 610,	"cc": 1,	"txt": 1300813	},
+		{	"begin": 201,	"end": 600,	"c": 277,	"cc": 2 },
+
+		{	"begin": 601,	"end": 2000,	"c": 277,	"cc": 1 },
+
+		{	"begin": 777,	"end": 777,	"c": 610,	"cc": 1,	"txt": 1300813	},
+
+		{	"begin": 2001,	"end": 3000,	"gacha": 1 },
+
+		{	"begin": 3001,	"end": 4000,	"s": 3 },
+		{	"begin": 4001,	"end": 6000,	"s": 2 },
+
+		{	"begin": 6001,	"end": 20000,	"s": 1 }
+	]
+	
+}

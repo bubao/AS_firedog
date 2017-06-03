@@ -1,0 +1,10 @@
+{
+	"dailyMissions":
+	{
+		"resetTime":
+		{
+			"weekday": 1,
+			"time": "0:0:0"
+		}
+	}
+}
