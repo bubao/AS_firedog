@@ -5,18 +5,18 @@ AS星界之梯的wiki
 ## 怎么用？
 
 ### 下载
-```sh
+```shell
 git clone https://github.com/bubao/AS_firedog.git
 ```
 or 下载这个地址
-```
+```shell
 https://github.com/bubao/AS_firedog/archive/master.zip
 ```
 
 ### 运行
 
 如果是`git clone`下来的 ，进入`AS_firedog`目录下 
-```
+```shell
 cd AS_firedog
 npm i
 npm start
