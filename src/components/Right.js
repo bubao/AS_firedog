@@ -12,6 +12,7 @@ class Right extends React.Component {
 
 	clickHandler(item) {
 		this.props.pfn(Character[item].id)
+		console.log(Character[item].id)
 	}
 
 	render() {
