@@ -1,7 +1,10 @@
 import React from 'react';
 require('../styles/Right.css');
 require('../styles/CharBox.css');
-
+//import {BackTop} from 'antd';
+//import 'antd/dist/antd.css'
+import BackTop from 'antd/lib/back-top';
+import 'antd/lib/back-top/style/css';  
 var Character = require('../sources/Data/need.json');
 var CharBox = require('../sources/Data/CharBox.json');
 class Right extends React.Component {
@@ -13,6 +16,7 @@ class Right extends React.Component {
 	clickHandler(item) {
 		this.props.pfn(Character[item].id)
 		console.log(Character[item].id)
+		console.log(<BackTop/>)
 	}
 
 	render() {
@@ -22,6 +26,7 @@ class Right extends React.Component {
 		          	<div className='num' >{Character[item].id}</div>
 		         	<div className={`${Character[item].element}`}></div>
 		          </div>))}
+		          
 		</div>
 	}
 }

@@ -19,7 +19,11 @@ function getDefaultModules() {
 		preLoaders: [{
 			test: /\.(js|jsx)$/,
 			include: srcPath,
-			loader: 'eslint-loader'
+			loader: 'eslint-loader',
+			query: {
+          presets: ['react', 'es2015', 'stage-0'],
+          //plugins: ['react-html-attrs'] //添加组件的插件配置
+        }
 		}],
 		loaders: [{
 			test: /\.css$/,
@@ -38,7 +42,7 @@ function getDefaultModules() {
 			loader: 'style-loader!css-loader!stylus-loader'
 		}, {
 			test: /\.(png|jpg|gif|woff|woff2)$/,
-			loader: 'url-loader?limit=8192'
+			loader: 'url-loader?limit=8192&name=[name].[ext]'
 		}, {
 			test: /\.(mp4|ogg|svg)$/,
 			loader: 'file-loader'
@@ -51,7 +55,7 @@ function getDefaultModules() {
 
 module.exports = {
 	srcPath: srcPath,
-	publicPath: './assets/',
+	publicPath: '/assets/',
 	port: dfltPort,
 	getDefaultModules: getDefaultModules
 };

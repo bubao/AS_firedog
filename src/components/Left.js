@@ -65,7 +65,7 @@ class Left extends React.Component {
 					<div className ={Character[id].card?'cbox c_0888':''}></div>
 				</div>
 			</div> 
-			<div className = {`fbox f_${('0000' + id).slice(-4)}`}> </div>
+			
 			{/**lihui**/}
 			<div>队长技能:{AS_StringTable.skillNameText[Character[id].leaderSkill]}</div>
 			<div>详情：{AS_StringTable.skillText[Character[id].leaderSkill]}</div>
@@ -81,6 +81,7 @@ class Left extends React.Component {
 	}
 }
 export default Left;
+/*<div className = {`fbox f_${('0000' + id).slice(-4)}`}> </div>*/
 /**
  * <div>队长技能：{AS_StringTable.skillNameText[Character[id].leaderSkill]}</div>
  * <div>详情：{AS_StringTable.skillText[Character[id].leaderSkill]}</div>
